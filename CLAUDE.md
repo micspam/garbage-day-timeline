@@ -36,7 +36,7 @@ For every file in `data/review_prompts/`, write `data/reviews/<slug>.json` with 
 - Quotes without a verdict are not published.
 
 ```bash
-python -m gdt build               # writes site/data.json and prints the report
+python -m gdt build --limit N     # writes site/data.json and prints the report
 ```
 
 Look at the report:

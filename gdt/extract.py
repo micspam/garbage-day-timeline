@@ -185,7 +185,11 @@ def check(issue: dict, sents: list[dict], answer: dict) -> dict:
 
 
 def issue_paths(limit: int | None) -> list[Path]:
-    return sorted((DATA / "issues").glob("*.json"))[: limit or None]
+    """The N newest fetched issues by publish date, so every step works on the same set."""
+    paths = list((DATA / "issues").glob("*.json"))
+    dated = [(json.loads(p.read_text(encoding="utf-8")).get("published", ""), p.name, p) for p in paths]
+    dated.sort(reverse=True)
+    return [p for _, _, p in dated][: limit or None]
 
 
 def prepare(limit: int | None):

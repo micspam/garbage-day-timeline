@@ -8,7 +8,7 @@ import json
 import os
 from pathlib import Path
 
-from .extract import call_claude
+from .extract import call_claude, issue_paths
 
 DATA = Path("data")
 
@@ -72,7 +72,9 @@ def run(limit: int | None):
     review_dir.mkdir(parents=True, exist_ok=True)
     use_api = "ANTHROPIC_API_KEY" in os.environ
     todo = 0
-    for p in sorted((DATA / "extracted").glob("*.json"))[: limit or None]:
+    for p in (DATA / "extracted" / ip.name for ip in issue_paths(limit)):
+        if not p.exists():
+            continue
         record = json.loads(p.read_text(encoding="utf-8"))
         if not record["kept"] or (review_dir / p.name).exists():
             continue

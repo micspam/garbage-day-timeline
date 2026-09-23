@@ -3,15 +3,17 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from .extract import MAX_QUOTE_WORDS
+from .extract import MAX_QUOTE_WORDS, issue_paths
 from .review import verdicts_for
 
 DATA = Path("data")
 SITE = Path("site")
 
 
-def run():
-    records = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "extracted").glob("*.json"))]
+def run(limit: int | None = None):
+    # With --limit, build from the same N newest issues as the other steps; otherwise everything extracted.
+    paths = [DATA / "extracted" / p.name for p in issue_paths(limit)] if limit else sorted((DATA / "extracted").glob("*.json"))
+    records = [json.loads(p.read_text(encoding="utf-8")) for p in paths if p.exists()]
     cards, reasons, review = [], Counter(), Counter()
     dropped = []
     issues_with_cards = 0

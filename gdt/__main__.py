@@ -17,4 +17,4 @@ elif args.step == "extract":
 elif args.step == "review":
     review.run(args.limit)
 else:
-    build.run()
+    build.run(args.limit)
