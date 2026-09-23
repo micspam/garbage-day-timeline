@@ -15,6 +15,7 @@ Then, for every file in `data/prompts/`, read it and write `data/answers/<slug>.
 - `evidence` must be copied character for character from the same paragraph as the quote.
 - Most issues have no clear past reference. `{"references": []}` is a correct and common answer. Don't stretch to fill the timeline.
 - Judge each issue on its own. Don't reuse picks across issues.
+- Keep each quote under 70 words; the build step drops longer ones.
 
 With many prompts, split them into batches across subagents. Give each one the rules above and its list of file names.
 

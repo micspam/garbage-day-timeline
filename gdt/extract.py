@@ -16,6 +16,7 @@ DATA = Path("data")
 MODEL = os.environ.get("GDT_MODEL", "claude-haiku-4-5-20251001")
 MAX_SENTENCES_PER_QUOTE = 3
 MIN_YEARS_BACK = 2  # the timeline is about the past, not "this week online"
+MAX_QUOTE_WORDS = 70  # keep published excerpts short; each card links back to the full issue
 
 # Split after . ! ? (plus any closing quotes/brackets) when the next sentence starts uppercase/digit/quote.
 SENT_END = re.compile(r"[.!?]+[\"'”’)\]]*\s+(?=[A-Z0-9“\"‘(\[])")
@@ -59,6 +60,7 @@ Find up to 5 passages that make a clear, specific reference to a time period at 
 
 Rules:
 - Only use the sentence numbers shown. Pick 1-{max_sents} consecutive sentences.
+- Keep each quote under {max_words} words total. If two sentences run long, use one.
 - The time period must be supported by an exact phrase from the same paragraph as the quote; copy it into `evidence` character for character.
 - Most issues are about the present. If nothing clearly references the past, return an empty list. An empty list is a good answer.
 
@@ -145,7 +147,7 @@ def load_issue(path: Path) -> tuple[dict, list[dict]]:
 def build_prompt(issue: dict, sents: list[dict]) -> str:
     return PROMPT.format(
         published=issue["published"], title=issue["title"], years_back=MIN_YEARS_BACK,
-        max_sents=MAX_SENTENCES_PER_QUOTE,
+        max_sents=MAX_SENTENCES_PER_QUOTE, max_words=MAX_QUOTE_WORDS,
         sentences="\n".join(f"[{i}] {s['text']}" for i, s in enumerate(sents, 1)),
     )
 

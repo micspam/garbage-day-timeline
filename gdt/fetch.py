@@ -2,6 +2,7 @@
 
 Raw HTML and parsed text stay in data/ (gitignored) -- only short quotes are published.
 """
+import html as htmllib
 import json
 import re
 import time
@@ -66,7 +67,7 @@ def parse_post(url: str, html: str) -> dict:
     return {
         "url": url,
         "slug": url.rsplit("/", 1)[-1],
-        "title": title.group(1) if title else "",
+        "title": htmllib.unescape(title.group(1)) if title else "",
         "published": date.group(1)[:10] if date else "",
         "paragraphs": p.paragraphs,
     }
@@ -79,11 +80,12 @@ def run(limit: int | None, delay: float = 1.0):
 
     urls = sitemap_posts()
     print(f"sitemap: {len(urls)} posts")
-    if limit:
-        urls = urls[:limit]
 
+    # --limit counts readable issues, so keep going past paywalled ones until we have enough.
     free = paywalled = 0
     for i, url in enumerate(urls, 1):
+        if limit and free >= limit:
+            break
         slug = url.rsplit("/", 1)[-1]
         raw = raw_dir / f"{slug}.html"
         if raw.exists():

@@ -3,9 +3,10 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from .extract import MAX_QUOTE_WORDS
+
 DATA = Path("data")
 SITE = Path("site")
-MAX_QUOTE_WORDS = 70  # keep published excerpts short; each card links back to the full issue
 
 
 def run():
