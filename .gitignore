@@ -1,0 +1,4 @@
+# Full issue text stays local -- only short linked quotes (site/data.json) are published.
+data/
+__pycache__/
+.env

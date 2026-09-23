@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garbage Day Timeline</title>
+<meta name="description" content="Garbage Day pull quotes arranged by the era they reference, not when they were published.">
+<style>
+  :root {
+    --bg: #f6f4ef; --panel: #fffdf8; --ink: #1c1b19; --muted: #6b675f; --line: #ddd7cb;
+    --accent: #c2410c; --mark: #fde6c8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141312; --panel: #1f1d1b; --ink: #ece8e1; --muted: #9c968c; --line: #35322e; --accent: #fb923c; --mark: #4a2e14; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Georgia, "Times New Roman", serif; }
+  header { padding: 28px 16px 12px; max-width: 900px; }
+  h1 { font: 700 28px/1.1 system-ui, sans-serif; margin: 0 0 6px; letter-spacing: -0.02em; }
+  header p { margin: 0 0 12px; color: var(--muted); }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px 20px; font: 13px system-ui, sans-serif; color: var(--muted); }
+  .stats b { color: var(--ink); font-size: 18px; display: block; }
+  details { font: 13px system-ui, sans-serif; color: var(--muted); margin-top: 10px; }
+  .track { display: flex; gap: 16px; overflow-x: auto; padding: 16px; scroll-snap-type: x proximity; }
+  .bucket { flex: 0 0 min(320px, 85vw); scroll-snap-align: start; }
+  .bucket h2 { font: 700 20px system-ui, sans-serif; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 3px solid var(--accent); position: sticky; left: 0; }
+  .bucket h2 small { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 6px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; margin-bottom: 12px; }
+  .card .when { font: 600 12px system-ui, sans-serif; color: var(--accent); text-transform: uppercase; letter-spacing: 0.04em; }
+  .card blockquote { margin: 6px 0 10px; }
+  .card mark { background: var(--mark); color: inherit; padding: 0 2px; }
+  .card a { font: 12px system-ui, sans-serif; color: var(--muted); text-decoration: none; display: block; }
+  .card a:hover { color: var(--ink); text-decoration: underline; }
+  .empty { padding: 16px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Garbage Day, by the era it's talking about</h1>
+  <p>Pull quotes from public issues, placed on the timeline by the time period they reference, not when they were published. Scroll sideways.</p>
+  <div class="stats" id="stats"></div>
+  <details><summary>How the quotes are checked</summary>
+    <p>The model never writes quote text. It only picks sentence numbers, and the quote is copied from the issue by code, so it can't make up a quote. It also has to cite an exact phrase that dates the reference (a year, an era, an event), and anything it cites that isn't in the issue is thrown out. Issues with no past references are allowed to return nothing.</p>
+  </details>
+</header>
+<main class="track" id="track"><div class="empty">Loading…</div></main>
+<script>
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function highlight(quote, evidence) {
+  const i = quote.toLowerCase().indexOf(evidence.toLowerCase());
+  if (i < 0) return esc(quote);
+  return esc(quote.slice(0, i)) + "<mark>" + esc(quote.slice(i, i + evidence.length)) + "</mark>" + esc(quote.slice(i + evidence.length));
+}
+
+fetch("data.json").then(r => r.json()).then(({ report, cards }) => {
+  const rejected = Object.values(report.references_rejected).reduce((a, b) => a + b, 0);
+  document.getElementById("stats").innerHTML = [
+    [report.issues_analyzed, "issues analyzed"],
+    [report.references_kept, "quotes on the timeline"],
+    [rejected, "claims rejected by checks"],
+    [report.issues_with_none, "issues with no past reference"],
+  ].map(([n, l]) => `<div><b>${n}</b>${l}</div>`).join("");
+
+  const buckets = new Map();
+  for (const c of cards) {
+    const b = Math.floor(c.start_year / 5) * 5;
+    if (!buckets.has(b)) buckets.set(b, []);
+    buckets.get(b).push(c);
+  }
+  const track = document.getElementById("track");
+  if (!buckets.size) { track.innerHTML = '<div class="empty">No quotes yet. Run the pipeline.</div>'; return; }
+  track.innerHTML = [...buckets.keys()].sort((a, b) => a - b).map(b => `
+    <section class="bucket">
+      <h2>${b}–${b + 4}<small>${buckets.get(b).length}</small></h2>
+      ${buckets.get(b).map(c => `
+        <article class="card">
+          <div class="when">${c.start_year === c.end_year ? c.start_year : c.start_year + "–" + c.end_year} · ${esc(c.label)}</div>
+          <blockquote>“${highlight(c.quote, c.evidence)}”</blockquote>
+          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} · ${c.published} →</a>
+        </article>`).join("")}
+    </section>`).join("");
+}).catch(() => { document.getElementById("track").innerHTML = '<div class="empty">Couldn\'t load data.json.</div>'; });
+</script>
+</body>
+</html>

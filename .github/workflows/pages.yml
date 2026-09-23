@@ -1,0 +1,70 @@
+name: Build timeline and deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Only process the first N issues (blank = all public issues)"
+        default: "50"
+  push:
+    branches: [main]
+    paths: ["site/index.html"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Fetched issues and extraction results are cached so reruns only process new issues.
+      - uses: actions/cache@v4
+        with:
+          path: data
+          key: gdt-data-${{ github.run_id }}
+          restore-keys: gdt-data-
+
+      - name: Run pipeline
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          ARGS=${LIMIT:+--limit $LIMIT}
+          python -m gdt fetch $ARGS
+          python -m gdt extract $ARGS
+          python -m gdt build
+
+      - name: Commit data.json
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/data.json
+          git diff --cached --quiet || git commit -m "Update timeline data" && git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
