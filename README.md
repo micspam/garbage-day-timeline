@@ -11,25 +11,23 @@ It's a response to the newsletter's vibe-coding post, where the AI step kept hal
 
 `site/data.json` contains a validation report showing what was kept and why things were rejected.
 
-## Run it on GitHub (no local setup)
+## Run it
 
-1. Add your Anthropic API key as a repo secret named `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions).
-2. Set Settings → Pages → Source to **GitHub Actions**.
-3. Go to Actions → **Build timeline and deploy** → Run workflow, and pick how many issues to process.
+Python 3.10+, standard library only. There are two ways to get the model's answers.
 
-The workflow fetches issues, runs the extraction, commits `site/data.json`, and publishes the site.
+**In a Claude Code session (no API key).** Open the repo in Claude Code and ask it to "run the pipeline on 50 issues". [CLAUDE.md](CLAUDE.md) has the steps. Claude answers each prompt file itself, and the same checks apply.
 
-## Run it locally
-
-Python 3.10+, standard library only.
+**With an API key (unattended).** If `ANTHROPIC_API_KEY` is set, `extract` calls Claude Haiku for any issue that doesn't have an answer yet.
 
 ```bash
 python -m gdt fetch --limit 50      # public issues via the sitemap, 1 req/sec, cached in data/
-export ANTHROPIC_API_KEY=...        # PowerShell: $env:ANTHROPIC_API_KEY="..."
-python -m gdt extract --limit 50    # Claude Haiku, one issue per call
+python -m gdt prepare --limit 50    # prompt files for a Claude Code session to answer (skip if using the API)
+python -m gdt extract --limit 50    # checks the answers against the source
 python -m gdt build                 # writes site/data.json
 python -m http.server -d site 8000  # view at http://localhost:8000
 ```
+
+Pushing `site/` to `main` deploys to GitHub Pages (set Settings → Pages → Source to **GitHub Actions**).
 
 Paid issues only show their headline publicly, so they're skipped. With a Beehiiv API key, `fetch.py` could be replaced by an API-based fetcher that covers the full archive.
 

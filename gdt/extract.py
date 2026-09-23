@@ -59,8 +59,11 @@ Find up to 5 passages that make a clear, specific reference to a time period at 
 
 Rules:
 - Only use the sentence numbers shown. Pick 1-{max_sents} consecutive sentences.
-- The time period must be supported by an exact phrase from the text; copy it into `evidence` character for character.
+- The time period must be supported by an exact phrase from the same paragraph as the quote; copy it into `evidence` character for character.
 - Most issues are about the present. If nothing clearly references the past, return an empty list. An empty list is a good answer.
+
+Answer format:
+{{"references": [{{"sentence_ids": [4, 5], "start_year": 2012, "end_year": 2013, "label": "short name for what's referenced", "evidence": "exact phrase from the text"}}]}}
 
 <issue title="{title}">
 {sentences}
@@ -128,27 +131,30 @@ def validate(ref: dict, sents: list[dict], pub_year: int) -> str | None:
     if start > pub_year - MIN_YEARS_BACK:
         return "not_in_the_past"
     evidence = norm(ref["evidence"])
-    if len(evidence) < 3 or evidence not in norm(" ".join(s["text"] for s in sents)):
+    para = sents[ids[0] - 1]["p"]  # the dating phrase must be near the quote, not elsewhere in the issue
+    if len(evidence) < 3 or evidence not in norm(" ".join(s["text"] for s in sents if s["p"] == para)):
         return "evidence_not_in_source"
     return None
 
 
-def process(path: Path, out_dir: Path) -> dict:
-    out = out_dir / path.name
-    if out.exists():
-        return json.loads(out.read_text(encoding="utf-8"))
+def load_issue(path: Path) -> tuple[dict, list[dict]]:
     issue = json.loads(path.read_text(encoding="utf-8"))
-    sents = split_sentences(issue["paragraphs"])
-    pub_year = int(issue["published"][:4])
-    prompt = PROMPT.format(
+    return issue, split_sentences(issue["paragraphs"])
+
+
+def build_prompt(issue: dict, sents: list[dict]) -> str:
+    return PROMPT.format(
         published=issue["published"], title=issue["title"], years_back=MIN_YEARS_BACK,
         max_sents=MAX_SENTENCES_PER_QUOTE,
         sentences="\n".join(f"[{i}] {s['text']}" for i, s in enumerate(sents, 1)),
     )
-    result = call_claude(prompt)
 
+
+def check(issue: dict, sents: list[dict], answer: dict) -> dict:
+    """Validate a model answer against the source and rebuild quotes from the source text."""
+    pub_year = int(issue["published"][:4])
     kept, rejected = [], []
-    for ref in result.get("references", []):
+    for ref in answer.get("references", []):
         try:
             reason = validate(ref, sents, pub_year)
         except (KeyError, TypeError, ValueError):
@@ -167,24 +173,58 @@ def process(path: Path, out_dir: Path) -> dict:
         })
     record = {k: issue[k] for k in ("url", "slug", "title", "published")}
     record.update(sentence_count=len(sents), kept=kept, rejected=rejected)
-    out.write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
     return record
 
 
+def issue_paths(limit: int | None) -> list[Path]:
+    return sorted((DATA / "issues").glob("*.json"))[: limit or None]
+
+
+def prepare(limit: int | None):
+    """Write one prompt file per issue for a Claude Code session to answer (no API key needed)."""
+    prompt_dir, answer_dir = DATA / "prompts", DATA / "answers"
+    prompt_dir.mkdir(parents=True, exist_ok=True)
+    answer_dir.mkdir(parents=True, exist_ok=True)
+    todo = 0
+    for p in issue_paths(limit):
+        if (answer_dir / p.name).exists():
+            continue
+        issue, sents = load_issue(p)
+        (prompt_dir / f"{p.stem}.txt").write_text(build_prompt(issue, sents), encoding="utf-8")
+        todo += 1
+    print(f"{todo} prompts in {prompt_dir}/ need answers in {answer_dir}/<same name>.json")
+
+
 def run(limit: int | None, workers: int = 4):
-    if "ANTHROPIC_API_KEY" not in os.environ:
-        raise SystemExit("Set ANTHROPIC_API_KEY first.")
-    out_dir = DATA / "extracted"
+    """Check answers into data/extracted/. Answers come from data/answers/ (written by a Claude
+    Code session), or from the API when ANTHROPIC_API_KEY is set and no answer file exists."""
+    out_dir, answer_dir = DATA / "extracted", DATA / "answers"
     out_dir.mkdir(parents=True, exist_ok=True)
-    paths = sorted((DATA / "issues").glob("*.json"))[: limit or None]
-    print(f"extracting from {len(paths)} issues with {MODEL}")
+    use_api = "ANTHROPIC_API_KEY" in os.environ
+    paths = issue_paths(limit)
+    missing = []
 
     def job(p):
+        issue, sents = load_issue(p)
+        answer_file = answer_dir / p.name
         try:
-            r = process(p, out_dir)
-            print(f"  {p.stem}: kept {len(r['kept'])}, rejected {len(r['rejected'])}")
+            if answer_file.exists():
+                answer = json.loads(answer_file.read_text(encoding="utf-8"))
+            elif use_api:
+                answer = call_claude(build_prompt(issue, sents))
+                answer_dir.mkdir(parents=True, exist_ok=True)
+                answer_file.write_text(json.dumps(answer, ensure_ascii=False, indent=1), encoding="utf-8")
+            else:
+                missing.append(p.stem)
+                return
+            r = check(issue, sents, answer)
         except Exception as e:
             print(f"  {p.stem}: FAILED ({e})")
+            return
+        (out_dir / p.name).write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"  {p.stem}: kept {len(r['kept'])}, rejected {len(r['rejected'])}")
 
-    with ThreadPoolExecutor(workers) as pool:
+    with ThreadPoolExecutor(workers if use_api else 1) as pool:
         list(pool.map(job, paths))
+    if missing:
+        print(f"{len(missing)} issues have no answer yet (run `python -m gdt prepare` and answer them)")
