@@ -56,13 +56,19 @@ TOOL = {
 
 PROMPT = """Below is one issue of the newsletter Garbage Day, published {published}, split into numbered sentences.
 
-Find up to 5 passages that make a clear, specific reference to a time period at least {years_back} years before publication (a year, an era like "the late 2000s", or a datable event like "when Vine shut down"). Each passage should work as a standalone pull quote.
+Find up to 5 passages that are *about* a time period at least {years_back} years before publication: passages that describe what happened then, or what that era of the internet and culture was like. Each one will appear alone on a timeline under that era, so it has to tell a reader something about the era on its own.
+
+Don't pick passages that only mention the past in passing:
+- Then-vs-now setups, where the past is a foil for a point about the present ("the same people who spent the 2010s doing X are now doing Y").
+- Background dates in a story about the present ("he entered the US in 2019", "the site launched in 2022", "allegations back in 2023").
+- Other people's opinions about current events that happen to name a past year.
+- Rhetorical questions, or anniversaries mentioned in passing.
 
 Rules:
 - Only use the sentence numbers shown. Pick 1-{max_sents} consecutive sentences.
 - Keep each quote under {max_words} words total. If two sentences run long, use one.
 - The time period must be supported by an exact phrase from the same paragraph as the quote; copy it into `evidence` character for character.
-- Most issues are about the present. If nothing clearly references the past, return an empty list. An empty list is a good answer.
+- Most issues are about the present. If nothing is really about the past, return an empty list. An empty list is a good answer.
 
 Answer format:
 {{"references": [{{"sentence_ids": [4, 5], "start_year": 2012, "end_year": 2013, "label": "short name for what's referenced", "evidence": "exact phrase from the text"}}]}}
@@ -84,12 +90,12 @@ def split_sentences(paragraphs: list[str]) -> list[dict]:
     return out
 
 
-def call_claude(prompt: str) -> dict:
+def call_claude(prompt: str, tool: dict = TOOL) -> dict:
     body = json.dumps({
         "model": MODEL,
         "max_tokens": 2048,
-        "tools": [TOOL],
-        "tool_choice": {"type": "tool", "name": TOOL["name"]},
+        "tools": [tool],
+        "tool_choice": {"type": "tool", "name": tool["name"]},
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
     headers = {

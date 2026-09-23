@@ -1,313 +1,117 @@
 {
- "report": {
-  "issues_analyzed": 15,
-  "issues_with_past_references": 13,
-  "issues_with_none": 2,
-  "references_proposed": 30,
-  "references_kept": 30,
-  "references_rejected": {},
-  "fabricated_quotes_possible": 0
- },
- "cards": [
-  {
-   "quote": "This year marks the 20th anniversary of Roblox and Garry’s Mod, and the 15th for Minecraft and Skyrim. All of these games have remained enormously successful and culturally important, on the strength of millions of separate games and mods built within them by fellow players.",
-   "start_year": 2006,
-   "end_year": 2011,
-   "label": "Launch of Roblox, Garry's Mod, Minecraft and Skyrim",
-   "evidence": "This year marks the 20th anniversary of Roblox and Garry’s Mod, and the 15th for Minecraft and Skyrim",
-   "url": "https://www.garbageday.email/p/a-brave-new-world-of-friendslop",
-   "title": "A brave new world of friendslop",
-   "published": "2026-08-14"
-  },
-  {
-   "quote": "The last time any major social platform acknowledged death was 2009, when Facebook launched its “memorial account” feature for profiles of people who had died, later extending a similar policy to Instagram. Some other platforms will let next of kin delete profiles or inherit their assets, but Meta is still the only company to outwardly present the living and the dead differently online at all.",
-   "start_year": 2009,
-   "end_year": 2009,
-   "label": "Facebook launches memorial accounts",
-   "evidence": "was 2009, when Facebook launched its “memorial account” feature",
-   "url": "https://www.garbageday.email/p/you-have-to-keep-posting-even-if-you-re-dead",
-   "title": "You have to keep posting, even if you're dead",
-   "published": "2026-09-04"
-  },
-  {
-   "quote": "But it speaks to a very real problem we all have when it comes to reckoning with whatever the heck happened in the 2010s. It was the decade where the internet finally overtook television as the way culture was curated.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "The 2010s: when the internet overtook TV",
-   "evidence": "whatever the heck happened in the 2010s",
-   "url": "https://www.garbageday.email/p/what-was-woke",
-   "title": "What was 'woke'?",
-   "published": "2026-08-10"
-  },
-  {
-   "quote": "The Democratic Party has spent the summer squaring off against a new, edgy socialist insurgency that wants to make sure they don’t get mistaken for, well, whatever the heck was going on in the 2010s — the cancel culture, the rainbow capitalism, the demands to defund or abolish the police. And, perhaps troublingly, they really want to distance themselves from the summer of 2020, specifically.",
-   "start_year": 2010,
-   "end_year": 2020,
-   "label": "\"Woke 1\" and the summer of 2020",
-   "evidence": "they really want to distance themselves from the summer of 2020",
-   "url": "https://www.garbageday.email/p/what-was-woke",
-   "title": "What was 'woke'?",
-   "published": "2026-08-10"
-  },
-  {
-   "quote": "Now that X’s algorithm demands video content just like every other platform does, this largely means that the great and powerful cyber army that birthed Pepe the Frog and Gamergate in the 2010s has basically been reduced to a bunch of people reuploading TikTok videos that are tangentially connected to whatever’s in the news at the moment.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "Pepe the Frog and Gamergate",
-   "evidence": "birthed Pepe the Frog and Gamergate in the 2010s",
-   "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
-   "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
-  },
-  {
-   "quote": "This is why the same right-wing reactionaries that spent the 2010s moaning about “social credit scores” are racing to build AI-powered Flock panopticons across the country right now.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "2010s panic over Chinese \"social credit scores\"",
-   "evidence": "spent the 2010s moaning about “social credit scores”",
-   "url": "https://www.garbageday.email/p/microdramas-are-the-death-rattle-of-hollywood",
-   "title": "Microdramas are the death rattle of Hollywood",
-   "published": "2026-08-26"
-  },
-  {
-   "quote": "The main thing I cared about building was an alternative to the viral content mines I worked in during the 2010s. I wanted to own my distribution, to be free of algorithmic platform capture, and actually connect with an audience of real people.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "Working in 2010s viral content mills",
-   "evidence": "the viral content mines I worked in during the 2010s",
-   "url": "https://www.garbageday.email/p/an-update-from-your-friendly-neighborhood-garbage-man",
-   "title": "An update from your friendly neighborhood garbage man",
-   "published": "2026-09-16"
-  },
-  {
-   "quote": "2012-2015: This was the rise of both professional studios for YouTube and the viral Vine star. Solid color backdrops, shitty Jimmy Fallon-esque interview prompts, and a whole bunch of people eating snacks. This era peaked, and came crashing down, after Facebook tried to pay everyone to livestream.",
-   "start_year": 2012,
-   "end_year": 2015,
-   "label": "First pivot to video: YouTube studios and Vine stars",
-   "evidence": "2012-2015",
-   "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
-   "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
-  },
-  {
-   "quote": "When he founded his organization Turning Point USA in 2012 with a big dream and a little Tea Party money, he was savvy enough to know that the job wasn’t about actually converting college kids to conservatives. It was about making enough polarizing digital content to distract anyone from questioning their extremely suspicious membership numbers.",
-   "start_year": 2012,
-   "end_year": 2012,
-   "label": "Charlie Kirk founds Turning Point USA",
-   "evidence": "founded his organization Turning Point USA in 2012",
-   "url": "https://www.garbageday.email/p/charlie-kirk-is-the-harambe-of-gen-alpha",
-   "title": "Charlie Kirk is the Harambe of Gen Alpha",
-   "published": "2026-09-10"
-  },
-  {
-   "quote": "In 2013, the YouTube account Politizane went viral with a video breaking down inequality in America and never posted again. But now it's been rebooted with a four-video series taking a deeper look at an America that is even more unequal.",
-   "start_year": 2013,
-   "end_year": 2013,
-   "label": "Politizane's viral inequality video",
-   "evidence": "In 2013, the YouTube account Politizane went viral",
-   "url": "https://www.garbageday.email/p/am-i-too-boring-to-need-an-ai-agent",
-   "title": "Am I too boring to need an AI agent?",
-   "published": "2026-09-23"
-  },
-  {
-   "quote": "First, up, we’ve got podcaster Robert Evans, who wrote, “Literally 100% of the bad things about ‘woke 1’ are just shit that sucks about social media. If you're complaining about ‘Woke’ and not Gamergate, it's because you're a disingenuous prick.”",
-   "start_year": 2014,
-   "end_year": 2014,
-   "label": "Gamergate",
-   "evidence": "Gamergate",
-   "url": "https://www.garbageday.email/p/a-civil-war-inside-the-democratic-civil-war",
-   "title": "A civil war inside the Democratic civil war",
-   "published": "2026-08-12"
-  },
-  {
-   "quote": "I’ve even spent some time showing her videos of a very specific kind of dance that was popular among nerds and cosplayers in the late 2010s where people would like sorta mug the camera with a Dreamworks smirk and move like they’re stop motion. (I should point out a lot of those videos were actually made by teenagers at the time.)",
-   "start_year": 2015,
-   "end_year": 2019,
-   "label": "Stop-motion nerd dance videos",
-   "evidence": "popular among nerds and cosplayers in the late 2010s",
-   "url": "https://www.garbageday.email/p/what-was-woke",
-   "title": "What was 'woke'?",
-   "published": "2026-08-10"
-  },
-  {
-   "quote": "But I also just think that once fandoms, at large, left the confines of Tumblr and Reddit and Archive of Our Own, and exploded across the web in the late 2010s, they became much more susceptible to larger political sea changes. It’s very hard to tell where your fandom ends and another community begins.",
-   "start_year": 2015,
-   "end_year": 2019,
-   "label": "Fandoms leave Tumblr, Reddit and AO3",
-   "evidence": "exploded across the web in the late 2010s",
-   "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
-   "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
-  },
-  {
-   "quote": "It’s been a while since 2016, when David Bowie and Prince died three months apart, those deaths became inextricably linked in culture, and both artists were in the top 15 best-selling albums for the year.",
-   "start_year": 2016,
-   "end_year": 2016,
-   "label": "David Bowie and Prince die",
-   "evidence": "It’s been a while since 2016, when David Bowie and Prince died three months apart",
-   "url": "https://www.garbageday.email/p/you-have-to-keep-posting-even-if-you-re-dead",
-   "title": "You have to keep posting, even if you're dead",
-   "published": "2026-09-04"
-  },
-  {
-   "quote": "Was #MeToo crazy? Was protesting police killing unarmed Black people live on camera crazy? Were the counter-protesters that were attacked and the one that was even murdered at Charlottesville crazy?",
-   "start_year": 2017,
-   "end_year": 2017,
-   "label": "#MeToo and Charlottesville",
-   "evidence": "the one that was even murdered at Charlottesville",
-   "url": "https://www.garbageday.email/p/what-was-woke",
-   "title": "What was 'woke'?",
-   "published": "2026-08-10"
-  },
-  {
-   "quote": "Next up, we’ve got journalist Brian Beutler, who wrote, “It wasn’t Weinstein or the George Floyd killing. It was the exposure of a number of towering injustices and a national majority’s inability to do anything about them via normal democratic processes. Power flowed to where people could have an impact.”",
-   "start_year": 2017,
-   "end_year": 2020,
-   "label": "Weinstein exposé and George Floyd killing",
-   "evidence": "It wasn’t Weinstein or the George Floyd killing",
-   "url": "https://www.garbageday.email/p/a-civil-war-inside-the-democratic-civil-war",
-   "title": "A civil war inside the Democratic civil war",
-   "published": "2026-08-12"
-  },
-  {
-   "quote": "Before the Tumblr porn ban and the full launch of TikTok (both happened in 2018), a whole lot of fandoms were quarantined away from mainstream culture. Doctor Who, Undertale, Steven Universe, Supernatural, etc., they all had distinct communities with distinct identities and while there was plenty of infighting, the users in these subcultures were left to their own devices.",
-   "start_year": 2018,
-   "end_year": 2018,
-   "label": "Tumblr porn ban and TikTok's full launch",
-   "evidence": "Before the Tumblr porn ban and the full launch of TikTok (both happened in 2018)",
-   "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
-   "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
-  },
-  {
-   "quote": "And because every short-form video app uses, more or less, the same trending content algorithm ripped off from TikTok circa 2018, all of them have identified “mom” as a discussion topic and are promoting their own variety of it at the moment.",
-   "start_year": 2018,
-   "end_year": 2018,
-   "label": "TikTok's trending algorithm becomes the template",
-   "evidence": "ripped off from TikTok circa 2018",
-   "url": "https://www.garbageday.email/p/oreogate-is-just-the-beginning",
-   "title": "#Oreogate is just the beginning",
-   "published": "2026-08-31"
-  },
-  {
-   "quote": "2018-March 2020: The brands, publishers, and studios that survived the 2012 pivot were rewarded with Netflix shows no one ever watched and the golden handcuffs of now having to make YouTube content forever. Meanwhile, video essays and, particularly, left-wing Breadtube got real big. And, on the short-form front, TikTok came out and basically changed everything overnight.",
-   "start_year": 2018,
-   "end_year": 2020,
-   "label": "Second pivot to video: Breadtube and the arrival of TikTok",
-   "evidence": "2018-March 2020",
-   "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
-   "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
-  },
-  {
-   "quote": "I am thoroughly convinced that lawmakers do not understand any of this. I just do not think that the same elected leaders who were asking Mark Zuckerberg if Facebook was “like a floppy disk” back in 2018 are really capable of wrapping their heads around a psuedo-religious cult wriggling its way into the halls of American power.",
-   "start_year": 2018,
-   "end_year": 2018,
-   "label": "Congress questions Mark Zuckerberg",
-   "evidence": "asking Mark Zuckerberg if Facebook was “like a floppy disk” back in 2018",
-   "url": "https://www.garbageday.email/p/they-want-you-to-be-scared-of-ai-in-a-very-specific-way",
-   "title": "They want you to be scared of AI in a very specific way",
-   "published": "2026-09-14"
-  },
-  {
-   "quote": "And, hell, even radical centrists hate it, like Matt Yglesias, who wrote on X, “I don’t love this idea that nothing anyone said or did in 2019-2020 counts. Like it’s fine as a sociological observation, but I want political leaders who keep their heads even in the face of dumb fads.”",
-   "start_year": 2019,
-   "end_year": 2020,
-   "label": "Yglesias on 2019-2020 politics",
-   "evidence": "nothing anyone said or did in 2019-2020 counts",
-   "url": "https://www.garbageday.email/p/what-was-woke",
-   "title": "What was 'woke'?",
-   "published": "2026-08-10"
-  },
-  {
-   "quote": "Right-wing provocateur Milo Yiannopoulos was deported by ICE last week. They picked him up in New Orleans on Friday. Per a statement from the Department of Homeland Security, he legally entered the US in May 2019 and “chose to overstay his welcome.”",
-   "start_year": 2019,
-   "end_year": 2019,
-   "label": "Milo Yiannopoulos enters the US",
-   "evidence": "he legally entered the US in May 2019",
-   "url": "https://www.garbageday.email/p/oreogate-is-just-the-beginning",
-   "title": "#Oreogate is just the beginning",
-   "published": "2026-08-31"
-  },
-  {
-   "quote": "March 2020-2022/2023: This is the COVID era. We got E-boys and E-girls, AOC played Among Us with Hasan Piker, and hobbyist YouTube came roaring back in a way we hadn’t seen since the 2000s. This era ended when Andrew Tate and his fans hijacked the TikTok feed and turned him into a celebrity overnight.",
-   "start_year": 2020,
-   "end_year": 2023,
-   "label": "COVID-era pivot to video",
-   "evidence": "March 2020-2022/2023: This is the COVID era",
-   "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
-   "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
-  },
-  {
-   "quote": "In 2022, Elon Musk effectively moved the hub of the online far right from chan sites, subreddits, and random message boards to Twitter. This was widely celebrated among the right wing, who had long believed that they were not represented in Twitter’s marketplace of ideas (they, obviously, were).",
-   "start_year": 2022,
-   "end_year": 2022,
-   "label": "Elon Musk moves the online far right to Twitter",
-   "evidence": "In 2022, Elon Musk effectively moved the hub of the online far right",
-   "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
-   "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
-  },
-  {
-   "quote": "She’s also used Yiannopoulos’ deportation as a pretext to start a fight with former Congresswoman Marjorie Taylor Greene, who she claims was using Yiannopoulos as a ghostwriter in 2022. Greene denies that she ever hired him for anything.",
-   "start_year": 2022,
-   "end_year": 2022,
-   "label": "Claim Yiannopoulos ghostwrote for Marjorie Taylor Greene",
-   "evidence": "was using Yiannopoulos as a ghostwriter in 2022",
-   "url": "https://www.garbageday.email/p/oreogate-is-just-the-beginning",
-   "title": "#Oreogate is just the beginning",
-   "published": "2026-08-31"
-  },
-  {
-   "quote": "Visegrád 24 is a right-wing international news aggregator run by a Polish national Stefan Tompson. It launched right after Russia’s 2022 invasion of Ukraine and has close ties to Poland’s far-right Law and Justice party.",
-   "start_year": 2022,
-   "end_year": 2022,
-   "label": "Visegrád 24 launches after Russia invades Ukraine",
-   "evidence": "It launched right after Russia’s 2022 invasion of Ukraine",
-   "url": "https://www.garbageday.email/p/i-m-not-sure-disinfo-campaigns-on-x-still-work",
-   "title": "I'm not sure disinfo campaigns on X still work",
-   "published": "2026-09-21"
-  },
-  {
-   "quote": "A lot has happened to the original web series since it infected Gen Alpha back in 2023.",
-   "start_year": 2023,
-   "end_year": 2023,
-   "label": "Skibidi Toilet takes over Gen Alpha",
-   "evidence": "back in 2023",
-   "url": "https://www.garbageday.email/p/a-brave-new-world-of-friendslop",
-   "title": "A brave new world of friendslop",
-   "published": "2026-08-14"
-  },
-  {
-   "quote": "Channel 5, formerly known as All Gas No Brakes, is a independent media company run by Andrew Callaghan that is very popular with a certain kind of young man online. The kind of young man online that doesn’t care that Callaghan was hit with sexual misconduct allegations back in 2023.",
-   "start_year": 2023,
-   "end_year": 2023,
-   "label": "Andrew Callaghan misconduct allegations",
-   "evidence": "back in 2023",
-   "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
-   "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
-  },
-  {
-   "quote": "This is best seen with the recirculation of @livingthrulove’s 2024 ice throwing video. When it was originally posted, it kicked off a huge amount of debate about what’s acceptable for mothers to share on social media.",
-   "start_year": 2024,
-   "end_year": 2024,
-   "label": "@livingthrulove's ice throwing video",
-   "evidence": "@livingthrulove’s 2024 ice throwing video",
-   "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
-   "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
-  },
-  {
-   "quote": "There was a concerted effort to use looksmaxxers like Peters to create a new recruitment channel for young men into radicalized online spaces. It worked exceedingly well, but these charges are hitting right as Peters was breaking through into the genuine mainstream. This would have been a far-right culture victory on par with the 2024 MAGA/manosphere alignment.",
-   "start_year": 2024,
-   "end_year": 2024,
-   "label": "MAGA/manosphere alignment in the 2024 election",
-   "evidence": "the 2024 MAGA/manosphere alignment",
-   "url": "https://www.garbageday.email/p/am-i-too-boring-to-need-an-ai-agent",
-   "title": "Am I too boring to need an AI agent?",
-   "published": "2026-09-23"
-  }
- ]
+    "report":  {
+                   "issues_analyzed":  15,
+                   "issues_with_past_references":  5,
+                   "issues_with_none":  10,
+                   "references_proposed":  30,
+                   "references_kept":  10,
+                   "references_rejected":  {
+
+                                           },
+                   "fabricated_quotes_possible":  0,
+                   "dropped_in_review":  20,
+                   "not_reviewed":  0
+               },
+    "cards":  [
+                  {
+                      "quote":  "But it speaks to a very real problem we all have when it comes to reckoning with whatever the heck happened in the 2010s. It was the decade where the internet finally overtook television as the way culture was curated.",
+                      "start_year":  2010,
+                      "end_year":  2019,
+                      "label":  "The 2010s: when the internet overtook TV",
+                      "evidence":  "whatever the heck happened in the 2010s",
+                      "url":  "https://www.garbageday.email/p/what-was-woke",
+                      "title":  "What was \u0027woke\u0027?",
+                      "published":  "2026-08-10"
+                  },
+                  {
+                      "quote":  "2012-2015: This was the rise of both professional studios for YouTube and the viral Vine star. Solid color backdrops, shitty Jimmy Fallon-esque interview prompts, and a whole bunch of people eating snacks. This era peaked, and came crashing down, after Facebook tried to pay everyone to livestream.",
+                      "start_year":  2012,
+                      "end_year":  2015,
+                      "label":  "First pivot to video: YouTube studios and Vine stars",
+                      "evidence":  "2012-2015",
+                      "url":  "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
+                      "title":  "AI is still boring and also bad and also expensive",
+                      "published":  "2026-09-09"
+                  },
+                  {
+                      "quote":  "In 2013, the YouTube account Politizane went viral with a video breaking down inequality in America and never posted again. But now it\u0027s been rebooted with a four-video series taking a deeper look at an America that is even more unequal.",
+                      "start_year":  2013,
+                      "end_year":  2013,
+                      "label":  "Politizane\u0027s viral inequality video",
+                      "evidence":  "In 2013, the YouTube account Politizane went viral",
+                      "url":  "https://www.garbageday.email/p/am-i-too-boring-to-need-an-ai-agent",
+                      "title":  "Am I too boring to need an AI agent?",
+                      "published":  "2026-09-23"
+                  },
+                  {
+                      "quote":  "I’ve even spent some time showing her videos of a very specific kind of dance that was popular among nerds and cosplayers in the late 2010s where people would like sorta mug the camera with a Dreamworks smirk and move like they’re stop motion. (I should point out a lot of those videos were actually made by teenagers at the time.)",
+                      "start_year":  2015,
+                      "end_year":  2019,
+                      "label":  "Stop-motion nerd dance videos",
+                      "evidence":  "popular among nerds and cosplayers in the late 2010s",
+                      "url":  "https://www.garbageday.email/p/what-was-woke",
+                      "title":  "What was \u0027woke\u0027?",
+                      "published":  "2026-08-10"
+                  },
+                  {
+                      "quote":  "But I also just think that once fandoms, at large, left the confines of Tumblr and Reddit and Archive of Our Own, and exploded across the web in the late 2010s, they became much more susceptible to larger political sea changes. It’s very hard to tell where your fandom ends and another community begins.",
+                      "start_year":  2015,
+                      "end_year":  2019,
+                      "label":  "Fandoms leave Tumblr, Reddit and AO3",
+                      "evidence":  "exploded across the web in the late 2010s",
+                      "url":  "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
+                      "title":  "Right-wingers want every woman to be a mom and also hate moms now",
+                      "published":  "2026-08-24"
+                  },
+                  {
+                      "quote":  "It’s been a while since 2016, when David Bowie and Prince died three months apart, those deaths became inextricably linked in culture, and both artists were in the top 15 best-selling albums for the year.",
+                      "start_year":  2016,
+                      "end_year":  2016,
+                      "label":  "David Bowie and Prince die",
+                      "evidence":  "It’s been a while since 2016, when David Bowie and Prince died three months apart",
+                      "url":  "https://www.garbageday.email/p/you-have-to-keep-posting-even-if-you-re-dead",
+                      "title":  "You have to keep posting, even if you\u0027re dead",
+                      "published":  "2026-09-04"
+                  },
+                  {
+                      "quote":  "Before the Tumblr porn ban and the full launch of TikTok (both happened in 2018), a whole lot of fandoms were quarantined away from mainstream culture. Doctor Who, Undertale, Steven Universe, Supernatural, etc., they all had distinct communities with distinct identities and while there was plenty of infighting, the users in these subcultures were left to their own devices.",
+                      "start_year":  2018,
+                      "end_year":  2018,
+                      "label":  "Tumblr porn ban and TikTok\u0027s full launch",
+                      "evidence":  "Before the Tumblr porn ban and the full launch of TikTok (both happened in 2018)",
+                      "url":  "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
+                      "title":  "Right-wingers want every woman to be a mom and also hate moms now",
+                      "published":  "2026-08-24"
+                  },
+                  {
+                      "quote":  "2018-March 2020: The brands, publishers, and studios that survived the 2012 pivot were rewarded with Netflix shows no one ever watched and the golden handcuffs of now having to make YouTube content forever. Meanwhile, video essays and, particularly, left-wing Breadtube got real big. And, on the short-form front, TikTok came out and basically changed everything overnight.",
+                      "start_year":  2018,
+                      "end_year":  2020,
+                      "label":  "Second pivot to video: Breadtube and the arrival of TikTok",
+                      "evidence":  "2018-March 2020",
+                      "url":  "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
+                      "title":  "AI is still boring and also bad and also expensive",
+                      "published":  "2026-09-09"
+                  },
+                  {
+                      "quote":  "March 2020-2022/2023: This is the COVID era. We got E-boys and E-girls, AOC played Among Us with Hasan Piker, and hobbyist YouTube came roaring back in a way we hadn’t seen since the 2000s. This era ended when Andrew Tate and his fans hijacked the TikTok feed and turned him into a celebrity overnight.",
+                      "start_year":  2020,
+                      "end_year":  2023,
+                      "label":  "COVID-era pivot to video",
+                      "evidence":  "March 2020-2022/2023: This is the COVID era",
+                      "url":  "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
+                      "title":  "AI is still boring and also bad and also expensive",
+                      "published":  "2026-09-09"
+                  },
+                  {
+                      "quote":  "In 2022, Elon Musk effectively moved the hub of the online far right from chan sites, subreddits, and random message boards to Twitter. This was widely celebrated among the right wing, who had long believed that they were not represented in Twitter’s marketplace of ideas (they, obviously, were).",
+                      "start_year":  2022,
+                      "end_year":  2022,
+                      "label":  "Elon Musk moves the online far right to Twitter",
+                      "evidence":  "In 2022, Elon Musk effectively moved the hub of the online far right",
+                      "url":  "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
+                      "title":  "Right-wingers want every woman to be a mom and also hate moms now",
+                      "published":  "2026-08-24"
+                  }
+              ]
 }
