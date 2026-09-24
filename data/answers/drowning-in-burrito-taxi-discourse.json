@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [79, 80, 81], "start_year": 2017, "end_year": 2020, "label": "WaPo's 'Democracy Dies in Darkness' era", "evidence": "In 2017, at the beginning of Trump’s first term, the Post changed their tagline to “Democracy dies in darkness”"},
+  {"sentence_ids": [82], "start_year": 2022, "end_year": 2022, "label": "WaPo subscriber decline by 2022", "evidence": "by 2022"}
+]}

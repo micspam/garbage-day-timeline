@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [8], "start_year": 2015, "end_year": 2015, "label": "The Dress goes viral", "evidence": "In 2015, she was the mastermind behind The Dress."},
+{"sentence_ids": [37, 38], "start_year": 2010, "end_year": 2019, "label": "2010s platform content moderation", "evidence": "In the 2010s, huge tech platforms like Facebook and Google pitched themselves as sleek corporate alternatives to the wild west of the web."},
+{"sentence_ids": [40], "start_year": 2015, "end_year": 2019, "label": "mid-2010s moderator backlash", "evidence": "In the 2010s, huge tech platforms like Facebook and Google pitched themselves as sleek corporate alternatives to the wild west of the web."}
+]}

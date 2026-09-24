@@ -1,12 +1,12 @@
 {
  "report": {
-  "issues_analyzed": 60,
-  "issues_with_past_references": 28,
-  "issues_with_none": 32,
-  "references_proposed": 67,
-  "references_kept": 56,
+  "issues_analyzed": 110,
+  "issues_with_past_references": 47,
+  "issues_with_none": 63,
+  "references_proposed": 101,
+  "references_kept": 88,
   "references_rejected": {},
-  "dropped_in_review": 11,
+  "dropped_in_review": 13,
   "not_reviewed": 0,
   "fabricated_quotes_possible": 0
  },
@@ -51,6 +51,27 @@
      "dot com bubble",
      "technology",
      "economy"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "As a kid, I was vaguely familiar with it as the place to go if you wanted to talk to someone about UFOs and aliens. In the 2000s, it all seemed very benign.",
+   "start_year": 2000,
+   "end_year": 2009,
+   "label": "Speaker's Corner as benign UFO-talk spot",
+   "evidence": "In the 2000s, it all seemed very benign.",
+   "url": "https://www.garbageday.email/p/everything-s-debateslop-now",
+   "title": "Everything's debateslop now",
+   "published": "2025-09-22",
+   "tags": {
+    "moment": "conspiracy theory venue",
+    "topics": [
+     "conspiracy theories",
+     "ufos",
+     "free speech"
     ],
     "entities": [],
     "platforms": [],
@@ -234,6 +255,186 @@
       "name": "tiktok"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "As the center of cultural and political power shifted towards Silicon Valley in the early 2010s, right-wing movements like Gamergate sprang up to radicalize the young be-hoodied millennial men who now found themselves working at tech companies.",
+   "start_year": 2010,
+   "end_year": 2014,
+   "label": "Gamergate and Silicon Valley's rise",
+   "evidence": "As the center of cultural and political power shifted towards Silicon Valley in the early 2010s, right-wing movements like Gamergate sprang up",
+   "url": "https://www.garbageday.email/p/the-uncanny-valley-between-meme-and-law-9650f12b480c7005",
+   "title": "The uncanny valley between meme and law",
+   "published": "2025-08-13",
+   "tags": {
+    "moment": "subculture radicalization",
+    "topics": [
+     "gamergate",
+     "far-right politics",
+     "tech industry"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "halo",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "millennials"
+     },
+     {
+      "name": "tech workers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "When online influence was concentrated on Twitter in the 2010s, they felt like they were somehow different from normal users. Their real world professional contacts mapped over fairly seamlessly and they were able to dictate what was popular on the platform.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Twitter's 2010s influence economy",
+   "evidence": "When online influence was concentrated on Twitter in the 2010s",
+   "url": "https://www.garbageday.email/p/nate-silver-s-big-list-of-grievances",
+   "title": "Nate Silver's big list of grievances",
+   "published": "2025-09-08",
+   "tags": {
+    "moment": "platform influence nostalgia",
+    "topics": [
+     "twitter",
+     "social media",
+     "media commentary"
+    ],
+    "entities": [
+     {
+      "name": "nate silver",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "A user named Roko posted it to the LessWrong message board back in 2010 and it was considered so dangerous — or, perhaps more accurately, annoying — that any mention of it was banned from the site for years.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Roko's Basilisk posted on LessWrong",
+   "evidence": "A user named Roko posted it to the LessWrong message board back in 2010 and it was considered so dangerous — or, perhaps more accurately, annoying — that any mention of it was banned from the site for years.",
+   "url": "https://www.garbageday.email/p/petty-powerful-and-pathologically-online",
+   "title": "Petty, powerful, and pathologically online",
+   "published": "2025-09-19",
+   "tags": {
+    "moment": "forum post controversy",
+    "topics": [
+     "artificial intelligence",
+     "internet forums",
+     "rationalist community"
+    ],
+    "entities": [
+     {
+      "name": "roko's basilisk",
+      "kind": "work"
+     },
+     {
+      "name": "lesswrong",
+      "kind": "community"
+     },
+     {
+      "name": "eliezer yudkowsky",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "lesswrong"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "ai evangelists"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Trump and his supporters infiltrated online spaces like 4chan and Reddit in the 2010s and flooded them with far-right ideology.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Trump supporters flood 4chan/Reddit with far-right ideology",
+   "evidence": "Trump and his supporters infiltrated online spaces like 4chan and Reddit in the 2010s and flooded them with far-right ideology.",
+   "url": "https://www.garbageday.email/p/the-rise-of-the-edgelord-shooter",
+   "title": "The rise of the edgelord shooter",
+   "published": "2025-09-26",
+   "tags": {
+    "moment": "online radicalization",
+    "topics": [
+     "far-right politics",
+     "online radicalization",
+     "political violence"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "aggrieved men"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "The Great Dumbening of the 2010s didn’t just reduce our celebrities into influencers, though. It did the same to every famous person that wanted to stay famous and every person that wanted to become famous. It untethered popularity from tastemakers — cultural, political, financial — and turned it into something nakedly transactional.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "The Great Dumbening of the 2010s",
+   "evidence": "The Great Dumbening of the 2010s didn’t just reduce our celebrities into influencers, though.",
+   "url": "https://www.garbageday.email/p/the-great-dumbening",
+   "title": "The Great Dumbening",
+   "published": "2025-10-13",
+   "tags": {
+    "moment": "fame culture shift",
+    "topics": [
+     "influencer culture",
+     "celebrity culture",
+     "podcasting"
+    ],
+    "entities": [
+     {
+      "name": "theo von",
+      "kind": "person"
+     },
+     {
+      "name": "joe rogan",
+      "kind": "person"
+     },
+     {
+      "name": "adin ross",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -681,6 +882,61 @@
    }
   },
   {
+   "quote": "After a few years, though, it had grown bigger than even Mondo could support. The company put the show on hiatus in 2012, with the creators’ planned story incomplete.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Baman Piderman put on hiatus",
+   "evidence": "The company put the show on hiatus in 2012, with the creators’ planned story incomplete.",
+   "url": "https://www.garbageday.email/p/can-people-make-stuff-on-youtube-still",
+   "title": "Can people make stuff on YouTube still?",
+   "published": "2025-08-06",
+   "tags": {
+    "moment": "show put on hiatus",
+    "topics": [
+     "animation",
+     "youtube",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "mondo",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Working in the viral content mines during the 2010s was, looking back at it, very strange. Once social media really broke through around 2012, young journalists like myself quickly learned there were a handful of perennial stories you would end up writing throughout the year.",
+   "start_year": 2012,
+   "end_year": 2014,
+   "label": "Early-2010s viral content journalism cycle",
+   "evidence": "Once social media really broke through around 2012, young journalists like myself quickly learned there were a handful of perennial stories you would end up writing throughout the year.",
+   "url": "https://www.garbageday.email/p/cancel-culture-for-thee-not-me",
+   "title": "Cancel culture for thee, not me",
+   "published": "2025-11-03",
+   "tags": {
+    "moment": "career reflection",
+    "topics": [
+     "journalism",
+     "viral content",
+     "social media"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "young journalists"
+     }
+    ]
+   }
+  },
+  {
    "quote": "Then Facebook went public, acquired Instagram, and overhauled the mobile News Feed. That same year, YouTube drastically changed the way its algorithm worked and Twitter acquired Vine and launched multimedia preview cards. Which meant that by the end of 2012, the internet had mostly transitioned from thing you read on a computer to something you increasingly looked at or watched on a phone.",
    "start_year": 2012,
    "end_year": 2012,
@@ -770,6 +1026,53 @@
    }
   },
   {
+   "quote": "What was once a fairly localized holiday, where costumes only really had to make sense to — or fit within the standards of — people in your immediate vicinity, at some point around 2013-2014, became a giant temperature check for the whole country.",
+   "start_year": 2013,
+   "end_year": 2014,
+   "label": "Halloween becomes a national costume contest",
+   "evidence": "at some point around 2013-2014, became a giant temperature check for the whole country",
+   "url": "https://www.garbageday.email/p/cancel-culture-for-thee-not-me",
+   "title": "Cancel culture for thee, not me",
+   "published": "2025-11-03",
+   "tags": {
+    "moment": "holiday costume shift",
+    "topics": [
+     "halloween",
+     "costumes",
+     "social media"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2013, investor and Bitcoin evangelist Balaji Srinivasan coined the term to describe his utopian vision of new cities and countries being formed by what he called “cloud formations,” or the “infinity of subcultures outside the mainstream” that find each other online.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Balaji Srinivasan coins “network state”",
+   "evidence": "In 2013, investor and Bitcoin evangelist Balaji Srinivasan coined the term to describe his utopian vision of new cities and countries being formed by what he called “cloud formations,” or the “infinity of subcultures outside the mainstream” that find each other online.",
+   "url": "https://www.garbageday.email/p/the-rise-of-the-troll-state",
+   "title": "The rise of the troll state",
+   "published": "2026-01-05",
+   "tags": {
+    "moment": "concept coined",
+    "topics": [
+     "network state",
+     "silicon valley",
+     "cryptocurrency"
+    ],
+    "entities": [
+     {
+      "name": "balaji srinivasan",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "In 2013, former Prime Minister of Norway Thorbjørn Jagland tried to set up a meeting between Epstein and Putin. Epstein wanted to help Russia “leapfrog the global community by reinventing the financial system of the 21st century.”",
    "start_year": 2013,
    "end_year": 2013,
@@ -838,6 +1141,155 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "On the weekend of July 11, 2014, in Schaumburg, Illinois, roughly 350 attendees poured into the Renaissance Schaumburg Convention Center Hotel and found themselves inside a kaleidoscopic nightmare of cringe that has now become a thing of legend.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "The original DashCon",
+   "evidence": "On the weekend of July 11, 2014, in Schaumburg, Illinois, roughly 350 attendees poured into the Renaissance Schaumburg Convention Center Hotel and found themselves inside a kaleidoscopic nightmare of cringe",
+   "url": "https://www.garbageday.email/p/the-legacy-of-dashcon-47f242265542c8a1",
+   "title": "The legacy of DashCon",
+   "published": "2025-07-09",
+   "tags": {
+    "moment": "convention disaster",
+    "topics": [
+     "fan conventions",
+     "tumblr"
+    ],
+    "entities": [
+     {
+      "name": "renaissance schaumburg convention center hotel",
+      "kind": "other"
+     },
+     {
+      "name": "fyre festival",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Though we wouldn’t feel the effects for a few years, America’s politics and its media ecosystem changed forever on August 16th, 2014, when a man named Eron Gjoni wrote a blogpost titled, “The Zoe Post.” It accused his ex-girlfriend, game developer Zoe Quinn, of being part of a conspiracy where women in video games were influencing the media by sleeping with games reporters (among other things).",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "The Zoe Post and the start of Gamergate",
+   "evidence": "America’s politics and its media ecosystem changed forever on August 16th, 2014, when a man named Eron Gjoni wrote a blogpost titled, “The Zoe Post.”",
+   "url": "https://www.garbageday.email/p/maga-needs-a-new-conspiracy-theory-ecc065bea43298cd",
+   "title": "MAGA needs a new conspiracy theory",
+   "published": "2025-07-14",
+   "tags": {
+    "moment": "conspiracy blogpost published",
+    "topics": [
+     "gamergate",
+     "conspiracy theories",
+     "video games"
+    ],
+    "entities": [
+     {
+      "name": "eron gjoni",
+      "kind": "person"
+     },
+     {
+      "name": "zoe quinn",
+      "kind": "person"
+     },
+     {
+      "name": "the zoe post",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Gamergate was seized on by the then-still-emergent right-wing digital media. Publishers and influencers on Facebook, Twitter, and YouTube realized it was perfect for content. An ever-sprawling alternate reality game full of characters they could come back to over and over again to farm rage.",
+   "start_year": 2014,
+   "end_year": 2015,
+   "label": "Right-wing media seizes on Gamergate",
+   "evidence": "Gamergate was seized on by the then-still-emergent right-wing digital media.",
+   "url": "https://www.garbageday.email/p/maga-needs-a-new-conspiracy-theory-ecc065bea43298cd",
+   "title": "MAGA needs a new conspiracy theory",
+   "published": "2025-07-14",
+   "tags": {
+    "moment": "movement co-opted by media",
+    "topics": [
+     "gamergate",
+     "far-right politics",
+     "social media"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The Baman Piderman Kickstarter raised more than twice its funding goal in 2014, but the promised new episodes were never completed.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Baman Piderman Kickstarter",
+   "evidence": "The Baman Piderman Kickstarter raised more than twice its funding goal in 2014, but the promised new episodes were never completed.",
+   "url": "https://www.garbageday.email/p/can-people-make-stuff-on-youtube-still",
+   "title": "Can people make stuff on YouTube still?",
+   "published": "2025-08-06",
+   "tags": {
+    "moment": "crowdfunding campaign",
+    "topics": [
+     "animation",
+     "crowdfunding",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "baman piderman",
+      "kind": "work"
+     },
+     {
+      "name": "dick figures",
+      "kind": "work"
+     },
+     {
+      "name": "mondo media",
+      "kind": "company"
+     },
+     {
+      "name": "cartoon brew",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "kickstarter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "fans"
+     }
+    ]
    }
   },
   {
@@ -1005,6 +1457,66 @@
    }
   },
   {
+   "quote": "I was inside the Calais Jungle in France when the detainees lit it on fire in 2016. Many of them had been there for over a year, living in a makeshift camp built in a landfill full of toxic waste. By the time I arrived it had grown into a shantytown full of sewage and standing water.",
+   "start_year": 2015,
+   "end_year": 2016,
+   "label": "The Calais Jungle migrant camp",
+   "evidence": "I was inside the Calais Jungle in France when the detainees lit it on fire in 2016.",
+   "url": "https://www.garbageday.email/p/trump-s-big-beautiful-gulag-eceef93f0f861d7b",
+   "title": "Trump's big, beautiful gulag",
+   "published": "2025-07-02",
+   "tags": {
+    "moment": "refugee camp conditions",
+    "topics": [
+     "migrant crisis",
+     "refugee camps",
+     "europe"
+    ],
+    "entities": [
+     {
+      "name": "calais jungle",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "detainees"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Tai Lopez, one of the founders of the company named in the SEC’s filing, is a figure from this earlier era. Back in 2015, he paid to saturate YouTube with ads of him and his Lamborghini, that viewers saw so many times they started making memes out of it.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "Tai Lopez's Lamborghini YouTube ads",
+   "evidence": "Back in 2015, he paid to saturate YouTube with ads of him and his Lamborghini, that viewers saw so many times they started making memes out of it.",
+   "url": "https://www.garbageday.email/p/the-pressure-cooker-of-political-violence",
+   "title": "The pressure cooker of political violence",
+   "published": "2025-09-29",
+   "tags": {
+    "moment": "viral ad campaign",
+    "topics": [
+     "youtube",
+     "advertising",
+     "internet memes"
+    ],
+    "entities": [
+     {
+      "name": "tai lopez",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "He emailed himself a photo taken at a 2015 dinner with Mark Zuckerberg, Elon Musk, Joi Ito, Peter Thiel, and other Silicon Valley leaders.",
    "start_year": 2015,
    "end_year": 2015,
@@ -1150,6 +1662,60 @@
       "name": "fandoms"
      }
     ]
+   }
+  },
+  {
+   "quote": "But two years later, following the March 2016 leak of the Democratic National Committee’s emails, the same template — a vague conspiracy of liberal power structures and sexual impropriety pushed on anonymous message boards like 4chan — was applied to something people actually do care about, American politics. Which is how we ended up with Pizzagate.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Pizzagate's origins",
+   "evidence": "following the March 2016 leak of the Democratic National Committee’s emails",
+   "url": "https://www.garbageday.email/p/maga-needs-a-new-conspiracy-theory-ecc065bea43298cd",
+   "title": "MAGA needs a new conspiracy theory",
+   "published": "2025-07-14",
+   "tags": {
+    "moment": "conspiracy theory forms",
+    "topics": [
+     "conspiracy theories",
+     "far-right politics",
+     "american politics"
+    ],
+    "entities": [
+     {
+      "name": "democratic national committee",
+      "kind": "other"
+     },
+     {
+      "name": "pizzagate",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Disillusioned by traditional methods of preaching, they hoped that a more aggressive style could yield a better result — one in which they could be seen to “DESTROY” their opponent in debates (this was the post 2016 period, after all).",
+   "start_year": 2016,
+   "end_year": 2017,
+   "label": "The post-2016 “destroy” debate style",
+   "evidence": "this was the post 2016 period, after all",
+   "url": "https://www.garbageday.email/p/everything-s-debateslop-now",
+   "title": "Everything's debateslop now",
+   "published": "2025-09-22",
+   "tags": {
+    "moment": "aggressive debate style",
+    "topics": [
+     "debate culture",
+     "religion"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
    }
   },
   {
@@ -1382,6 +1948,73 @@
    }
   },
   {
+   "quote": "I first began studying Speaker’s Corner in 2017, as part of research for a book on British Muslims and internet culture, where I spent some time with two then obscure influencers named Ali Dawah and Mohammed Hijab, who were gaining popularity among young Muslims who felt disenfranchised by both mainstream media, and the digital media counterparts that were then enjoying their final few years of dominance.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Rise of Speaker's Corner Muslim debate influencers",
+   "evidence": "I first began studying Speaker’s Corner in 2017, as part of research for a book on British Muslims and internet culture, where I spent some time with two then obscure influencers named Ali Dawah and Mohammed Hijab, who were gaining popularity among young Muslims who felt disenfranchised by both mainstream media, and the digital media counterparts that were then enjoying their final few years of dominance.",
+   "url": "https://www.garbageday.email/p/everything-s-debateslop-now",
+   "title": "Everything's debateslop now",
+   "published": "2025-09-22",
+   "tags": {
+    "moment": "influencer rise",
+    "topics": [
+     "religion",
+     "debate culture",
+     "influencers"
+    ],
+    "entities": [
+     {
+      "name": "ali dawah",
+      "kind": "person"
+     },
+     {
+      "name": "mohammed hijab",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "young muslims"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Trump, when he dismissed Bannon in 2017, wrote, “Steven pretends to be at war with the media, which he calls the opposition party, yet he spent his time at the White House leaking false information to the media to make himself seem far more important than he was.”",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Trump's 2017 statement dismissing Bannon",
+   "evidence": "Trump, when he dismissed Bannon in 2017, wrote, “Steven pretends to be at war with the media, which he calls the opposition party, yet he spent his time at the White House leaking false information to the media to make himself seem far more important than he was.”",
+   "url": "https://www.garbageday.email/p/epstein-helped-build-maga-has-he-blown-it",
+   "title": "Epstein Helped Build MAGA. Has He Blown It?",
+   "published": "2025-11-17",
+   "tags": {
+    "moment": "public dismissal statement",
+    "topics": [
+     "far-right politics",
+     "media manipulation"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Simo, while working at Facebook in the 2010s, was behind the, I would argue, disastrous push into Facebook Watch. Where Facebook commissioned a whole bunch of shows no one watched.",
    "start_year": 2017,
    "end_year": 2019,
@@ -1416,6 +2049,94 @@
       "name": "facebook"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Sinclair’s massively conservative slant was best documented by Deadspin in 2018, who made a supercut of their local news affiliates all reading the same pro-Trump script.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Deadspin's Sinclair pro-Trump script supercut",
+   "evidence": "Sinclair’s massively conservative slant was best documented by Deadspin in 2018, who made a supercut of their local news affiliates all reading the same pro-Trump script.",
+   "url": "https://www.garbageday.email/p/petty-powerful-and-pathologically-online",
+   "title": "Petty, powerful, and pathologically online",
+   "published": "2025-09-19",
+   "tags": {
+    "moment": "media investigation exposes bias",
+    "topics": [
+     "local news",
+     "media bias",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "sinclair broadcast group",
+      "kind": "company"
+     },
+     {
+      "name": "deadspin",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "A world decimated by Bannon’s central political philosophy, which he best summarized in 2018 as, “The real opposition is the media. And the way to deal with them is to flood the zone with shit.”",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Bannon's “flood the zone” philosophy",
+   "evidence": "A world decimated by Bannon’s central political philosophy, which he best summarized in 2018 as, “The real opposition is the media. And the way to deal with them is to flood the zone with shit.”",
+   "url": "https://www.garbageday.email/p/epstein-helped-build-maga-has-he-blown-it",
+   "title": "Epstein Helped Build MAGA. Has He Blown It?",
+   "published": "2025-11-17",
+   "tags": {
+    "moment": "political philosophy statement",
+    "topics": [
+     "far-right politics",
+     "media manipulation"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "What we learned from the emails released last week, however, is that Bannon and Epstein were in close contact during Trump’s first presidential term. Based on the emails and texts we now have between the two men, they gossiped and schemed with each other as Bannon traveled Europe in 2018, attempting to franchise his far-right populist movement across Europe.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Bannon and Epstein's 2018 Europe scheming",
+   "evidence": "Based on the emails and texts we now have between the two men, they gossiped and schemed with each other as Bannon traveled Europe in 2018, attempting to franchise his far-right populist movement across Europe.",
+   "url": "https://www.garbageday.email/p/epstein-helped-build-maga-has-he-blown-it",
+   "title": "Epstein Helped Build MAGA. Has He Blown It?",
+   "published": "2025-11-17",
+   "tags": {
+    "moment": "political networking",
+    "topics": [
+     "far-right politics",
+     "political networking"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "jeffrey epstein",
+      "kind": "person"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -1605,6 +2326,116 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "The use of memes in political mass violence started in earnest in 2019, when a man filmed himself attacking a mosque in Christchurch, New Zealand. Just before he started, he told viewers, “Subscribe to PewDiePie.” Months later, in Halle, Germany, an attacker livestreamed the shooting of a synagogue on Twitch.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "Christchurch and Halle livestreamed attacks",
+   "evidence": "The use of memes in political mass violence started in earnest in 2019, when a man filmed himself attacking a mosque in Christchurch, New Zealand.",
+   "url": "https://www.garbageday.email/p/charlie-kirk-was-killed-by-a-meme",
+   "title": "Charlie Kirk was killed by a meme",
+   "published": "2025-09-12",
+   "tags": {
+    "moment": "livestreamed mass violence",
+    "topics": [
+     "political violence",
+     "far-right politics",
+     "livestreaming"
+    ],
+    "entities": [
+     {
+      "name": "christchurch mosque shooting",
+      "kind": "event"
+     },
+     {
+      "name": "pewdiepie",
+      "kind": "person"
+     },
+     {
+      "name": "halle synagogue shooting",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitch"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And in 2020, they were one of the early voices claiming that the election was stolen by Democrats. In January 2021, TPUSA chartered 80 buses to attend the January 6th “Stop The Steal” protest.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "TPUSA and Stop the Steal / Jan 6",
+   "evidence": "And in 2020, they were one of the early voices claiming that the election was stolen by Democrats.",
+   "url": "https://www.garbageday.email/p/the-logical-endpoint-of-21st-century-america",
+   "title": "The logical endpoint of 21st-century America",
+   "published": "2025-09-11",
+   "tags": {
+    "moment": "election conspiracy activism",
+    "topics": [
+     "far-right politics",
+     "election denial",
+     "january 6"
+    ],
+    "entities": [
+     {
+      "name": "turning point usa",
+      "kind": "other"
+     },
+     {
+      "name": "charlie kirk",
+      "kind": "person"
+     },
+     {
+      "name": "stop the steal",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During the pandemic, far-right extremists spent a lot of time trying to radicalize young internet users into exploring more esoteric forms of Nazism. They did this largely by making memes for children on sites like iFunny and Reddit and by writing long, annoying Substack posts for Dimes Square downtown scene hipsters.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "Pandemic-era Nazi-occult radicalization of kids",
+   "evidence": "During the pandemic, far-right extremists spent a lot of time trying to radicalize young internet users into exploring more esoteric forms of Nazism. They did this largely by making memes for children on sites like iFunny and Reddit",
+   "url": "https://www.garbageday.email/p/your-kids-are-watching-nazislop-on-tiktok",
+   "title": "Your kids are watching nazislop on TikTok",
+   "published": "2025-12-01",
+   "tags": {
+    "moment": "radicalization campaign",
+    "topics": [
+     "far-right politics",
+     "nazism",
+     "online radicalization"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "ifunny"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "substack"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "children"
+     },
+     {
+      "name": "dimes square hipsters"
+     }
+    ]
    }
   },
   {
@@ -1875,6 +2706,102 @@
    }
   },
   {
+   "quote": "In 2022, an 18-year-old white nationalist livestreamed a shooting in a grocery store in Buffalo, New York. Investigators later discovered that he was planning it openly on 4chan and Discord, calling it a “real life effort shitpost.”",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Buffalo grocery store shooting",
+   "evidence": "In 2022, an 18-year-old white nationalist livestreamed a shooting in a grocery store in Buffalo, New York.",
+   "url": "https://www.garbageday.email/p/charlie-kirk-was-killed-by-a-meme",
+   "title": "Charlie Kirk was killed by a meme",
+   "published": "2025-09-12",
+   "tags": {
+    "moment": "livestreamed mass shooting",
+    "topics": [
+     "political violence",
+     "far-right politics",
+     "white nationalism"
+    ],
+    "entities": [
+     {
+      "name": "buffalo grocery store shooting",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "discord"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Back in September 2022, members of the popular YouTube channel’s subreddit discovered that founding member Ned Fulmer had cheated on his wife Ariel with a producer and host who worked for the channel.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "The Try Guys' Ned Fulmer cheating scandal",
+   "evidence": "Back in September 2022, members of the popular YouTube channel’s subreddit discovered that founding member Ned Fulmer had cheated on his wife Ariel with a producer and host who worked for the channel.",
+   "url": "https://www.garbageday.email/p/petty-powerful-and-pathologically-online",
+   "title": "Petty, powerful, and pathologically online",
+   "published": "2025-09-19",
+   "tags": {
+    "moment": "celebrity cheating scandal",
+    "topics": [
+     "youtube",
+     "celebrity scandal",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "the try guys",
+      "kind": "community"
+     },
+     {
+      "name": "ned fulmer",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2022, a mass shooter in Buffalo, New York, used weapons covered in references to these ideas, including the Sonnenrad, or “Black Sun” Nazi symbol.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Buffalo shooter's Nazi-occult symbols",
+   "evidence": "In 2022, a mass shooter in Buffalo, New York, used weapons covered in references to these ideas, including the Sonnenrad, or “Black Sun” Nazi symbol.",
+   "url": "https://www.garbageday.email/p/your-kids-are-watching-nazislop-on-tiktok",
+   "title": "Your kids are watching nazislop on TikTok",
+   "published": "2025-12-01",
+   "tags": {
+    "moment": "mass shooting symbolism",
+    "topics": [
+     "nazism",
+     "political violence",
+     "mass shootings"
+    ],
+    "entities": [
+     {
+      "name": "sonnenrad",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "In 2022, filmmaker Vera Drew created a movie called The People’s Joker, which turned the story of The Joker from Batman into a trans allegory. Drew received a cease and desist from Warner Bros. and held guerilla screenings of the film until the rights were worked out.",
    "start_year": 2022,
    "end_year": 2022,
@@ -1946,6 +2873,103 @@
     "audiences": [
      {
       "name": "the right wing"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Back in 2023, we did this whole song and dance for the first time, when conservatives called for a boycott of Cracker Barrel after they announced corporate initiatives supporting Pride month.",
+   "start_year": 2023,
+   "end_year": 2023,
+   "label": "2023 Cracker Barrel Pride boycott",
+   "evidence": "Back in 2023, we did this whole song and dance for the first time, when conservatives called for a boycott of Cracker Barrel after they announced corporate initiatives supporting Pride month.",
+   "url": "https://www.garbageday.email/p/a-b-testing-your-anti-woke-meltdown-e1a04224ffbb38b6",
+   "title": "A/B testing your anti-woke meltdown",
+   "published": "2025-08-25",
+   "tags": {
+    "moment": "corporate boycott campaign",
+    "topics": [
+     "culture war",
+     "corporate boycotts",
+     "pride month backlash"
+    ],
+    "entities": [
+     {
+      "name": "cracker barrel",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "conservatives"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "There was a whole TikTok trend in 2023, where users were making aesthetic fan cams of Nazi Germany and fascist Italy, hoping to dupe unsuspecting TikTok users into sharing them.",
+   "start_year": 2023,
+   "end_year": 2023,
+   "label": "TikTok Nazi aesthetic fancam trend",
+   "evidence": "There was a whole TikTok trend in 2023, where users were making aesthetic fan cams of Nazi Germany and fascist Italy, hoping to dupe unsuspecting TikTok users into sharing them.",
+   "url": "https://www.garbageday.email/p/your-kids-are-watching-nazislop-on-tiktok",
+   "title": "Your kids are watching nazislop on TikTok",
+   "published": "2025-12-01",
+   "tags": {
+    "moment": "viral trend disguising propaganda",
+    "topics": [
+     "nazism",
+     "tiktok",
+     "internet memes"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "tiktok users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Huffman has had a contentious relationship with Reddit’s most dedicated users, most notably causing protests and blackouts in 2023 when he paywalled the site’s API, effectively shutting down a huge number of popular third-party programs.",
+   "start_year": 2023,
+   "end_year": 2023,
+   "label": "Reddit API blackout protests",
+   "evidence": "causing protests and blackouts in 2023 when he paywalled the site’s API, effectively shutting down a huge number of popular third-party programs",
+   "url": "https://www.garbageday.email/p/meet-the-wannabeasts-of-local-tiktok",
+   "title": "Meet the WannaBeasts of local TikTok",
+   "published": "2026-01-28",
+   "tags": {
+    "moment": "platform api paywall backlash",
+    "topics": [
+     "reddit",
+     "platform policy",
+     "protests"
+    ],
+    "entities": [
+     {
+      "name": "steve huffman",
+      "kind": "person"
+     },
+     {
+      "name": "reddit",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "reddit power users"
      }
     ]
    }

@@ -1,0 +1,6 @@
+{"references": [
+  {"sentence_ids": [10, 11], "start_year": 2017, "end_year": 2020, "label": "Trump's first term media landscape", "evidence": "during his first presidency"},
+  {"sentence_ids": [15], "start_year": 2016, "end_year": 2016, "label": "Trump steals 'fake news' from Clinton", "evidence": "in a 2016 speech"},
+  {"sentence_ids": [16], "start_year": 2018, "end_year": 2018, "label": "Bannon coins 'flood the zone with shit'", "evidence": "By 2018"},
+  {"sentence_ids": [18], "start_year": 2019, "end_year": 2019, "label": "Barr probes Democratic server hack theory", "evidence": "towards the end of 2019"}
+]}

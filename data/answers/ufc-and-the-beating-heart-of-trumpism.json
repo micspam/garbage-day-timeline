@@ -1,0 +1,7 @@
+{"references": [
+  {"sentence_ids": [15], "start_year": 2001, "end_year": 2001, "label": "Dana White buys UFC", "evidence": "White bought UFC in 2001"},
+  {"sentence_ids": [18, 19], "start_year": 2001, "end_year": 2001, "label": "White hires Rogan, meets Trump", "evidence": "White bought UFC in 2001"},
+  {"sentence_ids": [20], "start_year": 2016, "end_year": 2016, "label": "White endorses Trump at 2016 RNC", "evidence": "during the 2016 Republican National Convention"},
+  {"sentence_ids": [29], "start_year": 2015, "end_year": 2015, "label": "Nelk Boys prank arrest", "evidence": "In 2015"},
+  {"sentence_ids": [31], "start_year": 2020, "end_year": 2021, "label": "Nelk Boys at UFC's Fight Island during pandemic", "evidence": "Around 2020"}
+]}
