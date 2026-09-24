@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [2], "start_year": 2021, "end_year": 2021, "label": "January 6th Capitol insurrection", "evidence": "January 6th, 2021"},
+  {"sentence_ids": [73, 74], "start_year": 2010, "end_year": 2019, "label": "2010s newsroom 'star talent'", "evidence": "in the 2010s"}
+]}

@@ -1,0 +1,23 @@
+{"tags": [
+{"n": 1, "moment": "political campaign embraces social media", "topics": ["politics", "social media", "election campaigns"], "entities": [
+  {"name": "barack obama", "kind": "person", "evidence": "Obama did it at the start of his first presidential campaign"}
+], "platforms": [
+  {"name": "myspace", "evidence": "MySpace and Facebook"},
+  {"name": "facebook", "evidence": "MySpace and Facebook"}
+], "audiences": []},
+{"n": 2, "moment": "brand pages introduced", "topics": ["social media history", "branding"], "entities": [
+  {"name": "radiohead", "kind": "other", "evidence": "Radiohead had an AIM chatbot"},
+  {"name": "ron burgundy", "kind": "other", "evidence": "Ron Burgundy on Friendster"},
+  {"name": "facebook", "kind": "company", "evidence": "Facebook introduced brand pages"}
+], "platforms": [
+  {"name": "aim", "evidence": "Radiohead had an AIM chatbot"},
+  {"name": "friendster", "evidence": "Ron Burgundy on Friendster"},
+  {"name": "facebook", "evidence": "Facebook introduced brand pages"}
+], "audiences": []},
+{"n": 3, "moment": "verification feature launched", "topics": ["twitter", "social media", "celebrity culture"], "entities": [
+  {"name": "oprah winfrey", "kind": "person", "evidence": "Oprah Winfrey"},
+  {"name": "barack obama", "kind": "person", "evidence": "Obama’s first term"}
+], "platforms": [
+  {"name": "twitter", "evidence": "Twitter introduced verified checkmarks"}
+], "audiences": []}
+]}

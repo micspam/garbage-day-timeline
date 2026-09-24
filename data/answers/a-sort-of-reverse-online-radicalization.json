@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [4], "start_year": 2012, "end_year": 2012, "label": "Aurora shooting fan backlash (Holmesies)", "evidence": "Following the 2012 movie theater shooting in Aurora, Colorado"},
+  {"sentence_ids": [6, 7], "start_year": 2019, "end_year": 2019, "label": "Christchurch shooting paper trail", "evidence": "following the 2019 Christchurch shootings"}
+]}

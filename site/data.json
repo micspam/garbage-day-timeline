@@ -1,12 +1,12 @@
 {
  "report": {
-  "issues_analyzed": 110,
-  "issues_with_past_references": 47,
-  "issues_with_none": 63,
-  "references_proposed": 101,
-  "references_kept": 88,
+  "issues_analyzed": 160,
+  "issues_with_past_references": 65,
+  "issues_with_none": 95,
+  "references_proposed": 135,
+  "references_kept": 120,
   "references_rejected": {},
-  "dropped_in_review": 13,
+  "dropped_in_review": 15,
   "not_reviewed": 0,
   "fabricated_quotes_possible": 0
  },
@@ -33,6 +33,36 @@
       "name": "reddit"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Within about five years, Harry Potter went from being a manuscript by a single mother on welfare to an eight-movie series with nine-figure budgets.",
+   "start_year": 1997,
+   "end_year": 2001,
+   "label": "Harry Potter's rise from manuscript to franchise",
+   "evidence": "Within about five years, Harry Potter went from being a manuscript by a single mother on welfare to an eight-movie series with nine-figure budgets.",
+   "url": "https://www.garbageday.email/p/too-toxic-for-the-fandom-hype-cycle-ee92ae3780f0720d",
+   "title": "Too toxic for the fandom hype cycle",
+   "published": "2025-06-11",
+   "tags": {
+    "moment": "franchise rapid rise",
+    "topics": [
+     "fandom",
+     "publishing",
+     "film industry"
+    ],
+    "entities": [
+     {
+      "name": "jk rowling",
+      "kind": "person"
+     },
+     {
+      "name": "harry potter",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -112,6 +142,117 @@
    }
   },
   {
+   "quote": "White bought UFC in 2001 after being, he claims, chased out of Boston by mobster Whitey Bulger.",
+   "start_year": 2001,
+   "end_year": 2001,
+   "label": "Dana White buys UFC",
+   "evidence": "White bought UFC in 2001",
+   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
+   "title": "UFC and the beating heart of Trumpism",
+   "published": "2025-03-10",
+   "tags": {
+    "moment": "company acquisition",
+    "topics": [
+     "mma",
+     "business",
+     "ufc"
+    ],
+    "entities": [
+     {
+      "name": "dana white",
+      "kind": "person"
+     },
+     {
+      "name": "ufc",
+      "kind": "company"
+     },
+     {
+      "name": "whitey bulger",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "That’s when he hired podcaster Joe Rogan to be a commentator for UFC matches. That’s also when White met President Donald Trump, who, at the time, was hosting UFC matches at his venues in Atlantic City and Las Vegas.",
+   "start_year": 2001,
+   "end_year": 2001,
+   "label": "White hires Rogan, meets Trump",
+   "evidence": "White bought UFC in 2001",
+   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
+   "title": "UFC and the beating heart of Trumpism",
+   "published": "2025-03-10",
+   "tags": {
+    "moment": "key hire and meeting",
+    "topics": [
+     "mma",
+     "podcasting",
+     "business"
+    ],
+    "entities": [
+     {
+      "name": "dana white",
+      "kind": "person"
+     },
+     {
+      "name": "joe rogan",
+      "kind": "person"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "He wasn’t the first example — Radiohead had an AIM chatbot in 2001 and you could add Ron Burgundy on Friendster before you saw Anchorman — but as late as 2007, when Facebook introduced brand pages, there was a general sense that social networks should treat individual accounts as a separate species from businesses, lawmakers, and other organizations.",
+   "start_year": 2001,
+   "end_year": 2007,
+   "label": "early social media kept people and brands separate",
+   "evidence": "as late as 2007, when Facebook introduced brand pages, there was a general sense that social networks should treat individual accounts as a separate species from businesses, lawmakers, and other organizations",
+   "url": "https://www.garbageday.email/p/the-tyranny-of-relatable-content",
+   "title": "The tyranny of relatable content",
+   "published": "2025-03-26",
+   "tags": {
+    "moment": "brand pages introduced",
+    "topics": [
+     "social media history",
+     "branding"
+    ],
+    "entities": [
+     {
+      "name": "radiohead",
+      "kind": "other"
+     },
+     {
+      "name": "ron burgundy",
+      "kind": "other"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "aim"
+     },
+     {
+      "name": "friendster"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "For those of you who don’t remember the mid-2000s, therians were a small subculture adjacent to furries. Furries dress up in big animal costumes, while therians believe, on some level, they are that animal.",
    "start_year": 2004,
    "end_year": 2006,
@@ -161,6 +302,110 @@
      }
     ],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Betting big on social media was a genuinely risky and largely untested idea when Obama did it at the start of his first presidential campaign in 2007.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "Obama's 2007 campaign embraced social media",
+   "evidence": "the start of his first presidential campaign in 2007",
+   "url": "https://www.garbageday.email/p/the-tyranny-of-relatable-content",
+   "title": "The tyranny of relatable content",
+   "published": "2025-03-26",
+   "tags": {
+    "moment": "political campaign embraces social media",
+    "topics": [
+     "politics",
+     "social media",
+     "election campaigns"
+    ],
+    "entities": [
+     {
+      "name": "barack obama",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Twitter introduced verified checkmarks in June 2009, thanks to his fellow Chicagoan and early supporter, Oprah Winfrey, joining the platform.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Twitter launches verified checkmarks",
+   "evidence": "Twitter introduced verified checkmarks in June 2009",
+   "url": "https://www.garbageday.email/p/the-tyranny-of-relatable-content",
+   "title": "The tyranny of relatable content",
+   "published": "2025-03-26",
+   "tags": {
+    "moment": "verification feature launched",
+    "topics": [
+     "twitter",
+     "social media",
+     "celebrity culture"
+    ],
+    "entities": [
+     {
+      "name": "oprah winfrey",
+      "kind": "person"
+     },
+     {
+      "name": "barack obama",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "It was the site that hacked online polls to make a new flavor of Mountain Dew called “Hitler did nothing wrong,” and nominate the site’s founder, Christopher “Moot” Poole, as TIME Magazine’s Most Influential Person of 2009.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "4chan's poll-hacking pranks",
+   "evidence": "TIME Magazine’s Most Influential Person of 2009",
+   "url": "https://www.garbageday.email/p/did-you-even-notice-4chan-s-gone",
+   "title": "Did you even notice 4chan's gone?",
+   "published": "2025-04-16",
+   "tags": {
+    "moment": "online poll hacking prank",
+    "topics": [
+     "trolling",
+     "4chan"
+    ],
+    "entities": [
+     {
+      "name": "christopher poole",
+      "kind": "person"
+     },
+     {
+      "name": "time magazine",
+      "kind": "media outlet"
+     },
+     {
+      "name": "mountain dew",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
     "audiences": []
    }
   },
@@ -253,6 +498,102 @@
      },
      {
       "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Yes, these companies would eventually flood the airwaves with ad campaigns, but Google was already a multi-billion-dollar tech company and Chrome had over 100 million active users when they dropped their first Super Bowl commercial, “Parisian Love,” in 2010. That still-very clever ad told a story about someone one falling in love through the mundane Google searches everyone makes every day.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Google's 2010 Super Bowl ad",
+   "evidence": "in 2010",
+   "url": "https://www.garbageday.email/p/silicon-valley-s-delusion-machine",
+   "title": "Silicon Valley’s delusion machine",
+   "published": "2025-02-10",
+   "tags": {
+    "moment": "tech company super bowl ad",
+    "topics": [
+     "advertising",
+     "silicon valley",
+     "google"
+    ],
+    "entities": [
+     {
+      "name": "google",
+      "kind": "company"
+     },
+     {
+      "name": "chrome",
+      "kind": "other"
+     },
+     {
+      "name": "parisian love",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I spent much of the 2010s outside of the US covering elections across Europe, following far-right protestors, and generally reporting on the “far-right populism wave” that brought us here.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "reporting on Europe's far-right populism wave",
+   "evidence": "much of the 2010s",
+   "url": "https://www.garbageday.email/p/you-can-never-truly-go-back",
+   "title": "You can never truly go back",
+   "published": "2025-02-17",
+   "tags": {
+    "moment": "journalist covers far-right wave",
+    "topics": [
+     "far-right politics",
+     "journalism",
+     "europe"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "far-right protesters"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Things like eating disorder content and ISIS videos were effectively eradicated from users’ feeds. Non-consensual sexual material and child sexual abuse material were rare enough to be newsworthy.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s platform content moderation",
+   "evidence": "In the 2010s, huge tech platforms like Facebook and Google pitched themselves as sleek corporate alternatives to the wild west of the web.",
+   "url": "https://www.garbageday.email/p/some-big-news-fe925831e2499f9f",
+   "title": "Some big news...",
+   "published": "2025-06-02",
+   "tags": {
+    "moment": "content moderation success",
+    "topics": [
+     "content moderation",
+     "social media",
+     "tech industry"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "google",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "google"
      }
     ],
     "audiences": []
@@ -1026,6 +1367,51 @@
    }
   },
   {
+   "quote": "A decade ago, when the internet in general and YouTube, in particular, were a lot smaller, the job looked pretty different. “Ethan and Hila Klein, Content Cop, these were commentators on the culture of their platforms, and they were self-contained to people who cared about the culture,” Puck News’ Julia Alexander told Garbage Day.",
+   "start_year": 2013,
+   "end_year": 2017,
+   "label": "small, self-contained YouTube creator culture",
+   "evidence": "A decade ago, when the internet in general and YouTube, in particular, were a lot smaller, the job looked pretty different.",
+   "url": "https://www.garbageday.email/p/alright-let-s-talk-about-the-hasan-piker-and-ethan-klein-feud",
+   "title": "Alright, let's talk about the Hasan Piker and Ethan Klein feud",
+   "published": "2025-04-21",
+   "tags": {
+    "moment": "niche youtube commentary",
+    "topics": [
+     "youtube",
+     "content creators"
+    ],
+    "entities": [
+     {
+      "name": "ethan klein",
+      "kind": "person"
+     },
+     {
+      "name": "hila klein",
+      "kind": "person"
+     },
+     {
+      "name": "content cop",
+      "kind": "work"
+     },
+     {
+      "name": "julia alexander",
+      "kind": "person"
+     },
+     {
+      "name": "puck news",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "What was once a fairly localized holiday, where costumes only really had to make sense to — or fit within the standards of — people in your immediate vicinity, at some point around 2013-2014, became a giant temperature check for the whole country.",
    "start_year": 2013,
    "end_year": 2014,
@@ -1136,6 +1522,69 @@
      {
       "name": "vine"
      },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "About 10 years ago, phones with Flappy Bird installed on them were going for up to $100,000 on eBay.",
+   "start_year": 2014,
+   "end_year": 2015,
+   "label": "Flappy Bird phones sell for huge sums",
+   "evidence": "About 10 years ago",
+   "url": "https://www.garbageday.email/p/live-by-the-post-die-by-the-post",
+   "title": "Live by the post, die by the post",
+   "published": "2025-01-24",
+   "tags": {
+    "moment": "viral game resale frenzy",
+    "topics": [
+     "mobile games",
+     "ebay resale"
+    ],
+    "entities": [
+     {
+      "name": "flappy bird",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "ebay"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I expected blood and soil demagogues, only to find septuagenarian gangsters incoherently blathering on Twitter all day, waiting for Fox News to read the tea leaves and turn it all into something resembling policy.",
+   "start_year": 2014,
+   "end_year": 2019,
+   "label": "American populism during Trump's first term",
+   "evidence": "trying to make sense of what was seemingly happening everywhere between 2014-2019",
+   "url": "https://www.garbageday.email/p/the-united-states-of-mar-a-lago-e8cb2fac383b5d24",
+   "title": "The United States of Mar-A-Lago",
+   "published": "2025-05-28",
+   "tags": {
+    "moment": "populism reality check",
+    "topics": [
+     "politics",
+     "far-right politics",
+     "media"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "fox news",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
      {
       "name": "twitter"
      }
@@ -1457,6 +1906,68 @@
    }
   },
   {
+   "quote": "In 2015, a few of them were arrested after telling cops that they had coke in their car (it was Coca-Cola).",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "Nelk Boys prank arrest",
+   "evidence": "In 2015",
+   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
+   "title": "UFC and the beating heart of Trumpism",
+   "published": "2025-03-10",
+   "tags": {
+    "moment": "prank arrest",
+    "topics": [
+     "youtube",
+     "pranks",
+     "comedy"
+    ],
+    "entities": [
+     {
+      "name": "nelk boys",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "By the middle of the decade, reports began emerging of traumatized moderators, country-level bans of social networks, and strange, new identitarian movements crafted to bypass filters.",
+   "start_year": 2015,
+   "end_year": 2019,
+   "label": "mid-2010s moderator backlash",
+   "evidence": "In the 2010s, huge tech platforms like Facebook and Google pitched themselves as sleek corporate alternatives to the wild west of the web.",
+   "url": "https://www.garbageday.email/p/some-big-news-fe925831e2499f9f",
+   "title": "Some big news...",
+   "published": "2025-06-02",
+   "tags": {
+    "moment": "content moderation backlash",
+    "topics": [
+     "content moderation",
+     "social media",
+     "labor"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "google"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "content moderators"
+     }
+    ]
+   }
+  },
+  {
    "quote": "I was inside the Calais Jungle in France when the detainees lit it on fire in 2016. Many of them had been there for over a year, living in a makeshift camp built in a landfill full of toxic waste. By the time I arrived it had grown into a shantytown full of sewage and standing water.",
    "start_year": 2015,
    "end_year": 2016,
@@ -1662,6 +2173,96 @@
       "name": "fandoms"
      }
     ]
+   }
+  },
+  {
+   "quote": "And, during his first campaign, when Hillary Clinton coined the term “fake news,” in a 2016 speech, Trump, not even a week later, stole it, threw it back against the mainstream media, and turned it into the defining slogan of his first administration.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Trump steals 'fake news' from Clinton",
+   "evidence": "in a 2016 speech",
+   "url": "https://www.garbageday.email/p/do-republicans-really-believe-this-stuff",
+   "title": "Do Republicans really believe this stuff?",
+   "published": "2025-03-03",
+   "tags": {
+    "moment": "political slogan co-opted",
+    "topics": [
+     "politics",
+     "media criticism",
+     "election campaigns"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "hillary clinton",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "White would go on to officially endorse Trump during the 2016 Republican National Convention, telling the crowd, “Donald was the first guy that recognized the potential that we saw in the UFC and encouraged us to build our business.”",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "White endorses Trump at 2016 RNC",
+   "evidence": "during the 2016 Republican National Convention",
+   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
+   "title": "UFC and the beating heart of Trumpism",
+   "published": "2025-03-10",
+   "tags": {
+    "moment": "political endorsement",
+    "topics": [
+     "politics",
+     "mma",
+     "election campaigns"
+    ],
+    "entities": [
+     {
+      "name": "dana white",
+      "kind": "person"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "republican national convention",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But I also was in Mumbai in 2016 during India Prime Minister Narendra Modi’s “demonetization” scheme, which made existing ₹500 and ₹1,000 banknotes worthless overnight.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "India's 2016 demonetization",
+   "evidence": "But I also was in Mumbai in 2016 during India Prime Minister Narendra Modi’s “demonetization” scheme, which made existing ₹500 and ₹1,000 banknotes worthless overnight.",
+   "url": "https://www.garbageday.email/p/maybe-the-capitalists-will-get-it-right-next-time",
+   "title": "Maybe the capitalists will get it right next time",
+   "published": "2025-04-09",
+   "tags": {
+    "moment": "currency demonetization",
+    "topics": [
+     "economics",
+     "politics",
+     "india"
+    ],
+    "entities": [
+     {
+      "name": "narendra modi",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
    }
   },
   {
@@ -1948,6 +2549,130 @@
    }
   },
   {
+   "quote": "Which is why, in 2016, I wasn’t totally surprised by the American media’s very retro approach to covering Trump’s early years in office. It was palace intrigue and tabloid scoops mixed together with business-as-usual White House pool reporting, with the assumption being that this was an aberration. A temporary bout of governmental insanity that would eventually pass.",
+   "start_year": 2017,
+   "end_year": 2018,
+   "label": "media's early Trump-era coverage",
+   "evidence": "Trump’s early years in office",
+   "url": "https://www.garbageday.email/p/yeah-it-s-probably-time-to-panic",
+   "title": "Yeah, it's probably time to panic",
+   "published": "2025-01-29",
+   "tags": {
+    "moment": "media coverage style",
+    "topics": [
+     "journalism",
+     "politics",
+     "media criticism"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During his first presidency, he influenced the country’s politics via a livetweeting loop, where he would watch Fox News, tweet his random thoughts, and wait to see which ones would make it into Fox broadcasts the next day, and, subsequently, Republican policy.",
+   "start_year": 2017,
+   "end_year": 2021,
+   "label": "Trump's first-term livetweeting loop",
+   "evidence": "During his first presidency",
+   "url": "https://www.garbageday.email/p/you-can-never-truly-go-back",
+   "title": "You can never truly go back",
+   "published": "2025-02-17",
+   "tags": {
+    "moment": "media influence loop",
+    "topics": [
+     "politics",
+     "twitter",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "fox news",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2017, at the beginning of Trump’s first term, the Post changed their tagline to “Democracy dies in darkness” and went full in on Trump critically, both in reporting and the opinion section. And guess what happened? Their subscriptions nearly tripled in three years.",
+   "start_year": 2017,
+   "end_year": 2020,
+   "label": "WaPo's 'Democracy Dies in Darkness' era",
+   "evidence": "In 2017, at the beginning of Trump’s first term, the Post changed their tagline to “Democracy dies in darkness”",
+   "url": "https://www.garbageday.email/p/drowning-in-burrito-taxi-discourse",
+   "title": "Drowning in \"burrito taxi\" discourse",
+   "published": "2025-02-26",
+   "tags": {
+    "moment": "news outlet rebrand",
+    "topics": [
+     "journalism",
+     "politics",
+     "media business"
+    ],
+    "entities": [
+     {
+      "name": "washington post",
+      "kind": "media outlet"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And, during his first presidency, Trump was actually pretty insulated from the deranged influencers spearheading the disinfo campaigns and conspiracy theories surging through Facebook every day. Even one of Trump’s weirdest guys, Michael Flynn, started repping QAnon after he had resigned as national security advisor.",
+   "start_year": 2017,
+   "end_year": 2020,
+   "label": "Trump's first term media landscape",
+   "evidence": "during his first presidency",
+   "url": "https://www.garbageday.email/p/do-republicans-really-believe-this-stuff",
+   "title": "Do Republicans really believe this stuff?",
+   "published": "2025-03-03",
+   "tags": {
+    "moment": "political disinfo insulation",
+    "topics": [
+     "far-right politics",
+     "disinformation",
+     "conspiracy theories"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "michael flynn",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "I first began studying Speaker’s Corner in 2017, as part of research for a book on British Muslims and internet culture, where I spent some time with two then obscure influencers named Ali Dawah and Mohammed Hijab, who were gaining popularity among young Muslims who felt disenfranchised by both mainstream media, and the digital media counterparts that were then enjoying their final few years of dominance.",
    "start_year": 2017,
    "end_year": 2017,
@@ -2050,6 +2775,60 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "By 2018, Steve Bannon had canonized this politicalized irony as “flooding the zone with shit,” which further seemed to prove that there was a certain self-awareness at the very top of the organization.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Bannon coins 'flood the zone with shit'",
+   "evidence": "By 2018",
+   "url": "https://www.garbageday.email/p/do-republicans-really-believe-this-stuff",
+   "title": "Do Republicans really believe this stuff?",
+   "published": "2025-03-03",
+   "tags": {
+    "moment": "propaganda tactic named",
+    "topics": [
+     "politics",
+     "media manipulation",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The most popular version of which is that after the 2018 porn ban, Tumblr users moved to more mainstream platforms and, thus, made the rest of the internet much, much more annoying.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Tumblr's 2018 porn ban migration",
+   "evidence": "after the 2018 porn ban, Tumblr users moved to more mainstream platforms",
+   "url": "https://www.garbageday.email/p/did-you-even-notice-4chan-s-gone",
+   "title": "Did you even notice 4chan's gone?",
+   "published": "2025-04-16",
+   "tags": {
+    "moment": "platform migration after ban",
+    "topics": [
+     "tumblr",
+     "content moderation"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "tumblr users"
+     }
+    ]
    }
   },
   {
@@ -2329,6 +3108,91 @@
    }
   },
   {
+   "quote": "At some point between 2019-2021, the internet conquered mainstream media, viral content replaced traditional corporate entertainment, and Republicans have first mover’s advantage.",
+   "start_year": 2019,
+   "end_year": 2021,
+   "label": "internet overtakes mainstream media",
+   "evidence": "At some point between 2019-2021",
+   "url": "https://www.garbageday.email/p/so-based",
+   "title": "So based 🦾",
+   "published": "2025-02-19",
+   "tags": {
+    "moment": "cultural power shift",
+    "topics": [
+     "online politics",
+     "media",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "republicans",
+      "kind": "community"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But then, towards the end of 2019, Trump tapped Attorney General William Barr to semi-officially investigate the right-wing conspiracy theory that Democrats had faked the hack of their own servers in 2016 and blamed it on Russia to undermine Trump.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "Barr probes Democratic server hack theory",
+   "evidence": "towards the end of 2019",
+   "url": "https://www.garbageday.email/p/do-republicans-really-believe-this-stuff",
+   "title": "Do Republicans really believe this stuff?",
+   "published": "2025-03-03",
+   "tags": {
+    "moment": "government conspiracy investigation",
+    "topics": [
+     "politics",
+     "conspiracy theories"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "william barr",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And in Brazil during the Bolsonaro years, it wasn’t uncommon to just not be able to get stuff — cheese, certain kinds of meat, butter, wine — and if you could get it, there was no way to anticipate how much it would cost.",
+   "start_year": 2019,
+   "end_year": 2022,
+   "label": "Shortages during Bolsonaro's Brazil",
+   "evidence": "And in Brazil during the Bolsonaro years, it wasn’t uncommon to just not be able to get stuff",
+   "url": "https://www.garbageday.email/p/maybe-the-capitalists-will-get-it-right-next-time",
+   "title": "Maybe the capitalists will get it right next time",
+   "published": "2025-04-09",
+   "tags": {
+    "moment": "economic shortages",
+    "topics": [
+     "economics",
+     "politics",
+     "brazil"
+    ],
+    "entities": [
+     {
+      "name": "bolsonaro",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "The use of memes in political mass violence started in earnest in 2019, when a man filmed himself attacking a mosque in Christchurch, New Zealand. Just before he started, he told viewers, “Subscribe to PewDiePie.” Months later, in Halle, Germany, an attacker livestreamed the shooting of a synagogue on Twitch.",
    "start_year": 2019,
    "end_year": 2019,
@@ -2363,6 +3227,36 @@
       "name": "twitch"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During the pandemic, the Nelk Boys were flown out to UFC’s Fight Island in Abu Dhabi.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "Nelk Boys at UFC's Fight Island during pandemic",
+   "evidence": "Around 2020",
+   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
+   "title": "UFC and the beating heart of Trumpism",
+   "published": "2025-03-10",
+   "tags": {
+    "moment": "pandemic event trip",
+    "topics": [
+     "mma",
+     "youtube",
+     "pandemic"
+    ],
+    "entities": [
+     {
+      "name": "nelk boys",
+      "kind": "community"
+     },
+     {
+      "name": "ufc",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -2655,6 +3549,65 @@
    }
   },
   {
+   "quote": "And in September 2021, when TikTok broke a billion monthly active users, the mistake — well, one of the many mistakes — Silicon Valley made in response was assuming that they could simply change the game they were suddenly losing.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "TikTok hits a billion monthly users",
+   "evidence": "in September 2021",
+   "url": "https://www.garbageday.email/p/the-ai-guys-were-lying-the-whole-time",
+   "title": "The AI guys were lying the whole time",
+   "published": "2025-01-27",
+   "tags": {
+    "moment": "app hits a billion users",
+    "topics": [
+     "tiktok",
+     "silicon valley",
+     "tech industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "To me, Clubhouse stands as the moment Silicon Valley fully lost the plot, effusively hyping up an app that literally just let them hear their own voices.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "Clubhouse hype among Silicon Valley",
+   "evidence": "As I wrote back in 2021",
+   "url": "https://www.garbageday.email/p/democracy-dies-in-billionaire-group-chats",
+   "title": "Democracy dies in billionaire group chats",
+   "published": "2025-04-28",
+   "tags": {
+    "moment": "app hype backlash",
+    "topics": [
+     "silicon valley",
+     "venture capital",
+     "social media hype"
+    ],
+    "entities": [
+     {
+      "name": "andreessen",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "clubhouse"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "silicon valley insiders"
+     }
+    ]
+   }
+  },
+  {
    "quote": "And for most of the Biden era, even if Trump was both out of office and sequestered to his own dark corner of the web, he and his followers still defined the national conversation with ease. There was Libs of TikTok’s one-woman crusade against random queer teenagers, the endless whining about trans women in sports, and, of course, Hunter Biden’s laptop.",
    "start_year": 2021,
    "end_year": 2024,
@@ -2702,6 +3655,36 @@
       "name": "tiktok"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Now, by 2022, the Post was losing subscriptions because — and this is actually why Garbage Day is not fully leaning into being a purely anti-Trump outlet — it turns out that the subs that come in for Trump tend to leave when they lose interest.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "WaPo subscriber decline by 2022",
+   "evidence": "by 2022",
+   "url": "https://www.garbageday.email/p/drowning-in-burrito-taxi-discourse",
+   "title": "Drowning in \"burrito taxi\" discourse",
+   "published": "2025-02-26",
+   "tags": {
+    "moment": "subscriber decline",
+    "topics": [
+     "journalism",
+     "media business",
+     "politics"
+    ],
+    "entities": [
+     {
+      "name": "washington post",
+      "kind": "media outlet"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -2873,6 +3856,47 @@
     "audiences": [
      {
       "name": "the right wing"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "I actually interviewed Vora back in 2023, when I was covering ETHDenver for Fast Company. That year, DeGods was easily the biggest NFT project at the convention and Vora, who was sort of dressed like a cross between Justin Bieber and a professional snowboarder, was swarmed by fans the whole time.",
+   "start_year": 2023,
+   "end_year": 2023,
+   "label": "NFT hype at ETHDenver 2023",
+   "evidence": "I actually interviewed Vora back in 2023, when I was covering ETHDenver for Fast Company.",
+   "url": "https://www.garbageday.email/p/just-the-regular-kind-of-authoritarian-purge-5e3f868701b960fb",
+   "title": "Just the regular kind of authoritarian purge",
+   "published": "2025-05-14",
+   "tags": {
+    "moment": "nft hype interview",
+    "topics": [
+     "nft",
+     "cryptocurrency"
+    ],
+    "entities": [
+     {
+      "name": "vora",
+      "kind": "person"
+     },
+     {
+      "name": "degods",
+      "kind": "other"
+     },
+     {
+      "name": "ethdenver",
+      "kind": "event"
+     },
+     {
+      "name": "fast company",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "nft fans"
      }
     ]
    }

@@ -1,0 +1,10 @@
+{"tags": [
+{"n": 1, "moment": "news outlet rebrand", "topics": ["journalism", "politics", "media business"], "entities": [
+  {"name": "washington post", "kind": "media outlet", "evidence": "the Post changed their tagline to “Democracy dies in darkness”"},
+  {"name": "donald trump", "kind": "person", "evidence": "Trump’s first term"}
+], "platforms": [], "audiences": []},
+{"n": 2, "moment": "subscriber decline", "topics": ["journalism", "media business", "politics"], "entities": [
+  {"name": "washington post", "kind": "media outlet", "evidence": "the Post was losing subscriptions"},
+  {"name": "donald trump", "kind": "person", "evidence": "the subs that come in for Trump"}
+], "platforms": [], "audiences": []}
+]}

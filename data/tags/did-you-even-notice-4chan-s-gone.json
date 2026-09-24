@@ -1,0 +1,14 @@
+{"tags": [
+{"n": 1, "moment": "online poll hacking prank", "topics": ["trolling", "4chan"], "entities": [
+  {"name": "christopher poole", "kind": "person", "evidence": "Christopher “Moot” Poole"},
+  {"name": "time magazine", "kind": "media outlet", "evidence": "TIME Magazine’s Most Influential Person of 2009"},
+  {"name": "mountain dew", "kind": "company", "evidence": "Mountain Dew"}
+], "platforms": [
+  {"name": "4chan", "evidence": "Writing a proper eulogy for 4chan"}
+], "audiences": []},
+{"n": 2, "moment": "platform migration after ban", "topics": ["tumblr", "content moderation"], "entities": [], "platforms": [
+  {"name": "tumblr", "evidence": "after the 2018 porn ban, Tumblr users moved to more mainstream platforms"}
+], "audiences": [
+  {"name": "tumblr users", "evidence": "Tumblr users moved to more mainstream platforms"}
+]}
+]}

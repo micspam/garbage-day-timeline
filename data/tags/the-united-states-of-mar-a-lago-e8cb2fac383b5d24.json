@@ -1,0 +1,8 @@
+{"tags": [
+{"n": 1, "moment": "populism reality check", "topics": ["politics", "far-right politics", "media"], "entities": [
+  {"name": "donald trump", "kind": "person", "evidence": "President Donald Trump’s first presidency"},
+  {"name": "fox news", "kind": "media outlet", "evidence": "Fox News"}
+], "platforms": [
+  {"name": "twitter", "evidence": "blathering on Twitter all day"}
+], "audiences": []}
+]}

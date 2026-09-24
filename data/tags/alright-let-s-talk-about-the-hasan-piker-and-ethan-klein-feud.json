@@ -1,0 +1,11 @@
+{"tags": [
+{"n": 2, "moment": "niche youtube commentary", "topics": ["youtube", "content creators"], "entities": [
+  {"name": "ethan klein", "kind": "person", "evidence": "Ethan and Hila Klein"},
+  {"name": "hila klein", "kind": "person", "evidence": "Ethan and Hila Klein"},
+  {"name": "content cop", "kind": "work", "evidence": "Content Cop"},
+  {"name": "julia alexander", "kind": "person", "evidence": "Julia Alexander"},
+  {"name": "puck news", "kind": "media outlet", "evidence": "Puck News"}
+], "platforms": [
+  {"name": "youtube", "evidence": "YouTube, in particular, were a lot smaller"}
+], "audiences": []}
+]}

@@ -1,0 +1,15 @@
+{"tags": [
+{"n": 2, "moment": "content moderation success", "topics": ["content moderation", "social media", "tech industry"], "entities": [
+  {"name": "facebook", "kind": "company", "evidence": "Facebook and Google"},
+  {"name": "google", "kind": "company", "evidence": "Facebook and Google"}
+], "platforms": [
+  {"name": "facebook", "evidence": "Facebook and Google"},
+  {"name": "google", "evidence": "Facebook and Google"}
+], "audiences": []},
+{"n": 3, "moment": "content moderation backlash", "topics": ["content moderation", "social media", "labor"], "entities": [], "platforms": [
+  {"name": "facebook", "evidence": "Facebook and Google chased impossible scale"},
+  {"name": "google", "evidence": "Facebook and Google chased impossible scale"}
+], "audiences": [
+  {"name": "content moderators", "evidence": "traumatized moderators"}
+]}
+]}

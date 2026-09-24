@@ -1,0 +1,11 @@
+{"tags": [
+{"n": 1, "moment": "media influence loop", "topics": ["politics", "twitter", "far-right politics"], "entities": [
+  {"name": "donald trump", "kind": "person", "evidence": "During his first presidency, he influenced"},
+  {"name": "fox news", "kind": "media outlet", "evidence": "watch Fox News"}
+], "platforms": [
+  {"name": "twitter", "evidence": "tweet his random thoughts"}
+], "audiences": []},
+{"n": 2, "moment": "journalist covers far-right wave", "topics": ["far-right politics", "journalism", "europe"], "entities": [], "platforms": [], "audiences": [
+  {"name": "far-right protesters", "evidence": "following far-right protestors"}
+]}
+]}

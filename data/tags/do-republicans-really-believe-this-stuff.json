@@ -1,0 +1,19 @@
+{"tags": [
+{"n": 1, "moment": "political disinfo insulation", "topics": ["far-right politics", "disinformation", "conspiracy theories"], "entities": [
+  {"name": "donald trump", "kind": "person", "evidence": "Trump was actually pretty insulated"},
+  {"name": "michael flynn", "kind": "person", "evidence": "Michael Flynn"}
+], "platforms": [
+  {"name": "facebook", "evidence": "conspiracy theories surging through Facebook every day"}
+], "audiences": []},
+{"n": 2, "moment": "political slogan co-opted", "topics": ["politics", "media criticism", "election campaigns"], "entities": [
+  {"name": "donald trump", "kind": "person", "evidence": "Trump, not even a week later, stole it"},
+  {"name": "hillary clinton", "kind": "person", "evidence": "Hillary Clinton coined the term"}
+], "platforms": [], "audiences": []},
+{"n": 3, "moment": "propaganda tactic named", "topics": ["politics", "media manipulation", "far-right politics"], "entities": [
+  {"name": "steve bannon", "kind": "person", "evidence": "Steve Bannon had canonized"}
+], "platforms": [], "audiences": []},
+{"n": 4, "moment": "government conspiracy investigation", "topics": ["politics", "conspiracy theories"], "entities": [
+  {"name": "donald trump", "kind": "person", "evidence": "Trump tapped Attorney General William Barr"},
+  {"name": "william barr", "kind": "person", "evidence": "William Barr"}
+], "platforms": [], "audiences": []}
+]}

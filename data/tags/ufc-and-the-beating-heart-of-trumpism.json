@@ -1,0 +1,26 @@
+{"tags": [
+{"n": 1, "moment": "company acquisition", "topics": ["mma", "business", "ufc"], "entities": [
+  {"name": "dana white", "kind": "person", "evidence": "White bought UFC"},
+  {"name": "ufc", "kind": "company", "evidence": "White bought UFC in 2001"},
+  {"name": "whitey bulger", "kind": "person", "evidence": "mobster Whitey Bulger"}
+], "platforms": [], "audiences": []},
+{"n": 2, "moment": "key hire and meeting", "topics": ["mma", "podcasting", "business"], "entities": [
+  {"name": "dana white", "kind": "person", "evidence": "White bought UFC in 2001 after being, he claims, chased out of Boston"},
+  {"name": "joe rogan", "kind": "person", "evidence": "podcaster Joe Rogan"},
+  {"name": "donald trump", "kind": "person", "evidence": "White met President Donald Trump"}
+], "platforms": [], "audiences": []},
+{"n": 3, "moment": "political endorsement", "topics": ["politics", "mma", "election campaigns"], "entities": [
+  {"name": "dana white", "kind": "person", "evidence": "White would go on to officially endorse Trump"},
+  {"name": "donald trump", "kind": "person", "evidence": "endorse Trump during the 2016 Republican National Convention"},
+  {"name": "republican national convention", "kind": "event", "evidence": "2016 Republican National Convention"}
+], "platforms": [], "audiences": []},
+{"n": 4, "moment": "prank arrest", "topics": ["youtube", "pranks", "comedy"], "entities": [
+  {"name": "nelk boys", "kind": "community", "evidence": "The Nelk Boys are a group of American and Canadian YouTubers"}
+], "platforms": [
+  {"name": "youtube", "evidence": "American and Canadian YouTubers"}
+], "audiences": []},
+{"n": 5, "moment": "pandemic event trip", "topics": ["mma", "youtube", "pandemic"], "entities": [
+  {"name": "nelk boys", "kind": "community", "evidence": "the Nelk Boys were flown out to UFC’s Fight Island"},
+  {"name": "ufc", "kind": "company", "evidence": "UFC’s Fight Island in Abu Dhabi"}
+], "platforms": [], "audiences": []}
+]}

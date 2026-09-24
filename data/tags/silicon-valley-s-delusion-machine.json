@@ -1,0 +1,7 @@
+{"tags": [
+{"n": 1, "moment": "tech company super bowl ad", "topics": ["advertising", "silicon valley", "google"], "entities": [
+  {"name": "google", "kind": "company", "evidence": "Google was already a multi-billion-dollar tech company"},
+  {"name": "chrome", "kind": "other", "evidence": "Chrome had over 100 million active users"},
+  {"name": "parisian love", "kind": "work", "evidence": "“Parisian Love,”"}
+], "platforms": [], "audiences": []}
+]}

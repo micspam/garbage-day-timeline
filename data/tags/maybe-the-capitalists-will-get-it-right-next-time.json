@@ -1,0 +1,8 @@
+{"tags": [
+{"n": 1, "moment": "currency demonetization", "topics": ["economics", "politics", "india"], "entities": [
+  {"name": "narendra modi", "kind": "person", "evidence": "India Prime Minister Narendra Modi’s “demonetization” scheme"}
+], "platforms": [], "audiences": []},
+{"n": 2, "moment": "economic shortages", "topics": ["economics", "politics", "brazil"], "entities": [
+  {"name": "bolsonaro", "kind": "person", "evidence": "Bolsonaro years"}
+], "platforms": [], "audiences": []}
+]}

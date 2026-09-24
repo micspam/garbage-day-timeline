@@ -1,9 +1,9 @@
 {
- "tagged_quotes": 88,
+ "tagged_quotes": 120,
  "evidence_checks": {
-  "entities_kept": 196,
-  "platforms_kept": 100,
-  "audiences_kept": 34
+  "entities_kept": 255,
+  "platforms_kept": 120,
+  "audiences_kept": 39
  },
  "fields": {
   "moment": [
@@ -26,6 +26,18 @@
     "eras": 1
    },
    {
+    "value": "app hits a billion users",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "app hype backlash",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "attempted diplomatic meeting",
     "quotes": 1,
     "issues": 1,
@@ -33,6 +45,12 @@
    },
    {
     "value": "board moderation decision",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "brand pages introduced",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -51,6 +69,12 @@
    },
    {
     "value": "celebrity death cultural moment",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "company acquisition",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -81,6 +105,18 @@
    },
    {
     "value": "conspiracy theory venue",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "content moderation backlash",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "content moderation success",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -140,6 +176,18 @@
     "eras": 1
    },
    {
+    "value": "cultural power shift",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "currency demonetization",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "early internet activism connection",
     "quotes": 1,
     "issues": 1,
@@ -159,6 +207,12 @@
    },
    {
     "value": "economic bubble description",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "economic shortages",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -218,6 +272,18 @@
     "eras": 1
    },
    {
+    "value": "franchise rapid rise",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "government conspiracy investigation",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "holiday costume shift",
     "quotes": 1,
     "issues": 1,
@@ -254,6 +320,18 @@
     "eras": 1
    },
    {
+    "value": "journalist covers far-right wave",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "key hire and meeting",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "livestreamed mass shooting",
     "quotes": 1,
     "issues": 1,
@@ -278,6 +356,12 @@
     "eras": 1
    },
    {
+    "value": "media coverage style",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "media format decline",
     "quotes": 1,
     "issues": 1,
@@ -285,6 +369,12 @@
    },
    {
     "value": "media format pivot to platform",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "media influence loop",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -308,6 +398,30 @@
     "eras": 1
    },
    {
+    "value": "news outlet rebrand",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "nft hype interview",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "niche youtube commentary",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "online poll hacking prank",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "online radicalization",
     "quotes": 1,
     "issues": 1,
@@ -321,6 +435,12 @@
    },
    {
     "value": "online radicalization recruitment",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "pandemic event trip",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -362,6 +482,12 @@
     "eras": 1
    },
    {
+    "value": "platform migration after ban",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "platform policy reversal",
     "quotes": 1,
     "issues": 1,
@@ -392,6 +518,12 @@
     "eras": 1
    },
    {
+    "value": "political campaign embraces social media",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "political culture shift",
     "quotes": 1,
     "issues": 1,
@@ -399,6 +531,18 @@
    },
    {
     "value": "political discourse platform migration",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "political disinfo insulation",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "political endorsement",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -428,6 +572,24 @@
     "eras": 1
    },
    {
+    "value": "political slogan co-opted",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "populism reality check",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "prank arrest",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "private ideological manifesto",
     "quotes": 1,
     "issues": 1,
@@ -435,6 +597,12 @@
    },
    {
     "value": "private texts revealed",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "propaganda tactic named",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -482,13 +650,31 @@
     "eras": 1
    },
    {
+    "value": "subscriber decline",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "targeted killing",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
+    "value": "tech company super bowl ad",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "tech curiosity revealed",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "verification feature launched",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -512,6 +698,12 @@
     "eras": 1
    },
    {
+    "value": "viral game resale frenzy",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "viral trend chain reaction",
     "quotes": 1,
     "issues": 1,
@@ -526,21 +718,45 @@
   ],
   "topics": [
    {
+    "value": "far-right politics",
+    "quotes": 37,
+    "issues": 24,
+    "eras": 4
+   },
+   {
     "value": "internet culture",
     "quotes": 33,
     "issues": 20,
     "eras": 5
    },
    {
-    "value": "far-right politics",
-    "quotes": 31,
-    "issues": 20,
+    "value": "politics",
+    "quotes": 20,
+    "issues": 13,
     "eras": 4
    },
    {
     "value": "social media",
+    "quotes": 15,
+    "issues": 12,
+    "eras": 4
+   },
+   {
+    "value": "youtube",
     "quotes": 11,
-    "issues": 10,
+    "issues": 9,
+    "eras": 3
+   },
+   {
+    "value": "twitter",
+    "quotes": 10,
+    "issues": 9,
+    "eras": 4
+   },
+   {
+    "value": "fandom",
+    "quotes": 8,
+    "issues": 6,
     "eras": 4
    },
    {
@@ -550,33 +766,15 @@
     "eras": 2
    },
    {
-    "value": "politics",
-    "quotes": 8,
-    "issues": 5,
-    "eras": 3
-   },
-   {
-    "value": "twitter",
-    "quotes": 8,
-    "issues": 7,
-    "eras": 3
-   },
-   {
-    "value": "youtube",
-    "quotes": 8,
-    "issues": 7,
-    "eras": 3
-   },
-   {
-    "value": "fandom",
-    "quotes": 7,
-    "issues": 5,
-    "eras": 3
-   },
-   {
     "value": "tiktok",
-    "quotes": 7,
-    "issues": 6,
+    "quotes": 8,
+    "issues": 7,
+    "eras": 3
+   },
+   {
+    "value": "4chan",
+    "quotes": 6,
+    "issues": 5,
     "eras": 3
    },
    {
@@ -586,10 +784,10 @@
     "eras": 4
    },
    {
-    "value": "4chan",
+    "value": "conspiracy theories",
     "quotes": 5,
-    "issues": 4,
-    "eras": 2
+    "issues": 3,
+    "eras": 3
    },
    {
     "value": "gamergate",
@@ -598,10 +796,28 @@
     "eras": 1
    },
    {
+    "value": "journalism",
+    "quotes": 5,
+    "issues": 4,
+    "eras": 3
+   },
+   {
+    "value": "silicon valley",
+    "quotes": 5,
+    "issues": 5,
+    "eras": 3
+   },
+   {
     "value": "epstein network",
     "quotes": 4,
     "issues": 2,
     "eras": 1
+   },
+   {
+    "value": "mma",
+    "quotes": 4,
+    "issues": 1,
+    "eras": 3
    },
    {
     "value": "political violence",
@@ -616,9 +832,15 @@
     "eras": 3
    },
    {
-    "value": "conspiracy theories",
+    "value": "content moderation",
     "quotes": 3,
     "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "disinformation",
+    "quotes": 3,
+    "issues": 3,
     "eras": 3
    },
    {
@@ -626,6 +848,18 @@
     "quotes": 3,
     "issues": 2,
     "eras": 2
+   },
+   {
+    "value": "election campaigns",
+    "quotes": 3,
+    "issues": 3,
+    "eras": 2
+   },
+   {
+    "value": "media manipulation",
+    "quotes": 3,
+    "issues": 2,
+    "eras": 1
    },
    {
     "value": "memes",
@@ -646,10 +880,22 @@
     "eras": 3
    },
    {
+    "value": "tech industry",
+    "quotes": 3,
+    "issues": 3,
+    "eras": 2
+   },
+   {
     "value": "video",
     "quotes": 3,
     "issues": 1,
     "eras": 3
+   },
+   {
+    "value": "advertising",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
    },
    {
     "value": "animation",
@@ -658,7 +904,25 @@
     "eras": 1
    },
    {
+    "value": "business",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "celebrity culture",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
     "value": "consumer culture",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "cryptocurrency",
     "quotes": 2,
     "issues": 2,
     "eras": 2
@@ -670,16 +934,22 @@
     "eras": 1
    },
    {
-    "value": "disinformation",
-    "quotes": 2,
-    "issues": 2,
-    "eras": 2
-   },
-   {
     "value": "dot com bubble",
     "quotes": 2,
     "issues": 1,
     "eras": 1
+   },
+   {
+    "value": "economics",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "europe",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
    },
    {
     "value": "internet memes",
@@ -700,9 +970,21 @@
     "eras": 1
    },
    {
-    "value": "media manipulation",
+    "value": "media",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "media business",
     "quotes": 2,
     "issues": 1,
+    "eras": 2
+   },
+   {
+    "value": "media criticism",
+    "quotes": 2,
+    "issues": 2,
     "eras": 1
    },
    {
@@ -724,25 +1006,31 @@
     "eras": 2
    },
    {
+    "value": "podcasting",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
     "value": "religion",
     "quotes": 2,
     "issues": 1,
     "eras": 1
    },
    {
-    "value": "silicon valley",
+    "value": "trolling",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "tumblr",
     "quotes": 2,
     "issues": 2,
     "eras": 2
    },
    {
     "value": "activism",
-    "quotes": 1,
-    "issues": 1,
-    "eras": 1
-   },
-   {
-    "value": "advertising",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -760,7 +1048,13 @@
     "eras": 1
    },
    {
-    "value": "celebrity culture",
+    "value": "branding",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "brazil",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -773,6 +1067,18 @@
    },
    {
     "value": "celebrity scandal",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "comedy",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "content creators",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -802,12 +1108,6 @@
     "eras": 1
    },
    {
-    "value": "cryptocurrency",
-    "quotes": 1,
-    "issues": 1,
-    "eras": 1
-   },
-   {
     "value": "culture war",
     "quotes": 1,
     "issues": 1,
@@ -820,13 +1120,13 @@
     "eras": 1
    },
    {
-    "value": "election denial",
+    "value": "ebay resale",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
-    "value": "europe",
+    "value": "election denial",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -845,6 +1145,12 @@
    },
    {
     "value": "film",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "film industry",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -880,6 +1186,12 @@
     "eras": 1
    },
    {
+    "value": "google",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "halloween",
     "quotes": 1,
     "issues": 1,
@@ -887,6 +1199,12 @@
    },
    {
     "value": "immigration",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "india",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -916,7 +1234,7 @@
     "eras": 1
    },
    {
-    "value": "journalism",
+    "value": "labor",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -964,7 +1282,19 @@
     "eras": 1
    },
    {
+    "value": "mobile games",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "network state",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "nft",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -976,19 +1306,31 @@
     "eras": 1
    },
    {
+    "value": "online politics",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "pandemic",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "platform policy",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
-    "value": "podcasting",
+    "value": "political networking",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
-    "value": "political networking",
+    "value": "pranks",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1001,6 +1343,12 @@
    },
    {
     "value": "protests",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "publishing",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1030,6 +1378,18 @@
     "eras": 1
    },
    {
+    "value": "social media history",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "social media hype",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "streaming",
     "quotes": 1,
     "issues": 1,
@@ -1042,31 +1402,25 @@
     "eras": 1
    },
    {
-    "value": "tech industry",
-    "quotes": 1,
-    "issues": 1,
-    "eras": 1
-   },
-   {
     "value": "television",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
-    "value": "trolling",
-    "quotes": 1,
-    "issues": 1,
-    "eras": 1
-   },
-   {
-    "value": "tumblr",
+    "value": "ufc",
     "quotes": 1,
     "issues": 1,
     "eras": 1
    },
    {
     "value": "ufos",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "venture capital",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1105,9 +1459,15 @@
   "entities": [
    {
     "value": "donald trump",
-    "quotes": 13,
-    "issues": 10,
-    "eras": 3
+    "quotes": 24,
+    "issues": 17,
+    "eras": 4
+   },
+   {
+    "value": "facebook",
+    "quotes": 7,
+    "issues": 7,
+    "eras": 4
    },
    {
     "value": "elon musk",
@@ -1116,10 +1476,10 @@
     "eras": 2
    },
    {
-    "value": "facebook",
-    "quotes": 5,
-    "issues": 5,
-    "eras": 3
+    "value": "steve bannon",
+    "quotes": 6,
+    "issues": 4,
+    "eras": 2
    },
    {
     "value": "gamergate",
@@ -1134,9 +1494,15 @@
     "eras": 2
    },
    {
-    "value": "steve bannon",
-    "quotes": 5,
-    "issues": 3,
+    "value": "christopher poole",
+    "quotes": 3,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "dana white",
+    "quotes": 3,
+    "issues": 1,
     "eras": 2
    },
    {
@@ -1164,7 +1530,7 @@
     "eras": 1
    },
    {
-    "value": "christopher poole",
+    "value": "barack obama",
     "quotes": 2,
     "issues": 1,
     "eras": 1
@@ -1180,6 +1546,30 @@
     "quotes": 2,
     "issues": 1,
     "eras": 1
+   },
+   {
+    "value": "fox news",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "google",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 1
+   },
+   {
+    "value": "joe rogan",
+    "quotes": 2,
+    "issues": 2,
+    "eras": 2
+   },
+   {
+    "value": "nelk boys",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 2
    },
    {
     "value": "peter thiel",
@@ -1198,6 +1588,18 @@
     "quotes": 2,
     "issues": 1,
     "eras": 1
+   },
+   {
+    "value": "ufc",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 2
+   },
+   {
+    "value": "washington post",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 2
    },
    {
     "value": "youtube",
@@ -1237,6 +1639,12 @@
    },
    {
     "value": "among us",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "andreessen",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1291,6 +1699,12 @@
    },
    {
     "value": "beyoncé",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "bolsonaro",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1368,7 +1782,19 @@
     "eras": 1
    },
    {
+    "value": "chrome",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "church of latter day saints",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "content cop",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1399,6 +1825,12 @@
    },
    {
     "value": "deepak chopra",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "degods",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1452,6 +1884,18 @@
     "eras": 1
    },
    {
+    "value": "ethan klein",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "ethdenver",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "facebook watch",
     "quotes": 1,
     "issues": 1,
@@ -1464,7 +1908,19 @@
     "eras": 1
    },
    {
+    "value": "fast company",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "fidji simo",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "flappy bird",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1512,7 +1968,25 @@
     "eras": 1
    },
    {
+    "value": "harry potter",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "hasan piker",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "hila klein",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "hillary clinton",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1566,7 +2040,7 @@
     "eras": 1
    },
    {
-    "value": "joe rogan",
+    "value": "jk rowling",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1585,6 +2059,12 @@
    },
    {
     "value": "josh gad",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "julia alexander",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1644,6 +2124,12 @@
     "eras": 1
    },
    {
+    "value": "michael flynn",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "milo yiannopoulos",
     "quotes": 1,
     "issues": 1,
@@ -1663,6 +2149,18 @@
    },
    {
     "value": "mondo media",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "mountain dew",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "narendra modi",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1716,6 +2214,12 @@
     "eras": 1
    },
    {
+    "value": "oprah winfrey",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "osama bin laden",
     "quotes": 1,
     "issues": 1,
@@ -1723,6 +2227,12 @@
    },
    {
     "value": "palantir",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "parisian love",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1758,7 +2268,19 @@
     "eras": 1
    },
    {
+    "value": "puck news",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "qasem soleimani",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "radiohead",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1782,7 +2304,25 @@
     "eras": 1
    },
    {
+    "value": "republican national convention",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "republicans",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "roko's basilisk",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "ron burgundy",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -1926,6 +2466,12 @@
     "eras": 1
    },
    {
+    "value": "time magazine",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "trevor noah",
     "quotes": 1,
     "issues": 1,
@@ -1986,7 +2532,25 @@
     "eras": 1
    },
    {
+    "value": "vora",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "warner bros.",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "whitey bulger",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "william barr",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -2001,26 +2565,32 @@
   "platforms": [
    {
     "value": "twitter",
-    "quotes": 18,
-    "issues": 13,
-    "eras": 3
-   },
-   {
-    "value": "youtube",
-    "quotes": 17,
-    "issues": 14,
+    "quotes": 21,
+    "issues": 16,
     "eras": 4
    },
    {
-    "value": "tiktok",
-    "quotes": 12,
+    "value": "youtube",
+    "quotes": 19,
+    "issues": 16,
+    "eras": 4
+   },
+   {
+    "value": "facebook",
+    "quotes": 14,
     "issues": 10,
     "eras": 4
    },
    {
+    "value": "tiktok",
+    "quotes": 13,
+    "issues": 11,
+    "eras": 4
+   },
+   {
     "value": "4chan",
-    "quotes": 10,
-    "issues": 7,
+    "quotes": 11,
+    "issues": 8,
     "eras": 4
    },
    {
@@ -2028,12 +2598,6 @@
     "quotes": 10,
     "issues": 10,
     "eras": 5
-   },
-   {
-    "value": "facebook",
-    "quotes": 9,
-    "issues": 7,
-    "eras": 3
    },
    {
     "value": "x",
@@ -2049,8 +2613,8 @@
    },
    {
     "value": "tumblr",
-    "quotes": 3,
-    "issues": 2,
+    "quotes": 4,
+    "issues": 3,
     "eras": 2
    },
    {
@@ -2060,9 +2624,39 @@
     "eras": 1
    },
    {
+    "value": "google",
+    "quotes": 2,
+    "issues": 1,
+    "eras": 2
+   },
+   {
     "value": "vine",
     "quotes": 2,
     "issues": 2,
+    "eras": 1
+   },
+   {
+    "value": "aim",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "clubhouse",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "ebay",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "friendster",
+    "quotes": 1,
+    "issues": 1,
     "eras": 1
    },
    {
@@ -2079,6 +2673,12 @@
    },
    {
     "value": "lesswrong",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "myspace",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -2146,6 +2746,12 @@
     "eras": 1
    },
    {
+    "value": "content moderators",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "detainees",
     "quotes": 1,
     "issues": 1,
@@ -2165,6 +2771,12 @@
    },
    {
     "value": "fans",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "far-right protesters",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -2224,6 +2836,12 @@
     "eras": 1
    },
    {
+    "value": "nft fans",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
     "value": "pokémon fans",
     "quotes": 1,
     "issues": 1,
@@ -2231,6 +2849,12 @@
    },
    {
     "value": "reddit power users",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "silicon valley insiders",
     "quotes": 1,
     "issues": 1,
     "eras": 1
@@ -2261,6 +2885,12 @@
    },
    {
     "value": "tiktok users",
+    "quotes": 1,
+    "issues": 1,
+    "eras": 1
+   },
+   {
+    "value": "tumblr users",
     "quotes": 1,
     "issues": 1,
     "eras": 1
