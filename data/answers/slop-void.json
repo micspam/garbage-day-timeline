@@ -1,0 +1,7 @@
+{"references": [
+  {"sentence_ids": [26], "start_year": 2004, "end_year": 2007, "label": "actors' brand-building strategy", "evidence": "in the mid-2000s"},
+  {"sentence_ids": [34], "start_year": 2018, "end_year": 2018, "label": "Netflix's slop era begins", "evidence": "2018 seems to be the start of Netflix’s slop era"},
+  {"sentence_ids": [42], "start_year": 2010, "end_year": 2013, "label": "platforms competing with traditional media", "evidence": "in the early 2010s"},
+  {"sentence_ids": [48], "start_year": 2015, "end_year": 2015, "label": "'dog food' viral content", "evidence": "all the way back in 2015"},
+  {"sentence_ids": [51, 52], "start_year": 2018, "end_year": 2018, "label": "TikTok's rise and Drake's Scorpion", "evidence": "2018 was also the year TikTok became the most-downloaded app in the US"}
+]}

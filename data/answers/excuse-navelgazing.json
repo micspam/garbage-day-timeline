@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [9, 10], "start_year": 2020, "end_year": 2022, "label": "pandemic-era newsletter boom", "evidence": "pandemic-era Twitter was converting a lot of readers"},
+  {"sentence_ids": [30], "start_year": 2009, "end_year": 2012, "label": "the Myspace-to-Facebook dead zone", "evidence": "the micro-era between the fall of Myspace and the rise of Facebook referral traffic (2009-2012) was also an extremely difficult time to build an audience online"}
+]}

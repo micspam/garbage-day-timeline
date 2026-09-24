@@ -1,0 +1,5 @@
+{"references": [
+  {"sentence_ids": [22], "start_year": 2000, "end_year": 2009, "label": "2000s teen fandom gatekeeping", "evidence": "a teenager in the 2000s"},
+  {"sentence_ids": [25, 26], "start_year": 2010, "end_year": 2019, "label": "2010s: internet overtakes physical scenes", "evidence": "in the 2010s this dynamic flipped"},
+  {"sentence_ids": [28, 29], "start_year": 2014, "end_year": 2014, "label": "mid-2010s gatekeeper-free concerts", "evidence": "around 2014"}
+]}

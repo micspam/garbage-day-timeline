@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [20, 21], "start_year": 2020, "end_year": 2020, "label": "2020 Silicon Valley meltdown into hype bubbles", "evidence": "losing their minds in 2020"},
+  {"sentence_ids": [23, 24], "start_year": 2022, "end_year": 2022, "label": "2022 Chinese-app boom in the US", "evidence": "In January 2022, TikTok became the most downloaded app in the world"}
+]}
