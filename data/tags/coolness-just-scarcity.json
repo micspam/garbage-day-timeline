@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "subculture discovery via internet", "topics": ["music scenes", "fashion trends", "fandom"], "entities": [], "platforms": [{"name": "wikipedia", "evidence": "use Wikipedia and message boards"}], "audiences": [{"name": "teenagers", "evidence": "When I was a teenager in the 2000s"}]},
+{"n": 3, "moment": "cultural gatekeeping decline", "topics": ["music scenes", "concerts", "fandom"], "entities": [{"name": "american football", "kind": "other", "evidence": "American Football reunion show"}], "platforms": [], "audiences": []}
+]}

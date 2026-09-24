@@ -1,0 +1,3 @@
+{"tags": [
+{"n": 1, "moment": "platform relevance milestone", "topics": ["twitter", "political unrest", "news events"], "entities": [{"name": "arab spring", "kind": "event", "evidence": "the Arab Spring"}, {"name": "occupy wall street", "kind": "event", "evidence": "Occupy Wall Street"}, {"name": "hurricane sandy", "kind": "event", "evidence": "Hurricane Sandy"}, {"name": "london riots", "kind": "event", "evidence": "the London riots"}], "platforms": [{"name": "twitter", "evidence": "the moment Twitter truly started to matter"}], "audiences": []}
+]}

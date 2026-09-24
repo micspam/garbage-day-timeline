@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "cultural nostalgia trend naming", "topics": ["obama era", "nostalgia", "political culture"], "entities": [{"name": "nate jones", "kind": "person", "evidence": "Writer Nate Jones"}, {"name": "new york magazine", "kind": "media outlet", "evidence": "New York Magazine"}, {"name": "barack obama", "kind": "person", "evidence": "the Obama era"}], "platforms": [], "audiences": []},
+{"n": 2, "moment": "political complacency reflection", "topics": ["obama era", "liberal politics", "2016 election"], "entities": [{"name": "barack obama", "kind": "person", "evidence": "the Obama years"}, {"name": "gq", "kind": "media outlet", "evidence": "my GQ piece last week"}], "platforms": [], "audiences": [{"name": "millennials", "evidence": "millennials were safe to spend the rest of their days watching prestige television and drinking IPAs"}]}
+]}

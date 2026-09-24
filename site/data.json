@@ -1,16 +1,71 @@
 {
  "report": {
-  "issues_analyzed": 160,
-  "issues_with_past_references": 65,
-  "issues_with_none": 95,
-  "references_proposed": 135,
-  "references_kept": 120,
+  "issues_analyzed": 250,
+  "issues_with_past_references": 104,
+  "issues_with_none": 146,
+  "references_proposed": 222,
+  "references_kept": 173,
   "references_rejected": {},
-  "dropped_in_review": 15,
+  "dropped_in_review": 49,
   "not_reviewed": 0,
   "fabricated_quotes_possible": 0
  },
  "cards": [
+  {
+   "quote": "There’s an oft-quoted “shoeshine boy” theory of markets, usually attributed to Joe Kennedy in the late 1920s, who said that when the boy shining his shoes had stock tips, he knew the market was about to collapse.",
+   "start_year": 1929,
+   "end_year": 1929,
+   "label": "the 'shoeshine boy' market theory",
+   "evidence": "usually attributed to Joe Kennedy in the late 1920s",
+   "url": "https://www.garbageday.email/p/welcome-video-bloat-era",
+   "title": "Welcome to the video bloat era",
+   "published": "2024-04-03",
+   "tags": {
+    "moment": "market warning sign anecdote",
+    "topics": [
+     "stock market",
+     "financial history"
+    ],
+    "entities": [
+     {
+      "name": "joe kennedy",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And back when Wicked opened on Broadway in 2003, when the world was still governed by things like newspaper circulations, box office numbers, and album sales, being a “theater kid” wasn’t easy. Decades before the internet and what we think of as “fandom” emerged, musical fans were already a massive subculture defined by inaccessibility.",
+   "start_year": 1990,
+   "end_year": 2003,
+   "label": "Pre-internet Broadway theater fandom",
+   "evidence": "when Wicked opened on Broadway in 2003",
+   "url": "https://www.garbageday.email/p/everyone-s-a-theater-kid-now",
+   "title": "Everyone's a theater kid now",
+   "published": "2024-11-25",
+   "tags": {
+    "moment": "pre-internet fandom culture",
+    "topics": [
+     "broadway",
+     "musical theater",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "wicked",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "theater kids"
+     }
+    ]
+   }
+  },
   {
    "quote": "The biggest losers of the dot com bubble were a whole lot of IPOs you probably don’t remember, but here’s a good Reddit thread with some examples. But the bulk of these companies were web portals — for search, for e-commerce, for proto-cryptocurrencies. The bubble was similar to a land grab and when it popped it wasn’t totally different from a housing crash.",
    "start_year": 1995,
@@ -88,23 +143,90 @@
    }
   },
   {
-   "quote": "As a kid, I was vaguely familiar with it as the place to go if you wanted to talk to someone about UFOs and aliens. In the 2000s, it all seemed very benign.",
+   "quote": "When I was a teenager in the 2000s, I could use the internet to get a sense of what was happening with a music scene or a fashion trend or a fandom, sure.",
    "start_year": 2000,
    "end_year": 2009,
-   "label": "Speaker's Corner as benign UFO-talk spot",
-   "evidence": "In the 2000s, it all seemed very benign.",
-   "url": "https://www.garbageday.email/p/everything-s-debateslop-now",
-   "title": "Everything's debateslop now",
-   "published": "2025-09-22",
+   "label": "2000s teen fandom gatekeeping",
+   "evidence": "a teenager in the 2000s",
+   "url": "https://www.garbageday.email/p/coolness-just-scarcity",
+   "title": "Coolness is just scarcity",
+   "published": "2024-06-17",
    "tags": {
-    "moment": "conspiracy theory venue",
+    "moment": "subculture discovery via internet",
     "topics": [
-     "conspiracy theories",
-     "ufos",
-     "free speech"
+     "music scenes",
+     "fashion trends",
+     "fandom"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "wikipedia"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "teenagers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Waiting in a line for anything that wasn’t nightclub in New York pre-cronut was an offense punishable by eviction and banishment.",
+   "start_year": 2000,
+   "end_year": 2012,
+   "label": "pre-cronut NYC food-line culture",
+   "evidence": "pre-cronut",
+   "url": "https://www.garbageday.email/p/crystal-cube-agony",
+   "title": "The crystal cube of agony",
+   "published": "2024-08-19",
+   "tags": {
+    "moment": "cultural taboo before trend",
+    "topics": [
+     "new york city culture",
+     "food trends",
+     "nightlife"
     ],
     "entities": [],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Most of Brazilian social media is still very much influenced by Orkut, the Google-owned Myspace-like social network, that at one point, according to WIRED, had 11 million of the 14 million internet users in Brazil on it. One of the best arguments I’ve heard about why Orkut so thoroughly dominated Brazilian internet culture in the 2000s was that it had a very good tool for creating public communities.",
+   "start_year": 2000,
+   "end_year": 2009,
+   "label": "Orkut's dominance of Brazilian internet culture",
+   "evidence": "Orkut so thoroughly dominated Brazilian internet culture in the 2000s",
+   "url": "https://www.garbageday.email/p/elon-musk-vs-brazil",
+   "title": "Elon Musk Vs. Brazil",
+   "published": "2024-09-02",
+   "tags": {
+    "moment": "social network market dominance",
+    "topics": [
+     "brazil",
+     "social media history",
+     "online communities"
+    ],
+    "entities": [
+     {
+      "name": "orkut",
+      "kind": "company"
+     },
+     {
+      "name": "google",
+      "kind": "company"
+     },
+     {
+      "name": "wired",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "orkut"
+     }
+    ],
     "audiences": []
    }
   },
@@ -176,40 +298,6 @@
    }
   },
   {
-   "quote": "That’s when he hired podcaster Joe Rogan to be a commentator for UFC matches. That’s also when White met President Donald Trump, who, at the time, was hosting UFC matches at his venues in Atlantic City and Las Vegas.",
-   "start_year": 2001,
-   "end_year": 2001,
-   "label": "White hires Rogan, meets Trump",
-   "evidence": "White bought UFC in 2001",
-   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
-   "title": "UFC and the beating heart of Trumpism",
-   "published": "2025-03-10",
-   "tags": {
-    "moment": "key hire and meeting",
-    "topics": [
-     "mma",
-     "podcasting",
-     "business"
-    ],
-    "entities": [
-     {
-      "name": "dana white",
-      "kind": "person"
-     },
-     {
-      "name": "joe rogan",
-      "kind": "person"
-     },
-     {
-      "name": "donald trump",
-      "kind": "person"
-     }
-    ],
-    "platforms": [],
-    "audiences": []
-   }
-  },
-  {
    "quote": "He wasn’t the first example — Radiohead had an AIM chatbot in 2001 and you could add Ron Burgundy on Friendster before you saw Anchorman — but as late as 2007, when Facebook introduced brand pages, there was a general sense that social networks should treat individual accounts as a separate species from businesses, lawmakers, and other organizations.",
    "start_year": 2001,
    "end_year": 2007,
@@ -249,6 +337,65 @@
       "name": "facebook"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "A great editor I worked for during the second Pivot To Video, roughly 2013-2017, who, herself worked through the first, roughly 2003-2007, described it as a massive waste of resources that wastes more resources as it becomes clearer to everyone not directly involved how much of a waste of resources it is.",
+   "start_year": 2003,
+   "end_year": 2017,
+   "label": "the first two Pivot to Video eras",
+   "evidence": "the second Pivot To Video, roughly 2013-2017, who, herself worked through the first, roughly 2003-2007",
+   "url": "https://www.garbageday.email/p/welcome-video-bloat-era",
+   "title": "Welcome to the video bloat era",
+   "published": "2024-04-03",
+   "tags": {
+    "moment": "media industry cost cycle",
+    "topics": [
+     "digital media",
+     "video content",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In one essay titled, “When Movie Stars Become Brands,” Willems argues that in the mid-2000s, after a string of bombs, Dwayne Johnson and Ryan Reynolds adapted a strategy lifted from George Clooney, where an actor builds brands and side businesses to fund creatively riskier movie projects.",
+   "start_year": 2004,
+   "end_year": 2007,
+   "label": "actors' brand-building strategy",
+   "evidence": "in the mid-2000s",
+   "url": "https://www.garbageday.email/p/slop-void",
+   "title": "More slop for the void",
+   "published": "2024-07-10",
+   "tags": {
+    "moment": "celebrity branding strategy",
+    "topics": [
+     "hollywood",
+     "celebrity branding",
+     "film industry"
+    ],
+    "entities": [
+     {
+      "name": "dwayne johnson",
+      "kind": "person"
+     },
+     {
+      "name": "ryan reynolds",
+      "kind": "person"
+     },
+     {
+      "name": "george clooney",
+      "kind": "person"
+     },
+     {
+      "name": "patrick willems",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -306,6 +453,116 @@
    }
   },
   {
+   "quote": "There was a moment in the late 2000s when Atlanta Crunk, Oakland Hyphy, and Chicago conscious rap were all competing for radio time as artists in each scene figured out how to break through.",
+   "start_year": 2005,
+   "end_year": 2009,
+   "label": "late-2000s regional rap radio battles",
+   "evidence": "a moment in the late 2000s",
+   "url": "https://www.garbageday.email/p/now-time-sea-shanties",
+   "title": "Now is the time of sea shanties",
+   "published": "2024-05-13",
+   "tags": {
+    "moment": "regional music scene competition",
+    "topics": [
+     "hip hop",
+     "radio",
+     "regional music scenes"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Sites like DraftKings and FanDuel were able to start in the late-00s because fantasy sports were specifically left out of a 2006 ban on online gambling. They were allowed to continue since they qualified as games of skill, not chance.",
+   "start_year": 2007,
+   "end_year": 2009,
+   "label": "late-2000s daily fantasy sports origins",
+   "evidence": "the late-00s",
+   "url": "https://www.garbageday.email/p/welcome-barstool-web",
+   "title": "Welcome to the Barstool Web",
+   "published": "2024-04-24",
+   "tags": {
+    "moment": "regulatory loophole exploited",
+    "topics": [
+     "gambling",
+     "fantasy sports",
+     "regulation"
+    ],
+    "entities": [
+     {
+      "name": "draftkings",
+      "kind": "company"
+     },
+     {
+      "name": "fanduel",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The first iPhone launched in 2007. It wasn’t very good and you could only use it with an AT&T contract. If you did get it to actually work, there wasn’t much you could do with it.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "the first iPhone's limits",
+   "evidence": "The first iPhone launched in 2007",
+   "url": "https://www.garbageday.email/p/apple-country-club",
+   "title": "Apple is a country club",
+   "published": "2024-06-12",
+   "tags": {
+    "moment": "product launch limitations",
+    "topics": [
+     "smartphones",
+     "apple"
+    ],
+    "entities": [
+     {
+      "name": "iphone",
+      "kind": "other"
+     },
+     {
+      "name": "at&t",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Nikocado, real name Nicholas Perry, is ostensibly a mukbanger, a genre of video that first got popular in the late 2000s on Korean streaming platforms like AfreecaTV.",
+   "start_year": 2007,
+   "end_year": 2009,
+   "label": "Mukbang genre's origins on Korean streaming",
+   "evidence": "a genre of video that first got popular in the late 2000s on Korean streaming platforms like AfreecaTV",
+   "url": "https://www.garbageday.email/p/joker-mukbang",
+   "title": "The Joker of mukbang",
+   "published": "2024-09-09",
+   "tags": {
+    "moment": "genre origin",
+    "topics": [
+     "mukbang",
+     "food content",
+     "live streaming"
+    ],
+    "entities": [
+     {
+      "name": "nikocado",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "afreecatv"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Betting big on social media was a genuinely risky and largely untested idea when Obama did it at the start of his first presidential campaign in 2007.",
    "start_year": 2007,
    "end_year": 2007,
@@ -339,71 +596,172 @@
    }
   },
   {
-   "quote": "Twitter introduced verified checkmarks in June 2009, thanks to his fellow Chicagoan and early supporter, Oprah Winfrey, joining the platform.",
-   "start_year": 2009,
-   "end_year": 2009,
-   "label": "Twitter launches verified checkmarks",
-   "evidence": "Twitter introduced verified checkmarks in June 2009",
-   "url": "https://www.garbageday.email/p/the-tyranny-of-relatable-content",
-   "title": "The tyranny of relatable content",
-   "published": "2025-03-26",
+   "quote": "Writer Nate Jones in New York Magazine this week called it the return of “Obamacore,” writing, “We are conjuring the ghost of the Obama era — that earnest, optimistic, energized, celeb-obsessed, self-conscious, cringeworthy time.”",
+   "start_year": 2008,
+   "end_year": 2016,
+   "label": "the Obama-era mood",
+   "evidence": "We are conjuring the ghost of the Obama era — that earnest, optimistic, energized, celeb-obsessed, self-conscious, cringeworthy time.",
+   "url": "https://www.garbageday.email/p/fight-sooonnnggg",
+   "title": "This is my fight sooonnnggg",
+   "published": "2024-08-21",
    "tags": {
-    "moment": "verification feature launched",
+    "moment": "cultural nostalgia trend naming",
     "topics": [
-     "twitter",
-     "social media",
-     "celebrity culture"
+     "obama era",
+     "nostalgia",
+     "political culture"
     ],
     "entities": [
      {
-      "name": "oprah winfrey",
+      "name": "nate jones",
       "kind": "person"
+     },
+     {
+      "name": "new york magazine",
+      "kind": "media outlet"
      },
      {
       "name": "barack obama",
       "kind": "person"
      }
     ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "As I wrote in my GQ piece last week, the danger of the Obama years — one we eventually paid for in 2016 — was the assumption that his presidency was the prize for reaching the end of history. Liberalism had succeeded, conservatives had been squashed into a toothless opposition party, and millennials were safe to spend the rest of their days watching prestige television and drinking IPAs.",
+   "start_year": 2008,
+   "end_year": 2016,
+   "label": "Obama-era liberal complacency",
+   "evidence": "the danger of the Obama years",
+   "url": "https://www.garbageday.email/p/fight-sooonnnggg",
+   "title": "This is my fight sooonnnggg",
+   "published": "2024-08-21",
+   "tags": {
+    "moment": "political complacency reflection",
+    "topics": [
+     "obama era",
+     "liberal politics",
+     "2016 election"
+    ],
+    "entities": [
+     {
+      "name": "barack obama",
+      "kind": "person"
+     },
+     {
+      "name": "gq",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "millennials"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Even though there’s a ton of nostalgia for 2000s internet right now, no one ever talks about how the micro-era between the fall of Myspace and the rise of Facebook referral traffic (2009-2012) was also an extremely difficult time to build an audience online.",
+   "start_year": 2009,
+   "end_year": 2012,
+   "label": "the Myspace-to-Facebook dead zone",
+   "evidence": "the micro-era between the fall of Myspace and the rise of Facebook referral traffic (2009-2012) was also an extremely difficult time to build an audience online",
+   "url": "https://www.garbageday.email/p/excuse-navelgazing",
+   "title": "Excuse the navel-gazing",
+   "published": "2024-05-27",
+   "tags": {
+    "moment": "platform transition dead zone",
+    "topics": [
+     "myspace",
+     "facebook",
+     "audience building"
+    ],
+    "entities": [
+     {
+      "name": "myspace",
+      "kind": "company"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
     "platforms": [
      {
-      "name": "twitter"
+      "name": "myspace"
+     },
+     {
+      "name": "facebook"
      }
     ],
     "audiences": []
    }
   },
   {
-   "quote": "It was the site that hacked online polls to make a new flavor of Mountain Dew called “Hitler did nothing wrong,” and nominate the site’s founder, Christopher “Moot” Poole, as TIME Magazine’s Most Influential Person of 2009.",
+   "quote": "But I also remember using an iPhone for the first time in 2009 and, after about two hours of trying to load Tumblr on it, I gave up and went back to my Droid 2.",
    "start_year": 2009,
    "end_year": 2009,
-   "label": "4chan's poll-hacking pranks",
-   "evidence": "TIME Magazine’s Most Influential Person of 2009",
-   "url": "https://www.garbageday.email/p/did-you-even-notice-4chan-s-gone",
-   "title": "Did you even notice 4chan's gone?",
-   "published": "2025-04-16",
+   "label": "early iPhone couldn't load Tumblr",
+   "evidence": "using an iPhone for the first time in 2009",
+   "url": "https://www.garbageday.email/p/apple-country-club",
+   "title": "Apple is a country club",
+   "published": "2024-06-12",
    "tags": {
-    "moment": "online poll hacking prank",
+    "moment": "product limitation anecdote",
     "topics": [
-     "trolling",
-     "4chan"
+     "smartphones",
+     "mobile web"
     ],
     "entities": [
      {
-      "name": "christopher poole",
-      "kind": "person"
-     },
-     {
-      "name": "time magazine",
-      "kind": "media outlet"
-     },
-     {
-      "name": "mountain dew",
-      "kind": "company"
+      "name": "droid 2",
+      "kind": "other"
      }
     ],
     "platforms": [
      {
-      "name": "4chan"
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "If you aren’t familiar with Red Letter Media they’ve been talking about Star Wars (and other things) on the internet since 2009, when the group’s founder Mike Stoklasa released “Mr. Plinkett’s Star Wars: The Phantom Menace Review,” a review that was too long to upload to YouTube at the time, but one that, also, essentially, invented modern film criticism on YouTube.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Red Letter Media's Phantom Menace review",
+   "evidence": "since 2009",
+   "url": "https://www.garbageday.email/p/diatribe-wokeness",
+   "title": "Some diatribe about wokeness",
+   "published": "2024-07-03",
+   "tags": {
+    "moment": "film criticism video launch",
+    "topics": [
+     "film criticism",
+     "youtube creators",
+     "star wars fandom"
+    ],
+    "entities": [
+     {
+      "name": "red letter media",
+      "kind": "community"
+     },
+     {
+      "name": "mike stoklasa",
+      "kind": "person"
+     },
+     {
+      "name": "star wars",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
      }
     ],
     "audiences": []
@@ -504,6 +862,366 @@
    }
   },
   {
+   "quote": "In the 2010s, the prevailing attitude about the Internet was that people who mattered didn't really have to be on it. They may have owned parts of it — CEOs, business leaders, landlords, etc., might have been on LinkedIn, if anything — but they weren’t doing much publicly online.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s: rich guys stayed off the internet",
+   "evidence": "In the 2010s, the prevailing attitude about the Internet was that people who mattered didn't really have to be on it",
+   "url": "https://www.garbageday.email/p/ceos-want-podcasters-now",
+   "title": "All the CEOs want to be podcasters now",
+   "published": "2024-03-27",
+   "tags": {
+    "moment": "cultural attitude toward internet",
+    "topics": [
+     "silicon valley",
+     "business elites",
+     "social media culture"
+    ],
+    "entities": [
+     {
+      "name": "gary vaynerchuk",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "linkedin"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "ceos"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Up until, basically, COVID, the large platforms that govern how information travels online were predominately meant for something. Some, like Twitter, were for news. Others, like Facebook and Instagram, were for connection.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "pre-COVID platforms had distinct purposes",
+   "evidence": "Up until, basically, COVID, the large platforms that govern how information travels online were predominately meant for something",
+   "url": "https://www.garbageday.email/p/news-meme",
+   "title": "The news is a meme",
+   "published": "2024-04-08",
+   "tags": {
+    "moment": "platform identity shift",
+    "topics": [
+     "social media platforms",
+     "platform identity",
+     "algorithmic feeds"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "pinterest"
+     },
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "linkedin"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "When, in the early 2010s, sites like Facebook and YouTube began to morph from simple social networks and user-generated content platforms into genuine competitors of movies, TV, record labels, and news networks, the main problem they had to solve was having stuff people wanted to look at more than traditional media.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "platforms competing with traditional media",
+   "evidence": "in the early 2010s",
+   "url": "https://www.garbageday.email/p/slop-void",
+   "title": "More slop for the void",
+   "published": "2024-07-10",
+   "tags": {
+    "moment": "platform competing with traditional media",
+    "topics": [
+     "social media platforms",
+     "content algorithms",
+     "media industry disruption"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "youtube",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The 2010s populism wave which Trump rode to victory in 2016, which guys like Andreesen, Musk, and Thiel are clearly trying to emulate, was dependent on a still-exciting digital public square, made up of millions of disparate groups using it to communicate. And what we were all posting only became Real News thanks to a still-relevant mainstream media that was able to curate it to something that felt it mattered.",
+   "start_year": 2010,
+   "end_year": 2016,
+   "label": "2010s digital-public-square populism",
+   "evidence": "The 2010s populism wave",
+   "url": "https://www.garbageday.email/p/now-babydog",
+   "title": "Now we have Babydog",
+   "published": "2024-07-17",
+   "tags": {
+    "moment": "digital populism mechanism",
+    "topics": [
+     "political populism",
+     "social media",
+     "media curation"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "marc andreessen",
+      "kind": "person"
+     },
+     {
+      "name": "elon musk",
+      "kind": "person"
+     },
+     {
+      "name": "peter thiel",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "When Disney dominated film in the 2010s, people drew parallels between that old strategy and Bob Iger’s focus on IP. He pushed to acquire Star Wars and Marvel, presided over the continued success of Pixar, restarted their princess movies, and turned live-action remakes of their old ones into a money printer.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Disney's 2010s IP-acquisition strategy",
+   "evidence": "When Disney dominated film in the 2010s",
+   "url": "https://www.garbageday.email/p/disneys-broken-money-printer",
+   "title": "Disney's broken money printer",
+   "published": "2024-07-24",
+   "tags": {
+    "moment": "corporate ip strategy",
+    "topics": [
+     "disney",
+     "film industry",
+     "intellectual property"
+    ],
+    "entities": [
+     {
+      "name": "disney",
+      "kind": "company"
+     },
+     {
+      "name": "bob iger",
+      "kind": "person"
+     },
+     {
+      "name": "star wars",
+      "kind": "work"
+     },
+     {
+      "name": "marvel",
+      "kind": "company"
+     },
+     {
+      "name": "pixar",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During the 2010s, spearheaded by publishers like Steve Bannon, Tucker Carlson, and Ben Shapiro, conservatives learned that if they threw enough racist 4chan posts at the wall, and then aggregated them for platforms like Facebook, some of it would eventually bubble up onto cable news and break through.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s conservative meme-to-cable pipeline",
+   "evidence": "During the 2010s",
+   "url": "https://www.garbageday.email/p/can-finally-call-weird",
+   "title": "We can finally call them weird",
+   "published": "2024-07-29",
+   "tags": {
+    "moment": "media strategy pattern",
+    "topics": [
+     "far-right politics",
+     "conservative media",
+     "meme culture"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "tucker carlson",
+      "kind": "person"
+     },
+     {
+      "name": "ben shapiro",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "conservatives"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "On one side was “snark,” the \"hostile, knowing, bitter tone of contempt,” that defined Gen X’s hipster twilight years. And on the other was “smarm,” the “anti-negativity” worldview that young millennials at the turn of the last decade believed was liberating culture, allowing a million sellouts to flourish.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "snark vs. smarm culture war",
+   "evidence": "early-2010s discourse",
+   "url": "https://www.garbageday.email/p/peanut-butter-not-liquid",
+   "title": "Peanut butter is not a liquid",
+   "published": "2024-08-26",
+   "tags": {
+    "moment": "cultural discourse framing",
+    "topics": [
+     "media criticism",
+     "internet discourse",
+     "2010s culture"
+    ],
+    "entities": [
+     {
+      "name": "tom scocca",
+      "kind": "person"
+     },
+     {
+      "name": "gawker",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "gen x"
+     },
+     {
+      "name": "millennials"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "I was once told by a writer that specialized in viral animal content (it was the early 2010s) that while it seemed easy to put together fun lists of cute animals, the most important thing was to not accidentally walk into a situation where you were promoting animal abuse.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "Viral animal listicle writing (early 2010s)",
+   "evidence": "it was the early 2010s",
+   "url": "https://www.garbageday.email/p/stop-listening-to-the-strategists",
+   "title": "Stop listening to the strategists",
+   "published": "2024-10-02",
+   "tags": {
+    "moment": "viral content production anecdote",
+    "topics": [
+     "viral content",
+     "listicles",
+     "animals"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Facebook spent most of the 2010s absorbing, and destroying, not just local journalism in the US, but the very infrastructure of how information is transmitted across the country.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Facebook's destruction of local journalism in the 2010s",
+   "evidence": "Facebook spent most of the 2010s absorbing, and destroying, not just local journalism in the US",
+   "url": "https://www.garbageday.email/p/what-feels-real-enough-to-share",
+   "title": "What feels real enough to share",
+   "published": "2024-10-07",
+   "tags": {
+    "moment": "industry destruction by platform",
+    "topics": [
+     "facebook",
+     "local journalism",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "First, in the 2010s, as platforms like Facebook and Twitter were super-charging news consumption, there were a lot of writers at newsrooms across America that were well on their way to becoming, as The Post is calling it, “star talent.” Almost across the board, most of these “stars” were crushed or frozen out or sidelined because they were seen as a threat to the brands they worked for.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s newsroom 'star talent'",
+   "evidence": "in the 2010s",
+   "url": "https://www.garbageday.email/p/zuckerberg-officially-gives-up",
+   "title": "Zuckerberg officially gives up",
+   "published": "2025-01-08",
+   "tags": {
+    "moment": "media industry talent dynamic",
+    "topics": [
+     "journalism",
+     "media industry",
+     "social media"
+    ],
+    "entities": [
+     {
+      "name": "the washington post",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Yes, these companies would eventually flood the airwaves with ad campaigns, but Google was already a multi-billion-dollar tech company and Chrome had over 100 million active users when they dropped their first Super Bowl commercial, “Parisian Love,” in 2010. That still-very clever ad told a story about someone one falling in love through the mundane Google searches everyone makes every day.",
    "start_year": 2010,
    "end_year": 2010,
@@ -535,31 +1253,6 @@
     ],
     "platforms": [],
     "audiences": []
-   }
-  },
-  {
-   "quote": "I spent much of the 2010s outside of the US covering elections across Europe, following far-right protestors, and generally reporting on the “far-right populism wave” that brought us here.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "reporting on Europe's far-right populism wave",
-   "evidence": "much of the 2010s",
-   "url": "https://www.garbageday.email/p/you-can-never-truly-go-back",
-   "title": "You can never truly go back",
-   "published": "2025-02-17",
-   "tags": {
-    "moment": "journalist covers far-right wave",
-    "topics": [
-     "far-right politics",
-     "journalism",
-     "europe"
-    ],
-    "entities": [],
-    "platforms": [],
-    "audiences": [
-     {
-      "name": "far-right protesters"
-     }
-    ]
    }
   },
   {
@@ -632,78 +1325,6 @@
      },
      {
       "name": "tech workers"
-     }
-    ]
-   }
-  },
-  {
-   "quote": "When online influence was concentrated on Twitter in the 2010s, they felt like they were somehow different from normal users. Their real world professional contacts mapped over fairly seamlessly and they were able to dictate what was popular on the platform.",
-   "start_year": 2010,
-   "end_year": 2019,
-   "label": "Twitter's 2010s influence economy",
-   "evidence": "When online influence was concentrated on Twitter in the 2010s",
-   "url": "https://www.garbageday.email/p/nate-silver-s-big-list-of-grievances",
-   "title": "Nate Silver's big list of grievances",
-   "published": "2025-09-08",
-   "tags": {
-    "moment": "platform influence nostalgia",
-    "topics": [
-     "twitter",
-     "social media",
-     "media commentary"
-    ],
-    "entities": [
-     {
-      "name": "nate silver",
-      "kind": "person"
-     }
-    ],
-    "platforms": [
-     {
-      "name": "twitter"
-     }
-    ],
-    "audiences": []
-   }
-  },
-  {
-   "quote": "A user named Roko posted it to the LessWrong message board back in 2010 and it was considered so dangerous — or, perhaps more accurately, annoying — that any mention of it was banned from the site for years.",
-   "start_year": 2010,
-   "end_year": 2010,
-   "label": "Roko's Basilisk posted on LessWrong",
-   "evidence": "A user named Roko posted it to the LessWrong message board back in 2010 and it was considered so dangerous — or, perhaps more accurately, annoying — that any mention of it was banned from the site for years.",
-   "url": "https://www.garbageday.email/p/petty-powerful-and-pathologically-online",
-   "title": "Petty, powerful, and pathologically online",
-   "published": "2025-09-19",
-   "tags": {
-    "moment": "forum post controversy",
-    "topics": [
-     "artificial intelligence",
-     "internet forums",
-     "rationalist community"
-    ],
-    "entities": [
-     {
-      "name": "roko's basilisk",
-      "kind": "work"
-     },
-     {
-      "name": "lesswrong",
-      "kind": "community"
-     },
-     {
-      "name": "eliezer yudkowsky",
-      "kind": "person"
-     }
-    ],
-    "platforms": [
-     {
-      "name": "lesswrong"
-     }
-    ],
-    "audiences": [
-     {
-      "name": "ai evangelists"
      }
     ]
    }
@@ -1147,6 +1768,82 @@
    }
   },
   {
+   "quote": "As The Guardian reported at the time, “While politicians, journalists, and police were constantly tweeting about the disorder, rioters were not. Perhaps unsurprisingly, those taking part in the looting and violence were mostly avoiding communicating on public forums.”",
+   "start_year": 2011,
+   "end_year": 2011,
+   "label": "2011 London riots and Twitter",
+   "evidence": "2011 London riots",
+   "url": "https://www.garbageday.email/p/x-matter",
+   "title": "Does X matter?",
+   "published": "2024-08-05",
+   "tags": {
+    "moment": "protest platform blame narrative",
+    "topics": [
+     "twitter",
+     "political unrest",
+     "media coverage"
+    ],
+    "entities": [
+     {
+      "name": "the guardian",
+      "kind": "media outlet"
+     },
+     {
+      "name": "2011 london riots",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I tend to timestamp the moment Twitter truly started to matter as happening at some point between February 2011 and October 2012. Which covers the bulk of the Arab Spring, the London riots, the start and end of Occupy Wall Street, and the week that Hurricane Sandy rolled into New York City.",
+   "start_year": 2011,
+   "end_year": 2012,
+   "label": "Twitter's early rise (Arab Spring era)",
+   "evidence": "between February 2011 and October 2012",
+   "url": "https://www.garbageday.email/p/president-yoon-s-massive-l",
+   "title": "President Yoon's massive L",
+   "published": "2024-12-04",
+   "tags": {
+    "moment": "platform relevance milestone",
+    "topics": [
+     "twitter",
+     "political unrest",
+     "news events"
+    ],
+    "entities": [
+     {
+      "name": "arab spring",
+      "kind": "event"
+     },
+     {
+      "name": "occupy wall street",
+      "kind": "event"
+     },
+     {
+      "name": "hurricane sandy",
+      "kind": "event"
+     },
+     {
+      "name": "london riots",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "One of the central internet mysteries of the last 15 years is why 4chan creator Christopher Poole reversed course in 2011 and brought back the site’s politics board, which is called /pol/, or “Politically Incorrect.” It would become the staging ground for Gamergate, the 2016 Trump campaign, and the far-right populism wave that swept the world in the back half of the 2010s.",
    "start_year": 2011,
    "end_year": 2019,
@@ -1223,30 +1920,97 @@
    }
   },
   {
-   "quote": "After a few years, though, it had grown bigger than even Mondo could support. The company put the show on hiatus in 2012, with the creators’ planned story incomplete.",
+   "quote": "But this extends far beyond digital media. r/WallStreetBets, which was founded in 2012 by a guy who thought normal day trading wasn’t as fun as gambling, helped establish a central hub for the casinofication of the web.",
    "start_year": 2012,
    "end_year": 2012,
-   "label": "Baman Piderman put on hiatus",
-   "evidence": "The company put the show on hiatus in 2012, with the creators’ planned story incomplete.",
-   "url": "https://www.garbageday.email/p/can-people-make-stuff-on-youtube-still",
-   "title": "Can people make stuff on YouTube still?",
-   "published": "2025-08-06",
+   "label": "r/WallStreetBets founded",
+   "evidence": "which was founded in 2012",
+   "url": "https://www.garbageday.email/p/welcome-barstool-web",
+   "title": "Welcome to the Barstool Web",
+   "published": "2024-04-24",
    "tags": {
-    "moment": "show put on hiatus",
+    "moment": "online community founded",
     "topics": [
-     "animation",
-     "youtube",
-     "fandom"
+     "gambling",
+     "day trading",
+     "reddit"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In fact, if anything, you could argue that the mobile web as we currently understand it — the great big revolution in computing every AI company thinks they’re repeating now — didn’t actually arrive until Android phones overtook iOS, which happened around 2012-2013.",
+   "start_year": 2012,
+   "end_year": 2013,
+   "label": "Android overtakes iOS, mobile web arrives",
+   "evidence": "which happened around 2012-2013",
+   "url": "https://www.garbageday.email/p/apple-country-club",
+   "title": "Apple is a country club",
+   "published": "2024-06-12",
+   "tags": {
+    "moment": "platform shift milestone",
+    "topics": [
+     "mobile web",
+     "smartphones",
+     "android"
     ],
     "entities": [
      {
-      "name": "mondo",
+      "name": "google",
+      "kind": "company"
+     },
+     {
+      "name": "stumbleupon",
       "kind": "company"
      }
     ],
     "platforms": [
      {
-      "name": "youtube"
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Following the 2012 movie theater shooting in Aurora, Colorado, fans of the gunman James Holmes, who called themselves the Holmesies, got so mad I was digging around that they set up a Tumblr full of pictures of my face Photoshopped on to gay pornography.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Aurora shooting fan backlash (Holmesies)",
+   "evidence": "Following the 2012 movie theater shooting in Aurora, Colorado",
+   "url": "https://www.garbageday.email/p/a-sort-of-reverse-online-radicalization",
+   "title": "A sort of reverse online radicalization",
+   "published": "2024-12-11",
+   "tags": {
+    "moment": "fan backlash campaign",
+    "topics": [
+     "mass shootings",
+     "online harassment",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "james holmes",
+      "kind": "person"
+     },
+     {
+      "name": "aurora shooting",
+      "kind": "event"
+     },
+     {
+      "name": "holmesies",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
      }
     ],
     "audiences": []
@@ -1526,6 +2290,83 @@
       "name": "twitter"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I remember, years ago, I watched an important digital video executive declare to a big crowd that the future of video — all video, including movies and TV shows — was “post-language” and “post-verbal”. This was at the height of Facebook’s auto-playing, silent video boom and he had decided that 35-second videos where no one talks were about to conquer the world.",
+   "start_year": 2014,
+   "end_year": 2017,
+   "label": "Facebook's silent autoplay video boom",
+   "evidence": "the height of Facebook’s auto-playing, silent video boom",
+   "url": "https://www.garbageday.email/p/ceo-passive-content-obsession",
+   "title": "The CEO Passive Content Obsession",
+   "published": "2024-06-05",
+   "tags": {
+    "moment": "tech industry prediction anecdote",
+    "topics": [
+     "video content",
+     "social media trends",
+     "facebook"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I remember going to concerts in the middle of the decade and just feeling lighter thanks to the absence of gatekeepers, real or imaginary. I had a particularly profound moment at an American Football reunion show at Saint Vitus in Brooklyn around 2014 where I realized, oh we’re all on the same websites.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "mid-2010s gatekeeper-free concerts",
+   "evidence": "around 2014",
+   "url": "https://www.garbageday.email/p/coolness-just-scarcity",
+   "title": "Coolness is just scarcity",
+   "published": "2024-06-17",
+   "tags": {
+    "moment": "cultural gatekeeping decline",
+    "topics": [
+     "music scenes",
+     "concerts",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "american football",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In the mid-2010s, effectively one company, Mindgeek, monopolized almost all of the mainstream porn distributed online. They created and also bought up competing “tube” sites, along with a handful of the biggest surviving production companies.",
+   "start_year": 2014,
+   "end_year": 2019,
+   "label": "Mindgeek's porn monopoly",
+   "evidence": "In the mid-2010s, effectively one company, Mindgeek, monopolized almost all of the mainstream porn distributed online",
+   "url": "https://www.garbageday.email/p/the-end-point-of-viral-content",
+   "title": "The End Point Of Viral Content",
+   "published": "2024-10-23",
+   "tags": {
+    "moment": "industry monopoly consolidation",
+    "topics": [
+     "pornography industry",
+     "monopoly",
+     "online media"
+    ],
+    "entities": [
+     {
+      "name": "mindgeek",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -1906,32 +2747,53 @@
    }
   },
   {
-   "quote": "In 2015, a few of them were arrested after telling cops that they had coke in their car (it was Coca-Cola).",
+   "quote": "Trump was just an opportunistic Twitter power user at a moment when Twitter mattered to the people who mattered.",
    "start_year": 2015,
-   "end_year": 2015,
-   "label": "Nelk Boys prank arrest",
-   "evidence": "In 2015",
-   "url": "https://www.garbageday.email/p/ufc-and-the-beating-heart-of-trumpism",
-   "title": "UFC and the beating heart of Trumpism",
-   "published": "2025-03-10",
+   "end_year": 2020,
+   "label": "Trump as Twitter power user",
+   "evidence": "a moment when Twitter mattered to the people who mattered",
+   "url": "https://www.garbageday.email/p/online-candidate-derogatory",
+   "title": "The Online candidate (derogatory)",
+   "published": "2024-07-01",
    "tags": {
-    "moment": "prank arrest",
+    "moment": "social media influence assessment",
     "topics": [
-     "youtube",
-     "pranks",
-     "comedy"
+     "twitter",
+     "donald trump",
+     "political communication"
     ],
     "entities": [
      {
-      "name": "nelk boys",
-      "kind": "community"
+      "name": "donald trump",
+      "kind": "person"
      }
     ],
     "platforms": [
      {
-      "name": "youtube"
+      "name": "twitter"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I knew an editor that, all the way back in 2015, was using the term “dog food” for the viral content we had to produce for the sake of it.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "'dog food' viral content",
+   "evidence": "all the way back in 2015",
+   "url": "https://www.garbageday.email/p/slop-void",
+   "title": "More slop for the void",
+   "published": "2024-07-10",
+   "tags": {
+    "moment": "industry jargon coined",
+    "topics": [
+     "journalism",
+     "viral content",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -2176,6 +3038,39 @@
    }
   },
   {
+   "quote": "Even if you took the most digitally-skeptical view of the 2016 Trump campaign and ensuing presidency, you would still have to concede that he weaponized cheap digital advertising, leaned into memes as a way to connect with and radicalize young people, generated viral moments to stay in the news, ran the country via Twitter decree, and organized an insurrection with Facebook Events and livestreams.",
+   "start_year": 2016,
+   "end_year": 2021,
+   "label": "Trump's 2016 digital campaign playbook",
+   "evidence": "the 2016 Trump campaign",
+   "url": "https://www.garbageday.email/p/coconutpilled-contextmaxxing",
+   "title": "Coconutpilled and contextmaxxing",
+   "published": "2024-07-22",
+   "tags": {
+    "moment": "political digital campaign tactics",
+    "topics": [
+     "far-right politics",
+     "political campaigns",
+     "social media organizing"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "And, during his first campaign, when Hillary Clinton coined the term “fake news,” in a 2016 speech, Trump, not even a week later, stole it, threw it back against the mainstream media, and turned it into the defining slogan of his first administration.",
    "start_year": 2016,
    "end_year": 2016,
@@ -2296,26 +3191,6 @@
       "name": "4chan"
      }
     ],
-    "audiences": []
-   }
-  },
-  {
-   "quote": "Disillusioned by traditional methods of preaching, they hoped that a more aggressive style could yield a better result — one in which they could be seen to “DESTROY” their opponent in debates (this was the post 2016 period, after all).",
-   "start_year": 2016,
-   "end_year": 2017,
-   "label": "The post-2016 “destroy” debate style",
-   "evidence": "this was the post 2016 period, after all",
-   "url": "https://www.garbageday.email/p/everything-s-debateslop-now",
-   "title": "Everything's debateslop now",
-   "published": "2025-09-22",
-   "tags": {
-    "moment": "aggressive debate style",
-    "topics": [
-     "debate culture",
-     "religion"
-    ],
-    "entities": [],
-    "platforms": [],
     "audiences": []
    }
   },
@@ -2549,24 +3424,24 @@
    }
   },
   {
-   "quote": "Which is why, in 2016, I wasn’t totally surprised by the American media’s very retro approach to covering Trump’s early years in office. It was palace intrigue and tabloid scoops mixed together with business-as-usual White House pool reporting, with the assumption being that this was an aberration. A temporary bout of governmental insanity that would eventually pass.",
+   "quote": "Sellner was the guy who spent like all of 2017 sailing aimlessly around the Mediterranean trying to block migrants from getting to Europe.",
    "start_year": 2017,
-   "end_year": 2018,
-   "label": "media's early Trump-era coverage",
-   "evidence": "Trump’s early years in office",
-   "url": "https://www.garbageday.email/p/yeah-it-s-probably-time-to-panic",
-   "title": "Yeah, it's probably time to panic",
-   "published": "2025-01-29",
+   "end_year": 2017,
+   "label": "Sellner's 2017 anti-migrant boat campaign",
+   "evidence": "Sellner was the guy who spent like all of 2017 sailing aimlessly around the Mediterranean trying to block migrants from getting to Europe",
+   "url": "https://www.garbageday.email/p/traffic-firehose-isnt-coming-back",
+   "title": "The traffic firehose isn't coming back",
+   "published": "2024-03-18",
    "tags": {
-    "moment": "media coverage style",
+    "moment": "anti-migrant activism campaign",
     "topics": [
-     "journalism",
-     "politics",
-     "media criticism"
+     "far-right politics",
+     "migration",
+     "europe"
     ],
     "entities": [
      {
-      "name": "donald trump",
+      "name": "martin sellner",
       "kind": "person"
      }
     ],
@@ -2575,36 +3450,32 @@
    }
   },
   {
-   "quote": "During his first presidency, he influenced the country’s politics via a livetweeting loop, where he would watch Fox News, tweet his random thoughts, and wait to see which ones would make it into Fox broadcasts the next day, and, subsequently, Republican policy.",
+   "quote": "There was substantial pushback to loot boxes in 2017 across the industry, but most prominently over Star Wars Battlefront 2. EA, the game’s developers, removed loot boxes from the game shortly before release after early testers revealed it would take approximately 40 hours to unlock Darth Vader unless you paid extra money on top of the $70 game.",
    "start_year": 2017,
-   "end_year": 2021,
-   "label": "Trump's first-term livetweeting loop",
-   "evidence": "During his first presidency",
-   "url": "https://www.garbageday.email/p/you-can-never-truly-go-back",
-   "title": "You can never truly go back",
-   "published": "2025-02-17",
+   "end_year": 2017,
+   "label": "2017 loot-box backlash over Battlefront 2",
+   "evidence": "substantial pushback to loot boxes in 2017",
+   "url": "https://www.garbageday.email/p/welcome-barstool-web",
+   "title": "Welcome to the Barstool Web",
+   "published": "2024-04-24",
    "tags": {
-    "moment": "media influence loop",
+    "moment": "consumer backlash over microtransactions",
     "topics": [
-     "politics",
-     "twitter",
-     "far-right politics"
+     "video games",
+     "loot boxes",
+     "consumer backlash"
     ],
     "entities": [
      {
-      "name": "donald trump",
-      "kind": "person"
+      "name": "star wars battlefront 2",
+      "kind": "work"
      },
      {
-      "name": "fox news",
-      "kind": "media outlet"
+      "name": "ea",
+      "kind": "company"
      }
     ],
-    "platforms": [
-     {
-      "name": "twitter"
-     }
-    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -2671,6 +3542,16 @@
     ],
     "audiences": []
    }
+  },
+  {
+   "quote": "Just a few months into his first, the White House took the position that Trump’s tweets were “official statements.”",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Trump's tweets deemed 'official statements'",
+   "evidence": "Just a few months into his first, the White House took the position that Trump’s tweets were “official statements.”",
+   "url": "https://www.garbageday.email/p/the-uncanny-valley-between-meme-and-law-9650f12b480c7005",
+   "title": "The uncanny valley between meme and law",
+   "published": "2025-08-13"
   },
   {
    "quote": "I first began studying Speaker’s Corner in 2017, as part of research for a book on British Muslims and internet culture, where I spent some time with two then obscure influencers named Ali Dawah and Mohammed Hijab, who were gaining popularity among young Muslims who felt disenfranchised by both mainstream media, and the digital media counterparts that were then enjoying their final few years of dominance.",
@@ -2778,25 +3659,85 @@
    }
   },
   {
-   "quote": "By 2018, Steve Bannon had canonized this politicalized irony as “flooding the zone with shit,” which further seemed to prove that there was a certain self-awareness at the very top of the organization.",
+   "quote": "Dropout launched in 2018 as the subscription arm of College Humor, which, yes, sounds insane now and sounded even more insane then. College Humor’s owner, IAC, sold the College Humor brand to the company’s then-Chief Creative Officer Sam Reich right before the pandemic, which was the real beginning of the Dropout era.",
    "start_year": 2018,
-   "end_year": 2018,
-   "label": "Bannon coins 'flood the zone with shit'",
-   "evidence": "By 2018",
-   "url": "https://www.garbageday.email/p/do-republicans-really-believe-this-stuff",
-   "title": "Do Republicans really believe this stuff?",
-   "published": "2025-03-03",
+   "end_year": 2020,
+   "label": "Dropout's founding as College Humor's subscription arm",
+   "evidence": "Dropout launched in 2018",
+   "url": "https://www.garbageday.email/p/another-youtuber-couch-apology",
+   "title": "Another YouTuber couch apology",
+   "published": "2024-04-29",
    "tags": {
-    "moment": "propaganda tactic named",
+    "moment": "streaming service launch",
     "topics": [
-     "politics",
-     "media manipulation",
-     "far-right politics"
+     "streaming",
+     "youtube creators",
+     "media company history"
     ],
     "entities": [
      {
-      "name": "steve bannon",
+      "name": "dropout",
+      "kind": "company"
+     },
+     {
+      "name": "college humor",
+      "kind": "company"
+     },
+     {
+      "name": "iac",
+      "kind": "company"
+     },
+     {
+      "name": "sam reich",
       "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "That was when Pusha reimagined the diss track for the tabloid-powered Trump era, packaging what was effectively a TMZ-level scoop — that Drake had a secret son — into a song titled, “The Story of Adidon”. Pusha also used a leaked image of Drake in blackface as the album cover.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Pusha T's 2018 Drake diss track",
+   "evidence": "Pusha T’s previous beef with Drake in 2018",
+   "url": "https://www.garbageday.email/p/lets-talk-drake",
+   "title": "Let's talk about Drake",
+   "published": "2024-05-06",
+   "tags": {
+    "moment": "diss track release",
+    "topics": [
+     "hip hop",
+     "celebrity feuds",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "pusha t",
+      "kind": "person"
+     },
+     {
+      "name": "drake",
+      "kind": "person"
+     },
+     {
+      "name": "the story of adidon",
+      "kind": "work"
+     },
+     {
+      "name": "tmz",
+      "kind": "media outlet"
      }
     ],
     "platforms": [],
@@ -2804,31 +3745,37 @@
    }
   },
   {
-   "quote": "The most popular version of which is that after the 2018 porn ban, Tumblr users moved to more mainstream platforms and, thus, made the rest of the internet much, much more annoying.",
+   "quote": "2018 was also the year TikTok became the most-downloaded app in the US. And it was also the year Drake, the king of slop, released Scorpion, a 25-song album with a runtime comparable to a feature film.",
    "start_year": 2018,
    "end_year": 2018,
-   "label": "Tumblr's 2018 porn ban migration",
-   "evidence": "after the 2018 porn ban, Tumblr users moved to more mainstream platforms",
-   "url": "https://www.garbageday.email/p/did-you-even-notice-4chan-s-gone",
-   "title": "Did you even notice 4chan's gone?",
-   "published": "2025-04-16",
+   "label": "TikTok's rise and Drake's Scorpion",
+   "evidence": "2018 was also the year TikTok became the most-downloaded app in the US",
+   "url": "https://www.garbageday.email/p/slop-void",
+   "title": "More slop for the void",
+   "published": "2024-07-10",
    "tags": {
-    "moment": "platform migration after ban",
+    "moment": "app milestone and album release",
     "topics": [
-     "tumblr",
-     "content moderation"
+     "tiktok",
+     "music",
+     "hip hop"
     ],
-    "entities": [],
+    "entities": [
+     {
+      "name": "drake",
+      "kind": "person"
+     },
+     {
+      "name": "scorpion",
+      "kind": "work"
+     }
+    ],
     "platforms": [
      {
-      "name": "tumblr"
+      "name": "tiktok"
      }
     ],
-    "audiences": [
-     {
-      "name": "tumblr users"
-     }
-    ]
+    "audiences": []
    }
   },
   {
@@ -3108,6 +4055,66 @@
    }
   },
   {
+   "quote": "I lost a lot of my fascination with what killers leave behind online, though, following the 2019 Christchurch shootings. It was the first time it felt like a killer had purposefully set up a paper trail for reporters to find.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "Christchurch shooting paper trail",
+   "evidence": "following the 2019 Christchurch shootings",
+   "url": "https://www.garbageday.email/p/a-sort-of-reverse-online-radicalization",
+   "title": "A sort of reverse online radicalization",
+   "published": "2024-12-11",
+   "tags": {
+    "moment": "mass shooter's online paper trail",
+    "topics": [
+     "mass shootings",
+     "online radicalization",
+     "media coverage"
+    ],
+    "entities": [
+     {
+      "name": "christchurch shootings",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And this has been true since TikTok’s first big viral moment in late 2019, thanks to Charli D’Amelio, who had the app’s most-followed account until 2022. A competitive dancer, D’Amelio’s success came from performing the elaborately choreographed dances like “The Renegade” that were TikTok’s bread and butter in its early days.",
+   "start_year": 2019,
+   "end_year": 2022,
+   "label": "TikTok's early viral era (Charli D'Amelio)",
+   "evidence": "TikTok’s first big viral moment in late 2019",
+   "url": "https://www.garbageday.email/p/holding-up-a-mirror-to-america",
+   "title": "Holding up a mirror to America",
+   "published": "2025-01-20",
+   "tags": {
+    "moment": "viral dance trend",
+    "topics": [
+     "tiktok",
+     "dance",
+     "viral fame"
+    ],
+    "entities": [
+     {
+      "name": "charli d'amelio",
+      "kind": "person"
+     },
+     {
+      "name": "the renegade",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "At some point between 2019-2021, the internet conquered mainstream media, viral content replaced traditional corporate entertainment, and Republicans have first mover’s advantage.",
    "start_year": 2019,
    "end_year": 2021,
@@ -3225,6 +4232,473 @@
     "platforms": [
      {
       "name": "twitch"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Josh Pieters and Archie Manners are the same video creators that went viral in 2020 after they invented a “Campaign to Unify the Nation Trophy” and flew far-right UK columnist Katie Hopkins to Prague to accept it.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "2020 Katie Hopkins prank trophy",
+   "evidence": "went viral in 2020 after they invented a “Campaign to Unify the Nation Trophy”",
+   "url": "https://www.garbageday.email/p/traffic-firehose-isnt-coming-back",
+   "title": "The traffic firehose isn't coming back",
+   "published": "2024-03-18",
+   "tags": {
+    "moment": "viral prank stunt",
+    "topics": [
+     "far-right politics",
+     "prank videos",
+     "youtube creators"
+    ],
+    "entities": [
+     {
+      "name": "josh pieters",
+      "kind": "person"
+     },
+     {
+      "name": "archie manners",
+      "kind": "person"
+     },
+     {
+      "name": "katie hopkins",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But I mainly credit the pandemic, the TikTok boom, and the GameStop pump all happening somewhat simultaneously, permanently shifting the balance of power from old irl institutions to whatever makes you feel a certain way on your various feeds.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "pandemic, TikTok boom and GameStop pump shift power to feeds",
+   "evidence": "the pandemic, the TikTok boom, and the GameStop pump all happening somewhat simultaneously",
+   "url": "https://www.garbageday.email/p/clout-world",
+   "title": "Clout world",
+   "published": "2024-03-20",
+   "tags": {
+    "moment": "cultural power shift",
+    "topics": [
+     "pandemic",
+     "tiktok",
+     "meme stocks"
+    ],
+    "entities": [
+     {
+      "name": "gamestop",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Way back in 2020, there was an incident where a whole bunch of fan art on Toyhouse morphed into a bizarre secondary market, with people asking for as much as $20,000 for pictures of a fantasy race of monsters called Grems.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "2020 Toyhouse 'Grems' art speculation",
+   "evidence": "Way back in 2020, there was an incident where a whole bunch of fan art on Toyhouse morphed into a bizarre secondary market",
+   "url": "https://www.garbageday.email/p/clout-world",
+   "title": "Clout world",
+   "published": "2024-03-20",
+   "tags": {
+    "moment": "fan art speculation market",
+    "topics": [
+     "fan art",
+     "collectibles market",
+     "furry culture"
+    ],
+    "entities": [
+     {
+      "name": "grems",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "toyhouse"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In fact, the defining text of the early pandemic wasn’t written by someone with a background in public health or epidemiology. It was a Medium post (Substack hadn’t really broken through just yet) written by Tomas Pueyo, the vice president of an educational program called Course Hero. It was titled, “Coronavirus: Why You Must Act Now,” and, to be clear, it was mostly fine.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "Tomas Pueyo's viral early-pandemic COVID post",
+   "evidence": "the defining text of the early pandemic",
+   "url": "https://www.garbageday.email/p/ceos-want-podcasters-now",
+   "title": "All the CEOs want to be podcasters now",
+   "published": "2024-03-27",
+   "tags": {
+    "moment": "viral pandemic explainer",
+    "topics": [
+     "covid-19",
+     "viral content",
+     "blogging"
+    ],
+    "entities": [
+     {
+      "name": "tomas pueyo",
+      "kind": "person"
+     },
+     {
+      "name": "course hero",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "medium"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Clubhouse, the clear inspiration for Airchat, “blew up” (debatable) during the pandemic thanks to a couple key factors: People with email jobs couldn’t go outside — or, at least, couldn’t post about being outside. The crypto market was on a bull run so everyone was rich with fake money.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "pandemic-era Clubhouse boom",
+   "evidence": "“blew up” (debatable) during the pandemic",
+   "url": "https://www.garbageday.email/p/new-dinner-party-simulation-app-dropped",
+   "title": "New dinner party simulation app dropped",
+   "published": "2024-04-17",
+   "tags": {
+    "moment": "app hype during pandemic",
+    "topics": [
+     "clubhouse",
+     "pandemic",
+     "tech founder culture"
+    ],
+    "entities": [
+     {
+      "name": "clubhouse",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "clubhouse"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Back in 2020, a TikTok video of Scottish musician Nathan Evans singing a New Zealand whaling song called \"The Wellerman” went incredibly viral. Evans’ video was dueted by musicians all over the app and also made previous recordings of the song go viral, as well.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "2020 'Wellerman' TikTok virality",
+   "evidence": "Back in 2020, a TikTok video of Scottish musician Nathan Evans",
+   "url": "https://www.garbageday.email/p/now-time-sea-shanties",
+   "title": "Now is the time of sea shanties",
+   "published": "2024-05-13",
+   "tags": {
+    "moment": "viral music trend",
+    "topics": [
+     "tiktok",
+     "music",
+     "viral trends"
+    ],
+    "entities": [
+     {
+      "name": "nathan evans",
+      "kind": "person"
+     },
+     {
+      "name": "the wellerman",
+      "kind": "work"
+     },
+     {
+      "name": "the longest johns",
+      "kind": "community"
+     },
+     {
+      "name": "universal music group",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Looking back, it’s clear I caught the peak of a moment in digital publishing that probably isn’t ever coming back. Users were excited about newsletters, pandemic-era Twitter was converting a lot of readers, and Substack was launching extremely sticky community features that really super-charged things.",
+   "start_year": 2020,
+   "end_year": 2022,
+   "label": "pandemic-era newsletter boom",
+   "evidence": "pandemic-era Twitter was converting a lot of readers",
+   "url": "https://www.garbageday.email/p/excuse-navelgazing",
+   "title": "Excuse the navel-gazing",
+   "published": "2024-05-27",
+   "tags": {
+    "moment": "newsletter industry boom",
+    "topics": [
+     "newsletters",
+     "pandemic",
+     "substack"
+    ],
+    "entities": [
+     {
+      "name": "substack",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "substack"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "“No Jumper made a shitload of money off interviewing OnlyFans girls when that was sort of like the new craze, early pandemic,” Grandmaison said.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "early-pandemic OnlyFans interview craze",
+   "evidence": "early pandemic",
+   "url": "https://www.garbageday.email/p/hypebeasts-without-hype",
+   "title": "Hypebeasts without the hype",
+   "published": "2024-06-26",
+   "tags": {
+    "moment": "content trend cycle",
+    "topics": [
+     "onlyfans",
+     "podcasting",
+     "creator economy"
+    ],
+    "entities": [
+     {
+      "name": "no jumper",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "onlyfans"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The common wisdom is that the current generative AI push is a direct result of Silicon Valley elites losing their minds in 2020. The double whammy of the end of Trump era low interest rates and COVID lockdown isolation sent America’s CEOs spiraling, chasing after hype bubbles like crypto, the metaverse, streaming platforms, and, now, AI.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "2020 Silicon Valley meltdown into hype bubbles",
+   "evidence": "losing their minds in 2020",
+   "url": "https://www.garbageday.email/p/american-digital-backwater",
+   "title": "The American digital backwater",
+   "published": "2024-07-08",
+   "tags": {
+    "moment": "tech industry hype spiral",
+    "topics": [
+     "silicon valley",
+     "tech industry",
+     "generative ai"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The 2020 Biden campaign team seemed stuck between wanting to copy Trump’s 2016 playbook and also copy Obama’s 2008 and 2012 campaign strategies.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "2020 Biden campaign's confused digital strategy",
+   "evidence": "The 2020 Biden campaign",
+   "url": "https://www.garbageday.email/p/coconutpilled-contextmaxxing",
+   "title": "Coconutpilled and contextmaxxing",
+   "published": "2024-07-22",
+   "tags": {
+    "moment": "political campaign strategy",
+    "topics": [
+     "political campaigns",
+     "digital strategy"
+    ],
+    "entities": [
+     {
+      "name": "joe biden",
+      "kind": "person"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "barack obama",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2020, Pornhub had to remove an estimated 10 million videos due to both copyright and also abuse material.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "Pornhub's 2020 mass video removal",
+   "evidence": "In 2020, Pornhub had to remove an estimated 10 million videos",
+   "url": "https://www.garbageday.email/p/the-end-point-of-viral-content",
+   "title": "The End Point Of Viral Content",
+   "published": "2024-10-23",
+   "tags": {
+    "moment": "mass content removal",
+    "topics": [
+     "pornography industry",
+     "content moderation"
+    ],
+    "entities": [
+     {
+      "name": "pornhub",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "pornhub"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The most important thing about the January 6th Insurrection was that it was organized openly, on right-wing platforms like Parler and Gab, but, most importantly, on Facebook, specifically using Facebook Events. We watched it built critical mass out in the open for months.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "January 6 Insurrection organized on Facebook",
+   "evidence": "The most important thing about the January 6th Insurrection was that it was organized openly, on right-wing platforms like Parler and Gab, but, most importantly, on Facebook",
+   "url": "https://www.garbageday.email/p/a-176-year-old-mystery-solved",
+   "title": "A 176-year-old mystery solved",
+   "published": "2024-10-30",
+   "tags": {
+    "moment": "insurrection organized online",
+    "topics": [
+     "far-right politics",
+     "political violence",
+     "social media organizing"
+    ],
+    "entities": [
+     {
+      "name": "january 6th insurrection",
+      "kind": "event"
+     },
+     {
+      "name": "meta",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "parler"
+     },
+     {
+      "name": "gab"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And when the Indian government banned TikTok in 2020, there were around 200 million Indian users on the app, double the amount they currently have in the US.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "India's TikTok ban",
+   "evidence": "when the Indian government banned TikTok in 2020",
+   "url": "https://www.garbageday.email/p/tiktok-doesn-t-need-america",
+   "title": "TikTok doesn't need America",
+   "published": "2025-01-13",
+   "tags": {
+    "moment": "country-level app ban",
+    "topics": [
+     "tiktok",
+     "india",
+     "platform bans"
+    ],
+    "entities": [
+     {
+      "name": "tiktok",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2020, two weeks after D’Amelio parlayed her TikTok fame to a Super Bowl ad, journalist Taylor Lorenz profiled the Renegade dance’s original choreographer. Jalaiah Harmon had originally posted the dance on an app called Funimate, before reposting it to Instagram, where it then spread to TikTok.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "Renegade dance origin uncovered",
+   "evidence": "In 2020",
+   "url": "https://www.garbageday.email/p/holding-up-a-mirror-to-america",
+   "title": "Holding up a mirror to America",
+   "published": "2025-01-20",
+   "tags": {
+    "moment": "viral trend origin uncovered",
+    "topics": [
+     "tiktok",
+     "dance",
+     "credit and erasure"
+    ],
+    "entities": [
+     {
+      "name": "jalaiah harmon",
+      "kind": "person"
+     },
+     {
+      "name": "taylor lorenz",
+      "kind": "person"
+     },
+     {
+      "name": "charli d'amelio",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "funimate"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "tiktok"
      }
     ],
     "audiences": []
@@ -3549,6 +5023,66 @@
    }
   },
   {
+   "quote": "The GameStop short squeeze in 2021 legitimized meme stocks as, essentially, a bet that could pay out big.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "2021 GameStop short squeeze",
+   "evidence": "The GameStop short squeeze in 2021",
+   "url": "https://www.garbageday.email/p/welcome-barstool-web",
+   "title": "Welcome to the Barstool Web",
+   "published": "2024-04-24",
+   "tags": {
+    "moment": "meme stock event",
+    "topics": [
+     "meme stocks",
+     "gambling",
+     "stock market"
+    ],
+    "entities": [
+     {
+      "name": "gamestop",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2021, Aiub defended former Brazilian President Jair Bolsonaro after he claimed that COVID-19 caused AIDS. iFood, a Brazilian food delivery app and one of the main sponsors of Aiub’s podcast, pulled their ads from the show and one of Aiub’s fans, who was working at iFood at the time, started vandalizing restaurant listings and replacing food names with pro-Bolosnaro memes.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "Monark host's Bolsonaro/COVID controversy",
+   "evidence": "In 2021, Aiub defended former Brazilian President Jair Bolsonaro after he claimed that COVID-19 caused AIDS",
+   "url": "https://www.garbageday.email/p/fringes-online-gutter-culture",
+   "title": "The fringes of online gutter culture",
+   "published": "2024-09-04",
+   "tags": {
+    "moment": "podcaster controversy fallout",
+    "topics": [
+     "podcasting",
+     "brazil",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "bruno aiub",
+      "kind": "person"
+     },
+     {
+      "name": "jair bolsonaro",
+      "kind": "person"
+     },
+     {
+      "name": "ifood",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "And in September 2021, when TikTok broke a billion monthly active users, the mistake — well, one of the many mistakes — Silicon Valley made in response was assuming that they could simply change the game they were suddenly losing.",
    "start_year": 2021,
    "end_year": 2021,
@@ -3659,29 +5193,204 @@
    }
   },
   {
-   "quote": "Now, by 2022, the Post was losing subscriptions because — and this is actually why Garbage Day is not fully leaning into being a purely anti-Trump outlet — it turns out that the subs that come in for Trump tend to leave when they lose interest.",
+   "quote": "When Musk got the Starlink contract approved during the last months of the far-right Bolsonaro administration, he said at the time it would be used for “environmental monitoring of Amazon.”",
    "start_year": 2022,
    "end_year": 2022,
-   "label": "WaPo subscriber decline by 2022",
-   "evidence": "by 2022",
-   "url": "https://www.garbageday.email/p/drowning-in-burrito-taxi-discourse",
-   "title": "Drowning in \"burrito taxi\" discourse",
-   "published": "2025-02-26",
+   "label": "Musk's Starlink contract under Bolsonaro",
+   "evidence": "during the last months of the far-right Bolsonaro administration",
+   "url": "https://www.garbageday.email/p/musks-masterful-brazilian-gambit",
+   "title": "Musk's masterful Brazilian gambit",
+   "published": "2024-04-10",
    "tags": {
-    "moment": "subscriber decline",
+    "moment": "government contract controversy",
     "topics": [
-     "journalism",
-     "media business",
-     "politics"
+     "brazil",
+     "elon musk",
+     "satellite internet"
     ],
     "entities": [
      {
-      "name": "washington post",
-      "kind": "media outlet"
+      "name": "elon musk",
+      "kind": "person"
      },
      {
-      "name": "donald trump",
+      "name": "starlink",
+      "kind": "company"
+     },
+     {
+      "name": "jair bolsonaro",
       "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The TSE banned Telegram due to extremism in 2022, though the ban was eventually lifted.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Brazil's 2022 Telegram ban",
+   "evidence": "The TSE banned Telegram due to extremism in 2022",
+   "url": "https://www.garbageday.email/p/musks-masterful-brazilian-gambit",
+   "title": "Musk's masterful Brazilian gambit",
+   "published": "2024-04-10",
+   "tags": {
+    "moment": "platform ban and reversal",
+    "topics": [
+     "brazil",
+     "content moderation",
+     "platform regulation"
+    ],
+    "entities": [
+     {
+      "name": "tse",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "telegram"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The most disastrous version of this was CNN+, which similarly attempted to leverage people you kinda know and like from your various screens to launch a Netflix-like streaming service. It ended up with less than 10,000 users in its first couple weeks.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "CNN+'s quick collapse",
+   "evidence": "The most disastrous version of this was CNN+",
+   "url": "https://www.garbageday.email/p/another-youtuber-couch-apology",
+   "title": "Another YouTuber couch apology",
+   "published": "2024-04-29",
+   "tags": {
+    "moment": "streaming service failure",
+    "topics": [
+     "streaming",
+     "media company failure"
+    ],
+    "entities": [
+     {
+      "name": "cnn+",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In January 2022, TikTok became the most downloaded app in the world. And immediately after it topped both iOS and Android charts, dozens of other Chinese-made apps like Shein and CapCut also launched to huge success in the US, largely thanks to buying TikTok ads.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "2022 Chinese-app boom in the US",
+   "evidence": "In January 2022, TikTok became the most downloaded app in the world",
+   "url": "https://www.garbageday.email/p/american-digital-backwater",
+   "title": "The American digital backwater",
+   "published": "2024-07-08",
+   "tags": {
+    "moment": "app download milestone",
+    "topics": [
+     "chinese apps",
+     "app store rankings",
+     "tiktok"
+    ],
+    "entities": [
+     {
+      "name": "tiktok",
+      "kind": "company"
+     },
+     {
+      "name": "shein",
+      "kind": "company"
+     },
+     {
+      "name": "capcut",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Then in 2022, Aiub was fired from his own show after he got “very drunk” and argued that Brazil should have a Nazi party.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Monark host fired over Nazi party comment",
+   "evidence": "Then in 2022, Aiub was fired from his own show after he got “very drunk” and argued that Brazil should have a Nazi party",
+   "url": "https://www.garbageday.email/p/fringes-online-gutter-culture",
+   "title": "The fringes of online gutter culture",
+   "published": "2024-09-04",
+   "tags": {
+    "moment": "podcaster fired for comments",
+    "topics": [
+     "podcasting",
+     "brazil",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "bruno aiub",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I spent most of 2022-2023 sitting through endless pitch meetings with different podcast “companies” — many of which seemed to just be LLCs built around a single sad Gen Xer parked at his kitchen table recording true crime shows hosted by former Office cast members.",
+   "start_year": 2022,
+   "end_year": 2023,
+   "label": "Podcast industry pitch meetings",
+   "evidence": "I spent most of 2022-2023 sitting through endless pitch meetings with different podcast “companies”",
+   "url": "https://www.garbageday.email/p/podcasting-good",
+   "title": "Podcasting... good?",
+   "published": "2024-11-27",
+   "tags": {
+    "moment": "industry pitch meeting grind",
+    "topics": [
+     "podcasting",
+     "media industry",
+     "true crime"
+    ],
+    "entities": [
+     {
+      "name": "the office",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "His killer revealed that he carried out the attack because of Abe’s support of the Unification Church, a cult-like religious order that wields a tremendous amount of political influence in Japan. And the overwhelming response from both the Japanese public and lawmakers, alike, was, yeah, actually, he had a point.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Shinzo Abe assassination",
+   "evidence": "the assassination of Japanese Prime Minister Shinzo Abe in 2022",
+   "url": "https://www.garbageday.email/p/trying-to-scold-the-entire-internet",
+   "title": "Trying to scold the entire internet",
+   "published": "2024-12-09",
+   "tags": {
+    "moment": "assassination public reaction",
+    "topics": [
+     "political assassination",
+     "japan",
+     "religious cults"
+    ],
+    "entities": [
+     {
+      "name": "shinzo abe",
+      "kind": "person"
+     },
+     {
+      "name": "unification church",
+      "kind": "community"
      }
     ],
     "platforms": [],
@@ -3778,6 +5487,32 @@
      {
       "name": "sonnenrad",
       "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I had a similar moment of clarity, watching a panel at Bitcoin Miami in in 2022, where the speakers started waxing philosophically on what they either did or did not realize was a world run on permanent, automated debt slavery.",
+   "start_year": 2022,
+   "end_year": 2022,
+   "label": "Bitcoin Miami panel",
+   "evidence": "watching a panel at Bitcoin Miami in in 2022, where the speakers started waxing philosophically on what they either did or did not realize was a world run on permanent, automated debt slavery",
+   "url": "https://www.garbageday.email/p/generative-ai-is-an-expensive-edging-machine",
+   "title": "Generative AI is an expensive edging machine",
+   "published": "2026-01-21",
+   "tags": {
+    "moment": "crypto conference anecdote",
+    "topics": [
+     "cryptocurrency",
+     "tech conferences",
+     "silicon valley"
+    ],
+    "entities": [
+     {
+      "name": "bitcoin miami",
+      "kind": "event"
      }
     ],
     "platforms": [],
@@ -3897,36 +5632,6 @@
     "audiences": [
      {
       "name": "nft fans"
-     }
-    ]
-   }
-  },
-  {
-   "quote": "Back in 2023, we did this whole song and dance for the first time, when conservatives called for a boycott of Cracker Barrel after they announced corporate initiatives supporting Pride month.",
-   "start_year": 2023,
-   "end_year": 2023,
-   "label": "2023 Cracker Barrel Pride boycott",
-   "evidence": "Back in 2023, we did this whole song and dance for the first time, when conservatives called for a boycott of Cracker Barrel after they announced corporate initiatives supporting Pride month.",
-   "url": "https://www.garbageday.email/p/a-b-testing-your-anti-woke-meltdown-e1a04224ffbb38b6",
-   "title": "A/B testing your anti-woke meltdown",
-   "published": "2025-08-25",
-   "tags": {
-    "moment": "corporate boycott campaign",
-    "topics": [
-     "culture war",
-     "corporate boycotts",
-     "pride month backlash"
-    ],
-    "entities": [
-     {
-      "name": "cracker barrel",
-      "kind": "company"
-     }
-    ],
-    "platforms": [],
-    "audiences": [
-     {
-      "name": "conservatives"
      }
     ]
    }

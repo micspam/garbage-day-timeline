@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "cultural power shift", "topics": ["pandemic", "tiktok", "meme stocks"], "entities": [{"name": "gamestop", "kind": "company", "evidence": "the GameStop pump"}], "platforms": [{"name": "tiktok", "evidence": "the TikTok boom"}], "audiences": [{"name": "gen z", "evidence": "Gen Z is the first generation"}]},
+{"n": 2, "moment": "fan art speculation market", "topics": ["fan art", "collectibles market", "furry culture"], "entities": [{"name": "grems", "kind": "work", "evidence": "a fantasy race of monsters called Grems"}], "platforms": [{"name": "toyhouse", "evidence": "fan art on Toyhouse"}], "audiences": []}
+]}

@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "viral dance trend", "topics": ["tiktok", "dance", "viral fame"], "entities": [{"name": "charli d'amelio", "kind": "person", "evidence": "Charli D’Amelio"}, {"name": "the renegade", "kind": "work", "evidence": "“The Renegade”"}], "platforms": [{"name": "tiktok", "evidence": "TikTok’s first big viral moment"}], "audiences": []},
+{"n": 2, "moment": "viral trend origin uncovered", "topics": ["tiktok", "dance", "credit and erasure"], "entities": [{"name": "jalaiah harmon", "kind": "person", "evidence": "Jalaiah Harmon"}, {"name": "taylor lorenz", "kind": "person", "evidence": "journalist Taylor Lorenz"}, {"name": "charli d'amelio", "kind": "person", "evidence": "D’Amelio parlayed her TikTok fame"}], "platforms": [{"name": "funimate", "evidence": "an app called Funimate"}, {"name": "instagram", "evidence": "reposting it to Instagram"}, {"name": "tiktok", "evidence": "it then spread to TikTok"}], "audiences": []}
+]}

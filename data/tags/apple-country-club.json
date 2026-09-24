@@ -1,0 +1,5 @@
+{"tags": [
+{"n": 1, "moment": "product launch limitations", "topics": ["smartphones", "apple"], "entities": [{"name": "iphone", "kind": "other", "evidence": "The first iPhone launched in 2007"}, {"name": "at&t", "kind": "company", "evidence": "AT&T contract"}], "platforms": [], "audiences": []},
+{"n": 2, "moment": "product limitation anecdote", "topics": ["smartphones", "mobile web"], "entities": [{"name": "droid 2", "kind": "other", "evidence": "my Droid 2"}], "platforms": [{"name": "tumblr", "evidence": "trying to load Tumblr on it"}], "audiences": []},
+{"n": 3, "moment": "platform shift milestone", "topics": ["mobile web", "smartphones", "android"], "entities": [{"name": "google", "kind": "company", "evidence": "Google Search"}, {"name": "stumbleupon", "kind": "company", "evidence": "StumbleUpon"}], "platforms": [{"name": "facebook", "evidence": "Facebook which then, about four months later, led to mobile traffic beating out desktop"}], "audiences": []}
+]}

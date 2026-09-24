@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "government contract controversy", "topics": ["brazil", "elon musk", "satellite internet"], "entities": [{"name": "elon musk", "kind": "person", "evidence": "Musk got the Starlink contract"}, {"name": "starlink", "kind": "company", "evidence": "the Starlink contract"}, {"name": "jair bolsonaro", "kind": "person", "evidence": "the far-right Bolsonaro administration"}], "platforms": [], "audiences": []},
+{"n": 2, "moment": "platform ban and reversal", "topics": ["brazil", "content moderation", "platform regulation"], "entities": [{"name": "tse", "kind": "other", "evidence": "The TSE banned Telegram"}], "platforms": [{"name": "telegram", "evidence": "The TSE banned Telegram due to extremism in 2022"}], "audiences": []}
+]}

@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "viral music trend", "topics": ["tiktok", "music", "viral trends"], "entities": [{"name": "nathan evans", "kind": "person", "evidence": "Scottish musician Nathan Evans"}, {"name": "the wellerman", "kind": "work", "evidence": "“The Wellerman”"}, {"name": "the longest johns", "kind": "community", "evidence": "a band called The Longest Johns"}, {"name": "universal music group", "kind": "company", "evidence": "Universal Music Group"}], "platforms": [{"name": "tiktok", "evidence": "a TikTok video of Scottish musician Nathan Evans"}, {"name": "youtube", "evidence": "uploaded to YouTube by a band called The Longest Johns"}], "audiences": []},
+{"n": 3, "moment": "regional music scene competition", "topics": ["hip hop", "radio", "regional music scenes"], "entities": [], "platforms": [], "audiences": []}
+]}

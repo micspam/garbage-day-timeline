@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "tech industry hype spiral", "topics": ["silicon valley", "tech industry", "generative ai"], "entities": [], "platforms": [], "audiences": []},
+{"n": 2, "moment": "app download milestone", "topics": ["chinese apps", "app store rankings", "tiktok"], "entities": [{"name": "tiktok", "kind": "company", "evidence": "TikTok became the most downloaded app in the world"}, {"name": "shein", "kind": "company", "evidence": "Shein"}, {"name": "capcut", "kind": "company", "evidence": "CapCut"}], "platforms": [], "audiences": []}
+]}

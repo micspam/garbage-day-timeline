@@ -1,0 +1,3 @@
+{"tags": [
+{"n": 1, "moment": "media strategy pattern", "topics": ["far-right politics", "conservative media", "meme culture"], "entities": [{"name": "steve bannon", "kind": "person", "evidence": "Steve Bannon"}, {"name": "tucker carlson", "kind": "person", "evidence": "Tucker Carlson"}, {"name": "ben shapiro", "kind": "person", "evidence": "Ben Shapiro"}], "platforms": [{"name": "4chan", "evidence": "racist 4chan posts"}, {"name": "facebook", "evidence": "aggregated them for platforms like Facebook"}], "audiences": [{"name": "conservatives", "evidence": "conservatives learned"}]}
+]}

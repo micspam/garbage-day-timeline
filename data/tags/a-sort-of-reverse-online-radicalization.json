@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "fan backlash campaign", "topics": ["mass shootings", "online harassment", "fandom"], "entities": [{"name": "james holmes", "kind": "person", "evidence": "the gunman James Holmes"}, {"name": "aurora shooting", "kind": "event", "evidence": "the 2012 movie theater shooting in Aurora, Colorado"}, {"name": "holmesies", "kind": "community", "evidence": "who called themselves the Holmesies"}], "platforms": [{"name": "tumblr", "evidence": "they set up a Tumblr"}], "audiences": []},
+{"n": 2, "moment": "mass shooter's online paper trail", "topics": ["mass shootings", "online radicalization", "media coverage"], "entities": [{"name": "christchurch shootings", "kind": "event", "evidence": "the 2019 Christchurch shootings"}], "platforms": [], "audiences": []}
+]}

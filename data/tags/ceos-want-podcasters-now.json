@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "cultural attitude toward internet", "topics": ["silicon valley", "business elites", "social media culture"], "entities": [{"name": "gary vaynerchuk", "kind": "person", "evidence": "Excluding Gary Vaynerchuk, of course"}], "platforms": [{"name": "linkedin", "evidence": "might have been on LinkedIn"}], "audiences": [{"name": "ceos", "evidence": "CEOs, business leaders, landlords"}]},
+{"n": 2, "moment": "viral pandemic explainer", "topics": ["covid-19", "viral content", "blogging"], "entities": [{"name": "tomas pueyo", "kind": "person", "evidence": "Tomas Pueyo"}, {"name": "course hero", "kind": "company", "evidence": "an educational program called Course Hero"}], "platforms": [{"name": "medium", "evidence": "a Medium post"}], "audiences": []}
+]}

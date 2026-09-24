@@ -1,0 +1,6 @@
+{"tags": [
+{"n": 1, "moment": "regulatory loophole exploited", "topics": ["gambling", "fantasy sports", "regulation"], "entities": [{"name": "draftkings", "kind": "company", "evidence": "DraftKings"}, {"name": "fanduel", "kind": "company", "evidence": "FanDuel"}], "platforms": [], "audiences": []},
+{"n": 2, "moment": "online community founded", "topics": ["gambling", "day trading", "reddit"], "entities": [], "platforms": [{"name": "reddit", "evidence": "r/WallStreetBets"}], "audiences": []},
+{"n": 3, "moment": "meme stock event", "topics": ["meme stocks", "gambling", "stock market"], "entities": [{"name": "gamestop", "kind": "company", "evidence": "The GameStop short squeeze"}], "platforms": [], "audiences": []},
+{"n": 4, "moment": "consumer backlash over microtransactions", "topics": ["video games", "loot boxes", "consumer backlash"], "entities": [{"name": "star wars battlefront 2", "kind": "work", "evidence": "Star Wars Battlefront 2"}, {"name": "ea", "kind": "company", "evidence": "EA, the game’s developers"}], "platforms": [], "audiences": []}
+]}

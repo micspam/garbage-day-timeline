@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "newsletter industry boom", "topics": ["newsletters", "pandemic", "substack"], "entities": [{"name": "substack", "kind": "company", "evidence": "Substack was launching extremely sticky community features"}], "platforms": [{"name": "twitter", "evidence": "pandemic-era Twitter was converting a lot of readers"}, {"name": "substack", "evidence": "Substack was launching extremely sticky community features"}], "audiences": []},
+{"n": 2, "moment": "platform transition dead zone", "topics": ["myspace", "facebook", "audience building"], "entities": [{"name": "myspace", "kind": "company", "evidence": "the fall of Myspace"}, {"name": "facebook", "kind": "company", "evidence": "the rise of Facebook referral traffic"}], "platforms": [{"name": "myspace", "evidence": "the fall of Myspace"}, {"name": "facebook", "evidence": "the rise of Facebook referral traffic"}], "audiences": []}
+]}
