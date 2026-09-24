@@ -1,4 +1,10 @@
 # Full issue text stays local -- only short linked quotes (site/data.json) are published.
-data/
+# The model's answers ARE committed (sentence numbers, years, short evidence phrases) so a
+# long run over the archive can resume across Claude Code sessions.
+data/*
+!data/answers/
+!data/reviews/
+!data/tags/
+!data/vocab.json
 __pycache__/
 .env

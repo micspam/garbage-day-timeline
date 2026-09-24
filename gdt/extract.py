@@ -178,6 +178,7 @@ def check(issue: dict, sents: list[dict], answer: dict) -> dict:
             "end_year": ref["end_year"],
             "label": ref["label"],
             "evidence": ref["evidence"],
+            "paragraph": sents[ids[0] - 1]["p"],  # lets later steps (tagging) see the surrounding text
         })
     record = {k: issue[k] for k in ("url", "slug", "title", "published")}
     record.update(sentence_count=len(sents), kept=kept, rejected=rejected)
@@ -196,6 +197,8 @@ def prepare(limit: int | None):
     """Write one prompt file per issue for a Claude Code session to answer (no API key needed)."""
     prompt_dir, answer_dir = DATA / "prompts", DATA / "answers"
     prompt_dir.mkdir(parents=True, exist_ok=True)
+    for old in prompt_dir.glob("*.txt"):  # only outstanding prompts stay in the folder
+        old.unlink()
     answer_dir.mkdir(parents=True, exist_ok=True)
     todo = 0
     for p in issue_paths(limit):

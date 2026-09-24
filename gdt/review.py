@@ -69,6 +69,8 @@ def run(limit: int | None):
     """Write review prompts for a Claude Code session, or answer them via the API if a key is set."""
     prompt_dir, review_dir = DATA / "review_prompts", DATA / "reviews"
     prompt_dir.mkdir(parents=True, exist_ok=True)
+    for old in prompt_dir.glob("*.txt"):  # only outstanding prompts stay in the folder
+        old.unlink()
     review_dir.mkdir(parents=True, exist_ok=True)
     use_api = "ANTHROPIC_API_KEY" in os.environ
     todo = 0

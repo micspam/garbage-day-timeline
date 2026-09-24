@@ -1,20 +1,20 @@
-"""Usage: python -m gdt {fetch,prepare,extract,review,build} [--limit N]"""
+"""Usage: python -m gdt {fetch,prepare,extract,review,tag,vocab,build} [--limit N]"""
 import argparse
 
-from . import build, extract, fetch, review
+from . import build, extract, fetch, review, tag
 
 ap = argparse.ArgumentParser(prog="gdt")
-ap.add_argument("step", choices=["fetch", "prepare", "extract", "review", "build"])
-ap.add_argument("--limit", type=int, help="only process the first N issues")
+ap.add_argument("step", choices=["fetch", "prepare", "extract", "review", "tag", "vocab", "build"])
+ap.add_argument("--limit", type=int, help="only process the N newest issues")
 args = ap.parse_args()
 
-if args.step == "fetch":
-    fetch.run(args.limit)
-elif args.step == "prepare":
-    extract.prepare(args.limit)
-elif args.step == "extract":
-    extract.run(args.limit)
-elif args.step == "review":
-    review.run(args.limit)
-else:
-    build.run(args.limit)
+steps = {
+    "fetch": fetch.run,
+    "prepare": extract.prepare,
+    "extract": extract.run,
+    "review": review.run,
+    "tag": tag.run,
+    "vocab": tag.vocab,
+    "build": build.run,
+}
+steps[args.step](args.limit)

@@ -1,49 +1,65 @@
 # Garbage Day Timeline
 
-The pipeline puts Garbage Day pull quotes on a timeline by the era they're *about*. In a Claude Code session there is no API key: **you** answer the per-issue prompts, and the code checks your answers against the source.
+The pipeline puts Garbage Day pull quotes on a timeline by the era they're *about*, then tags them so categories and sub-timelines can be discovered from the data. In a Claude Code session there is no API key: **you** answer the prompts, and the code checks your answers against the source.
 
-## "Run the pipeline on N issues"
+The model's answers are committed (`data/answers/`, `data/reviews/`, `data/tags/`), so work resumes across sessions. Full issue text (`data/issues/`, `data/raw/`) is never committed. Each session re-fetches it.
+
+## "Continue the archive run" (or "run the pipeline on N issues")
+
+Setup, once per session (the full archive takes ~20 minutes at 1 request/sec; with `--limit N`, only the N newest readable issues, and pass the same `--limit N` to every step below):
 
 ```bash
-python -m gdt fetch --limit N     # needs network access to www.garbageday.email
-python -m gdt prepare --limit N   # writes data/prompts/<slug>.txt
+python -m gdt fetch               # needs network access to www.garbageday.email
 ```
 
-### 1. Pick quotes
+Then loop in **batches of about 50 prompts**, committing after each batch so nothing is lost if the session ends:
 
-For every file in `data/prompts/`, read it and write `data/answers/<slug>.json` (same name, `.json`) in the answer format the prompt shows. Rules:
+```bash
+python -m gdt prepare             # data/prompts/ now holds only unanswered issues
+```
 
-- Return **sentence numbers only**. Never type quote text, because the code copies quotes from the source itself.
-- Only pick passages that are **about** a past era: what happened then, or what it was like. Skip passages where the past only comes up in passing. That includes then-vs-now setups, background dates in a story about the present, people's takes on current events that name a past year, and rhetorical questions. The prompt spells these out.
+**A. Pick quotes.** For up to ~50 files in `data/prompts/`, write `data/answers/<slug>.json` in the format the prompt shows.
+- Return **sentence numbers only**. Never type quote text; the code copies quotes from the source.
+- Only pick passages that are **about** a past era: what happened then, or what it was like. Skip passing mentions (then-vs-now setups, background dates in a present-day story, takes on current events, rhetorical questions). The prompt spells these out.
 - `evidence` must be copied character for character from the same paragraph as the quote.
-- Most issues have nothing that qualifies. `{"references": []}` is a correct and common answer. Don't stretch to fill the timeline.
-- Judge each issue on its own. Don't reuse picks across issues.
-- Keep each quote under 70 words; the build step drops longer ones.
-
-With many prompts, split them into batches across subagents. Give each one the rules above and its list of file names.
+- Most issues have nothing that qualifies. `{"references": []}` is a correct and common answer.
+- Judge each issue on its own. Keep each quote under 70 words.
 
 ```bash
-python -m gdt extract --limit N   # validates answers; prints kept/rejected per issue
-python -m gdt review --limit N    # writes data/review_prompts/<slug>.txt
+python -m gdt extract             # validates answers against the source
+python -m gdt review              # data/review_prompts/ now holds only unreviewed issues
 ```
 
-### 2. Sanity pass (review)
-
-For every file in `data/review_prompts/`, write `data/reviews/<slug>.json` with a verdict for each numbered quote, in the format the prompt shows.
-
-- **Use fresh subagents that did not do step 1.** The reviewer should judge each quote cold, the way a reader of the timeline will see it, without knowing why it was picked.
+**B. Sanity pass.** For each file in `data/review_prompts/`, write `data/reviews/<slug>.json`.
+- **Use fresh subagents that did not do step A**, so each quote is judged cold, the way a reader sees it.
 - Keep a quote only if, on its own, it tells the reader something about the era it's filed under. When unsure, drop it.
-- Quotes without a verdict are not published.
 
 ```bash
-python -m gdt build --limit N     # writes site/data.json and prints the report
+python -m gdt tag                 # data/tag_prompts/ now holds only untagged issues
 ```
 
-Look at the report:
-- A high `evidence_not_in_source` or `sentence_id_out_of_range` count means answers were written carelessly, so fix them and rerun extract and build.
-- `dropped_in_review` should be a minority. If most quotes get dropped, step 1 is ignoring the "about the era" rule, so redo step 1 rather than relaxing the review.
+**C. Tag.** For each file in `data/tag_prompts/`, write `data/tags/<slug>.json`.
+- `moment` and `topics` are free text on purpose: categories get chosen later from what shows up. Use plain, lowercase, common names consistently ("tiktok", not "TikTok app").
+- Entities, platforms and audiences each need an exact `evidence` phrase from the quote's context paragraph. No phrase, no tag. Never guess an audience or platform.
+
+```bash
+python -m gdt build               # site/data.json + report
+python -m gdt vocab               # data/vocab.json: every tag value with quote/issue/era counts
+git add data/answers data/reviews data/tags data/vocab.json site/data.json
+git commit -m "Archive run: batch N" && git push
+```
+
+Then run `prepare` again for the next batch. Stop when `prepare` reports 0 prompts.
+
+Use subagents to parallelize steps A, B and C. Give each one the rules for its step and its list of file names.
+
+## Checks
+
+- A high `evidence_not_in_source` or `sentence_id_out_of_range` count means answers were written carelessly: fix them and rerun extract.
+- `dropped_in_review` should be a minority. If most quotes get dropped, step A is ignoring the "about the era" rule.
+- `vocab` prints how many fact tags were dropped for missing evidence. A high share means step C is guessing.
 - Spot-check `data/review_dropped.json` to make sure the review isn't throwing out good quotes.
 
-**Don't loosen the checks in `validate()`, or the review rules, to get more quotes on the timeline.** They are the point of the demo.
+**Don't loosen the checks in `validate()`, the review rules or the tag evidence rule to get more data.** They are the point of the project.
 
-Commit only `site/data.json` (`data/` is gitignored on purpose, because full issue text is not published). The site is currently shown as a claude.ai Artifact: whoever maintains it rebuilds the Artifact from `site/data.json`.
+The site is shown as a claude.ai Artifact that is rebuilt from `site/data.json` by whoever maintains it.

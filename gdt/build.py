@@ -5,6 +5,7 @@ from pathlib import Path
 
 from .extract import MAX_QUOTE_WORDS, issue_paths
 from .review import verdicts_for
+from .tag import checked_tags
 
 DATA = Path("data")
 SITE = Path("site")
@@ -19,6 +20,8 @@ def run(limit: int | None = None):
     issues_with_cards = 0
     for r in records:
         verdicts = verdicts_for(r["slug"])
+        issue_file = DATA / "issues" / f"{r['slug']}.json"
+        tags = checked_tags(r, json.loads(issue_file.read_text(encoding="utf-8"))) if issue_file.exists() else {}
         n = 0
         for i, ref in enumerate(r["kept"], 1):
             if len(ref["quote"].split()) > MAX_QUOTE_WORDS:
@@ -32,7 +35,11 @@ def run(limit: int | None = None):
                     dropped.append({"quote": ref["quote"], "reason": v.get("reason", ""), "url": r["url"]})
                 continue
             review["kept"] += 1
-            cards.append({**ref, "url": r["url"], "title": r["title"], "published": r["published"]})
+            card = {k: v for k, v in ref.items() if k != "paragraph"}
+            card.update(url=r["url"], title=r["title"], published=r["published"])
+            if i in tags:
+                card["tags"] = tags[i]
+            cards.append(card)
             n += 1
         issues_with_cards += bool(n)
         reasons.update(x["reason"] for x in r["rejected"])
