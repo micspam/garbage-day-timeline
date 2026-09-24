@@ -1,0 +1,5 @@
+{"references": [
+  {"sentence_ids": [8], "start_year": 2007, "end_year": 2007, "label": "Obama's 2007 campaign embraced social media", "evidence": "the start of his first presidential campaign in 2007"},
+  {"sentence_ids": [15], "start_year": 2001, "end_year": 2007, "label": "early social media kept people and brands separate", "evidence": "as late as 2007, when Facebook introduced brand pages, there was a general sense that social networks should treat individual accounts as a separate species from businesses, lawmakers, and other organizations"},
+  {"sentence_ids": [17], "start_year": 2009, "end_year": 2009, "label": "Twitter launches verified checkmarks", "evidence": "Twitter introduced verified checkmarks in June 2009"}
+]}
