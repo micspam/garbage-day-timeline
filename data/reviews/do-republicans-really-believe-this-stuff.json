@@ -1,0 +1,6 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Specific, self-contained claim about Trump's relationship to disinfo during his first term."},
+{"n": 2, "keep": true, "reason": "Specific, self-contained fact about Trump adopting 'fake news' in 2016."},
+{"n": 3, "keep": false, "reason": "'This politicalized irony' and 'the organization' lean on unshown context."},
+{"n": 4, "keep": true, "reason": "Specific, self-contained fact about Barr's 2019 investigation."}
+]}

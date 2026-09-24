@@ -1,0 +1,4 @@
+{"verdicts": [
+{"n": 1, "keep": false, "reason": "Leans on unshown prior context ('though', unnamed 'it'/'the company')."},
+{"n": 2, "keep": true, "reason": "Self-contained fact naming the show and what happened to its Kickstarter."}
+]}

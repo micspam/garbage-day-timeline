@@ -1,0 +1,7 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Names White and describes a specific 2001 event."},
+{"n": 2, "keep": false, "reason": "'That's when' leans on an unshown prior reference point."},
+{"n": 3, "keep": true, "reason": "Self-contained quote of White's specific 2016 endorsement."},
+{"n": 4, "keep": false, "reason": "'A few of them' is never named within the quote."},
+{"n": 5, "keep": true, "reason": "Names the Nelk Boys and a specific pandemic-era event."}
+]}

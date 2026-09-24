@@ -1,0 +1,7 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Names specific actors and the strategy they used in the mid-2000s."},
+{"n": 2, "keep": false, "reason": "'That year' is never specified within the quote."},
+{"n": 3, "keep": true, "reason": "Describes what platforms were doing to compete with traditional media."},
+{"n": 4, "keep": true, "reason": "Specific, self-contained anecdote about viral content production in 2015."},
+{"n": 5, "keep": true, "reason": "Specific, self-contained facts about TikTok's rise and Drake's album in 2018."}
+]}

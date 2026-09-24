@@ -1,0 +1,5 @@
+{"verdicts": [
+{"n": 1, "keep": false, "reason": "Subject 'she' is never named within the quote."},
+{"n": 2, "keep": true, "reason": "Describes the specific state of platform content moderation in that era."},
+{"n": 3, "keep": true, "reason": "Describes specific developments in moderator backlash during that era."}
+]}

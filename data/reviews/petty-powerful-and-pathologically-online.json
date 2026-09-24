@@ -1,0 +1,5 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Names Deadspin and Sinclair and describes the specific 2018 supercut."},
+{"n": 2, "keep": false, "reason": "Subject 'it' is never named within the quote."},
+{"n": 3, "keep": true, "reason": "Names the show and describes the specific 2022 scandal."}
+]}

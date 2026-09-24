@@ -1,0 +1,6 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Explains the specific founding and ownership history of Dropout."},
+{"n": 2, "keep": false, "reason": "Main subject is present-day Watcher, with 2010s only a genre label for comparison."},
+{"n": 3, "keep": true, "reason": "Specific, self-contained fact about CNN+'s failure and user numbers."},
+{"n": 4, "keep": false, "reason": "Main event described is a present-day bankruptcy filing, era is just background reputation."}
+]}

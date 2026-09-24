@@ -1,0 +1,5 @@
+{"verdicts": [
+{"n": 1, "keep": false, "reason": "Subject 'it' is never named within the quote."},
+{"n": 2, "keep": true, "reason": "Names Speaker's Corner and specific influencers, describing the era."},
+{"n": 3, "keep": false, "reason": "Unnamed subject 'they' leans on context not in the quote."}
+]}

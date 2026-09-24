@@ -1,0 +1,6 @@
+{"verdicts": [
+{"n": 1, "keep": true, "reason": "Describes concrete limitations of the first iPhone in 2007."},
+{"n": 2, "keep": true, "reason": "Concrete anecdote showing what mobile tech was like in 2009."},
+{"n": 3, "keep": true, "reason": "States a specific historical claim about when the mobile web actually arrived."},
+{"n": 4, "keep": false, "reason": "Subject 'they' is never named, so it doesn't make sense on its own."}
+]}
