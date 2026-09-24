@@ -1,0 +1,5 @@
+{"references": [
+ {"sentence_ids": [61, 62, 63], "start_year": 2012, "end_year": 2015, "label": "First pivot to video: YouTube studios and Vine stars", "evidence": "2012-2015"},
+ {"sentence_ids": [64, 65, 66], "start_year": 2018, "end_year": 2020, "label": "Second pivot to video: Netflix deals, Breadtube, TikTok's arrival", "evidence": "2018-March 2020"},
+ {"sentence_ids": [67, 68, 69], "start_year": 2020, "end_year": 2023, "label": "COVID-era video: E-boys, Among Us, hobbyist YouTube", "evidence": "March 2020-2022/2023"}
+]}

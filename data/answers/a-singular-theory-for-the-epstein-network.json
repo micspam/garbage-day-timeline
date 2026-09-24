@@ -1,0 +1,7 @@
+{"references": [
+ {"sentence_ids": [8, 9], "start_year": 2011, "end_year": 2011, "label": "Epstein, Occupy Wall Street and meeting moot", "evidence": "In October 2011"},
+ {"sentence_ids": [15, 16], "start_year": 2013, "end_year": 2013, "label": "Attempted Epstein-Putin meeting", "evidence": "In 2013"},
+ {"sentence_ids": [18], "start_year": 2015, "end_year": 2015, "label": "Epstein's 2015 dinner with Silicon Valley leaders", "evidence": "a 2015 dinner"},
+ {"sentence_ids": [21, 22], "start_year": 2016, "end_year": 2016, "label": "Epstein's interest in Pokémon Go", "evidence": "in July 2016"},
+ {"sentence_ids": [35, 36, 37], "start_year": 2018, "end_year": 2018, "label": "Epstein and Bannon texting about Bolsonaro", "evidence": "in October 2018"}
+]}

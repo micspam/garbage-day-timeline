@@ -19,7 +19,22 @@
    "evidence": "The biggest losers of the dot com bubble",
    "url": "https://www.garbageday.email/p/the-bubble-is-getting-a-lot-bubblier-folks",
    "title": "The bubble is getting a lot bubblier, folks",
-   "published": "2026-05-27"
+   "published": "2026-05-27",
+   "tags": {
+    "moment": "economic bubble description",
+    "topics": [
+     "dot com bubble",
+     "technology",
+     "economy"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "What caused the dot com bubble to finally pop was speculation and over-spending. Buying up catchy domains just wasn’t the growth industry people thought it was.",
@@ -29,7 +44,18 @@
    "evidence": "What caused the dot com bubble to finally pop",
    "url": "https://www.garbageday.email/p/the-bubble-is-getting-a-lot-bubblier-folks",
    "title": "The bubble is getting a lot bubblier, folks",
-   "published": "2026-05-27"
+   "published": "2026-05-27",
+   "tags": {
+    "moment": "economic bubble collapse",
+    "topics": [
+     "dot com bubble",
+     "technology",
+     "economy"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "He's been making games about mutant, pooping, emotionally abused babies since the 2000s. They were just the right mix of juvenile and adult — with well-designed gameplay supporting all the attention-grabbing edgelord stuff — to appeal to the Dr. McNinja era of the internet.",
@@ -39,7 +65,30 @@
    "evidence": "since the 2000s",
    "url": "https://www.garbageday.email/p/an-edgelord-out-of-time",
    "title": "An edgelord out of time",
-   "published": "2026-02-16"
+   "published": "2026-02-16",
+   "tags": {
+    "moment": "creator style out of step with era",
+    "topics": [
+     "video games",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "edmund mcmillen",
+      "kind": "person"
+     },
+     {
+      "name": "mewgenics",
+      "kind": "work"
+     },
+     {
+      "name": "dr. mcninja",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "For those of you who don’t remember the mid-2000s, therians were a small subculture adjacent to furries. Furries dress up in big animal costumes, while therians believe, on some level, they are that animal.",
@@ -49,7 +98,25 @@
    "evidence": "the mid-2000s",
    "url": "https://www.garbageday.email/p/an-edgelord-out-of-time",
    "title": "An edgelord out of time",
-   "published": "2026-02-16"
+   "published": "2026-02-16",
+   "tags": {
+    "moment": "subculture explainer",
+    "topics": [
+     "internet culture",
+     "subcultures",
+     "furries"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "therians"
+     },
+     {
+      "name": "furries"
+     }
+    ]
+   }
   },
   {
    "quote": "The game was so influential because its solo developer put it online for free in 2004, when making money off your weird internet creations was the exception, not the rule.",
@@ -59,7 +126,22 @@
    "evidence": "in 2004",
    "url": "https://www.garbageday.email/p/day-17-of-america-s-timoth-e-chalamet-crisis",
    "title": "Day 17 of America’s Timothée Chalamet crisis",
-   "published": "2026-03-13"
+   "published": "2026-03-13",
+   "tags": {
+    "moment": "indie game release",
+    "topics": [
+     "video games",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "cave story",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "In the aftermath of the Great Recession, far-right extremists, aided and amplified by Russia’s Internet Research Agency and funded by Republican dark money, infiltrated fringe online spaces. They weaponized disaffected young men, and used sites like Reddit and 4chan to organize a flood of content that influenced the unthinking algorithms on larger platforms like Facebook and YouTube.",
@@ -69,7 +151,40 @@
    "evidence": "In the aftermath of the Great Recession",
    "url": "https://www.garbageday.email/p/here-s-how-epstein-broke-the-internet",
    "title": "Here's how Epstein broke the internet",
-   "published": "2026-02-02"
+   "published": "2026-02-02",
+   "tags": {
+    "moment": "online radicalization infrastructure",
+    "topics": [
+     "far-right politics",
+     "internet culture",
+     "disinformation"
+    ],
+    "entities": [
+     {
+      "name": "russia’s internet research agency",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "disaffected young men"
+     }
+    ]
+   }
   },
   {
    "quote": "The last time any major social platform acknowledged death was 2009, when Facebook launched its “memorial account” feature for profiles of people who had died, later extending a similar policy to Instagram.",
@@ -79,7 +194,48 @@
    "evidence": "The last time any major social platform acknowledged death was 2009",
    "url": "https://www.garbageday.email/p/you-have-to-keep-posting-even-if-you-re-dead",
    "title": "You have to keep posting, even if you're dead",
-   "published": "2026-09-04"
+   "published": "2026-09-04",
+   "tags": {
+    "moment": "platform death policy",
+    "topics": [
+     "social media",
+     "death and mourning",
+     "technology"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "instagram",
+      "kind": "company"
+     },
+     {
+      "name": "meta",
+      "kind": "company"
+     },
+     {
+      "name": "dolly parton",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "And then again, in 2010, when Poole launched /new/, largely as a way to quarantine the overwhelming amount of support on the site for Ron Paul’s 2008 presidential campaign.",
@@ -89,7 +245,31 @@
    "evidence": "And then again, in 2010, when Poole launched /new/",
    "url": "https://www.garbageday.email/p/here-s-how-epstein-broke-the-internet",
    "title": "Here's how Epstein broke the internet",
-   "published": "2026-02-02"
+   "published": "2026-02-02",
+   "tags": {
+    "moment": "board moderation decision",
+    "topics": [
+     "4chan",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "christopher poole",
+      "kind": "person"
+     },
+     {
+      "name": "ron paul",
+      "kind": "person"
+     },
+     {
+      "name": "stormfront",
+      "kind": "community"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "The format — a host, maybe a co-host, a band, a monologue, some celebrity interviews, and maybe a musical guest — started unraveling when Jay Leno stole The Tonight Show back from O’Brien, retired in 2014, and gave it to Jimmy Fallon.",
@@ -99,7 +279,39 @@
    "evidence": "retired in 2014",
    "url": "https://www.garbageday.email/p/an-endless-feed-of-celebrities-eating-chicken-wings",
    "title": "An endless feed of celebrities eating chicken wings",
-   "published": "2026-02-23"
+   "published": "2026-02-23",
+   "tags": {
+    "moment": "media format decline",
+    "topics": [
+     "late night tv",
+     "television",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "jay leno",
+      "kind": "person"
+     },
+     {
+      "name": "the tonight show",
+      "kind": "work"
+     },
+     {
+      "name": "conan o’brien",
+      "kind": "person"
+     },
+     {
+      "name": "jimmy fallon",
+      "kind": "person"
+     },
+     {
+      "name": "hot ones",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "In the US, this was the peak of the America’s Funniest Home Videos vibe that defined early 2010s social media. The era of The Ellen Show industrial complex, where an endless parade of semi-photogenic middle class white children doing stupid shit in their backyards got to be famous for a week. Alex from Target was ascendant.",
@@ -109,7 +321,35 @@
    "evidence": "defined early 2010s social media",
    "url": "https://www.garbageday.email/p/everyone-s-very-angry-online-right-now",
    "title": "Everyone's very angry online right now",
-   "published": "2026-03-25"
+   "published": "2026-03-25",
+   "tags": {
+    "moment": "viral culture era description",
+    "topics": [
+     "internet culture",
+     "social media",
+     "viral moments"
+    ],
+    "entities": [
+     {
+      "name": "america’s funniest home videos",
+      "kind": "work"
+     },
+     {
+      "name": "the ellen show",
+      "kind": "work"
+     },
+     {
+      "name": "alex from target",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "middle class white children"
+     }
+    ]
+   }
   },
   {
    "quote": "What started in 1999 as a Pearl Jam-led protest against Ticketmaster prices morphed into a bastion of millennial excess in the 2010s. An identity-less industry conference for poptimist iPod commercial muzak.",
@@ -119,7 +359,34 @@
    "evidence": "a bastion of millennial excess in the 2010s",
    "url": "https://www.garbageday.email/p/was-justin-bieber-s-coachella-set-good",
    "title": "Was Justin Bieber's Coachella set good?",
-   "published": "2026-04-13"
+   "published": "2026-04-13",
+   "tags": {
+    "moment": "festival origin story",
+    "topics": [
+     "music festivals",
+     "consumer culture"
+    ],
+    "entities": [
+     {
+      "name": "coachella",
+      "kind": "event"
+     },
+     {
+      "name": "pearl jam",
+      "kind": "other"
+     },
+     {
+      "name": "ticketmaster",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "millennials"
+     }
+    ]
+   }
   },
   {
    "quote": "In the early 2010s, message board users were moving from smaller websites to larger platforms — and getting jobs at digital media companies. And they ended up bringing a lot of shared culture with them. What we used to call “Weird Twitter,” for instance, started as a group of Something Awful users.",
@@ -129,7 +396,31 @@
    "evidence": "In the early 2010s, message board users were moving from smaller websites to larger platforms",
    "url": "https://www.garbageday.email/p/what-happens-when-the-short-form-video-bubble-pops",
    "title": "What happens when the short-form video bubble pops?",
-   "published": "2026-04-20"
+   "published": "2026-04-20",
+   "tags": {
+    "moment": "internet subculture migration",
+    "topics": [
+     "internet culture",
+     "twitter",
+     "meme culture"
+    ],
+    "entities": [
+     {
+      "name": "something awful",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "message board users"
+     }
+    ]
+   }
   },
   {
    "quote": "YouTube was still in its infancy and embeds didn’t always play nice with different social media sites. So the animated GIF was sort of a hack, one that had worked on older message boards. By 2012, GIFs were so popular that they were being used to cover the election that year.",
@@ -139,7 +430,22 @@
    "evidence": "By 2012, GIFs were so popular that they were being used to cover the election that year.",
    "url": "https://www.garbageday.email/p/what-happens-when-the-short-form-video-bubble-pops",
    "title": "What happens when the short-form video bubble pops?",
-   "published": "2026-04-20"
+   "published": "2026-04-20",
+   "tags": {
+    "moment": "early internet meme format",
+    "topics": [
+     "internet culture",
+     "memes",
+     "youtube"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "They spent the bulk of the 2010s fighting the perception that they were bow-tie-wearing no fun police. They embraced the anarchic language of 4chan and Reddit and spent the Trump years and the pandemic attacking the libs as wokescolds that want to wear masks and enforce pronouns and blah blah blah, you were there lol.",
@@ -149,7 +455,34 @@
    "evidence": "They spent the bulk of the 2010s fighting the perception that they were bow-tie-wearing no fun police.",
    "url": "https://www.garbageday.email/p/we-spent-a-month-hiding-in-a-kalshi-clipping-discord",
    "title": "We spent a month hiding in a Kalshi clipping Discord",
-   "published": "2026-06-29"
+   "published": "2026-06-29",
+   "tags": {
+    "moment": "political rebranding effort",
+    "topics": [
+     "far-right politics",
+     "internet culture",
+     "4chan"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "the american right"
+     }
+    ]
+   }
   },
   {
    "quote": "Making art, making culture, has always involved some sort of dark deal with the infernal machinery of capital, but the rise of big tech and venture capital in the early 2010s changed the terms of the deal. Culture stopped being something the consumer paid for and cultural industries became kindling for digital furnaces that only wanted to monetize our data anyways.",
@@ -159,7 +492,22 @@
    "evidence": "the rise of big tech and venture capital in the early 2010s",
    "url": "https://www.garbageday.email/p/you-get-what-you-pay-for",
    "title": "You get what you pay for",
-   "published": "2026-07-22"
+   "published": "2026-07-22",
+   "tags": {
+    "moment": "cultural economics shift",
+    "topics": [
+     "technology",
+     "media industry",
+     "economy"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "young creatives"
+     }
+    ]
+   }
   },
   {
    "quote": "It was the decade where the internet finally overtook television as the way culture was curated. And the internet cannot be condensed into simple narratives the way TV can.",
@@ -169,7 +517,40 @@
    "evidence": "whatever the heck happened in the 2010s",
    "url": "https://www.garbageday.email/p/what-was-woke",
    "title": "What was 'woke'?",
-   "published": "2026-08-10"
+   "published": "2026-08-10",
+   "tags": {
+    "moment": "internet vs tv culture shift",
+    "topics": [
+     "internet culture",
+     "media industry",
+     "generational culture"
+    ],
+    "entities": [
+     {
+      "name": "forrest gump",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
+   }
   },
   {
    "quote": "Before the Tumblr porn ban and the full launch of TikTok (both happened in 2018), a whole lot of fandoms were quarantined away from mainstream culture. Doctor Who, Undertale, Steven Universe, Supernatural, etc., they all had distinct communities with distinct identities and while there was plenty of infighting, the users in these subcultures were left to their own devices.",
@@ -179,7 +560,49 @@
    "evidence": "both happened in 2018",
    "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
+   "published": "2026-08-24",
+   "tags": {
+    "moment": "fandom platform shift",
+    "topics": [
+     "fandom",
+     "tiktok",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "doctor who",
+      "kind": "work"
+     },
+     {
+      "name": "undertale",
+      "kind": "work"
+     },
+     {
+      "name": "steven universe",
+      "kind": "work"
+     },
+     {
+      "name": "supernatural",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "fandoms"
+     }
+    ]
+   }
   },
   {
    "quote": "One of the central internet mysteries of the last 15 years is why 4chan creator Christopher Poole reversed course in 2011 and brought back the site’s politics board, which is called /pol/, or “Politically Incorrect.” It would become the staging ground for Gamergate, the 2016 Trump campaign, and the far-right populism wave that swept the world in the back half of the 2010s.",
@@ -189,7 +612,35 @@
    "evidence": "reversed course in 2011",
    "url": "https://www.garbageday.email/p/here-s-how-epstein-broke-the-internet",
    "title": "Here's how Epstein broke the internet",
-   "published": "2026-02-02"
+   "published": "2026-02-02",
+   "tags": {
+    "moment": "platform policy reversal",
+    "topics": [
+     "4chan",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "christopher poole",
+      "kind": "person"
+     },
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "He was very interested in Occupy Wall Street. In October 2011, his brother Mark emailed him, writing, “Looks like the revolution you predicted 30 years ago is about to start.“ He would meet with 4chan founder Christopher “Moot” Poole only a few weeks after this.",
@@ -199,7 +650,35 @@
    "evidence": "In October 2011",
    "url": "https://www.garbageday.email/p/a-singular-theory-for-the-epstein-network",
    "title": "A singular theory for the Epstein network",
-   "published": "2026-02-09"
+   "published": "2026-02-09",
+   "tags": {
+    "moment": "early internet activism connection",
+    "topics": [
+     "internet culture",
+     "activism",
+     "4chan"
+    ],
+    "entities": [
+     {
+      "name": "occupy wall street",
+      "kind": "event"
+     },
+     {
+      "name": "christopher “moot” poole",
+      "kind": "person"
+     },
+     {
+      "name": "anonymous",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Then Facebook went public, acquired Instagram, and overhauled the mobile News Feed. That same year, YouTube drastically changed the way its algorithm worked and Twitter acquired Vine and launched multimedia preview cards. Which meant that by the end of 2012, the internet had mostly transitioned from thing you read on a computer to something you increasingly looked at or watched on a phone.",
@@ -209,7 +688,49 @@
    "evidence": "by the end of 2012",
    "url": "https://www.garbageday.email/p/you-get-what-you-pay-for",
    "title": "You get what you pay for",
-   "published": "2026-07-22"
+   "published": "2026-07-22",
+   "tags": {
+    "moment": "platform algorithm and acquisition wave",
+    "topics": [
+     "social media",
+     "technology",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "instagram",
+      "kind": "company"
+     },
+     {
+      "name": "youtube",
+      "kind": "company"
+     },
+     {
+      "name": "twitter",
+      "kind": "company"
+     },
+     {
+      "name": "vine",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "2012-2015: This was the rise of both professional studios for YouTube and the viral Vine star. Solid color backdrops, shitty Jimmy Fallon-esque interview prompts, and a whole bunch of people eating snacks. This era peaked, and came crashing down, after Facebook tried to pay everyone to livestream.",
@@ -219,7 +740,34 @@
    "evidence": "2012-2015",
    "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
    "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
+   "published": "2026-09-09",
+   "tags": {
+    "moment": "internet culture era description",
+    "topics": [
+     "youtube",
+     "internet culture",
+     "video"
+    ],
+    "entities": [
+     {
+      "name": "jimmy fallon",
+      "kind": "person"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "vine"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2013, former Prime Minister of Norway Thorbjørn Jagland tried to set up a meeting between Epstein and Putin. Epstein wanted to help Russia “leapfrog the global community by reinventing the financial system of the 21st century.”",
@@ -229,7 +777,35 @@
    "evidence": "In 2013",
    "url": "https://www.garbageday.email/p/a-singular-theory-for-the-epstein-network",
    "title": "A singular theory for the Epstein network",
-   "published": "2026-02-09"
+   "published": "2026-02-09",
+   "tags": {
+    "moment": "attempted diplomatic meeting",
+    "topics": [
+     "politics",
+     "russia",
+     "geopolitics"
+    ],
+    "entities": [
+     {
+      "name": "jeffrey epstein",
+      "kind": "person"
+     },
+     {
+      "name": "vladimir putin",
+      "kind": "person"
+     },
+     {
+      "name": "thorbjørn jagland",
+      "kind": "person"
+     },
+     {
+      "name": "russia",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "The golden age of Vine was short-lived, though. It went into read-only mode in 2016 and, by that point, every other platform (including Twitter) had built their own native short-form video feature.",
@@ -239,7 +815,30 @@
    "evidence": "It went into read-only mode in 2016",
    "url": "https://www.garbageday.email/p/what-happens-when-the-short-form-video-bubble-pops",
    "title": "What happens when the short-form video bubble pops?",
-   "published": "2026-04-20"
+   "published": "2026-04-20",
+   "tags": {
+    "moment": "platform shutdown",
+    "topics": [
+     "vine",
+     "short-form video",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "jamie cohen",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "vine"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2014, 4chan’s video game board, /v/, and /pol/ started lighting up about the Gamergate conspiracy theory. Milo Yiannopoulos, then a young tech writer for Breitbart, would transform Gamergate from fringe message board drama into the cornerstone of the global far-right movement by repackaging it in articles optimized for Facebook traffic.",
@@ -249,7 +848,46 @@
    "evidence": "In 2014, 4chan’s video game board, /v/, and /pol/ started lighting up about the Gamergate conspiracy theory.",
    "url": "https://www.garbageday.email/p/here-s-how-epstein-broke-the-internet",
    "title": "Here's how Epstein broke the internet",
-   "published": "2026-02-02"
+   "published": "2026-02-02",
+   "tags": {
+    "moment": "conspiracy theory going mainstream",
+    "topics": [
+     "gamergate",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "milo yiannopoulos",
+      "kind": "person"
+     },
+     {
+      "name": "breitbart",
+      "kind": "media outlet"
+     },
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "andrew breitbart",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Fallon’s big innovation was turning The Tonight Show into something that could work, primarily, on YouTube. This largely meant replacing traditional interview segments with “games.” These games required very little context, which platforms hate, and, once clipped, looked indistinguishable from videos you’d see from popular YouTubers or digital media outlets.",
@@ -259,7 +897,75 @@
    "evidence": "back in 2015",
    "url": "https://www.garbageday.email/p/an-endless-feed-of-celebrities-eating-chicken-wings",
    "title": "An endless feed of celebrities eating chicken wings",
-   "published": "2026-02-23"
+   "published": "2026-02-23",
+   "tags": {
+    "moment": "media format pivot to platform",
+    "topics": [
+     "late night tv",
+     "youtube",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "jimmy fallon",
+      "kind": "person"
+     },
+     {
+      "name": "the tonight show",
+      "kind": "work"
+     },
+     {
+      "name": "vanity fair",
+      "kind": "media outlet"
+     },
+     {
+      "name": "john oliver",
+      "kind": "person"
+     },
+     {
+      "name": "last week tonight",
+      "kind": "work"
+     },
+     {
+      "name": "trevor noah",
+      "kind": "person"
+     },
+     {
+      "name": "the daily show",
+      "kind": "work"
+     },
+     {
+      "name": "conan o’brien",
+      "kind": "person"
+     },
+     {
+      "name": "tbs",
+      "kind": "media outlet"
+     },
+     {
+      "name": "james corden",
+      "kind": "person"
+     },
+     {
+      "name": "carpool karaoke",
+      "kind": "work"
+     },
+     {
+      "name": "gavin & stacey",
+      "kind": "work"
+     },
+     {
+      "name": "josh gad",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Back home we had trolls, of course, and incels and Gamergaters and the first Trump campaign was in full swing, happily recruiting those guys into their cyber army of disaffected young men.",
@@ -269,7 +975,34 @@
    "evidence": "the first Trump campaign was in full swing",
    "url": "https://www.garbageday.email/p/everyone-s-very-angry-online-right-now",
    "title": "Everyone's very angry online right now",
-   "published": "2026-03-25"
+   "published": "2026-03-25",
+   "tags": {
+    "moment": "online radicalization recruitment",
+    "topics": [
+     "far-right politics",
+     "internet culture",
+     "gamergate"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "gamergate",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "incels"
+     },
+     {
+      "name": "disaffected young men"
+     }
+    ]
+   }
   },
   {
    "quote": "He emailed himself a photo taken at a 2015 dinner with Mark Zuckerberg, Elon Musk, Joi Ito, Peter Thiel, and other Silicon Valley leaders.",
@@ -279,7 +1012,43 @@
    "evidence": "a 2015 dinner",
    "url": "https://www.garbageday.email/p/a-singular-theory-for-the-epstein-network",
    "title": "A singular theory for the Epstein network",
-   "published": "2026-02-09"
+   "published": "2026-02-09",
+   "tags": {
+    "moment": "elite social network exposed",
+    "topics": [
+     "silicon valley",
+     "epstein network",
+     "politics"
+    ],
+    "entities": [
+     {
+      "name": "mark zuckerberg",
+      "kind": "person"
+     },
+     {
+      "name": "elon musk",
+      "kind": "person"
+     },
+     {
+      "name": "joi ito",
+      "kind": "person"
+     },
+     {
+      "name": "peter thiel",
+      "kind": "person"
+     },
+     {
+      "name": "valar ventures",
+      "kind": "company"
+     },
+     {
+      "name": "british government",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "Ten years ago, Twitter worked this way, ruling the internet via screenshots. There were years where Instagram and Reddit (and viral listicles) were basically just glorified galleries of tweets.",
@@ -289,7 +1058,28 @@
    "evidence": "Ten years ago",
    "url": "https://www.garbageday.email/p/safe-and-cozy-in-your-doomsday-bunker",
    "title": "Safe and cozy in your doomsday bunker",
-   "published": "2026-05-13"
+   "published": "2026-05-13",
+   "tags": {
+    "moment": "platform ecosystem era description",
+    "topics": [
+     "twitter",
+     "social media",
+     "internet culture"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In the 2010s, it was all about the Twitter-to-cable-news pipeline. Trump would tweet, cable news would pick it up, the other engines of culture would react, Trump would tweet again, and on and on it went.",
@@ -299,7 +1089,27 @@
    "evidence": "In the 2010s, it was all about the Twitter-to-cable-news pipeline.",
    "url": "https://www.garbageday.email/p/youtube-doesn-t-wanna-be-am-radio-anymore",
    "title": "YouTube doesn't wanna be AM radio anymore",
-   "published": "2026-06-22"
+   "published": "2026-06-22",
+   "tags": {
+    "moment": "media attention pipeline",
+    "topics": [
+     "politics",
+     "twitter",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "But I also just think that once fandoms, at large, left the confines of Tumblr and Reddit and Archive of Our Own, and exploded across the web in the late 2010s, they became much more susceptible to larger political sea changes.",
@@ -309,7 +1119,38 @@
    "evidence": "in the late 2010s",
    "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
+   "published": "2026-08-24",
+   "tags": {
+    "moment": "fandom politicization",
+    "topics": [
+     "fandom",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "archive of our own",
+      "kind": "community"
+     },
+     {
+      "name": "lesbian space princess",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "fandoms"
+     }
+    ]
+   }
   },
   {
    "quote": "In June 2016, he emailed venture capitalist, early Facebook investor, and Palantir founder Peter Thiel, writing, “Brexit, just the beginning.” He then laid out the most succinct mission statement we currently have for what Epstein was trying to accomplish. “Return to tribalism,” he wrote.",
@@ -319,7 +1160,39 @@
    "evidence": "In June 2016",
    "url": "https://www.garbageday.email/p/here-s-how-epstein-broke-the-internet",
    "title": "Here's how Epstein broke the internet",
-   "published": "2026-02-02"
+   "published": "2026-02-02",
+   "tags": {
+    "moment": "private ideological manifesto",
+    "topics": [
+     "politics",
+     "epstein network",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "jeffrey epstein",
+      "kind": "person"
+     },
+     {
+      "name": "peter thiel",
+      "kind": "person"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "palantir",
+      "kind": "company"
+     },
+     {
+      "name": "brexit",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "Epstein was also interested in Pokémon Go, impressed by its augmented reality and geomapping technology. He emailed Qatari Sheikh Fahad bin Abdullah Al-Than and Deepak Chopra about it in July 2016.",
@@ -329,7 +1202,47 @@
    "evidence": "in July 2016",
    "url": "https://www.garbageday.email/p/a-singular-theory-for-the-epstein-network",
    "title": "A singular theory for the Epstein network",
-   "published": "2026-02-09"
+   "published": "2026-02-09",
+   "tags": {
+    "moment": "tech curiosity revealed",
+    "topics": [
+     "technology",
+     "epstein network",
+     "video games"
+    ],
+    "entities": [
+     {
+      "name": "jeffrey epstein",
+      "kind": "person"
+     },
+     {
+      "name": "pokémon go",
+      "kind": "work"
+     },
+     {
+      "name": "fahad bin abdullah al-than",
+      "kind": "person"
+     },
+     {
+      "name": "deepak chopra",
+      "kind": "person"
+     },
+     {
+      "name": "little saint james",
+      "kind": "other"
+     },
+     {
+      "name": "niantic",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "pokémon fans"
+     }
+    ]
+   }
   },
   {
    "quote": "Facebook wanted slideshows and, later, “videos” that were just a still image. Twitter users just started making slightly longer Vines (and sharing sports clips), Instagram incentivized Stories and glossy influencer videos, and then, finally, by the end of the decade, the TikTok was king, which reliably kept things fresh until Trump entered office and squashed it.",
@@ -339,7 +1252,36 @@
    "evidence": "by the end of the decade, the TikTok was king",
    "url": "https://www.garbageday.email/p/what-happens-when-the-short-form-video-bubble-pops",
    "title": "What happens when the short-form video bubble pops?",
-   "published": "2026-04-20"
+   "published": "2026-04-20",
+   "tags": {
+    "moment": "short-form video format cycling",
+    "topics": [
+     "short-form video",
+     "social media",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "They invested heavily in Facebook and by the end of the 2010s, they were one of the biggest publishers on the platform.",
@@ -349,7 +1291,31 @@
    "evidence": "by the end of the 2010s",
    "url": "https://www.garbageday.email/p/ben-shapiro-s-youtube-traffic-is-in-free-fall",
    "title": "Ben Shapiro's YouTube traffic is in free fall",
-   "published": "2026-05-04"
+   "published": "2026-05-04",
+   "tags": {
+    "moment": "platform traffic strategy",
+    "topics": [
+     "far-right politics",
+     "media industry",
+     "social media"
+    ],
+    "entities": [
+     {
+      "name": "the daily wire",
+      "kind": "media outlet"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "There were a million factors that led to Trump’s first presidential win in 2016, but one of the big ones was conservatives figuring out how to replace their post-9/11 scoldism with 4chan troll “lol nothing matters” aesthetics.",
@@ -359,7 +1325,31 @@
    "evidence": "Trump’s first presidential win in 2016",
    "url": "https://www.garbageday.email/p/monday-issue",
    "title": "People don't care that \"The Odyssey\" is woke or whatever",
-   "published": "2026-07-20"
+   "published": "2026-07-20",
+   "tags": {
+    "moment": "political culture shift",
+    "topics": [
+     "far-right politics",
+     "internet culture",
+     "4chan"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "conservatives"
+     }
+    ]
+   }
   },
   {
    "quote": "It’s been a while since 2016, when David Bowie and Prince died three months apart, those deaths became inextricably linked in culture, and both artists were in the top 15 best-selling albums for the year.",
@@ -369,7 +1359,27 @@
    "evidence": "It’s been a while since 2016",
    "url": "https://www.garbageday.email/p/you-have-to-keep-posting-even-if-you-re-dead",
    "title": "You have to keep posting, even if you're dead",
-   "published": "2026-09-04"
+   "published": "2026-09-04",
+   "tags": {
+    "moment": "celebrity death cultural moment",
+    "topics": [
+     "music",
+     "celebrity death",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "david bowie",
+      "kind": "person"
+     },
+     {
+      "name": "prince",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "Simo, while working at Facebook in the 2010s, was behind the, I would argue, disastrous push into Facebook Watch. Where Facebook commissioned a whole bunch of shows no one watched.",
@@ -379,7 +1389,35 @@
    "evidence": "in the 2010s",
    "url": "https://www.garbageday.email/p/openai-bought-a-livestream-no-one-watches",
    "title": "OpenAI bought a livestream no one watches",
-   "published": "2026-04-06"
+   "published": "2026-04-06",
+   "tags": {
+    "moment": "failed platform video push",
+    "topics": [
+     "media industry",
+     "facebook",
+     "streaming"
+    ],
+    "entities": [
+     {
+      "name": "fidji simo",
+      "kind": "person"
+     },
+     {
+      "name": "facebook watch",
+      "kind": "work"
+     },
+     {
+      "name": "openai",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "But in a text exchange in October 2018, Epstein told Bannon that he was worried about how fast Bannon’s far-right populist revolution was moving. “I don't like the momentum. Recall I think Icarus was jet lagged,” Epstein wrote.",
@@ -389,7 +1427,31 @@
    "evidence": "in October 2018",
    "url": "https://www.garbageday.email/p/a-singular-theory-for-the-epstein-network",
    "title": "A singular theory for the Epstein network",
-   "published": "2026-02-09"
+   "published": "2026-02-09",
+   "tags": {
+    "moment": "private texts revealed",
+    "topics": [
+     "politics",
+     "far-right politics",
+     "epstein network"
+    ],
+    "entities": [
+     {
+      "name": "jeffrey epstein",
+      "kind": "person"
+     },
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "jair bolsonaro",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "Trump started his saber-rattling against Iran in earnest back in 2018, during his first administration. After he pulled the US out of the Joint Comprehensive Plan of Action (JCPOA) nuclear deal, he announced that he would reimpose sanctions on Iran with, of course, with a meme. A Game Of Thrones meme reading, “Sanctions are coming,” to be exact.",
@@ -399,7 +1461,39 @@
    "evidence": "back in 2018, during his first administration",
    "url": "https://www.garbageday.email/p/a-fake-war-with-a-fake-ending",
    "title": "A fake war with a fake ending",
-   "published": "2026-04-08"
+   "published": "2026-04-08",
+   "tags": {
+    "moment": "political meme announcement",
+    "topics": [
+     "politics",
+     "iran",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "iran",
+      "kind": "other"
+     },
+     {
+      "name": "game of thrones",
+      "kind": "work"
+     },
+     {
+      "name": "george rr martin",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2018, Beyoncé was the first black woman to headline the festival — which should tell you all you need to know about it. And, one could argue, she broke it forever, turning a glorified Apple keynote into an arms race for massive pop acts that want to one-up each other with an audacious headlining performance.",
@@ -409,7 +1503,34 @@
    "evidence": "In 2018, Beyoncé was the first black woman to headline the festival",
    "url": "https://www.garbageday.email/p/was-justin-bieber-s-coachella-set-good",
    "title": "Was Justin Bieber's Coachella set good?",
-   "published": "2026-04-13"
+   "published": "2026-04-13",
+   "tags": {
+    "moment": "festival headline milestone",
+    "topics": [
+     "music festivals",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "beyoncé",
+      "kind": "person"
+     },
+     {
+      "name": "coachella",
+      "kind": "event"
+     },
+     {
+      "name": "apple",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Facebook was The Daily Wire’s bread basket from 2018 to around 2022. This also appears to be the peak of their YouTube penetration. They were doing well enough to launch their streaming service DailyWire+ around then, as well.",
@@ -419,7 +1540,34 @@
    "evidence": "from 2018 to around 2022",
    "url": "https://www.garbageday.email/p/ben-shapiro-s-youtube-traffic-is-in-free-fall",
    "title": "Ben Shapiro's YouTube traffic is in free fall",
-   "published": "2026-05-04"
+   "published": "2026-05-04",
+   "tags": {
+    "moment": "platform traffic peak",
+    "topics": [
+     "far-right politics",
+     "media industry",
+     "youtube"
+    ],
+    "entities": [
+     {
+      "name": "the daily wire",
+      "kind": "media outlet"
+     },
+     {
+      "name": "dailywire+",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "2018-March 2020: The brands, publishers, and studios that survived the 2012 pivot were rewarded with Netflix shows no one ever watched and the golden handcuffs of now having to make YouTube content forever. Meanwhile, video essays and, particularly, left-wing Breadtube got real big. And, on the short-form front, TikTok came out and basically changed everything overnight.",
@@ -429,7 +1577,35 @@
    "evidence": "2018-March 2020",
    "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
    "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
+   "published": "2026-09-09",
+   "tags": {
+    "moment": "internet culture era description",
+    "topics": [
+     "youtube",
+     "tiktok",
+     "video",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "netflix",
+      "kind": "company"
+     },
+     {
+      "name": "breadtube",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2020, the country’s managerial class was forced to sit at home in the profoundly lonely desolation of their own lives for a few months, got even more addicted to Twitter than they already were, and decided, like rich guys tend to do, that they didn’t want to compete with normal people for attention and just bought the game.",
@@ -439,7 +1615,41 @@
    "evidence": "In 2020",
    "url": "https://www.garbageday.email/p/sorry-babe-i-m-monitoring-the-situation",
    "title": "Sorry babe, I'm monitoring the situation",
-   "published": "2026-03-02"
+   "published": "2026-03-02",
+   "tags": {
+    "moment": "covid-era media behavior pattern",
+    "topics": [
+     "twitter",
+     "politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "elon musk",
+      "kind": "person"
+     },
+     {
+      "name": "iran",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "x"
+     },
+     {
+      "name": "discord"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "managerial class"
+     }
+    ]
+   }
   },
   {
    "quote": "Silicon Valley emerged from COVID lockdown with big plans to beat TikTok, which was about to cross a billion users. In August 2020, Instagram launched Reels and, a month later, YouTube launched a beta version of Shorts in India, which would open up worldwide in 2021.",
@@ -449,7 +1659,44 @@
    "evidence": "In August 2020",
    "url": "https://www.garbageday.email/p/oh-look-we-re-all-pivoting-to-video-again",
    "title": "Oh, look, we're all pivoting to video again",
-   "published": "2026-03-30"
+   "published": "2026-03-30",
+   "tags": {
+    "moment": "platform feature launch race",
+    "topics": [
+     "tiktok",
+     "social media",
+     "short-form video"
+    ],
+    "entities": [
+     {
+      "name": "instagram",
+      "kind": "company"
+     },
+     {
+      "name": "youtube",
+      "kind": "company"
+     },
+     {
+      "name": "elon musk",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Two years later, in January 2020, Trump would carry out the extrajudicial assassination of Iranian military officer Qasem Soleimani. Trump announced Soleimani’s death via a wordless tweet featuring a low-res image of the American flag (quite the visual metaphor).",
@@ -459,7 +1706,35 @@
    "evidence": "in January 2020",
    "url": "https://www.garbageday.email/p/a-fake-war-with-a-fake-ending",
    "title": "A fake war with a fake ending",
-   "published": "2026-04-08"
+   "published": "2026-04-08",
+   "tags": {
+    "moment": "targeted killing",
+    "topics": [
+     "politics",
+     "foreign policy",
+     "iran"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "qasem soleimani",
+      "kind": "person"
+     },
+     {
+      "name": "iran",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "It’s been forgotten after hundreds of subsequent controversies, but he blew up on TikTok during the pandemic because his fans, who paid to be in his fan club, Hustler’s University, could earn benefits by flooding TikTok with clips from his podcast. This seemed to convince TikTok’s algorithm that “Andrew Tate” was a trend that users were participating in and started recommending it to other users.",
@@ -469,7 +1744,35 @@
    "evidence": "back in 2022",
    "url": "https://www.garbageday.email/p/the-wild-geese-chase",
    "title": "The wild Geese chase",
-   "published": "2026-04-15"
+   "published": "2026-04-15",
+   "tags": {
+    "moment": "algorithm manipulation campaign",
+    "topics": [
+     "tiktok",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "andrew tate",
+      "kind": "person"
+     },
+     {
+      "name": "hustler’s university",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "his fans"
+     }
+    ]
+   }
   },
   {
    "quote": "March 2020-2022/2023: This is the COVID era. We got E-boys and E-girls, AOC played Among Us with Hasan Piker, and hobbyist YouTube came roaring back in a way we hadn’t seen since the 2000s. This era ended when Andrew Tate and his fans hijacked the TikTok feed and turned him into a celebrity overnight.",
@@ -479,7 +1782,46 @@
    "evidence": "March 2020-2022/2023",
    "url": "https://www.garbageday.email/p/ai-still-boring-and-also-bad-and-also-expensive",
    "title": "AI is still boring and also bad and also expensive",
-   "published": "2026-09-09"
+   "published": "2026-09-09",
+   "tags": {
+    "moment": "internet culture era description",
+    "topics": [
+     "internet culture",
+     "video",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "aoc",
+      "kind": "person"
+     },
+     {
+      "name": "hasan piker",
+      "kind": "person"
+     },
+     {
+      "name": "among us",
+      "kind": "work"
+     },
+     {
+      "name": "andrew tate",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "e-boys and e-girls"
+     }
+    ]
+   }
   },
   {
    "quote": "And for most of the Biden era, even if Trump was both out of office and sequestered to his own dark corner of the web, he and his followers still defined the national conversation with ease. There was Libs of TikTok’s one-woman crusade against random queer teenagers, the endless whining about trans women in sports, and, of course, Hunter Biden’s laptop.",
@@ -489,7 +1831,48 @@
    "evidence": "for most of the Biden era",
    "url": "https://www.garbageday.email/p/youtube-doesn-t-wanna-be-am-radio-anymore",
    "title": "YouTube doesn't wanna be AM radio anymore",
-   "published": "2026-06-22"
+   "published": "2026-06-22",
+   "tags": {
+    "moment": "political discourse platform migration",
+    "topics": [
+     "far-right politics",
+     "twitter",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "elon musk",
+      "kind": "person"
+     },
+     {
+      "name": "libs of tiktok",
+      "kind": "community"
+     },
+     {
+      "name": "hunter biden",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "truth social"
+     },
+     {
+      "name": "x"
+     },
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2022, filmmaker Vera Drew created a movie called The People’s Joker, which turned the story of The Joker from Batman into a trans allegory. Drew received a cease and desist from Warner Bros. and held guerilla screenings of the film until the rights were worked out.",
@@ -499,7 +1882,39 @@
    "evidence": "In 2022, filmmaker Vera Drew created a movie called The People’s Joker",
    "url": "https://www.garbageday.email/p/the-only-taboo-left-is-copyright-infringement",
    "title": "The only taboo left is copyright infringement",
-   "published": "2026-02-18"
+   "published": "2026-02-18",
+   "tags": {
+    "moment": "copyright dispute over fan film",
+    "topics": [
+     "copyright",
+     "film",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "vera drew",
+      "kind": "person"
+     },
+     {
+      "name": "the people’s joker",
+      "kind": "work"
+     },
+     {
+      "name": "the joker",
+      "kind": "work"
+     },
+     {
+      "name": "batman",
+      "kind": "work"
+     },
+     {
+      "name": "warner bros.",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2022, Elon Musk effectively moved the hub of the online far right from chan sites, subreddits, and random message boards to Twitter. This was widely celebrated among the right wing, who had long believed that they were not represented in Twitter’s marketplace of ideas (they, obviously, were).",
@@ -509,7 +1924,31 @@
    "evidence": "In 2022",
    "url": "https://www.garbageday.email/p/right-wingers-want-every-woman-to-be-a-mom-and-also-hate-moms-now",
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
-   "published": "2026-08-24"
+   "published": "2026-08-24",
+   "tags": {
+    "moment": "platform political migration",
+    "topics": [
+     "far-right politics",
+     "twitter",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "elon musk",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "the right wing"
+     }
+    ]
+   }
   },
   {
    "quote": "When Elon Musk took over Twitter in 2023, one of his first moves was to change the company’s press email to auto-reply with “💩” It was deeply irresponsible, which is why it was, at least arguably, a successful act of trolling.",
@@ -519,7 +1958,27 @@
    "evidence": "When Elon Musk took over Twitter in 2023",
    "url": "https://www.garbageday.email/p/waging-war-for-the-lulz",
    "title": "Waging war for the lulz",
-   "published": "2026-03-09"
+   "published": "2026-03-09",
+   "tags": {
+    "moment": "corporate trolling stunt",
+    "topics": [
+     "twitter",
+     "trolling",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "elon musk",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "In fact in 2023, in a weird full circle moment, Japanese internet users learned about this new distinctly American online ugliness, which is especially prevalent in western fandom spaces, and coined the term “feelings yakuza,” to describe it. They use it to mean \"those who turn their personal discomfort into a social evil and try to erase the target completely.”",
@@ -529,7 +1988,25 @@
    "evidence": "In fact in 2023",
    "url": "https://www.garbageday.email/p/everyone-s-very-angry-online-right-now",
    "title": "Everyone's very angry online right now",
-   "published": "2026-03-25"
+   "published": "2026-03-25",
+   "tags": {
+    "moment": "internet slang coined",
+    "topics": [
+     "internet culture",
+     "fandom",
+     "online harassment"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "x"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "A useful one here would be the 2023 mass panic about TikTok users stanning Osama bin Laden. A relatively small conversation about Bin Laden’s post-9/11 “Letter To America” among unknown creators didn’t go viral until after the videos were shared to X, which from there, was shared to Reels and Shorts (and Google via news stories).",
@@ -539,7 +2016,36 @@
    "evidence": "the 2023 mass panic",
    "url": "https://www.garbageday.email/p/oh-look-we-re-all-pivoting-to-video-again",
    "title": "Oh, look, we're all pivoting to video again",
-   "published": "2026-03-30"
+   "published": "2026-03-30",
+   "tags": {
+    "moment": "viral content spreading across platforms",
+    "topics": [
+     "tiktok",
+     "far-right politics",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "osama bin laden",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     },
+     {
+      "name": "x"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Starting in 2023, it began posting original videos featuring cartoons of Tucker Carlson, Nick Fuentes, and others in Roman wear. After Trump was indicted for financial crimes the same year, the account’s merch page began selling T-shirts with a drawing of Julius Caesar in the same pose as Trump’s mugshot.",
@@ -549,7 +2055,39 @@
    "evidence": "Starting in 2023",
    "url": "https://www.garbageday.email/p/exclusive-dhs-gave-a-scoop-to-a-random-shitposter",
    "title": "EXCLUSIVE: DHS gave a scoop to a random shitposter",
-   "published": "2026-05-06"
+   "published": "2026-05-06",
+   "tags": {
+    "moment": "meme account political turn",
+    "topics": [
+     "far-right politics",
+     "memes",
+     "internet culture"
+    ],
+    "entities": [
+     {
+      "name": "tucker carlson",
+      "kind": "person"
+     },
+     {
+      "name": "nick fuentes",
+      "kind": "person"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "julius caesar",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "x"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "The Mormon-led #WaterTok trend of 2023 became so popular it led to the subsequent Stanley Cup craze and the current explosion of “dirty soda” at fast food restaurants right now.",
@@ -559,7 +2097,35 @@
    "evidence": "#WaterTok trend of 2023",
    "url": "https://www.garbageday.email/p/there-s-nothing-to-watch-on-youtube-anymore",
    "title": "There's nothing to watch on YouTube anymore",
-   "published": "2026-05-11"
+   "published": "2026-05-11",
+   "tags": {
+    "moment": "viral trend chain reaction",
+    "topics": [
+     "tiktok",
+     "viral trends",
+     "consumer culture"
+    ],
+    "entities": [
+     {
+      "name": "church of latter day saints",
+      "kind": "community"
+     },
+     {
+      "name": "stanley cup",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "mormons"
+     }
+    ]
+   }
   },
   {
    "quote": "This all came to a head in the summer of 2024, when MAGA influencers pounced on the conspiracy theory that Haitian immigrants were eating cats and dogs in Springfield, Ohio. It clogged up the airwaves and feeds at a pivotal moment in the election and, by all accounts, “worked.”",
@@ -569,7 +2135,43 @@
    "evidence": "in the summer of 2024",
    "url": "https://www.garbageday.email/p/youtube-doesn-t-wanna-be-am-radio-anymore",
    "title": "YouTube doesn't wanna be AM radio anymore",
-   "published": "2026-06-22"
+   "published": "2026-06-22",
+   "tags": {
+    "moment": "coordinated conspiracy campaign",
+    "topics": [
+     "far-right politics",
+     "disinformation",
+     "immigration"
+    ],
+    "entities": [
+     {
+      "name": "nick shirley",
+      "kind": "person"
+     },
+     {
+      "name": "immigration and customs enforcement",
+      "kind": "other"
+     },
+     {
+      "name": "renée good",
+      "kind": "person"
+     },
+     {
+      "name": "alex pretti",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "x"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "maga influencers"
+     }
+    ]
+   }
   }
  ]
 }

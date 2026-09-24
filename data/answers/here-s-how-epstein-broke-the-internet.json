@@ -1,0 +1,7 @@
+{"references": [
+{"sentence_ids": [11, 12], "start_year": 2009, "end_year": 2016, "label": "Far-right extremists infiltrate fringe online spaces after the Great Recession", "evidence": "In the aftermath of the Great Recession"},
+{"sentence_ids": [17, 18, 19], "start_year": 2016, "end_year": 2016, "label": "Epstein emails Peter Thiel: \"Brexit, just the beginning\"", "evidence": "In June 2016"},
+{"sentence_ids": [47, 48], "start_year": 2011, "end_year": 2019, "label": "4chan brings back /pol/", "evidence": "reversed course in 2011"},
+{"sentence_ids": [52], "start_year": 2010, "end_year": 2010, "label": "4chan launches /new/ to quarantine Ron Paul support", "evidence": "And then again, in 2010, when Poole launched /new/"},
+{"sentence_ids": [76, 77], "start_year": 2014, "end_year": 2014, "label": "Gamergate goes from 4chan to Breitbart", "evidence": "In 2014, 4chan’s video game board, /v/, and /pol/ started lighting up about the Gamergate conspiracy theory."}
+]}

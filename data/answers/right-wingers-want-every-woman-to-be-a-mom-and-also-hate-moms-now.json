@@ -1,0 +1,5 @@
+{"references": [
+ {"sentence_ids": [6, 7], "start_year": 2022, "end_year": 2022, "label": "Musk moves the online far right to Twitter", "evidence": "In 2022"},
+ {"sentence_ids": [93, 94], "start_year": 2010, "end_year": 2018, "label": "Fandoms quarantined before the Tumblr porn ban and TikTok", "evidence": "both happened in 2018"},
+ {"sentence_ids": [104], "start_year": 2015, "end_year": 2019, "label": "Fandoms explode out of Tumblr, Reddit and AO3", "evidence": "in the late 2010s"}
+]}

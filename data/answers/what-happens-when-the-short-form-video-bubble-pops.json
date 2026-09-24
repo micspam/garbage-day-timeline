@@ -1,0 +1,6 @@
+{"references": [
+{"sentence_ids": [10, 11], "start_year": 2012, "end_year": 2013, "label": "Vine ends the animated GIF era", "evidence": "On December 31st, 2012"},
+{"sentence_ids": [14, 15, 16], "start_year": 2010, "end_year": 2013, "label": "Message board culture moves to big platforms", "evidence": "In the early 2010s, message board users were moving from smaller websites to larger platforms"},
+{"sentence_ids": [17, 18, 19], "start_year": 2010, "end_year": 2012, "label": "The animated GIF boom", "evidence": "By 2012, GIFs were so popular that they were being used to cover the election that year."},
+{"sentence_ids": [28, 29], "start_year": 2013, "end_year": 2016, "label": "Vine's short golden age", "evidence": "It went into read-only mode in 2016"},
+{"sentence_ids": [32, 33], "start_year": 2016, "end_year": 2019, "label": "Short-form video cycles to TikTok", "evidence": "by the end of the decade, the TikTok was king"}]}

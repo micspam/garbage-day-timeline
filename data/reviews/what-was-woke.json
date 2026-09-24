@@ -1,0 +1,14 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "A present-day personal anecdote with only a vague description of a late-2010s dance trend."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Characterizes the 2010s as when the internet overtook TV as culture curator."
+  }
+ ]
+}

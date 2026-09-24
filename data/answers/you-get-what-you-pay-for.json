@@ -1,0 +1,4 @@
+{"references": [
+{"sentence_ids": [24, 25, 26], "start_year": 2012, "end_year": 2012, "label": "The internet goes mobile and visual", "evidence": "by the end of 2012"},
+{"sentence_ids": [30, 31], "start_year": 2011, "end_year": 2011, "label": "\"Shit Girls Say\"", "evidence": "the first “Shit Girls Say” video from 2011"},
+{"sentence_ids": [42, 43], "start_year": 2010, "end_year": 2013, "label": "Big tech and VC change the culture deal", "evidence": "the rise of big tech and venture capital in the early 2010s"}]}

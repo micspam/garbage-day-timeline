@@ -1,0 +1,19 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": true,
+   "reason": "Vivid description of the 2012-2015 YouTube studio and Vine era."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Describes the 2018-2020 video landscape: Netflix deals, Breadtube, TikTok."
+  },
+  {
+   "n": 3,
+   "keep": true,
+   "reason": "Describes COVID-era internet video culture."
+  }
+ ]
+}

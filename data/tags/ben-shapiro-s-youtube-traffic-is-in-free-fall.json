@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "platform traffic strategy", "topics": ["far-right politics", "media industry", "social media"], "entities": [{"name": "the daily wire", "kind": "media outlet", "evidence": "The Daily Wire has always been"}, {"name": "facebook", "kind": "company", "evidence": "invested heavily in Facebook"}], "platforms": [{"name": "facebook", "evidence": "invested heavily in Facebook"}], "audiences": []},
+{"n": 2, "moment": "platform traffic peak", "topics": ["far-right politics", "media industry", "youtube"], "entities": [{"name": "the daily wire", "kind": "media outlet", "evidence": "The Daily Wire’s bread basket"}, {"name": "dailywire+", "kind": "work", "evidence": "DailyWire+"}], "platforms": [{"name": "facebook", "evidence": "Facebook was The Daily Wire’s bread basket"}, {"name": "youtube", "evidence": "peak of their YouTube penetration"}], "audiences": []}
+]}

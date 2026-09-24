@@ -1,0 +1,14 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Doesn't say Vine died, so 'its place' is unclear without the article."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Describes Cave Story's free 2004 release and that era's norms."
+  }
+ ]
+}

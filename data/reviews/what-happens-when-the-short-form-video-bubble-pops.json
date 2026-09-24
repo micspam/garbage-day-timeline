@@ -1,0 +1,29 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Unclear 'this' makes the quote meaningless without the article."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Describes message board users migrating to big platforms in the early 2010s."
+  },
+  {
+   "n": 3,
+   "keep": true,
+   "reason": "Explains why GIFs boomed and their 2012 election use."
+  },
+  {
+   "n": 4,
+   "keep": true,
+   "reason": "States Vine's short golden age ended in 2016 as rivals copied it."
+  },
+  {
+   "n": 5,
+   "keep": true,
+   "reason": "Describes how platforms handled short-form video after Vine through TikTok's rise."
+  }
+ ]
+}

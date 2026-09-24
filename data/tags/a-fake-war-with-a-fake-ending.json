@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "political meme announcement", "topics": ["politics", "iran", "memes"], "entities": [{"name": "donald trump", "kind": "person", "evidence": "Trump started his saber-rattling against Iran"}, {"name": "iran", "kind": "other", "evidence": "Iran"}, {"name": "game of thrones", "kind": "work", "evidence": "A Game Of Thrones meme"}, {"name": "george rr martin", "kind": "person", "evidence": "George RR Martin"}], "platforms": [{"name": "twitter", "evidence": "wordless tweet"}], "audiences": []},
+{"n": 2, "moment": "targeted killing", "topics": ["politics", "foreign policy", "iran"], "entities": [{"name": "donald trump", "kind": "person", "evidence": "Trump would carry out the extrajudicial assassination"}, {"name": "qasem soleimani", "kind": "person", "evidence": "Qasem Soleimani"}, {"name": "iran", "kind": "other", "evidence": "Iranian military officer"}], "platforms": [{"name": "twitter", "evidence": "wordless tweet"}], "audiences": []}
+]}

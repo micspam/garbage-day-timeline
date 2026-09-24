@@ -1,0 +1,5 @@
+{"references": [
+ {"sentence_ids": [21, 22], "start_year": 2020, "end_year": 2021, "label": "Instagram Reels and YouTube Shorts launch to beat TikTok", "evidence": "In August 2020"},
+ {"sentence_ids": [27], "start_year": 2010, "end_year": 2019, "label": "The tweet as the atomic unit of content", "evidence": "in the 2010s"},
+ {"sentence_ids": [29, 30], "start_year": 2023, "end_year": 2023, "label": "TikTok Bin Laden “Letter To America” panic", "evidence": "the 2023 mass panic"}
+]}

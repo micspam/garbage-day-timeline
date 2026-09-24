@@ -1,0 +1,19 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": true,
+   "reason": "Characterizes what Coachella became in the 2010s."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Describes Beyonce's 2018 headlining set and its impact on the festival."
+  },
+  {
+   "n": 3,
+   "keep": false,
+   "reason": "The 2016 hacks are background to an unexplained present-day leak story."
+  }
+ ]
+}

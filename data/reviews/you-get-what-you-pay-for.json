@@ -1,0 +1,19 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": true,
+   "reason": "Lists the 2012 changes that made the internet mobile and visual."
+  },
+  {
+   "n": 2,
+   "keep": false,
+   "reason": "The 2011 video is mainly a foil for a point about present-day comedians."
+  },
+  {
+   "n": 3,
+   "keep": true,
+   "reason": "Describes how big tech and VC changed culture's economics in the early 2010s."
+  }
+ ]
+}

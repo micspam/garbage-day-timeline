@@ -1,0 +1,4 @@
+{"references": [
+ {"sentence_ids": [26, 27, 28], "start_year": 2018, "end_year": 2018, "label": "Trump's \"Sanctions are coming\" Iran meme", "evidence": "back in 2018, during his first administration"},
+ {"sentence_ids": [30, 31], "start_year": 2020, "end_year": 2020, "label": "Soleimani assassination announced with a flag tweet", "evidence": "in January 2020"}
+]}

@@ -1,0 +1,4 @@
+{"references": [
+ {"sentence_ids": [15, 16, 17], "start_year": 2000, "end_year": 2009, "label": "Edmund McMillen's edgy games and the Dr. McNinja era", "evidence": "since the 2000s"},
+ {"sentence_ids": [115, 116], "start_year": 2004, "end_year": 2006, "label": "Therians, a furry-adjacent subculture", "evidence": "the mid-2000s"}
+]}

@@ -1,0 +1,4 @@
+{"tags": [
+{"n": 1, "moment": "festival origin story", "topics": ["music festivals", "consumer culture"], "entities": [{"name": "coachella", "kind": "event", "evidence": "Coachella is, also, clearly creaking"}, {"name": "pearl jam", "kind": "other", "evidence": "Pearl Jam-led protest"}, {"name": "ticketmaster", "kind": "company", "evidence": "Ticketmaster prices"}], "platforms": [], "audiences": [{"name": "millennials", "evidence": "millennial excess"}]},
+{"n": 2, "moment": "festival headline milestone", "topics": ["music festivals", "music"], "entities": [{"name": "beyoncé", "kind": "person", "evidence": "Beyoncé was the first black woman to headline"}, {"name": "coachella", "kind": "event", "evidence": "Coachella is, also, clearly creaking"}, {"name": "apple", "kind": "company", "evidence": "Apple keynote"}], "platforms": [{"name": "tiktok", "evidence": "influencers on TikTok"}], "audiences": []}
+]}

@@ -1,0 +1,29 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Never names Japan and 'at the time' needs the article's context."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Vivid picture of early-2010s US social media culture."
+  },
+  {
+   "n": 3,
+   "keep": true,
+   "reason": "Describes the mid-2010s troll, Gamergate and Trump campaign scene."
+  },
+  {
+   "n": 4,
+   "keep": true,
+   "reason": "Describes Japanese users coining 'feelings yakuza' in 2023."
+  },
+  {
+   "n": 5,
+   "keep": false,
+   "reason": "Depends on an unexplained earlier tweet and relative date."
+  }
+ ]
+}

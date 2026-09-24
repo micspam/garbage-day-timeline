@@ -1,0 +1,4 @@
+{"references": [
+ {"sentence_ids": [23], "start_year": 2010, "end_year": 2014, "label": "Leno, O'Brien and Fallon's Tonight Show handoff", "evidence": "retired in 2014"},
+ {"sentence_ids": [26, 27, 28], "start_year": 2014, "end_year": 2015, "label": "Fallon remakes The Tonight Show for YouTube", "evidence": "back in 2015"}
+]}
