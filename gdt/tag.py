@@ -1,10 +1,14 @@
-"""Open-ended tagging of approved quotes, as raw material for discovering categories later.
+"""Tagging of approved quotes, as raw material for categories and sub-timelines.
 
 Two kinds of tag:
-- Judgments (`moment`, `topics`): free text in the model's own words. Nothing to verify, and
-  deliberately not from a fixed list yet -- `gdt vocab` counts them so categories can emerge.
+- Judgments (`moment`, `topics`): nothing to verify. `moment` is one kind from a short list
+  that was clustered out of the first round of free-text tags (data/aliases.json), plus a
+  free-text `moment_detail` kept for re-clustering later. Topics are free text.
 - Facts (`entities`, `platforms`, `audiences`): each needs an exact phrase from the quote's
   paragraph. A fact tag without one is dropped, the same rule the dates follow.
+
+data/aliases.json merges near-duplicates and drops catch-alls whenever tags are read, so the
+vocabulary can be cleaned up without re-tagging. `gdt vocab` shows what's left to merge.
 """
 import json
 import os
@@ -16,6 +20,19 @@ from .review import verdicts_for
 
 DATA = Path("data")
 FACT_FIELDS = ("entities", "platforms", "audiences")
+ALIASES = json.loads((DATA / "aliases.json").read_text(encoding="utf-8"))
+
+
+def canonical(field: str, value: str) -> str | None:
+    """Apply data/aliases.json: the merged name for a tag value, or None if it's dropped."""
+    rules = ALIASES.get(field, {})
+    if value in rules.get("drop", ()):
+        return None
+    if field == "moment":
+        kinds = rules["kinds"]
+        return value if value in kinds else rules["map"].get(value, "other")
+    return rules.get("map", {}).get(value, value)
+
 
 _fact = {
     "type": "object",
@@ -34,7 +51,8 @@ TOOL = {
                     "type": "object",
                     "properties": {
                         "n": {"type": "integer"},
-                        "moment": {"type": "string"},
+                        "moment": {"type": "string", "description": "One kind from the list in the prompt."},
+                        "moment_detail": {"type": "string", "description": "2-5 words, free text."},
                         "topics": {"type": "array", "items": {"type": "string"}},
                         "entities": {"type": "array", "items": {**_fact, "properties": {**_fact["properties"], "kind": {"type": "string"}}}},
                         "platforms": {"type": "array", "items": _fact},
@@ -51,16 +69,17 @@ TOOL = {
 PROMPT = """Tag each numbered quote from the newsletter Garbage Day. The tags will be counted across hundreds of quotes to discover natural categories, so describe things plainly and consistently, in lowercase, using the most common name for each thing.
 
 For each quote:
-- `moment`: what kind of thing the quote describes, in 2-4 words (e.g. "viral dance trend", "platform shutdown", "news leak", "reaction to a news story", "subculture forming").
-- `topics`: 1-4 short subject areas (e.g. "dance", "far-right politics", "fandom", "video games").
+- `moment`: what kind of thing the quote describes. Pick exactly one of: {kinds}. Use "other" only if none fit.
+- `moment_detail`: the same thing in your own words, 2-5 words (e.g. "viral dance trend", "fandom leaves tumblr").
+- `topics`: 1-4 specific subject areas (e.g. "dance", "far-right politics", "fandom", "video games", "crypto and nfts"). Don't use catch-alls like "internet culture", "social media" or "technology", which fit almost every quote. Don't repeat platform names here; they go in `platforms`.
 - `entities`: specific people, companies, communities, works, events or media outlets named in the text. Give each a `name` (full common name, e.g. "jeffrey epstein", "cnn"), a `kind` (person, company, community, work, event, media outlet, other) and `evidence`.
-- `platforms`: online platforms the moment happened on or spread through (e.g. "tiktok", "4chan"), each with `evidence`.
+- `platforms`: online platforms the moment happened on or spread through (e.g. "tiktok", "4chan"; always "twitter" for both Twitter and X), each with `evidence`.
 - `audiences`: groups the moment involved or was popular with (e.g. "gen alpha", "millennials", "gamers"), each with `evidence`.
 
 `evidence` must be an exact phrase copied from the quote's context paragraph that shows the tag is true. If you can't point to one, leave the tag out. Guessing an audience or a platform the text doesn't mention is worse than leaving it empty. Empty lists are fine.
 
 Answer format:
-{{"tags": [{{"n": 1, "moment": "...", "topics": ["..."], "entities": [{{"name": "...", "kind": "...", "evidence": "..."}}], "platforms": [{{"name": "...", "evidence": "..."}}], "audiences": [{{"name": "...", "evidence": "..."}}]}}]}}
+{{"tags": [{{"n": 1, "moment": "...", "moment_detail": "...", "topics": ["..."], "entities": [{{"name": "...", "kind": "...", "evidence": "..."}}], "platforms": [{{"name": "...", "evidence": "..."}}], "audiences": [{{"name": "...", "evidence": "..."}}]}}]}}
 
 {quotes}"""
 
@@ -83,7 +102,8 @@ def build_prompt(record: dict, issue: dict) -> str:
         f"[{n}] Quote: \"{q['quote']}\"\nContext paragraph: \"{issue['paragraphs'][q['paragraph']]}\""
         for n, q in approved(record)
     )
-    return PROMPT.format(quotes=quotes)
+    kinds = ", ".join(f"\"{k}\"" for k in ALIASES["moment"]["kinds"])
+    return PROMPT.format(quotes=quotes, kinds=kinds)
 
 
 def run(limit: int | None):
@@ -97,8 +117,14 @@ def run(limit: int | None):
     todo = 0
     for p in issue_paths(limit):
         pair = load_pair(p.stem)
-        if not pair or not approved(pair[0]) or (tag_dir / p.name).exists():
+        if not pair or not approved(pair[0]):
             continue
+        # Re-tag the issue if a quote approved after it was tagged has no tags yet.
+        done = tag_dir / p.name
+        if done.exists():
+            tagged_ns = {t.get("n") for t in json.loads(done.read_text(encoding="utf-8")).get("tags", [])}
+            if all(n in tagged_ns for n, _ in approved(pair[0])):
+                continue
         prompt = build_prompt(*pair)
         if use_api:
             answer = call_claude(prompt, TOOL)
@@ -127,7 +153,14 @@ def checked_tags(record: dict, issue: dict, stats: Counter | None = None) -> dic
         if not q:
             continue
         para = norm(issue["paragraphs"][q["paragraph"]])
-        tags = {"moment": clean_name(t.get("moment", "")), "topics": [clean_name(x) for x in t.get("topics", []) if str(x).strip()]}
+        raw_moment = clean_name(t.get("moment", ""))
+        topics = [canonical("topics", clean_name(x)) for x in t.get("topics", []) if str(x).strip()]
+        tags = {
+            "moment": canonical("moment", raw_moment),
+            # Older tags had only a free-text moment; it doubles as the detail.
+            "moment_detail": clean_name(t.get("moment_detail", "")) or raw_moment,
+            "topics": list(dict.fromkeys(x for x in topics if x)),
+        }
         for field in FACT_FIELDS:
             tags[field] = []
             for fact in t.get(field, []):
@@ -135,8 +168,9 @@ def checked_tags(record: dict, issue: dict, stats: Counter | None = None) -> dic
                 ok = len(ev) >= 2 and ev in para
                 if stats is not None:
                     stats[f"{field}_{'kept' if ok else 'dropped_no_evidence'}"] += 1
-                if ok:
-                    entry = {"name": clean_name(fact.get("name", ""))}
+                name = canonical(field, clean_name(fact.get("name", ""))) if ok else None
+                if name and name not in (x["name"] for x in tags[field]):
+                    entry = {"name": name}
                     if field == "entities":
                         entry["kind"] = clean_name(fact.get("kind", "other"))
                     tags[field].append(entry)
@@ -157,7 +191,7 @@ def vocab(limit: int | None):
         for n, tags in checked_tags(record, issue, stats).items():
             tagged += 1
             era = quotes[n]["start_year"] // 5 * 5
-            values = [("moment", tags["moment"])] + [("topics", t) for t in tags["topics"]]
+            values = [("moment", tags["moment"]), ("moment_detail", tags["moment_detail"])] + [("topics", t) for t in tags["topics"]]
             values += [(f, x["name"]) for f in FACT_FIELDS for x in tags[f]]
             for field, value in values:
                 if not value:

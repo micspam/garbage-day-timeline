@@ -38,16 +38,21 @@ python -m gdt review              # data/review_prompts/ now holds only unreview
 python -m gdt tag                 # data/tag_prompts/ now holds only untagged issues
 ```
 
-**C. Tag.** For each file in `data/tag_prompts/`, write `data/tags/<slug>.json`.
-- `moment` and `topics` are free text on purpose: categories get chosen later from what shows up. Use plain, lowercase, common names consistently ("tiktok", not "TikTok app").
+**C. Tag.** For each file in `data/tag_prompts/`, write `data/tags/<slug>.json`. `gdt tag` also re-lists an already-tagged issue if a later review approved a quote in it that has no tags yet. Rewrite the whole file then.
+- `moment` is one kind from the list in the prompt, plus a free-text `moment_detail`. `topics` are free text. Use plain, lowercase, common names consistently ("tiktok", not "TikTok app"; "twitter" for both Twitter and X). No catch-all topics like "internet culture".
 - Entities, platforms and audiences each need an exact `evidence` phrase from the quote's context paragraph. No phrase, no tag. Never guess an audience or platform.
+- Give review (step B) subagents the prompt exactly as written, whatever model they run on. Its checklist is what keeps the review strict.
 
 ```bash
 python -m gdt build               # site/data.json + report
 python -m gdt vocab               # data/vocab.json: every tag value with quote/issue/era counts
-git add data/answers data/reviews data/tags data/vocab.json site/data.json
-git commit -m "Archive run: batch N" && git push
+git add data/answers data/reviews data/tags data/vocab.json data/aliases.json site/data.json
+git commit -m "Archive run: batch N" && git push origin HEAD:main
 ```
+
+**Push to `main`**, not a session branch: the maintainer works from `main`. If pushing to `main` is refused, say so in your summary and name the branch you pushed.
+
+**Keep the tag vocabulary tidy.** After `vocab`, look for new near-duplicates (e.g. "meme culture" and "memes") or catch-alls. Merge or drop them by editing `data/aliases.json`, not by re-tagging. The merges apply whenever tags are read.
 
 Then run `prepare` again for the next batch. Stop when `prepare` reports 0 prompts.
 

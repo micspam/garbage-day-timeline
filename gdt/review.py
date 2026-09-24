@@ -37,15 +37,14 @@ TOOL = {
 
 PROMPT = """Each quote below will appear alone on a timeline, filed under the era shown. A reader sees just the quote and the era.
 
-Keep a quote only if it tells the reader something about that era: what happened then, or what it was like.
+Go through this checklist for every quote. Keep it only if the answer to all four is yes:
 
-Drop it if the era is only a passing reference, for example:
-- the past is a foil for a point about the present ("the people who did X in the 2010s now do Y")
-- a background date in a story about the present ("he entered the US in 2019")
-- someone's opinion about current events that happens to name a past year
-- a rhetorical question, or a quote that doesn't make sense without the rest of the article
+1. Is the era the subject? Most of the quote describes what happened in that era, or what it was like. It's not mainly about the present, with the past as setup or contrast ("the people who did X in the 2010s now do Y").
+2. Is it more than a date stamp? It doesn't just give a background date for a present-day story ("he entered the US in 2019", "the site launched in 2022", "allegations back in 2023").
+3. Does it stand alone? A reader who hasn't seen the article understands what it's describing. It doesn't depend on "this", "he" or "that" from earlier, and it isn't a rhetorical question.
+4. Is it description, not a take? It isn't mainly someone's opinion about current events that happens to name a past year.
 
-When unsure, drop it. A shorter timeline of real era quotes is the goal.
+Be strict. A quote that mentions an era is not the same as a quote about an era, and a lenient pass fills the timeline with passing mentions. When unsure, drop it. In the reason, name the first check that failed, or say why it passes all four.
 
 Answer format:
 {{"verdicts": [{{"n": 1, "keep": true, "reason": "one short sentence"}}]}}

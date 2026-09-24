@@ -6,5 +6,6 @@ data/*
 !data/reviews/
 !data/tags/
 !data/vocab.json
+!data/aliases.json
 __pycache__/
 .env
