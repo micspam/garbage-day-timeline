@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [66], "start_year": 1995, "end_year": 2003, "label": "the read-only AOL/Yahoo web era", "evidence": "In the read-only age of AOL and Yahoo, you had static news sites"},
+  {"sentence_ids": [67], "start_year": 2008, "end_year": 2015, "label": "the Facebook/Google search-and-social era", "evidence": "In the search and social age of Facebook and Google, you had aggregation and viral media"}
+]}

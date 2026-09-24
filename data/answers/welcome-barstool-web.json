@@ -1,0 +1,6 @@
+{"references": [
+  {"sentence_ids": [44, 45], "start_year": 2007, "end_year": 2009, "label": "late-2000s daily fantasy sports origins", "evidence": "the late-00s"},
+  {"sentence_ids": [54], "start_year": 2012, "end_year": 2012, "label": "r/WallStreetBets founded", "evidence": "which was founded in 2012"},
+  {"sentence_ids": [55], "start_year": 2021, "end_year": 2021, "label": "2021 GameStop short squeeze", "evidence": "The GameStop short squeeze in 2021"},
+  {"sentence_ids": [66, 67], "start_year": 2017, "end_year": 2017, "label": "2017 loot-box backlash over Battlefront 2", "evidence": "substantial pushback to loot boxes in 2017"}
+]}

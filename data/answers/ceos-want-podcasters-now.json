@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [15, 16], "start_year": 2010, "end_year": 2019, "label": "2010s: rich guys stayed off the internet", "evidence": "In the 2010s, the prevailing attitude about the Internet was that people who mattered didn't really have to be on it"},
+  {"sentence_ids": [24, 25, 26], "start_year": 2020, "end_year": 2020, "label": "Tomas Pueyo's viral early-pandemic COVID post", "evidence": "the defining text of the early pandemic"}
+]}

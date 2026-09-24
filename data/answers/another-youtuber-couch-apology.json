@@ -1,0 +1,6 @@
+{"references": [
+  {"sentence_ids": [13, 14], "start_year": 2018, "end_year": 2020, "label": "Dropout's founding as College Humor's subscription arm", "evidence": "Dropout launched in 2018"},
+  {"sentence_ids": [32], "start_year": 2010, "end_year": 2019, "label": "2010s open-ended viral YouTube content", "evidence": "2010s open-ended viral content"},
+  {"sentence_ids": [45, 46], "start_year": 2022, "end_year": 2022, "label": "CNN+'s quick collapse", "evidence": "The most disastrous version of this was CNN+"},
+  {"sentence_ids": [85], "start_year": 2015, "end_year": 2019, "label": "Gateway Pundit's late-2010s conspiracy theories", "evidence": "the biggest, most aggressive conspiracy theories of the late-2010s"}
+]}
