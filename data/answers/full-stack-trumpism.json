@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [13, 14], "start_year": 2017, "end_year": 2020, "label": "Trump's first term media strategy", "evidence": "During Trump’s first presidency"},
+  {"sentence_ids": [82], "start_year": 2011, "end_year": 2013, "label": "Silk Road creation and Ulbricht's arrest", "evidence": "he created the dark web marketplace The Silk Road in 2011 and was arrested in 2013 by the FBI"}
+]}

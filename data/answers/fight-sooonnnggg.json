@@ -1,0 +1,4 @@
+{"references": [
+  {"sentence_ids": [15], "start_year": 2008, "end_year": 2016, "label": "the Obama-era mood", "evidence": "We are conjuring the ghost of the Obama era — that earnest, optimistic, energized, celeb-obsessed, self-conscious, cringeworthy time."},
+  {"sentence_ids": [43, 44], "start_year": 2008, "end_year": 2016, "label": "Obama-era liberal complacency", "evidence": "the danger of the Obama years"}
+]}
