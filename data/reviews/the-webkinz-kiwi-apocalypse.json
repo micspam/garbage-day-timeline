@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'what's even cooler' and 'the character' depend on the article."
+    }
+  ]
+}

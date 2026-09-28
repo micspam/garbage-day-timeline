@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: most of the quote is about the newsletter's coverage, with only one line on the mid-00s."
+    }
+  ]
+}

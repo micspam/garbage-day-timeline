@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Digg's 2007 roundup sending traffic to 4chan."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 3: '4chan Gold' jokes, 'again' and Moot's joke depend on earlier context."
+    }
+  ]
+}
