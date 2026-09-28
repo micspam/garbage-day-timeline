@@ -98,13 +98,18 @@
   .more { width: 100%; }
   .empty { font: 500 13px var(--mono); color: var(--muted); padding: 24px 0; }
 
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 14px 16px 12px; display: grid; gap: 8px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 14px 16px 12px; display: grid; gap: 7px; }
   .meta { display: flex; gap: 8px; align-items: baseline; font: 500 12px/1.3 var(--mono); }
   .yr { background: var(--accent-soft); color: var(--accent); padding: 2px 6px; border-radius: 2px; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .yr.est { background: transparent; border: 1px dashed var(--accent); }
-  .label { color: var(--muted); }
-  blockquote { margin: 0; font-size: 17px; line-height: 1.45; }
-  mark { background: var(--mark); color: inherit; padding: 0 1px; }
+  .kind { color: var(--muted); }
+  /* The headline says what the quote is about, so a column can be scanned by headlines alone. */
+  .headline { margin: 0; font: 800 19px/1.2 var(--display); letter-spacing: -0.01em; text-wrap: balance; }
+  blockquote { margin: 0; font-size: 15.5px; line-height: 1.45; color: var(--muted); }
+  blockquote.clamp { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .readmore { justify-self: start; background: none; border: 0; padding: 0; font: 500 12px var(--mono); color: var(--accent); cursor: pointer; }
+  /* The dating phrase: still marked as the proof, but quiet. */
+  .ev { color: var(--ink); text-decoration: underline dotted var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
   .tags { display: flex; flex-wrap: wrap; gap: 4px; }
   .tags .chip { font-size: 11px; padding: 4px 8px; }
   .src { font: 500 12px var(--mono); color: var(--muted); text-decoration: none; border-top: 1px dashed var(--line); padding-top: 8px; }
@@ -120,7 +125,7 @@
   <header>
     <div class="eyebrow">Unofficial proof of concept · not affiliated with Garbage Day</div>
     <h1>Garbage Day, sorted by the era it's <em>talking about</em></h1>
-    <p class="lede">Pull quotes from public issues, placed by the era they're about, not the week they went out. The yellow highlight is the exact phrase that dates each quote; a dashed <span class="yr est" style="font: 500 12px var(--mono)">~year</span> means the text names an era, not a year.</p>
+    <p class="lede">Pull quotes from public issues, placed by the era they're about, not the week they went out. Each card leads with what the quote is about; the <span class="ev">dotted underline</span> is the exact phrase that dates it, and a dashed <span class="yr est" style="font: 500 12px var(--mono)">~year</span> means the text names an era, not a year.</p>
   </header>
 
   <div class="stats" id="stats"></div>
@@ -296,7 +301,7 @@
   function highlight(q, ev) {
     const i = norm(q).indexOf(norm(ev));  // same length after normalizing, so indices line up
     if (i < 0) return esc(q);
-    return esc(q.slice(0, i)) + "<mark>" + esc(q.slice(i, i + ev.length)) + "</mark>" + esc(q.slice(i + ev.length));
+    return esc(q.slice(0, i)) + '<span class="ev" title="The phrase that dates this quote">' + esc(q.slice(i, i + ev.length)) + "</span>" + esc(q.slice(i + ev.length));
   }
   const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
@@ -306,12 +311,16 @@
     const t = c.tags;
     const tagChips = [
       ...(t.platforms || []).map(x => chip("platforms", x.name)),
-      ...(t.topics || []).slice(0, 3).map(x => chip("topics", x)),
-      ...(t.entities || []).slice(0, 3).map(x => chip("entities", x.name)),
+      ...(t.topics || []).slice(0, 2).map(x => chip("topics", x)),
+      ...(t.entities || []).slice(0, 2).map(x => chip("entities", x.name)),
     ].join("");
+    const long = c.quote.split(/\s+/).length > 42;  // roughly more than four lines at card width
+    const headline = c.label.charAt(0).toUpperCase() + c.label.slice(1);
     return `<article class="card">
-      <div class="meta"><span class="yr${est ? " est" : ""}"${est ? ' title="Approximate: the text dates this by era, not by year"' : ""}>${est ? "~" : ""}${years}</span><span class="label">${esc(c.label)}</span></div>
-      <blockquote>“${highlight(c.quote, c.evidence)}”</blockquote>
+      <div class="meta"><span class="yr${est ? " est" : ""}"${est ? ' title="Approximate: the text dates this by era, not by year"' : ""}>${est ? "~" : ""}${years}</span>${t.moment && t.moment !== "other" ? `<span class="kind">${esc(t.moment)}</span>` : ""}</div>
+      <h3 class="headline">${esc(headline)}</h3>
+      <blockquote${long ? ' class="clamp"' : ""}>“${highlight(c.quote, c.evidence)}”</blockquote>
+      ${long ? '<button type="button" class="readmore">Read more</button>' : ""}
       ${tagChips ? `<div class="tags">${tagChips}</div>` : ""}
       <a class="src" href="${esc(c.url)}" target="_blank" rel="noopener"><i>${esc(c.title)}</i> · ${fmtDate(c.published)} ↗</a>
     </article>`;
@@ -367,6 +376,12 @@
       const f = { facet: c.dataset.f, value: c.dataset.v };
       const same = filter && filter.facet === f.facet && filter.value === f.value;
       setFilter(same ? null : f);
+      return;
+    }
+    const r = e.target.closest(".readmore");
+    if (r) {
+      const open = r.previousElementSibling.classList.toggle("clamp") === false;
+      r.textContent = open ? "Show less" : "Read more";
       return;
     }
     const m = e.target.closest(".more");
