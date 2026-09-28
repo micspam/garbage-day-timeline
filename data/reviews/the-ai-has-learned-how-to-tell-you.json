@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the pre-pandemic stigma around 'influencers'."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: framed as a comparison to 'our current moment', with the past as contrast."
+    }
+  ]
+}

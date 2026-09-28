@@ -1,0 +1,24 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3 fails: 'a frog meme' is unnamed, and the quote is a hedged in-retrospect argument."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Check 1 fails: mostly the writer's musing on whether the memes mean anything, not a description of the era."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes 2010s memes being archived and turned into stickers and keyboards by platforms."
+    },
+    {
+      "n": 4,
+      "keep": true,
+      "reason": "Passes all four: describes furries opposing NFTs at the height of the boom."
+    }
+  ]
+}

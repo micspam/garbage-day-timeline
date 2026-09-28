@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: first-hand picture of early-2000s Kazaa piracy on Windows XP and DSL."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes downloading anime AMVs during the early Kazaa period."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Check 4 fails: mainly the writer's opinion about which deepfake danger matters, extending to the present."
+    }
+  ]
+}

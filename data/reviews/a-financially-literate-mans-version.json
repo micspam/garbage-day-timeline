@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes how tabloids repackaged weird Facebook posts as news in that era."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes early viral stars treated as TV novelty acts, with a concrete 2011 example."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes the shift to seeing virality as monetizable around that time."
+    }
+  ]
+}

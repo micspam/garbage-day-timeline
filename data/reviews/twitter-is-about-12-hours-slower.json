@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: half the quote is about Twitter's general influence, with Facebook's 2013 shift as contrast."
+    }
+  ]
+}

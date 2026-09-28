@@ -1,0 +1,6 @@
+{"references": [
+{"sentence_ids": [1, 2], "start_year": 2000, "end_year": 2009, "label": "From AOL and Yahoo portals to blogs and social networks", "evidence": "in the 2000s, went from large internet portals run by companies like AOL and Yahoo!"},
+{"sentence_ids": [34, 35], "start_year": 2010, "end_year": 2013, "label": "Instagram as a photo app, a 'museum for your life'", "evidence": "Way back in the early 2010s"},
+{"sentence_ids": [42, 43], "start_year": 2015, "end_year": 2016, "label": "AOL's post-Verizon pivots", "evidence": "in 2015 it was acquired by Verizon"},
+{"sentence_ids": [62], "start_year": 2020, "end_year": 2021, "label": "The Medium COVID guy and Substack's rise", "evidence": "early pandemic lockdown months"}
+]}

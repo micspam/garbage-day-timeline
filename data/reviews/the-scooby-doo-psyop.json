@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3 fails: opens with 'a good example of this', depending on an argument the reader hasn't seen."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 2021 run of weekly TikTok witch hunts like Couch Guy and West Elm Caleb."
+    }
+  ]
+}

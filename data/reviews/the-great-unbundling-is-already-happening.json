@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes early big platforms' focus on sharing."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Zuckerberg's 2019 pitch for AI moderation of Meta's huge platform."
+    }
+  ]
+}

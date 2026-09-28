@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes DiNucci coining Web 2.0 in 1999 and what she wrote."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: concrete picture of how Foursquare check-ins were used in 2013."
+    }
+  ]
+}

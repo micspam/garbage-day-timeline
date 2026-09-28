@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: gives daily Facebook usage figures for 2013 and 2017."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Facebook's college generation entering adulthood and the 2012 mobile push."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes manipulated trending topics in India in 2015."
+    }
+  ]
+}
