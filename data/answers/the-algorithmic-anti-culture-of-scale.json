@@ -1,0 +1,7 @@
+{"references": [
+{"sentence_ids": [22, 23], "start_year": 2003, "end_year": 2004, "label": "Myspace and Facebook launch", "evidence": "Myspace launches in 2003"},
+{"sentence_ids": [26, 27, 28], "start_year": 2009, "end_year": 2011, "label": "Facebook overtakes Myspace, algorithmic feed begins", "evidence": "Facebook overtakes it in 2009"},
+{"sentence_ids": [30, 31], "start_year": 2006, "end_year": 2008, "label": "Early Twitter as a tool for bloggers and journalists", "evidence": "It launches in 2006"},
+{"sentence_ids": [32, 33], "start_year": 2009, "end_year": 2012, "label": "Black Twitter and Weird Twitter emerge", "evidence": "appears in 2009"},
+{"sentence_ids": [41], "start_year": 2015, "end_year": 2021, "label": "Jack Dorsey's Burning Man libertarian Twitter", "evidence": "from 2015-2021"}
+]}

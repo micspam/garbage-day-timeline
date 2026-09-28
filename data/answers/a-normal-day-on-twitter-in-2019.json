@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [28, 29], "start_year": 2004, "end_year": 2006, "label": "Facebook launches as college-only alternative to MySpace", "evidence": "in the mid-2000s"},
+{"sentence_ids": [33, 34], "start_year": 2011, "end_year": 2012, "label": "Something Awful FYAD users arrive on Twitter (Weird Twitter)", "evidence": "Around 2011"},
+{"sentence_ids": [108, 109], "start_year": 2010, "end_year": 2019, "label": "Social networks as newsstands then TV stations", "evidence": "In the first half of the 2010s"}
+]}

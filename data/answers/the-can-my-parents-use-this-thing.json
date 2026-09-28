@@ -1,0 +1,4 @@
+{"references": [
+{"sentence_ids": [34], "start_year": 2015, "end_year": 2015, "label": "John Herrman's \"The Next Internet Is TV\"", "evidence": "in 2015, at the peak of the last era in computing"},
+{"sentence_ids": [47, 48], "start_year": 2010, "end_year": 2019, "label": "The internet became television", "evidence": "In 2010s, the internet became television."}
+]}

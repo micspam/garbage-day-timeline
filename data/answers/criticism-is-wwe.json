@@ -1,0 +1,7 @@
+{"references": [
+{"sentence_ids": [24], "start_year": 2010, "end_year": 2013, "label": "Rise of aggregate review scores", "evidence": "in the early 2010s"},
+{"sentence_ids": [35, 36], "start_year": 2007, "end_year": 2007, "label": "Leaked Graduation vs. Curtis double review", "evidence": "Kanye West’s Graduation and 50 Cent’s Curtis"},
+{"sentence_ids": [44, 45], "start_year": 2014, "end_year": 2014, "label": "Gamergate and Metacritic scores", "evidence": "the Gamergate movement"},
+{"sentence_ids": [100, 101], "start_year": 2013, "end_year": 2018, "label": "Smosh under Alloy/Defy Media", "evidence": "Around 2013, a company called Alloy Digital bought the channel."},
+{"sentence_ids": [111, 112], "start_year": 2007, "end_year": 2013, "label": "Blog-to-book and Tumblr book deals", "evidence": "the blog-to-book pipeline of the late 2000s"}
+]}
