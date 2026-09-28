@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [15], "start_year": 2012, "end_year": 2012, "label": "Bannon takes over Breitbart", "evidence": "started in 2012, when Steve Bannon took over Breitbart"},
+{"sentence_ids": [16, 17], "start_year": 2014, "end_year": 2014, "label": "Breitbart, Milo and Gamergate", "evidence": "By 2014, the site was flush with Facebook traffic"},
+{"sentence_ids": [24, 25, 26], "start_year": 2021, "end_year": 2021, "label": "Twitter bans Trump after January 6", "evidence": "On January 8th, 2021, Twitter joined the rest of the big social platforms in banning Donald Trump"}
+]}

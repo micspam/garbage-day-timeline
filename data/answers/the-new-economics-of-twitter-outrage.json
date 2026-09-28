@@ -1,0 +1,4 @@
+{"references": [
+{"sentence_ids": [1, 2, 3], "start_year": 2019, "end_year": 2019, "label": "\"Main character of Twitter\" coined", "evidence": "The term comes from a 2019 tweet by the user @maplecocaine"},
+{"sentence_ids": [90, 91], "start_year": 2012, "end_year": 2012, "label": "Platforms favor images; comics become memes", "evidence": "Around 2012, sites like Facebook, Instagram, Tumblr, and Twitter started incentivizing images over text"}
+]}
