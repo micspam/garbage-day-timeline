@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'Wilson' and 'Black's single ten years ago' depend on earlier context."
+    }
+  ]
+}

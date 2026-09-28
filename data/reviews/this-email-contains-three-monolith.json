@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 2: career date stamps for an unintroduced 'Chang' with nothing about the era."
+    }
+  ]
+}

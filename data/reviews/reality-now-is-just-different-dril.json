@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes 4chan's late-00s reputation and Anonymous's hacktivist targets."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: mainly about a present-day archive blog, with the Tumblr era only as its subject label."
+    }
+  ]
+}

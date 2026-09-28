@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2016 media climate around memes."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: explains the Harambe memes and their ubiquity in 2016."
+    }
+  ]
+}

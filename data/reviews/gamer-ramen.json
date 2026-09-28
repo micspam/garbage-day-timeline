@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes how YouTube's algorithm worked and what it produced before 2016."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 3: 'called for this' depends on earlier context, and the quote centers on the author finding a Tumblr thread."
+    }
+  ]
+}

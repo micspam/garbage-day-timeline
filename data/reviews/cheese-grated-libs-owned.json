@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 2: a bare origin date for a novelty recipe, dated only relatively ('10 years ago'), says little about the era."
+    }
+  ]
+}

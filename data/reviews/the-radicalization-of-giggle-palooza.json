@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: never says what Giggle Palooza is, so a reader can't tell what it describes."
+    }
+  ]
+}

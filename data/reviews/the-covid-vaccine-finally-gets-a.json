@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2017 hit and its YouTube milestone."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: mostly identifies the actress and show behind the GIF, with 2016 as a brief tag-on."
+    }
+  ]
+}

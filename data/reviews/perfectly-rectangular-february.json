@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2014 /r9k/ tendies greentexts and the image they built."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes what 4chan users were like before 2013 and how that shifted."
+    }
+  ]
+}

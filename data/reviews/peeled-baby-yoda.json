@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Uri Geller's 2000 lawsuit and its effect on Kadabra."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 1998-2001 moral panic over Pokemon."
+    }
+  ]
+}

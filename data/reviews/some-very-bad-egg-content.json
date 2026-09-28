@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'is referring to up there' depends on a tweet shown earlier in the article."
+    }
+  ]
+}

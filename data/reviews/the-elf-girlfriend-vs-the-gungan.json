@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'we', 'these versions of songs', 'Pete' and 'Ryan' depend on earlier context."
+    }
+  ]
+}
