@@ -1,0 +1,26 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "photoshop banned in school",
+   "topics": [
+    "digital art"
+   ],
+   "entities": [
+    {
+     "name": "adobe",
+     "kind": "company",
+     "evidence": "Adobe apps"
+    },
+    {
+     "name": "photoshop",
+     "kind": "work",
+     "evidence": "Photoshop and similar programs were not allowed"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

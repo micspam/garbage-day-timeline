@@ -1,15 +1,15 @@
 {
  "report": {
-  "issues_analyzed": 415,
-  "issues_with_past_references": 153,
-  "issues_with_none": 262,
-  "references_proposed": 376,
-  "references_kept": 246,
+  "issues_analyzed": 471,
+  "issues_with_past_references": 179,
+  "issues_with_none": 292,
+  "references_proposed": 447,
+  "references_kept": 289,
   "references_rejected": {
    "quote_too_long": 1
   },
-  "dropped_in_review": 74,
-  "not_reviewed": 55,
+  "dropped_in_review": 86,
+  "not_reviewed": 71,
   "fabricated_quotes_possible": 0
  },
  "cards": [
@@ -52,6 +52,82 @@
    }
   },
   {
+   "quote": "Ernest Shackleton named a massive glacier he discovered in the Trans-Antarctic Mountains the Beardmore Glacier, after his patron Sir William Beardmore, the engineering magnate who funded his 1908-9 Nimrod expedition.",
+   "start_year": 1908,
+   "end_year": 1909,
+   "label": "Shackleton names Beardmore Glacier after his sponsor",
+   "evidence": "1908-9 Nimrod expedition",
+   "url": "https://www.garbageday.email/p/mrbeast-went-to-antartica",
+   "title": "MrBeast Went To Antarctica",
+   "published": "2023-01-06",
+   "tags": {
+    "moment": "other",
+    "moment_detail": "sponsor-named antarctic glacier",
+    "topics": [
+     "exploration",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "ernest shackleton",
+      "kind": "person"
+     },
+     {
+      "name": "william beardmore",
+      "kind": "person"
+     },
+     {
+      "name": "nimrod expedition",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Scott’s 1910 expedition wasn’t fully government funded, so they had to rely on corporate sponsorship. Oxo, Heinz, Bovril, and Fry’s cocoa were among the many companies which offered supplies and/or money in exchange for slick photoshoots on the Antarctic continent. The photos lent the products a profitable association with the bold, masculine explorers working their way bravely towards the South Pole.",
+   "start_year": 1910,
+   "end_year": 1910,
+   "label": "Corporate sponsorship of Scott's Antarctic expedition",
+   "evidence": "Scott’s 1910 expedition",
+   "url": "https://www.garbageday.email/p/mrbeast-went-to-antartica",
+   "title": "MrBeast Went To Antarctica",
+   "published": "2023-01-06",
+   "tags": {
+    "moment": "other",
+    "moment_detail": "corporate-sponsored polar expedition",
+    "topics": [
+     "exploration",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "robert falcon scott",
+      "kind": "person"
+     },
+     {
+      "name": "oxo",
+      "kind": "company"
+     },
+     {
+      "name": "heinz",
+      "kind": "company"
+     },
+     {
+      "name": "bovril",
+      "kind": "company"
+     },
+     {
+      "name": "fry’s",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "There’s an oft-quoted “shoeshine boy” theory of markets, usually attributed to Joe Kennedy in the late 1920s, who said that when the boy shining his shoes had stock tips, he knew the market was about to collapse.",
    "start_year": 1929,
    "end_year": 1929,
@@ -74,6 +150,36 @@
     ],
     "platforms": [],
     "audiences": []
+   }
+  },
+  {
+   "quote": "In the mid-20th century, congruent with the increase in attendance at science fiction and fantasy cons and gatherings, fans began to gather and perform sci-fi-themed folk songs, which eventually became codified into a genre known as “filk.”",
+   "start_year": 1950,
+   "end_year": 1969,
+   "label": "Filk: sci-fi fan folk music",
+   "evidence": "In the mid-20th century",
+   "url": "https://www.garbageday.email/p/acceptable-norms-of-consumption",
+   "title": "“Acceptable” norms of consumption",
+   "published": "2022-10-21",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "filk fan music emerges",
+    "topics": [
+     "fandom",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "filk",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "fandom"
+     }
+    ]
    }
   },
   {
@@ -103,6 +209,36 @@
       "name": "trekkies"
      }
     ]
+   }
+  },
+  {
+   "quote": "James Kaposztas, the man credited with creating the very first anime music video, or AMV, died this week. According to a Kotaku piece, Kaposztas created the video above in 1982 by literally connecting two different VCRs.",
+   "start_year": 1982,
+   "end_year": 1982,
+   "label": "James Kaposztas makes the first anime music video with two VCRs",
+   "evidence": "in 1982 by literally connecting two different VCRs",
+   "url": "https://www.garbageday.email/p/i-hope-im-wrong",
+   "title": "I hope I’m wrong!",
+   "published": "2023-02-08",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "first anime music video",
+    "topics": [
+     "anime",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "james kaposztas",
+      "kind": "person"
+     },
+     {
+      "name": "kotaku",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
    }
   },
   {
@@ -282,6 +418,31 @@
    }
   },
   {
+   "quote": "The term was “Web 2.0” was first coined in 1999 by technologist Darcy DiNucci, who wrote, “the first glimmerings of Web 2.0 are beginning to appear, and we are just starting to see how that embryo might develop. The Web will be understood not as screenfuls of text and graphics but as a transport mechanism, the ether through which interactivity happens.”",
+   "start_year": 1999,
+   "end_year": 1999,
+   "label": "Darcy DiNucci coins Web 2.0",
+   "evidence": "first coined in 1999",
+   "url": "https://www.garbageday.email/p/dumb-and-shameful-until-its-not",
+   "title": "Dumb and shameful until it's not",
+   "published": "2023-01-23",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "web 2.0 coined",
+    "topics": [
+     "web 2.0"
+    ],
+    "entities": [
+     {
+      "name": "darcy dinucci",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "What caused the dot com bubble to finally pop was speculation and over-spending. Buying up catchy domains just wasn’t the growth industry people thought it was.",
    "start_year": 1999,
    "end_year": 2001,
@@ -298,6 +459,67 @@
     ],
     "entities": [],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "When I was a teenager in the early 2000s, my family upgraded our home computer to Windows XP and we got a DSL modem. I quietly installed a little program called Kazaa, hoped I wouldn’t get a letter telling me I was being sued, and pretty quickly fell down a rabbit hole of internet content and digital piracy that would lead me, well, to eventually writing this very newsletter.",
+   "start_year": 2000,
+   "end_year": 2004,
+   "label": "Kazaa and digital piracy on Windows XP",
+   "evidence": "in the early 2000s",
+   "url": "https://www.garbageday.email/p/social-media-is-just-a-thing-that",
+   "title": "Social media is just a thing that happens",
+   "published": "2022-11-09",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "teen discovers kazaa piracy",
+    "topics": [
+     "intellectual property",
+     "generational culture"
+    ],
+    "entities": [
+     {
+      "name": "windows xp",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "kazaa"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During that early Kazaa period, I remember having a sort of revolutionary moment. I was on a real kick of downloading fan-made music videos, or AMVs, where were clips mainly taken from pirated anime DVDs that were then edited together with popular songs.",
+   "start_year": 2000,
+   "end_year": 2004,
+   "label": "Downloading anime AMVs on Kazaa",
+   "evidence": "During that early Kazaa period",
+   "url": "https://www.garbageday.email/p/social-media-is-just-a-thing-that",
+   "title": "Social media is just a thing that happens",
+   "published": "2022-11-09",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "downloading anime music videos",
+    "topics": [
+     "anime",
+     "fandom",
+     "intellectual property"
+    ],
+    "entities": [
+     {
+      "name": "cowboy bebop",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "kazaa"
+     }
+    ],
     "audiences": []
    }
   },
@@ -616,6 +838,78 @@
    }
   },
   {
+   "quote": "(For the few zoomers that might be reading this, in high school, I had to ask for permission to use Adobe apps to complete my final project in art class because, at the time, Photoshop and similar programs were not allowed.)",
+   "start_year": 2002,
+   "end_year": 2002,
+   "label": "Photoshop banned in high school art class",
+   "evidence": "20 years ago",
+   "url": "https://www.garbageday.email/p/ai-just-makes-the-old-problems-worse",
+   "title": "A.I. just makes the old problems worse",
+   "published": "2022-12-07",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "photoshop banned in school",
+    "topics": [
+     "digital art"
+    ],
+    "entities": [
+     {
+      "name": "adobe",
+      "kind": "company"
+     },
+     {
+      "name": "photoshop",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I, thankfully, don’t have a copies of any of my AMVs anymore, but, in honor of Kaposztas, I will tell you that at some point around 2002 or 2003, I used Windows Movie Maker to make an AMV of Kingdom Hearts cinematics set to Good Charlotte’s “Lifestyles of the Rich & Famous” and uploaded it Kazaa.",
+   "start_year": 2002,
+   "end_year": 2003,
+   "label": "Making AMVs in Windows Movie Maker and uploading to Kazaa",
+   "evidence": "around 2002 or 2003",
+   "url": "https://www.garbageday.email/p/i-hope-im-wrong",
+   "title": "I hope I’m wrong!",
+   "published": "2023-02-08",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "author's early amv upload",
+    "topics": [
+     "anime",
+     "fandom",
+     "video games"
+    ],
+    "entities": [
+     {
+      "name": "kingdom hearts",
+      "kind": "work"
+     },
+     {
+      "name": "good charlotte",
+      "kind": "other"
+     },
+     {
+      "name": "windows movie maker",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "kazaa"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "creators"
+     }
+    ]
+   }
+  },
+  {
    "quote": "Myspace launches in 2003 and it quickly makes the idea of a social network mainstream. Facebook goes live exclusively for users with college email addresses a year later.",
    "start_year": 2003,
    "end_year": 2004,
@@ -673,6 +967,57 @@
     ],
     "entities": [],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "At the start of Web 2.0, platforms like Imgur, Tumblr, StumbleUpon, and Reddit started filling up with not just images, but ways to sort those images. This was a big departure from the way image-sharing sites like Photobucket or Flickr — or MySpace and Facebook — operated up until that point.",
+   "start_year": 2004,
+   "end_year": 2006,
+   "label": "Early Web 2.0 image sites start sorting images",
+   "evidence": "At the start of Web 2.0",
+   "url": "https://www.garbageday.email/p/the-fragments-of-media-you-consume",
+   "title": "The fragments of media you consume",
+   "published": "2023-01-20",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "web 2.0 image sorting",
+    "topics": [
+     "visual content"
+    ],
+    "entities": [
+     {
+      "name": "web 2.0",
+      "kind": "other"
+     },
+     {
+      "name": "stumbleupon",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "imgur"
+     },
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "photobucket"
+     },
+     {
+      "name": "flickr"
+     },
+     {
+      "name": "myspace"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
     "audiences": []
    }
   },
@@ -834,6 +1179,49 @@
    }
   },
   {
+   "quote": "Around the mid-2000s, we started to see the emergence of social news sites like Digg, Reddit, and StumbleUpon, followed by the monolithic social platforms we all still use today.",
+   "start_year": 2005,
+   "end_year": 2007,
+   "label": "Rise of social news sites like Digg, Reddit and StumbleUpon",
+   "evidence": "Around the mid-2000s",
+   "url": "https://www.garbageday.email/p/i-hope-im-wrong",
+   "title": "I hope I’m wrong!",
+   "published": "2023-02-08",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "rise of social news sites",
+    "topics": [
+     "platform competition",
+     "mobile internet"
+    ],
+    "entities": [
+     {
+      "name": "digg",
+      "kind": "company"
+     },
+     {
+      "name": "stumbleupon",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "My reference point for this kind of marketing is the Myspace era of music and fashion, when record companies and stores like Hot Topic and Spencer’s Gifts were using early social media to identify niche fandoms and convert them into mainstream hits.",
    "start_year": 2005,
    "end_year": 2008,
@@ -919,6 +1307,35 @@
     ],
     "entities": [],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Twitter launched in 2006, with Jack Dorsey posting in March of that year, “just setting up my twttr” (it was called twttr back then). A year later, the hashtag was formally introduced.",
+   "start_year": 2006,
+   "end_year": 2007,
+   "label": "Twitter's launch and the hashtag",
+   "evidence": "Twitter launched in 2006",
+   "url": "https://www.garbageday.email/p/jacked-directly-into-the-feed",
+   "title": "Jacked directly into the feed",
+   "published": "2022-12-16",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "twitter launches, hashtag introduced",
+    "topics": [
+     "hashtags"
+    ],
+    "entities": [
+     {
+      "name": "jack dorsey",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
     "audiences": []
    }
   },
@@ -1013,6 +1430,28 @@
       "name": "reddit"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Podcasting is one of the older forms of digital media. And, as I wrote this weekend, over the last 15 years, it has become increasingly trapped in a boom-bust cycle where large companies come in, try and monopolize it, ultimately fail, exit for a while, only to come back and try again like two years later.",
+   "start_year": 2007,
+   "end_year": 2022,
+   "label": "Podcasting's boom-bust cycle",
+   "evidence": "over the last 15 years",
+   "url": "https://www.garbageday.email/p/the-podcasting-world-seems-real-tired",
+   "title": "The podcasting world seems real tired",
+   "published": "2022-09-28",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "podcasting boom-bust cycles",
+    "topics": [
+     "podcasting",
+     "media industry",
+     "hype cycles"
+    ],
+    "entities": [],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -1393,6 +1832,71 @@
    }
   },
   {
+   "quote": "Everything needs asterisks: Homestuck was a webcomic* by Andrew Hussie* that ran for over 8,000 pages* from 2009 to 2016*. The first two asterisks are there by design, since the story was designed to be collaborative and cross-media.",
+   "start_year": 2009,
+   "end_year": 2016,
+   "label": "Homestuck's run as a collaborative webcomic",
+   "evidence": "from 2009 to 2016",
+   "url": "https://www.garbageday.email/p/all-online-media-eventually-becomes",
+   "title": "All online media eventually becomes Homestuck",
+   "published": "2022-10-28",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "homestuck collaborative webcomic",
+    "topics": [
+     "web comics",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "homestuck",
+      "kind": "work"
+     },
+     {
+      "name": "andrew hussie",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "fandom"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "In 2009, at the start of the social media-driven political protests in the Middle East, Twitter famously rescheduled a downtime for maintenance so it could stay active during the Iranian election.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Twitter and the 2009 Iranian election protests",
+   "evidence": "In 2009",
+   "url": "https://www.garbageday.email/p/jacked-directly-into-the-feed",
+   "title": "Jacked directly into the feed",
+   "published": "2022-12-16",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "twitter delays maintenance for iran",
+    "topics": [
+     "protests",
+     "geopolitics",
+     "platform policy"
+    ],
+    "entities": [
+     {
+      "name": "iran",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "The earliest concept of “Black Twitter,” which The Awl described as “Late Night Black People Twitter,” appears in 2009. “Weird Twitter,” a collection of Something Awful goons and semi-leftist shitposters, is recognized as a subculture in 2012.",
    "start_year": 2009,
    "end_year": 2012,
@@ -1659,6 +2163,178 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "Fan musicians in the 2010s (in my experience) divided themselves mostly by individual fandoms: There was Trock (Time Lord Rock) for Doctor Who songs, and Homestuck fansong genres were entire universes unto themselves, from Broadwaystuck to Tindeck.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Fandom-specific fan music genres",
+   "evidence": "Fan musicians in the 2010s",
+   "url": "https://www.garbageday.email/p/acceptable-norms-of-consumption",
+   "title": "“Acceptable” norms of consumption",
+   "published": "2022-10-21",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "fandom-specific fan music genres",
+    "topics": [
+     "fandom",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "doctor who",
+      "kind": "work"
+     },
+     {
+      "name": "homestuck",
+      "kind": "work"
+     },
+     {
+      "name": "trock",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "fandom"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "And, though Facebook was a major driving force during the wave of subsequents protests over the next few years in countries like Tunisia, Egypt, and Syria, Twitter is the app that ended up getting all the credit for the Arab Spring. Similarly, though Occupy Wall Street started as a Tumblr, once again, Twitter is where the media, and thus, the world, watched it unfold.",
+   "start_year": 2010,
+   "end_year": 2012,
+   "label": "Twitter, the Arab Spring and Occupy Wall Street",
+   "evidence": "Arab Spring",
+   "url": "https://www.garbageday.email/p/jacked-directly-into-the-feed",
+   "title": "Jacked directly into the feed",
+   "published": "2022-12-16",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "twitter credited for uprisings",
+    "topics": [
+     "protests",
+     "geopolitics"
+    ],
+    "entities": [
+     {
+      "name": "arab spring",
+      "kind": "event"
+     },
+     {
+      "name": "occupy wall street",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Author John Green’s tumultuous relationship with Tumblr is well-told at this point, but to very quickly summarize for those who may not know: He ran a very popular Tumblr blog in the early 2010s. As his blog grew, and the site shrank, Tumblr users began to resent him and his presence on the site.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "John Green's Tumblr blog and backlash",
+   "evidence": "in the early 2010s",
+   "url": "https://www.garbageday.email/p/mrbeast-went-to-antartica",
+   "title": "MrBeast Went To Antarctica",
+   "published": "2023-01-06",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "tumblr bullies john green",
+    "topics": [
+     "fandom",
+     "online harassment",
+     "celebrity"
+    ],
+    "entities": [
+     {
+      "name": "john green",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "tumblr power users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Online platforms would hire academics and think tanks and meet with politicians and lawyers and publicly agonize over things like “should the Taliban get a little blue checkmark on our website.” The pageantry of it all was ridiculous, but I’m sure it made all the former Obama staffers working in Silicon Valley feel better about all the other human rights abuses their companies’ technology was facilitating.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s platform policy agonizing over Taliban verification",
+   "evidence": "defined social networks in the 2010s",
+   "url": "https://www.garbageday.email/p/the-doomscrolling-is-the-point",
+   "title": "The doomscrolling is the point",
+   "published": "2023-01-11",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "agonizing over taliban verification",
+    "topics": [
+     "platform policy",
+     "silicon valley"
+    ],
+    "entities": [
+     {
+      "name": "taliban",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But I will say that in the 2010s, viral images and GIFs and internet slang were being immediately archived by digital media companies churning for boomer traffic on platforms like Facebook and then were turned into keyboards and emojis and stickers and messenger integrations by those same massive tech platforms.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Memes turned into stickers and keyboards",
+   "evidence": "in the 2010s",
+   "url": "https://www.garbageday.email/p/this-is-fine",
+   "title": "This is fine",
+   "published": "2023-01-13",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "memes productized into stickers",
+    "topics": [
+     "memes",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "boomers"
+     }
+    ]
    }
   },
   {
@@ -2747,6 +3423,76 @@
    }
   },
   {
+   "quote": "By the time I got my first writing jobs in 2011, an entire generation of students had used it to make friends and they were now suddenly young adults out in the world, still using it. So when Facebook launched a new suped-up app in 2012, announcing that “the future was mobile” — boom, the rest is history.",
+   "start_year": 2011,
+   "end_year": 2012,
+   "label": "Facebook's college generation and mobile app",
+   "evidence": "launched a new suped-up app in 2012",
+   "url": "https://www.garbageday.email/p/finally-a-conference-call-with-legs",
+   "title": "Finally, a conference call with legs",
+   "published": "2022-10-12",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "facebook goes mobile",
+    "topics": [
+     "mobile internet",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "college students"
+     },
+     {
+      "name": "young adults"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "When people first started going viral online, there was a real curiosity about what to do with these people. For a while they were basically just a new kind of America’s Funniest Home Videos contestant. In fact, Tay Zonday and Rebecca Black actually performed on America’s Got Talent in 2011.",
+   "start_year": 2011,
+   "end_year": 2011,
+   "label": "Early viral stars as TV novelty acts",
+   "evidence": "America’s Got Talent in 2011",
+   "url": "https://www.garbageday.email/p/a-financially-literate-mans-version",
+   "title": "A financially literate man’s version of Nobu",
+   "published": "2022-10-19",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "early viral stars on tv",
+    "topics": [
+     "influencers",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "america’s funniest home videos",
+      "kind": "work"
+     },
+     {
+      "name": "tay zonday",
+      "kind": "person"
+     },
+     {
+      "name": "rebecca black",
+      "kind": "person"
+     },
+     {
+      "name": "america’s got talent",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Ten years ago, on my lunch breaks, I would read film reviews, funny essays, blogs, good hot takes — basically, I’d look at websites. I grew up wanting to be a culture writer and the internet when I was younger was like an all you could eat buffet of pretty-good-to-actually-extremely-good culture writing.",
    "start_year": 2011,
    "end_year": 2013,
@@ -3109,6 +3855,97 @@
    }
   },
   {
+   "quote": "A new weird Facebook post would break through its containment unit after it was screenshot and shared with semi-serious horror by pearl-clutching media people on Twitter. And tabloids were quick to figure out that you could package this random Facebook chatter into “news stories,” which could then be shared back on to Facebook for huge traffic gains.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Tabloids turning weird Facebook posts into news",
+   "evidence": "back around 2012",
+   "url": "https://www.garbageday.email/p/a-financially-literate-mans-version",
+   "title": "A financially literate man’s version of Nobu",
+   "published": "2022-10-19",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "tabloids repackage facebook posts",
+    "topics": [
+     "media industry",
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "When large platforms like Facebook, Twitter, and YouTube first appeared a decade ago their whole deal was about sharing. They wanted us to share our posts, our life updates, our news, our memes, and our friend networks with them.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Early big platforms were all about sharing",
+   "evidence": "first appeared a decade ago",
+   "url": "https://www.garbageday.email/p/the-great-unbundling-is-already-happening",
+   "title": "The great unbundling is already happening",
+   "published": "2022-11-02",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "platforms built on sharing",
+    "topics": [
+     "platform competition"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Also, it all happened so quickly over the last decade it’s hard to remember, but Twitter not only connected journalists across continents, but also freed a lot of reporters from the confines of an editor.",
+   "start_year": 2012,
+   "end_year": 2022,
+   "label": "Twitter frees reporters from editors",
+   "evidence": "over the last decade",
+   "url": "https://www.garbageday.email/p/one-giant-slow-motion-fail-whale",
+   "title": "One giant slow-motion fail whale",
+   "published": "2022-11-14",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "twitter frees reporters from editors",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "black twitter",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "journalists"
+     }
+    ]
+   }
+  },
+  {
    "quote": "As we entered the era of peak Facebook around 2012, the stuffier, more well-established outlets in America picked and chose what viral shenanigans they wanted to indulge in, while the newer outlets, flush with venture capital, swarmed any and all algorithmic quirks that came across their feeds.",
    "start_year": 2012,
    "end_year": 2016,
@@ -3464,6 +4301,94 @@
    }
   },
   {
+   "quote": "The year is 2013. Coolio ends up at a local club near University of Central Lancashire in Preston, England. He then goes back to a flat with some students and performs “Gangsta’s Paradise,” including a fourth unreleased verse.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Coolio's night out with Preston students",
+   "evidence": "The year is 2013.",
+   "url": "https://www.garbageday.email/p/we-have-too-many-main-characters",
+   "title": "We have too many Main Characters now",
+   "published": "2022-09-30",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "coolio parties with students",
+    "topics": [
+     "celebrity",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "coolio",
+      "kind": "person"
+     },
+     {
+      "name": "gangsta’s paradise",
+      "kind": "work"
+     },
+     {
+      "name": "university of central lancashire",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "college students"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "In 2013, people were spending about a half hour a day on Facebook. By 2017, it was about 40 minutes a day.",
+   "start_year": 2013,
+   "end_year": 2017,
+   "label": "Time spent on Facebook",
+   "evidence": "In 2013, people were spending about a half hour a day on Facebook.",
+   "url": "https://www.garbageday.email/p/finally-a-conference-call-with-legs",
+   "title": "Finally, a conference call with legs",
+   "published": "2022-10-12",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "facebook daily usage rises",
+    "topics": [
+     "platform competition"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2013, I used an app called Foursquare to check-in to a dive bar in Greenpoint every weekend via the geotargeting on my phone so I could get free tater tots.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Foursquare check-ins for free tater tots",
+   "evidence": "In 2013, I used an app called Foursquare",
+   "url": "https://www.garbageday.email/p/dumb-and-shameful-until-its-not",
+   "title": "Dumb and shameful until it's not",
+   "published": "2023-01-23",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "foursquare check-ins for tater tots",
+    "topics": [
+     "web 2.0",
+     "mobile internet",
+     "new york city culture"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "foursquare"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "From 2013-2019, there was a well-established media formula in the US (and a few other countries) that went like so: A thing would happen, internet users would react, which was then repackaged by digital media outlets as roundups, which would then bubble up into broadcast and cable news segments and, eventually, be laundered to cultural elites via big thinkpieces in glossy magazines.",
    "start_year": 2013,
    "end_year": 2019,
@@ -3776,6 +4701,75 @@
      },
      {
       "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "This isn’t the first time a bunch of old British guys have gone viral for rapping. There was a brief trend on British social media back in 2014 called “chap hop,” which was basically like old white London gangsters and also just like posh dudes doing cringe hip hop songs in their various gardens.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Chap hop trend in British social media",
+   "evidence": "back in 2014 called “chap hop,”",
+   "url": "https://www.garbageday.email/p/dont-make-me-tap-the-sign-again",
+   "title": "Don’t make me tap the sign again...",
+   "published": "2022-09-23",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "british chap hop trend",
+    "topics": [
+     "music",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "chap hop",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2014, a (non-anonymous) Burmese monk named Wirathu used Facebook to accuse a Muslim business owner of raping a Buddhist employee. The Muslim man’s shop was attacked by Buddhists and Wirathu would continue to use his Facebook page to direct violence against Muslims until Facebook finally pulled it down in 2018.",
+   "start_year": 2014,
+   "end_year": 2018,
+   "label": "Wirathu's anti-Muslim Facebook page in Myanmar",
+   "evidence": "In 2014, a (non-anonymous) Burmese monk",
+   "url": "https://www.garbageday.email/p/oh-cool-were-talking-about-anonymity",
+   "title": "Oh cool, we're talking about anonymity again",
+   "published": "2022-10-03",
+   "tags": {
+    "moment": "violence or tragedy",
+    "moment_detail": "facebook-fueled rohingya violence",
+    "topics": [
+     "religion",
+     "platform policy",
+     "political violence"
+    ],
+    "entities": [
+     {
+      "name": "wirathu",
+      "kind": "person"
+     },
+     {
+      "name": "rohingya genocide",
+      "kind": "event"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "amnesty international",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
      }
     ],
     "audiences": []
@@ -4422,6 +5416,89 @@
    }
   },
   {
+   "quote": "In experiments conducted around the world from 2015 to 2019, Linkedin randomly varied the proportion of weak and strong contacts suggested by its “People You May Know” algorithm — the company’s automated system for recommending new connections to its users.",
+   "start_year": 2015,
+   "end_year": 2019,
+   "label": "LinkedIn's People You May Know experiments",
+   "evidence": "from 2015 to 2019",
+   "url": "https://www.garbageday.email/p/mortified-liberal-millennial-exasperation",
+   "title": "Mortified liberal millennial exasperation",
+   "published": "2022-09-26",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "linkedin secret connection experiments",
+    "topics": [
+     "algorithms",
+     "labor"
+    ],
+    "entities": [
+     {
+      "name": "people you may know",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "linkedin"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Even as far back as 2015, India’s trending topics across both Facebook and Twitter were entirely manipulated by the country’s right wing. As one blogger there told me at the time, “nothing that trends on the internet here is organic anymore.”",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "Manipulated trending topics in India",
+   "evidence": "Even as far back as 2015",
+   "url": "https://www.garbageday.email/p/finally-a-conference-call-with-legs",
+   "title": "Finally, a conference call with legs",
+   "published": "2022-10-12",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "indian right manipulates trends",
+    "topics": [
+     "india",
+     "far-right politics",
+     "conspiracy theories"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "This deranged TikTok screenshot reminded me of a funny thing I heard about Pericope back in the day. The first real big trend on the app was “fridge tours,” where people would go live and just sort of talk about what was in their fridges.",
+   "start_year": 2015,
+   "end_year": 2016,
+   "label": "Periscope fridge tours",
+   "evidence": "Pericope back in the day",
+   "url": "https://www.garbageday.email/p/an-investment-in-future-virality",
+   "title": "An investment in future virality",
+   "published": "2023-02-01",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "periscope fridge tours",
+    "topics": [
+     "livestreaming"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "periscope"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Online platforms and the world of Big Tech, as a whole, first “pivoted to video” around 2015 and dragged digital media companies with them.",
    "start_year": 2015,
    "end_year": 2017,
@@ -4825,6 +5902,59 @@
     "audiences": [
      {
       "name": "fandom"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "About midway through 2016, MrBeast basically spent a couple thousand dollars and launched his channel into the stratosphere and it never went back down.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "MrBeast's channel takes off",
+   "evidence": "About midway through 2016",
+   "url": "https://www.garbageday.email/p/elon-musk-is-more-funko-pop-than",
+   "title": "Elon Musk is more Funko Pop than man",
+   "published": "2022-11-07",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "mrbeast channel takes off",
+    "topics": [
+     "influencers"
+    ],
+    "entities": [
+     {
+      "name": "mrbeast",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During the years leading up to the pandemic, the idea of an “internet creator” was all tangled up with the idea of an “influencer”. “Influencer” has all kinds of complex negative connotations to it relating to our understandings of class, but also gender. It was a cohort of internet users, mainly women or queer people, who were making large sums of money thanks to internet attention.",
+   "start_year": 2016,
+   "end_year": 2019,
+   "label": "Pre-pandemic influencer stigma",
+   "evidence": "During the years leading up to the pandemic",
+   "url": "https://www.garbageday.email/p/the-ai-has-learned-how-to-tell-you",
+   "title": "The A.I. has learned how to tell you a celebrity's net worth",
+   "published": "2023-01-04",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "stigma around influencers",
+    "topics": [
+     "influencers",
+     "gender"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "women"
+     },
+     {
+      "name": "creators"
      }
     ]
    }
@@ -5407,6 +6537,34 @@
    }
   },
   {
+   "quote": "But about five years ago, right around when TikTok was first taking off in the US, we started to view virality with assumption that you could make money on it — if you went viral in a good way.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Virality becomes a way to make money",
+   "evidence": "about five years ago",
+   "url": "https://www.garbageday.email/p/a-financially-literate-mans-version",
+   "title": "A financially literate man’s version of Nobu",
+   "published": "2022-10-19",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "virality becomes monetizable",
+    "topics": [
+     "influencers"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "creators"
+     }
+    ]
+   }
+  },
+  {
    "quote": "For instance, at a Milo Yiannopoulos and Proud Boys demo in Boston I covered a few years ago, the boomers were dressed up like Paul Revere with tea bags stapled to their tricorne hats (Boston tea party, get it?) and a bunch of bro-y college guys were wearing Pepe the Frog face paint.",
    "start_year": 2017,
    "end_year": 2019,
@@ -5745,6 +6903,71 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "It’s hard to imagine Facebook Live (or any Meta product) being able to counter-program a national primetime broadcast in 2022, but four years ago, Bolsonaro was able to fully tap into an out-of-control social media groundswell, thanks to pretty much unlimited reached on Facebook and WhatsApp. When he won, his supporters literally chanted “Facebook” and “WhatsApp” at the presidential palace gates.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Bolsonaro's Facebook and WhatsApp-fueled 2018 win",
+   "evidence": "four years ago",
+   "url": "https://www.garbageday.email/p/we-have-too-many-main-characters",
+   "title": "We have too many Main Characters now",
+   "published": "2022-09-30",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "bolsonaro's social media campaign",
+    "topics": [
+     "brazil",
+     "political campaigns",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "jair bolsonaro",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "whatsapp"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But, also, Twitter in Japan, at least as of my last time working there around 2018, functioned a lot more like Reddit. Users, including even journalists, don’t typically use their own names or faces.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Japanese Twitter functioned like Reddit, anonymous users",
+   "evidence": "around 2018",
+   "url": "https://www.garbageday.email/p/the-tiktok-slot-machine",
+   "title": "The TikTok slot machine",
+   "published": "2022-11-11",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "anonymous japanese twitter culture",
+    "topics": [
+     "japan"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "2chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "journalists"
+     }
+    ]
    }
   },
   {
@@ -6164,6 +7387,75 @@
      },
      {
       "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "By 2019, Meta’s Mark Zuckerberg was basically begging critics of the company to just hold on a bit longer for Meta to figure out how to use artificial intelligence to moderate their platform which had grown so large and so global that humans couldn’t ever really understand the whole thing anymore.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "Zuckerberg promises AI moderation for Meta's giant platform",
+   "evidence": "By 2019",
+   "url": "https://www.garbageday.email/p/the-great-unbundling-is-already-happening",
+   "title": "The great unbundling is already happening",
+   "published": "2022-11-02",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "zuckerberg promises ai moderation",
+    "topics": [
+     "platform policy",
+     "ai"
+    ],
+    "entities": [
+     {
+      "name": "mark zuckerberg",
+      "kind": "person"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "During the Bolsonaro administration, YouTube in Brazil morphed from a place for niche nerd content and lifestyle influencers and into a gigantic Joe Rogan machine.",
+   "start_year": 2019,
+   "end_year": 2022,
+   "label": "Brazilian YouTube under Bolsonaro",
+   "evidence": "During the Bolsonaro administration",
+   "url": "https://www.garbageday.email/p/on-the-cutting-edge-of-insurrectionist",
+   "title": "On the cutting edge of insurrectionist terrorism",
+   "published": "2023-01-09",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "brazilian youtube turns right-wing",
+    "topics": [
+     "brazil",
+     "far-right politics",
+     "influencers"
+    ],
+    "entities": [
+     {
+      "name": "jair bolsonaro",
+      "kind": "person"
+     },
+     {
+      "name": "joe rogan",
+      "kind": "person"
+     },
+     {
+      "name": "uol",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
      }
     ],
     "audiences": []
@@ -7302,6 +8594,109 @@
       "name": "e-boys and e-girls"
      }
     ]
+   }
+  },
+  {
+   "quote": "After years of investigation into how Trump supporters gathered at the Capitol two years ago, the consensus is that it was a combination of unmoderated Facebook Groups, sabre-rattling influencers, and alternative right-wing social networks like Parler, in conjunction with militias, far-right activist Ali Alexander and his “Stop The Steal” group, and Trump, himself.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "How January 6th was organized online",
+   "evidence": "gathered at the Capitol two years ago",
+   "url": "https://www.garbageday.email/p/on-the-cutting-edge-of-insurrectionist",
+   "title": "On the cutting edge of insurrectionist terrorism",
+   "published": "2023-01-09",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "january 6th organized online",
+    "topics": [
+     "far-right politics",
+     "political violence"
+    ],
+    "entities": [
+     {
+      "name": "january 6th",
+      "kind": "event"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "ali alexander",
+      "kind": "person"
+     },
+     {
+      "name": "stop the steal",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "parler"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "If you don’t remember this, at the height of the NFT boom, furries were one of the most outspoken communities attacking crypto-based art sales.",
+   "start_year": 2021,
+   "end_year": 2022,
+   "label": "Furries vs NFTs",
+   "evidence": "at the height of the NFT boom",
+   "url": "https://www.garbageday.email/p/this-is-fine",
+   "title": "This is fine",
+   "published": "2023-01-13",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "furries oppose nfts",
+    "topics": [
+     "crypto and nfts",
+     "furries"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "furries"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "There was that stretch in 2021, where every new week there was a witch hunt targeting random users like the Couch Guy and West Elm Caleb.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "TikTok witch hunts: Couch Guy and West Elm Caleb",
+   "evidence": "There was that stretch in 2021",
+   "url": "https://www.garbageday.email/p/the-scooby-doo-psyop",
+   "title": "The \"Scooby Doo\" psyop",
+   "published": "2023-01-16",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "weekly witch hunts on random users",
+    "topics": [
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "couch guy",
+      "kind": "person"
+     },
+     {
+      "name": "west elm caleb",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": []
    }
   },
   {

@@ -1,0 +1,20 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "periscope fridge tours",
+   "topics": [
+    "livestreaming"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "periscope",
+     "evidence": "Pericope back in the day"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

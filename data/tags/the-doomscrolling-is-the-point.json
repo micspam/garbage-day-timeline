@@ -1,0 +1,27 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform policy change",
+   "moment_detail": "agonizing over taliban verification",
+   "topics": [
+    "platform policy",
+    "silicon valley"
+   ],
+   "entities": [
+    {
+     "name": "taliban",
+     "kind": "community",
+     "evidence": "members of the Taliban should be verified"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "before Musk bought Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

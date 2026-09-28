@@ -1,0 +1,68 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "facebook daily usage rises",
+   "topics": [
+    "platform competition"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "spending about a half hour a day on Facebook"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "platform launch or growth",
+   "moment_detail": "facebook goes mobile",
+   "topics": [
+    "mobile internet",
+    "media industry"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook launched a new suped-up app in 2012"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "college students",
+     "evidence": "onboard a lot of college students"
+    },
+    {
+     "name": "young adults",
+     "evidence": "young adults out in the world"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "moment": "political campaign or movement",
+   "moment_detail": "indian right manipulates trends",
+   "topics": [
+    "india",
+    "far-right politics",
+    "conspiracy theories"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "across both Facebook and Twitter"
+    },
+    {
+     "name": "twitter",
+     "evidence": "across both Facebook and Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

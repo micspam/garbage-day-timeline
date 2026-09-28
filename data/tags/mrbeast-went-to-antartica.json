@@ -1,0 +1,99 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "other",
+   "moment_detail": "sponsor-named antarctic glacier",
+   "topics": [
+    "exploration",
+    "advertising"
+   ],
+   "entities": [
+    {
+     "name": "ernest shackleton",
+     "kind": "person",
+     "evidence": "Ernest Shackleton"
+    },
+    {
+     "name": "william beardmore",
+     "kind": "person",
+     "evidence": "Sir William Beardmore"
+    },
+    {
+     "name": "nimrod expedition",
+     "kind": "event",
+     "evidence": "1908-9 Nimrod expedition"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "other",
+   "moment_detail": "corporate-sponsored polar expedition",
+   "topics": [
+    "exploration",
+    "advertising"
+   ],
+   "entities": [
+    {
+     "name": "robert falcon scott",
+     "kind": "person",
+     "evidence": "Scott’s 1910 expedition"
+    },
+    {
+     "name": "oxo",
+     "kind": "company",
+     "evidence": "Oxo"
+    },
+    {
+     "name": "heinz",
+     "kind": "company",
+     "evidence": "Heinz"
+    },
+    {
+     "name": "bovril",
+     "kind": "company",
+     "evidence": "Bovril"
+    },
+    {
+     "name": "fry’s",
+     "kind": "company",
+     "evidence": "Fry’s cocoa"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "scandal or backlash",
+   "moment_detail": "tumblr bullies john green",
+   "topics": [
+    "fandom",
+    "online harassment",
+    "celebrity"
+   ],
+   "entities": [
+    {
+     "name": "john green",
+     "kind": "person",
+     "evidence": "Author John Green"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "relationship with Tumblr"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "tumblr power users",
+     "evidence": "the site’s power users"
+    }
+   ]
+  }
+ ]
+}

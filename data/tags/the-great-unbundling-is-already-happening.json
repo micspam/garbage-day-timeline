@@ -1,0 +1,51 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "platforms built on sharing",
+   "topics": [
+    "platform competition"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "large platforms like Facebook, Twitter, and YouTube"
+    },
+    {
+     "name": "twitter",
+     "evidence": "large platforms like Facebook, Twitter, and YouTube"
+    },
+    {
+     "name": "youtube",
+     "evidence": "large platforms like Facebook, Twitter, and YouTube"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "platform policy change",
+   "moment_detail": "zuckerberg promises ai moderation",
+   "topics": [
+    "platform policy",
+    "ai"
+   ],
+   "entities": [
+    {
+     "name": "mark zuckerberg",
+     "kind": "person",
+     "evidence": "Meta’s Mark Zuckerberg"
+    },
+    {
+     "name": "meta",
+     "kind": "company",
+     "evidence": "Meta’s Mark Zuckerberg"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

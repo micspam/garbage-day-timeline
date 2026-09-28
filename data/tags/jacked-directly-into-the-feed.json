@@ -1,0 +1,86 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "twitter launches, hashtag introduced",
+   "topics": [
+    "hashtags"
+   ],
+   "entities": [
+    {
+     "name": "jack dorsey",
+     "kind": "person",
+     "evidence": "Jack Dorsey posting in March of that year"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter launched in 2006"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "political campaign or movement",
+   "moment_detail": "twitter delays maintenance for iran",
+   "topics": [
+    "protests",
+    "geopolitics",
+    "platform policy"
+   ],
+   "entities": [
+    {
+     "name": "iran",
+     "kind": "other",
+     "evidence": "the Iranian election"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter famously rescheduled a downtime for maintenance"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "political campaign or movement",
+   "moment_detail": "twitter credited for uprisings",
+   "topics": [
+    "protests",
+    "geopolitics"
+   ],
+   "entities": [
+    {
+     "name": "arab spring",
+     "kind": "event",
+     "evidence": "the Arab Spring"
+    },
+    {
+     "name": "occupy wall street",
+     "kind": "event",
+     "evidence": "Occupy Wall Street started as a Tumblr"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter is the app that ended up getting all the credit"
+    },
+    {
+     "name": "facebook",
+     "evidence": "Facebook was a major driving force"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "Occupy Wall Street started as a Tumblr"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

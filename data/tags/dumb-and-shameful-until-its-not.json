@@ -1,0 +1,39 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "term coined",
+   "moment_detail": "web 2.0 coined",
+   "topics": [
+    "web 2.0"
+   ],
+   "entities": [
+    {
+     "name": "darcy dinucci",
+     "kind": "person",
+     "evidence": "technologist Darcy DiNucci"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "insider anecdote",
+   "moment_detail": "foursquare check-ins for tater tots",
+   "topics": [
+    "web 2.0",
+    "mobile internet",
+    "new york city culture"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "foursquare",
+     "evidence": "an app called Foursquare"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

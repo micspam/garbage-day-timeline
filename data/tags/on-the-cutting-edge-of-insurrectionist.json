@@ -1,0 +1,80 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "political campaign or movement",
+   "moment_detail": "january 6th organized online",
+   "topics": [
+    "far-right politics",
+    "political violence"
+   ],
+   "entities": [
+    {
+     "name": "january 6th",
+     "kind": "event",
+     "evidence": "January 6th"
+    },
+    {
+     "name": "donald trump",
+     "kind": "person",
+     "evidence": "Trump supporters"
+    },
+    {
+     "name": "ali alexander",
+     "kind": "person",
+     "evidence": "far-right activist Ali Alexander"
+    },
+    {
+     "name": "stop the steal",
+     "kind": "community",
+     "evidence": "“Stop The Steal” group"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "unmoderated Facebook Groups"
+    },
+    {
+     "name": "parler",
+     "evidence": "alternative right-wing social networks like Parler"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "online radicalization",
+   "moment_detail": "brazilian youtube turns right-wing",
+   "topics": [
+    "brazil",
+    "far-right politics",
+    "influencers"
+   ],
+   "entities": [
+    {
+     "name": "jair bolsonaro",
+     "kind": "person",
+     "evidence": "During the Bolsonaro administration"
+    },
+    {
+     "name": "joe rogan",
+     "kind": "person",
+     "evidence": "a gigantic Joe Rogan machine"
+    },
+    {
+     "name": "uol",
+     "kind": "media outlet",
+     "evidence": "Brazilian news outlet UOL"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "youtube",
+     "evidence": "YouTube in Brazil morphed"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "teen discovers kazaa piracy",
+   "topics": [
+    "intellectual property",
+    "generational culture"
+   ],
+   "entities": [
+    {
+     "name": "windows xp",
+     "kind": "work",
+     "evidence": "Windows XP"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "kazaa",
+     "evidence": "a little program called Kazaa"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "downloading anime music videos",
+   "topics": [
+    "anime",
+    "fandom",
+    "intellectual property"
+   ],
+   "entities": [
+    {
+     "name": "cowboy bebop",
+     "kind": "work",
+     "evidence": "the anime Cowboy Bebop"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "kazaa",
+     "evidence": "During that early Kazaa period"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

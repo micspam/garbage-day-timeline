@@ -1,0 +1,31 @@
+{
+ "tags": [
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "weekly witch hunts on random users",
+   "topics": [
+    "online harassment"
+   ],
+   "entities": [
+    {
+     "name": "couch guy",
+     "kind": "person",
+     "evidence": "the Couch Guy"
+    },
+    {
+     "name": "west elm caleb",
+     "kind": "person",
+     "evidence": "West Elm Caleb"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tiktok",
+     "evidence": "similar patterns emerge on TikTok"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

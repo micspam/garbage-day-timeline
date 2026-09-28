@@ -1,0 +1,79 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "tabloids repackage facebook posts",
+   "topics": [
+    "media industry",
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "A new weird Facebook post"
+    },
+    {
+     "name": "twitter",
+     "evidence": "pearl-clutching media people on Twitter"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "early viral stars on tv",
+   "topics": [
+    "influencers",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "america’s funniest home videos",
+     "kind": "work",
+     "evidence": "America’s Funniest Home Videos"
+    },
+    {
+     "name": "tay zonday",
+     "kind": "person",
+     "evidence": "Tay Zonday"
+    },
+    {
+     "name": "rebecca black",
+     "kind": "person",
+     "evidence": "Rebecca Black"
+    },
+    {
+     "name": "america’s got talent",
+     "kind": "work",
+     "evidence": "America’s Got Talent in 2011"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "cultural shift",
+   "moment_detail": "virality becomes monetizable",
+   "topics": [
+    "influencers"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "tiktok",
+     "evidence": "right around when TikTok was first taking off in the US"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "creators",
+     "evidence": "we’re going to see more creators"
+    }
+   ]
+  }
+ ]
+}

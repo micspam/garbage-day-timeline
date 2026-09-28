@@ -1,0 +1,43 @@
+{
+ "tags": [
+  {
+   "n": 3,
+   "moment": "media industry shift",
+   "moment_detail": "memes productized into stickers",
+   "topics": [
+    "memes",
+    "media industry"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "platforms like Facebook"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "boomers",
+     "evidence": "churning for boomer traffic"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "moment": "scandal or backlash",
+   "moment_detail": "furries oppose nfts",
+   "topics": [
+    "crypto and nfts",
+    "furries"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "furries",
+     "evidence": "furries were one of the most outspoken communities"
+    }
+   ]
+  }
+ ]
+}
