@@ -1,0 +1,60 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "filk fan music emerges",
+   "topics": [
+    "fandom",
+    "music"
+   ],
+   "entities": [
+    {
+     "name": "filk",
+     "kind": "other",
+     "evidence": "known as “filk.”"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "fandom",
+     "evidence": "fans began to gather"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "fandom-specific fan music genres",
+   "topics": [
+    "fandom",
+    "music"
+   ],
+   "entities": [
+    {
+     "name": "doctor who",
+     "kind": "work",
+     "evidence": "Doctor Who songs"
+    },
+    {
+     "name": "homestuck",
+     "kind": "work",
+     "evidence": "Homestuck fansong genres"
+    },
+    {
+     "name": "trock",
+     "kind": "other",
+     "evidence": "Trock (Time Lord Rock)"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "fandom",
+     "evidence": "Fan musicians in the 2010s"
+    }
+   ]
+  }
+ ]
+}

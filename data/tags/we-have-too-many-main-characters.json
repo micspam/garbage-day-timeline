@@ -1,0 +1,65 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "political campaign or movement",
+   "moment_detail": "bolsonaro's social media campaign",
+   "topics": [
+    "brazil",
+    "political campaigns",
+    "far-right politics"
+   ],
+   "entities": [
+    {
+     "name": "jair bolsonaro",
+     "kind": "person",
+     "evidence": "Bolsonaro skipped the one in 2018"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "unlimited reached on Facebook"
+    },
+    {
+     "name": "whatsapp",
+     "evidence": "Facebook and WhatsApp"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "insider anecdote",
+   "moment_detail": "coolio parties with students",
+   "topics": [
+    "celebrity",
+    "music"
+   ],
+   "entities": [
+    {
+     "name": "coolio",
+     "kind": "person",
+     "evidence": "Coolio ends up at a local club"
+    },
+    {
+     "name": "gangsta’s paradise",
+     "kind": "work",
+     "evidence": "“Gangsta’s Paradise,”"
+    },
+    {
+     "name": "university of central lancashire",
+     "kind": "other",
+     "evidence": "University of Central Lancashire"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "college students",
+     "evidence": "a flat with some students"
+    }
+   ]
+  }
+ ]
+}

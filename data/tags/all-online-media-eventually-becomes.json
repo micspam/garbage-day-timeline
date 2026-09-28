@@ -1,0 +1,32 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "homestuck collaborative webcomic",
+   "topics": [
+    "web comics",
+    "fandom"
+   ],
+   "entities": [
+    {
+     "name": "homestuck",
+     "kind": "work",
+     "evidence": "Homestuck was a webcomic"
+    },
+    {
+     "name": "andrew hussie",
+     "kind": "person",
+     "evidence": "Andrew Hussie"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "fandom",
+     "evidence": "Fans of the comic"
+    }
+   ]
+  }
+ ]
+}

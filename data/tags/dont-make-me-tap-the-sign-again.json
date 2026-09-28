@@ -1,0 +1,22 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "british chap hop trend",
+   "topics": [
+    "music",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "chap hop",
+     "kind": "other",
+     "evidence": "called “chap hop,”"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

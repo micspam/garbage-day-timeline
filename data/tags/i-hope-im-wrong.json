@@ -1,0 +1,106 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "rise of social news sites",
+   "topics": [
+    "platform competition",
+    "mobile internet"
+   ],
+   "entities": [
+    {
+     "name": "digg",
+     "kind": "company",
+     "evidence": "Digg"
+    },
+    {
+     "name": "stumbleupon",
+     "kind": "company",
+     "evidence": "StumbleUpon"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "Reddit"
+    },
+    {
+     "name": "facebook",
+     "evidence": "The Facebook’s"
+    },
+    {
+     "name": "twitter",
+     "evidence": "the Twitter’s"
+    },
+    {
+     "name": "youtube",
+     "evidence": "the YouTube’s"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "first anime music video",
+   "topics": [
+    "anime",
+    "fandom"
+   ],
+   "entities": [
+    {
+     "name": "james kaposztas",
+     "kind": "person",
+     "evidence": "James Kaposztas"
+    },
+    {
+     "name": "kotaku",
+     "kind": "media outlet",
+     "evidence": "a Kotaku piece"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "insider anecdote",
+   "moment_detail": "author's early amv upload",
+   "topics": [
+    "anime",
+    "fandom",
+    "video games"
+   ],
+   "entities": [
+    {
+     "name": "kingdom hearts",
+     "kind": "work",
+     "evidence": "Kingdom Hearts cinematics"
+    },
+    {
+     "name": "good charlotte",
+     "kind": "other",
+     "evidence": "Good Charlotte’s"
+    },
+    {
+     "name": "windows movie maker",
+     "kind": "other",
+     "evidence": "Windows Movie Maker"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "kazaa",
+     "evidence": "uploaded it Kazaa"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "creators",
+     "evidence": "internet creators got their start making AMVs"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "stigma around influencers",
+   "topics": [
+    "influencers",
+    "gender"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "women",
+     "evidence": "mainly women or queer people"
+    },
+    {
+     "name": "creators",
+     "evidence": "“internet creator”"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+{"references": [
+{"sentence_ids": [1, 2], "start_year": 2018, "end_year": 2020, "label": "The 2018 crypto winter", "evidence": "The last “crypto winter” was in 2018."},
+{"sentence_ids": [34, 35], "start_year": 2020, "end_year": 2021, "label": "Bitcoin pump of 2020-2021", "evidence": "a pump that had started in September 2020"}
+]}

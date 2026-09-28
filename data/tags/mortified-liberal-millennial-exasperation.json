@@ -1,0 +1,27 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "linkedin secret connection experiments",
+   "topics": [
+    "algorithms",
+    "labor"
+   ],
+   "entities": [
+    {
+     "name": "people you may know",
+     "kind": "other",
+     "evidence": "“People You May Know” algorithm"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "linkedin",
+     "evidence": "Linkedin randomly varied"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

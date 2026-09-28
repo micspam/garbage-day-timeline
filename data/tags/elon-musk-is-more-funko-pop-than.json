@@ -1,0 +1,21 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "mrbeast channel takes off",
+   "topics": [
+    "influencers"
+   ],
+   "entities": [
+    {
+     "name": "mrbeast",
+     "kind": "person",
+     "evidence": "MrBeast basically spent a couple thousand dollars"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

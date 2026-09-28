@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [4], "start_year": 2017, "end_year": 2017, "label": "Watching Trump's inauguration from Tokyo", "evidence": "watched the “American carnage” speech with a Japanese dub"},
+{"sentence_ids": [22, 23], "start_year": 2016, "end_year": 2016, "label": "Abe's paid troll firm exposed by NHK", "evidence": "in 2016 Japan’s national broadcaster NHK discovered that Abe had paid a firm to activate online trolls"},
+{"sentence_ids": [24], "start_year": 2009, "end_year": 2022, "label": "LDP and 2channel flooding Twitter trends", "evidence": "since as far back as 2009"}
+]}

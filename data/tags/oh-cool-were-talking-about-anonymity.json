@@ -1,0 +1,43 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "violence or tragedy",
+   "moment_detail": "facebook-fueled rohingya violence",
+   "topics": [
+    "religion",
+    "platform policy",
+    "political violence"
+   ],
+   "entities": [
+    {
+     "name": "wirathu",
+     "kind": "person",
+     "evidence": "Burmese monk named Wirathu"
+    },
+    {
+     "name": "rohingya genocide",
+     "kind": "event",
+     "evidence": "the Rohingya"
+    },
+    {
+     "name": "meta",
+     "kind": "company",
+     "evidence": "accusing Meta"
+    },
+    {
+     "name": "amnesty international",
+     "kind": "other",
+     "evidence": "Amnesty International"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "used Facebook to accuse"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

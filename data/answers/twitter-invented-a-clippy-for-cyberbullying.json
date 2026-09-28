@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [54, 55], "start_year": 1999, "end_year": 2013, "label": "RSS and Google Reader", "evidence": "RSS 0.90 was first released by Netscape in the 90s"},
+{"sentence_ids": [58], "start_year": 2013, "end_year": 2013, "label": "Google Reader shutdown", "evidence": "In 2013, Google Reader was shutdown"},
+{"sentence_ids": [77, 78], "start_year": 2010, "end_year": 2010, "label": "Rise of 4chan greentext stories", "evidence": "they started appearing on the site around 2010"}
+]}

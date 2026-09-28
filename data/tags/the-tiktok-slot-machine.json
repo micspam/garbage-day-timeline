@@ -1,0 +1,29 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "anonymous japanese twitter culture",
+   "topics": [
+    "japan"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter in Japan"
+    },
+    {
+     "name": "2channel",
+     "evidence": "2chan"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "journalists",
+     "evidence": "including even journalists"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "web 2.0 image sorting",
+   "topics": [
+    "visual content"
+   ],
+   "entities": [
+    {
+     "name": "web 2.0",
+     "kind": "other",
+     "evidence": "Web 2.0"
+    },
+    {
+     "name": "stumbleupon",
+     "kind": "company",
+     "evidence": "StumbleUpon"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "imgur",
+     "evidence": "Imgur"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "Tumblr"
+    },
+    {
+     "name": "reddit",
+     "evidence": "Reddit"
+    },
+    {
+     "name": "photobucket",
+     "evidence": "Photobucket"
+    },
+    {
+     "name": "flickr",
+     "evidence": "Flickr"
+    },
+    {
+     "name": "myspace",
+     "evidence": "MySpace"
+    },
+    {
+     "name": "facebook",
+     "evidence": "early Facebook"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}
