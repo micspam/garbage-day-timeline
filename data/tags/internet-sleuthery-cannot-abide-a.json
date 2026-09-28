@@ -1,0 +1,51 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "lost fan theorizing blogs",
+   "topics": [
+    "film and tv",
+    "fandom"
+   ],
+   "entities": [
+    {
+     "name": "lost",
+     "kind": "work",
+     "evidence": "the 2004-10 series Lost"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "x-files online fan discussion",
+   "topics": [
+    "film and tv",
+    "fandom",
+    "forums"
+   ],
+   "entities": [
+    {
+     "name": "the x-files",
+     "kind": "work",
+     "evidence": "The X-Files"
+    },
+    {
+     "name": "fox",
+     "kind": "company",
+     "evidence": "Fox sci-fi series"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "usenet",
+     "evidence": "Usenet discussions"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

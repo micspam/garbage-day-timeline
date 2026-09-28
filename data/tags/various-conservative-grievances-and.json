@@ -1,1 +1,32 @@
-{"tags": [{"n": 1, "moment": "media industry shift", "moment_detail": "tucker carlson legitimizes online rambling", "topics": ["far-right politics", "film and tv"], "entities": [{"name": "tucker carlson", "kind": "person", "evidence": "Carlson’s Fox News show"}, {"name": "fox news", "kind": "media outlet", "evidence": "Carlson’s Fox News show"}, {"name": "tucker carlson tonight", "kind": "work", "evidence": "Tucker Carlson Tonight"}], "platforms": [], "audiences": [{"name": "conservatives", "evidence": "the conservative equivalent"}]}]}
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "tucker carlson legitimizes online rambling",
+   "topics": [
+    "far-right politics",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "tucker carlson",
+     "kind": "person",
+     "evidence": "Carlson’s Fox News show"
+    },
+    {
+     "name": "fox news",
+     "kind": "media outlet",
+     "evidence": "Carlson’s Fox News show"
+    },
+    {
+     "name": "tucker carlson tonight",
+     "kind": "work",
+     "evidence": "Tucker Carlson Tonight"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

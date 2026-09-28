@@ -1,0 +1,101 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "myspace and facebook launch",
+   "topics": [
+    "platform competition",
+    "algorithms"
+   ],
+   "entities": [
+    {
+     "name": "myspace",
+     "kind": "company",
+     "evidence": "Myspace launches in 2003"
+    },
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "Facebook goes live"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "myspace",
+     "evidence": "Myspace launches in 2003"
+    },
+    {
+     "name": "facebook",
+     "evidence": "Facebook goes live"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "college students",
+     "evidence": "users with college email addresses"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "moment": "subculture or scene",
+   "moment_detail": "black twitter and weird twitter",
+   "topics": [
+    "race",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "black twitter",
+     "kind": "community",
+     "evidence": "“Black Twitter,”"
+    },
+    {
+     "name": "weird twitter",
+     "kind": "community",
+     "evidence": "“Weird Twitter,”"
+    },
+    {
+     "name": "the awl",
+     "kind": "media outlet",
+     "evidence": "The Awl"
+    },
+    {
+     "name": "something awful",
+     "kind": "community",
+     "evidence": "Something Awful goons"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "“Black Twitter,”"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 5,
+   "moment": "platform policy change",
+   "moment_detail": "dorsey's hands-off moderation era",
+   "topics": [
+    "platform policy"
+   ],
+   "entities": [
+    {
+     "name": "jack dorsey",
+     "kind": "person",
+     "evidence": "Jack Dorsey"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter’s cultural cachet from 2015-2021"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

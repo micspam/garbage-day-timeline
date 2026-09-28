@@ -1,0 +1,112 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "review aggregate scores rise",
+   "topics": [
+    "criticism",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "rotten tomatoes",
+     "kind": "company",
+     "evidence": "Rotten Tomatoes"
+    },
+    {
+     "name": "metacritic",
+     "kind": "company",
+     "evidence": "Metacritic"
+    },
+    {
+     "name": "cinemascore",
+     "kind": "company",
+     "evidence": "Cinemascore"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "insider anecdote",
+   "moment_detail": "leaked album double review",
+   "topics": [
+    "music",
+    "criticism",
+    "intellectual property"
+   ],
+   "entities": [
+    {
+     "name": "kanye west",
+     "kind": "person",
+     "evidence": "Kanye West’s Graduation"
+    },
+    {
+     "name": "50 cent",
+     "kind": "person",
+     "evidence": "50 Cent’s Curtis"
+    },
+    {
+     "name": "graduation",
+     "kind": "work",
+     "evidence": "Kanye West’s Graduation"
+    },
+    {
+     "name": "curtis",
+     "kind": "work",
+     "evidence": "50 Cent’s Curtis"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "online radicalization",
+   "moment_detail": "gamergate obsesses over metacritic",
+   "topics": [
+    "gamergate",
+    "video games",
+    "criticism"
+   ],
+   "entities": [
+    {
+     "name": "gamergate",
+     "kind": "event",
+     "evidence": "the Gamergate movement"
+    },
+    {
+     "name": "metacritic",
+     "kind": "company",
+     "evidence": "Metacritic scores"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "gamergaters",
+     "evidence": "Gamergaters were"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "moment": "media industry shift",
+   "moment_detail": "blog-to-book deal pipeline",
+   "topics": [
+    "media industry",
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "“Tumblr book deal”"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

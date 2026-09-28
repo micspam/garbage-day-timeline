@@ -1,0 +1,46 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "political campaign or movement",
+   "moment_detail": "january 6th organized online",
+   "topics": [
+    "political violence",
+    "far-right politics"
+   ],
+   "entities": [
+    {
+     "name": "january 6th",
+     "kind": "event",
+     "evidence": "January 6th was announced months in advance"
+    },
+    {
+     "name": "facebook events",
+     "kind": "other",
+     "evidence": "Facebook Events"
+    },
+    {
+     "name": "donald trump",
+     "kind": "person",
+     "evidence": "normie Trump supporters"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "parler",
+     "evidence": "publicly on Parler"
+    },
+    {
+     "name": "facebook",
+     "evidence": "Facebook Events"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "trump supporters",
+     "evidence": "normie Trump supporters"
+    }
+   ]
+  }
+ ]
+}

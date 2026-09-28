@@ -1,0 +1,38 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "online radicalization",
+   "moment_detail": "4chan resents normie platforms",
+   "topics": [
+    "online radicalization",
+    "far-right politics"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "what happened to 4chan around 2011-2012"
+    },
+    {
+     "name": "twitter",
+     "evidence": "sites like Twitter"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "Tumblr"
+    },
+    {
+     "name": "instagram",
+     "evidence": "eventually Instagram"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "4chan users",
+     "evidence": "4chan users could see"
+    }
+   ]
+  }
+ ]
+}

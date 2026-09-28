@@ -1,0 +1,42 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "political campaign or movement",
+   "moment_detail": "far-right rally in boston",
+   "topics": [
+    "far-right politics",
+    "protests",
+    "memes"
+   ],
+   "entities": [
+    {
+     "name": "milo yiannopoulos",
+     "kind": "person",
+     "evidence": "Milo Yiannopoulos"
+    },
+    {
+     "name": "proud boys",
+     "kind": "community",
+     "evidence": "Proud Boys demo in Boston"
+    },
+    {
+     "name": "pepe the frog",
+     "kind": "other",
+     "evidence": "Pepe the Frog face paint"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "boomers",
+     "evidence": "the boomers were dressed up like Paul Revere"
+    },
+    {
+     "name": "college students",
+     "evidence": "bro-y college guys"
+    }
+   ]
+  }
+ ]
+}

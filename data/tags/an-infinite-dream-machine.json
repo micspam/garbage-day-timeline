@@ -1,0 +1,22 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "golden age of culture blogs",
+   "topics": [
+    "journalism",
+    "media industry"
+   ],
+   "entities": [
+    {
+     "name": "thought catalog",
+     "kind": "media outlet",
+     "evidence": "Thought Catalog"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

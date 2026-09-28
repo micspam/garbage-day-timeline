@@ -1,0 +1,33 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "jet li refuses motion scan",
+   "topics": [
+    "film and tv",
+    "intellectual property",
+    "labor"
+   ],
+   "entities": [
+    {
+     "name": "jet li",
+     "kind": "person",
+     "evidence": "Jet Li"
+    },
+    {
+     "name": "the matrix",
+     "kind": "work",
+     "evidence": "The Matrix Reloaded and Revolutions"
+    },
+    {
+     "name": "warner bros.",
+     "kind": "company",
+     "evidence": "Warner Bros."
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

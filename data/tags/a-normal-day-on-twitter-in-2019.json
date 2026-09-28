@@ -1,0 +1,115 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "facebook launches for college students",
+   "topics": [
+    "platform competition"
+   ],
+   "entities": [
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "Facebook launched"
+    },
+    {
+     "name": "myspace",
+     "kind": "company",
+     "evidence": "MySpace was beginning to go through a major identity crisis"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook launched"
+    },
+    {
+     "name": "myspace",
+     "evidence": "MySpace was beginning to go through a major identity crisis"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "college students",
+     "evidence": "users with a college email addresses"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "weird twitter forms from fyad",
+   "topics": [
+    "forums",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "something awful",
+     "kind": "community",
+     "evidence": "Something Awful’s Fuck You And Die forum"
+    },
+    {
+     "name": "weird twitter",
+     "kind": "community",
+     "evidence": "“Weird Twitter”"
+    },
+    {
+     "name": "dril",
+     "kind": "person",
+     "evidence": "dril"
+    },
+    {
+     "name": "jon hendren",
+     "kind": "person",
+     "evidence": "Jon Hendren"
+    },
+    {
+     "name": "dirtbag left",
+     "kind": "community",
+     "evidence": "“dirtbag left”"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "began to make accounts on Twitter"
+    },
+    {
+     "name": "something awful",
+     "evidence": "Something Awful’s Fuck You And Die forum"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "media industry shift",
+   "moment_detail": "social networks pivot to video",
+   "topics": [
+    "media industry",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "Facebook, in particular"
+    },
+    {
+     "name": "netflix",
+     "kind": "company",
+     "evidence": "take on Netflix"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook, in particular, abandoned its newsstand sensibilities"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

@@ -414,7 +414,10 @@
    "fandoms": "fandom",
    "teenagers": "gen z",
    "children": "kids",
-   "middle class white children": "kids"
+   "middle class white children": "kids",
+   "trump supporters": "conservatives",
+   "young journalists": "journalists",
+   "digital media workers": "journalists"
   }
  },
  "entities": {

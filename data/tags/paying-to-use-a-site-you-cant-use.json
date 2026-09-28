@@ -1,0 +1,53 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "twitter's proximity to power",
+   "topics": [
+    "american politics",
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter since it launched in 2006"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "activists",
+     "evidence": "activists"
+    },
+    {
+     "name": "journalists",
+     "evidence": "journalists"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "silicon alley digital media scene",
+   "topics": [
+    "media industry",
+    "new york city culture"
+   ],
+   "entities": [
+    {
+     "name": "silicon alley",
+     "kind": "community",
+     "evidence": "“Silicon Alley”"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "digital media workers",
+     "evidence": "people in New York working in digital media"
+    }
+   ]
+  }
+ ]
+}
