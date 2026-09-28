@@ -1,0 +1,35 @@
+{
+ "references": [
+  {
+   "sentence_ids": [
+    11,
+    12
+   ],
+   "start_year": 2012,
+   "end_year": 2021,
+   "label": "Virality as a replacement monoculture",
+   "evidence": "between 2012 and, let’s say, January 6, 2021"
+  },
+  {
+   "sentence_ids": [
+    38,
+    39
+   ],
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Mass appeal as the path to online relevance",
+   "evidence": "Ten years ago"
+  },
+  {
+   "sentence_ids": [
+    51,
+    52,
+    53
+   ],
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Summer 2016 titan memes like Harambe and Dat Boi",
+   "evidence": "Since summer 2016"
+  }
+ ]
+}

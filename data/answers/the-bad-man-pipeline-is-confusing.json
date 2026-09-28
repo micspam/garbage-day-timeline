@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [7, 8, 9], "start_year": 2000, "end_year": 2004, "label": "The early-00s web comic boom", "evidence": "early-00s web comic boom"},
+{"sentence_ids": [11, 12], "start_year": 2000, "end_year": 2004, "label": "Jocks vs. nerds and proto-4chan attitudes in early web comics", "evidence": "early-2000s"},
+{"sentence_ids": [16, 17], "start_year": 2004, "end_year": 2007, "label": "Edgy web comics react to the Iraq War", "evidence": "In the mid-2000s"}
+]}

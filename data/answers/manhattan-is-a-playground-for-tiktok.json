@@ -1,0 +1,6 @@
+{"references": [
+{"sentence_ids": [11, 12, 13], "start_year": 2009, "end_year": 2010, "label": "The hipster era of internet content", "evidence": "began at some point between 2009-2010"},
+{"sentence_ids": [20], "start_year": 2018, "end_year": 2018, "label": "Influencers standing in Manhattan streets", "evidence": "in 2018, The Cut wrote an article"},
+{"sentence_ids": [28], "start_year": 2020, "end_year": 2020, "label": "Audrey Peters' Manhattan TikToks", "evidence": "in 2020, started posting videos about her glamorous life in lower Manhattan"},
+{"sentence_ids": [72, 73, 74], "start_year": 2007, "end_year": 2009, "label": "MySpace emo punchline bands", "evidence": "In the late 2000s"}
+]}

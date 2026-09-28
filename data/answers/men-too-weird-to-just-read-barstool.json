@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [3, 4, 5], "start_year": 2001, "end_year": 2001, "label": "The MGTOW manifesto published on No Ma'am blog", "evidence": "In 2001"},
+{"sentence_ids": [11, 12], "start_year": 2005, "end_year": 2007, "label": "The Game and VH1's The Pickup Artist make PUAs a phenomenon", "evidence": "in 2005"},
+{"sentence_ids": [14], "start_year": 2000, "end_year": 2005, "label": "Early incel message boards like Love-shy and PUAHate", "evidence": "early 2000s"}
+]}
