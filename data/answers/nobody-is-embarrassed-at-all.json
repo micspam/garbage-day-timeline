@@ -1,5 +1,4 @@
 {"references": [
 {"sentence_ids": [33], "start_year": 1841, "end_year": 1841, "label": "Mackay's Extraordinary Popular Delusions and street memes", "evidence": "Charles Mackay’s 1841 Extraordinary Popular Delusions"},
-{"sentence_ids": [35, 36, 37], "start_year": 1836, "end_year": 1841, "label": "\"Jump Jim Crow\" craze in London", "evidence": "1841"},
 {"sentence_ids": [41, 42], "start_year": 1950, "end_year": 1999, "label": "20th-century fandom subcultures", "evidence": "The 20th century"}
 ]}

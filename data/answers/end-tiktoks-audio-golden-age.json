@@ -1,5 +1,5 @@
 {"references": [
 {"sentence_ids": [10, 11], "start_year": 2001, "end_year": 2001, "label": "Napster shutdown", "evidence": "In July 2001, Napster was shut down"},
-{"sentence_ids": [13, 14], "start_year": 2005, "end_year": 2008, "label": "YouTube, SoundCloud and Spotify reshape music distribution", "evidence": "The arrival of YouTube in 2005"},
+{"sentence_ids": [14], "start_year": 2005, "end_year": 2008, "label": "YouTube, SoundCloud and Spotify reshape music distribution", "evidence": "The arrival of YouTube in 2005"},
 {"sentence_ids": [74, 75, 76], "start_year": 2013, "end_year": 2014, "label": "Facebook vs. Twitter a decade ago", "evidence": "about a decade ago"}
 ]}
