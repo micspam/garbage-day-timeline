@@ -1,15 +1,15 @@
 {
  "report": {
-  "issues_analyzed": 583,
+  "issues_analyzed": 611,
   "issues_with_past_references": 254,
-  "issues_with_none": 329,
-  "references_proposed": 542,
+  "issues_with_none": 357,
+  "references_proposed": 552,
   "references_kept": 420,
   "references_rejected": {
    "quote_too_long": 1
   },
   "dropped_in_review": 120,
-  "not_reviewed": 1,
+  "not_reviewed": 11,
   "fabricated_quotes_possible": 0
  },
  "cards": [
@@ -39,7 +39,7 @@
     "platforms": [],
     "audiences": [
      {
-      "name": "gen z"
+      "name": "teens"
      }
     ]
    }
@@ -317,7 +317,27 @@
    "evidence": "September 1993",
    "url": "https://www.garbageday.email/p/the-final-september-21st",
    "title": "The final September 21st",
-   "published": "2021-09-22"
+   "published": "2021-09-22",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "eternal september usenet influx",
+    "topics": [
+     "forums",
+     "nostalgia"
+    ],
+    "entities": [
+     {
+      "name": "eternal september",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "usenet"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "If you don’t know what I’m talking about, there’s a preset on the Casio MT-40, a keyboard released in 1981, that went on to span an entire subgenre of electronically-produced reggae known as “sleng teng riddim”. The first song to use the preset was written by an artist named Noel Davey in 1985 and primarily uses the Casio MT-40’s preset as the bassline.",
@@ -964,7 +984,7 @@
     ],
     "audiences": [
      {
-      "name": "gen z"
+      "name": "teens"
      }
     ]
    }
@@ -1069,7 +1089,27 @@
    "evidence": "archived 9/11 threads from Something Awful",
    "url": "https://www.garbageday.email/p/there-would-be-no-screen-only-a-locomotive",
    "title": "There would be no screen — only a locomotive",
-   "published": "2021-08-16"
+   "published": "2021-08-16",
+   "tags": {
+    "moment": "news event",
+    "moment_detail": "forum users crowdsource 9/11",
+    "topics": [
+     "forums",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "9/11",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "something awful"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Shrek was released in 2001. It spawned numerous sequels, and, most importantly, a torrent of merchandise and marketing. In the 2000s, there was Shrek stuff everywhere.",
@@ -1925,7 +1965,26 @@
    "evidence": "In the mid-00s, 4chan users were obsessed",
    "url": "https://www.garbageday.email/p/the-internets-darkest-story-gets",
    "title": "The internet's darkest story gets even darker",
-   "published": "2021-08-02"
+   "published": "2021-08-02",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "4chan harassment of marginalized people",
+    "topics": [
+     "online harassment",
+     "far-right politics"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
   },
   {
    "quote": "My younger readers may not remember this, but when YouTube first launched, the majority of online video was either self-hosted or distributed via peer-to-peer clients like Limewire or Bit Torrent. This was, admittedly, a messy and chaotic way to consume content. Whole websites would sometimes exist with the sole purpose of hosting one video, which would then be shared via email forwards.",
@@ -2227,7 +2286,31 @@
    "evidence": "The Financial Times wrote in 2006",
    "url": "https://www.garbageday.email/p/the-myspace-top-8-is-destroying-society",
    "title": "The Myspace Top 8 is destroying society",
-   "published": "2021-10-20"
+   "published": "2021-10-20",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "teens shift privacy attitudes",
+    "topics": [
+     "generational culture",
+     "moral panics"
+    ],
+    "entities": [
+     {
+      "name": "the financial times",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "teens"
+     }
+    ]
+   }
   },
   {
    "quote": "In the late 2000s, fandom looked and felt pretty different. People congregated on sites like LiveJournal and Tumblr, which brought the feel of message boards to wider groups of users.",
@@ -2398,7 +2481,31 @@
    "evidence": "in The Atlantic in 2007",
    "url": "https://www.garbageday.email/p/the-myspace-top-8-is-destroying-society",
    "title": "The Myspace Top 8 is destroying society",
-   "published": "2021-10-20"
+   "published": "2021-10-20",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "myspace top 8 anxiety",
+    "topics": [
+     "generational culture",
+     "moral panics"
+    ],
+    "entities": [
+     {
+      "name": "caitlin flanagan",
+      "kind": "person"
+     },
+     {
+      "name": "the atlantic",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "By 2007, the site was synonymous with hacks, scams, harassment, and even murder. I distinctly remember pockets of MySpace that seemed to be entirely populated by Hot Topic employees, small town drug dealers, juggalos, and neo-Nazis (sometimes they were all the same account).",
@@ -3032,7 +3139,42 @@
    "evidence": "Castiel’s introduction in 2008",
    "url": "https://www.garbageday.email/p/from-friends-to-lovers-from-bait",
    "title": "From friends to lovers, from bait to canon",
-   "published": "2021-11-05"
+   "published": "2021-11-05",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "fandom platforms rise and fall",
+    "topics": [
+     "fandom",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "archive of our own",
+      "kind": "community"
+     },
+     {
+      "name": "livejournal",
+      "kind": "company"
+     },
+     {
+      "name": "marvel cinematic universe",
+      "kind": "work"
+     },
+     {
+      "name": "star wars",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "livejournal"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "But on June 13, 2008, Facebook beat MySpace in unique visitors for the first time.",
@@ -3716,7 +3858,22 @@
    "evidence": "in the early 2010s",
    "url": "https://www.garbageday.email/p/dashcon-was-created-by-a-17-year",
    "title": "DashCon was created by a 15-year-old girl",
-   "published": "2021-07-30"
+   "published": "2021-07-30",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "japanese blogging style pranks",
+    "topics": [
+     "japan",
+     "web comics"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "But soft grunge was one of the first times something like this got really big. It blew up on Tumblr in the early 2010s. It has been argued that the whole soft grunge look is basically all about dressing like indie artist Sky Ferreira, which I sort of buy.",
@@ -3726,7 +3883,27 @@
    "evidence": "in the early 2010s",
    "url": "https://www.garbageday.email/p/the-nostalgia-onion",
    "title": "The nostalgia onion",
-   "published": "2021-10-04"
+   "published": "2021-10-04",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "soft grunge aesthetic blows up",
+    "topics": [
+     "fashion",
+     "nostalgia"
+    ],
+    "entities": [
+     {
+      "name": "sky ferreira",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "The 2010 MySpace redesign had a bunch of interesting features, however. It stressed “security” and “safety,” allowing users to toggle who could view their content, including a “friends only” option. It also gave users a Facebook-esque News Feed that recommended music and TV content.",
@@ -5321,7 +5498,31 @@
    "evidence": "About a decade ago, members of the “otherkin” community",
    "url": "https://www.garbageday.email/p/the-post-otherkin-identity-play-of",
    "title": "The post-otherkin identity play of TikTok",
-   "published": "2021-07-07"
+   "published": "2021-07-07",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "otherkin system blogs",
+    "topics": [
+     "furries",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "otherkin",
+      "kind": "community"
+     },
+     {
+      "name": "furries",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "It can be hard to remember this, but ten years ago, when these digital media sites were just starting out, the internet was still mostly made up of websites of words and pictures. And, interestingly enough, most of those websites felt different from each other. You had comics, humor sites, personal essays, political writing, general time-waster stuff, bloggers, aggregators, quizzes, lists, and, of course, news sites.",
@@ -5331,7 +5532,44 @@
    "evidence": "ten years ago",
    "url": "https://www.garbageday.email/p/making-algorithmic-dog-food-for-the",
    "title": "Making algorithmic dog food for the content factory",
-   "published": "2021-08-27"
+   "published": "2021-08-27",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "distinct websites homogenize into two types",
+    "topics": [
+     "media industry",
+     "journalism",
+     "web 2.0"
+    ],
+    "entities": [
+     {
+      "name": "the awl",
+      "kind": "media outlet"
+     },
+     {
+      "name": "the toast",
+      "kind": "media outlet"
+     },
+     {
+      "name": "cracked",
+      "kind": "media outlet"
+     },
+     {
+      "name": "collegehumor",
+      "kind": "media outlet"
+     },
+     {
+      "name": "thought catalog",
+      "kind": "media outlet"
+     },
+     {
+      "name": "babe",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "In 2011, Facebook had introduced its Timeline feature, Reddit had overtaken Digg in traffic, Rebecca Black had just landed on YouTube, and Tumblr was the most popular website for teenagers and college kids.",
@@ -5341,7 +5579,47 @@
    "evidence": "In 2011, Facebook had introduced its Timeline feature",
    "url": "https://www.garbageday.email/p/you-used-to-be-able-to-read-the-whole",
    "title": "You Used To Be Able To Read The Whole Internet",
-   "published": "2021-10-27"
+   "published": "2021-10-27",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "2011 web before feeds",
+    "topics": [
+     "nostalgia",
+     "web 2.0"
+    ],
+    "entities": [
+     {
+      "name": "rebecca black",
+      "kind": "person"
+     },
+     {
+      "name": "digg",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "teens"
+     },
+     {
+      "name": "college students"
+     }
+    ]
+   }
   },
   {
    "quote": "By the end of 2011, this whole culture was starting to change, though. Big internet traffic sources for blogs like Reddit or StumbleUpon, with their finicky audiences, were being replaced by Facebook, which in September of that year launched a new version of its News Feed.",
@@ -5351,7 +5629,33 @@
    "evidence": "By the end of 2011",
    "url": "https://www.garbageday.email/p/you-used-to-be-able-to-read-the-whole",
    "title": "You Used To Be Able To Read The Whole Internet",
-   "published": "2021-10-27"
+   "published": "2021-10-27",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "facebook news feed algorithm",
+    "topics": [
+     "algorithms",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "stumbleupon",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "stumbleupon"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Another core principle of fandom ten years ago was that fans rarely wanted the writers or actors behind their favorite media properties to know about their interpretations.",
@@ -5895,7 +6199,22 @@
    "evidence": "Around 2012",
    "url": "https://www.garbageday.email/p/making-algorithmic-dog-food-for-the",
    "title": "Making algorithmic dog food for the content factory",
-   "published": "2021-08-27"
+   "published": "2021-08-27",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "publishers abandon hot takes",
+    "topics": [
+     "media industry",
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "snapchat"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "2016 was not necessarily a high-point in Tumblr-land—many people would think fondly on 2012 as the site’s peak, with 2013 representing the start of the general curdling that ended up dispersing out into the wider internet, and thence to the world, in the form of the “other” side of the culture war: SJWs, adult cartoon discourse, problematic faves, and all that.",
@@ -6583,7 +6902,22 @@
    "evidence": "launched in 2013",
    "url": "https://www.garbageday.email/p/there-would-be-no-screen-only-a-locomotive",
    "title": "There would be no screen — only a locomotive",
-   "published": "2021-08-16"
+   "published": "2021-08-16",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "yik yak launches and shuts down",
+    "topics": [
+     "online harassment",
+     "mobile internet"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "yik yak"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "When brands first started popping up on Twitter, they basically just acted like a mix of a print advertisement and customer service. The McDonald’s Twitter account would tell you about the new Big Mac and apologize to you for the broken ice cream machine or whatever. But after the Oreos Moment in 2013, suddenly these accounts all started pivoting towards more human-like behavior online.",
@@ -6593,7 +6927,45 @@
    "evidence": "the Oreos Moment in 2013",
    "url": "https://www.garbageday.email/p/the-branded-content-ouroboros",
    "title": "The branded content ouroboros ",
-   "published": "2021-09-24"
+   "published": "2021-09-24",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "brand accounts turn human-like",
+    "topics": [
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "mcdonald's",
+      "kind": "company"
+     },
+     {
+      "name": "oreo",
+      "kind": "company"
+     },
+     {
+      "name": "denny's",
+      "kind": "company"
+     },
+     {
+      "name": "wendy's",
+      "kind": "company"
+     },
+     {
+      "name": "steak-umm",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Around 2013, platforms like Instagram, Vine, and Snapchat began to offer more complex tools for content creation. Which is how we ended up with Snapchat screenshots or pictures full of Instagram bubble text.",
@@ -6687,7 +7059,7 @@
     ],
     "audiences": [
      {
-      "name": "gen z"
+      "name": "teens"
      }
     ]
    }
@@ -7172,7 +7544,22 @@
    "evidence": "Jul 11, 2014",
    "url": "https://www.garbageday.email/p/dashcon-was-created-by-a-17-year",
    "title": "DashCon was created by a 15-year-old girl",
-   "published": "2021-07-30"
+   "published": "2021-07-30",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "dashcon convention collapses",
+    "topics": [
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "dashcon",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "About seven years ago, fandoms started moving from blogs and less visible platforms like Tumblr or Reddit to Twitter, where everything is indexed and, thus, observable. Around this same time, K-Pop, a music fandom defined by very specific traditions and behaviors, started becoming really popular outside of Korea.",
@@ -7182,7 +7569,33 @@
    "evidence": "About seven years ago",
    "url": "https://www.garbageday.email/p/the-branded-content-ouroboros",
    "title": "The branded content ouroboros ",
-   "published": "2021-09-24"
+   "published": "2021-09-24",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "fandoms move to twitter",
+    "topics": [
+     "fandom",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "k-pop",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "That site was called 4chan, which would go on to become Steve Bannon’s Gamergate testing ground and then his full-on digital battle station during Trump’s 2016 presidential campaign. 4chan was where #Pizzagate first launched, which then mutated into a series of related conspiracy theories such as FBIAnon and, then, of course, QAnon.",
@@ -7370,7 +7783,7 @@
     ],
     "audiences": [
      {
-      "name": "gen z"
+      "name": "teens"
      }
     ]
    }
@@ -8243,7 +8656,35 @@
    "evidence": "first appeared in 2015",
    "url": "https://www.garbageday.email/p/stay-logged-off-read-this-tomorrow",
    "title": "Stay logged off, read this tomorrow",
-   "published": "2021-07-05"
+   "published": "2021-07-05",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "smol bean first appears",
+    "topics": [
+     "memes",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     },
+     {
+      "name": "twenty one pilots",
+      "kind": "person"
+     },
+     {
+      "name": "tyler joseph",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "About six years ago, artists on sites like DeviantArt, Reddit, and Tumblr began drawing Sans and Papyrus with ahegao faces.",
@@ -8865,7 +9306,27 @@
    "evidence": "2016 and 2017",
    "url": "https://www.garbageday.email/p/the-final-september-21st",
    "title": "The final September 21st",
-   "published": "2021-09-22"
+   "published": "2021-09-22",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "annual september dance videos",
+    "topics": [
+     "music",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "earth, wind & fire",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
+   }
   },
   {
    "quote": "Back in 2016, Jamal Hinton went viral after being accidentally invited via text to Wanda Dench’s Thanksgiving.",
@@ -9957,6 +10418,9 @@
     "audiences": [
      {
       "name": "gen z"
+     },
+     {
+      "name": "teens"
      }
     ]
    }
@@ -10394,7 +10858,31 @@
    "evidence": "Per The Atlantic in 2019",
    "url": "https://www.garbageday.email/p/the-internet-is-for-porn",
    "title": "The internet is for porn",
-   "published": "2021-08-20"
+   "published": "2021-08-20",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "tumblr nsfw ban fallout",
+    "topics": [
+     "platform policy",
+     "sex work"
+    ],
+    "entities": [
+     {
+      "name": "the atlantic",
+      "kind": "media outlet"
+     },
+     {
+      "name": "similarweb",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "Three years ago this weekend, DeviantART user ayyk92 introduced the world to a genderbent version of Bowser, permanently solidifying Nintendo fans as the horniest video game fandom.",
@@ -10404,7 +10892,32 @@
    "evidence": "Three years ago this weekend",
    "url": "https://www.garbageday.email/p/to-the-algorithm-were-all-just-content",
    "title": "To the algorithm, we're all just content",
-   "published": "2021-09-20"
+   "published": "2021-09-20",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "genderbent bowser fan art",
+    "topics": [
+     "fandom",
+     "video games",
+     "digital art"
+    ],
+    "entities": [
+     {
+      "name": "bowser",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "deviantart"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "nintendo fans"
+     }
+    ]
+   }
   },
   {
    "quote": "From what we can tell, around 2018, Ozy was actually having some success on Facebook, specifically with world content. This makes sense, there was a real boom at that time in AJ+-style liberal activist content and it seems like Ozy was actually breaking through.",
@@ -10414,7 +10927,31 @@
    "evidence": "around 2018",
    "url": "https://www.garbageday.email/p/inside-the-utterly-bizarre-analytics",
    "title": "Inside the utterly bizarre analytics of Ozy",
-   "published": "2021-10-01"
+   "published": "2021-10-01",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "activist world content boom",
+    "topics": [
+     "media industry",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "ozy media",
+      "kind": "media outlet"
+     },
+     {
+      "name": "aj+",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "According to data from that time period, about 150 million users left Tumblr at the end of 2018. During the same winter, Twitter was actually losing followers, but, by the spring, had gained about 10 million users. So, in a sense, you can say that, yes, Twitter grew after Tumblr’s porn ban.",
@@ -11081,7 +11618,23 @@
    "evidence": "in 2019",
    "url": "https://www.garbageday.email/p/a-republican-social-network-filled",
    "title": "A Republican social network filled up with hentai again",
-   "published": "2021-07-02"
+   "published": "2021-07-02",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "bath water sales go viral",
+    "topics": [
+     "influencers",
+     "celebrity"
+    ],
+    "entities": [
+     {
+      "name": "belle delphine",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
   },
   {
    "quote": "Back in 2020, the internet got really horny for Waluigi and in 2019 Tumblr users calculated the size of Luigi’s bulge using the standard measurements for tennis rackets. Oh, and then Kotaku calculated the height of Bowser using the Tumblr approximation of Luigi’s bulge.",
