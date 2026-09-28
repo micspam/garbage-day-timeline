@@ -1,15 +1,15 @@
 {
  "report": {
-  "issues_analyzed": 611,
-  "issues_with_past_references": 254,
-  "issues_with_none": 357,
-  "references_proposed": 552,
-  "references_kept": 420,
+  "issues_analyzed": 694,
+  "issues_with_past_references": 294,
+  "issues_with_none": 400,
+  "references_proposed": 603,
+  "references_kept": 468,
   "references_rejected": {
    "quote_too_long": 1
   },
-  "dropped_in_review": 120,
-  "not_reviewed": 11,
+  "dropped_in_review": 134,
+  "not_reviewed": 0,
   "fabricated_quotes_possible": 0
  },
  "cards": [
@@ -265,6 +265,45 @@
       "name": "trekkies"
      }
     ]
+   }
+  },
+  {
+   "quote": "I saw a tweet last night that linked to a McDonald’s Fandom wiki for a character called Uncle O’Grimacey. The character was meant to be Grimace’s Irish uncle. He was briefly featured in a few absolutely cursed commercials in the 70s to promote the Shamrock Shake.",
+   "start_year": 1970,
+   "end_year": 1979,
+   "label": "Uncle O'Grimacey Shamrock Shake commercials",
+   "evidence": "in the 70s",
+   "url": "https://www.garbageday.email/p/i-totally-havent-forgot-how-to-be",
+   "title": "I totally haven’t forgot how to be a human",
+   "published": "2021-03-17",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "forgotten mcdonald's mascot uncle",
+    "topics": [
+     "advertising",
+     "nostalgia",
+     "food"
+    ],
+    "entities": [
+     {
+      "name": "mcdonald’s",
+      "kind": "company"
+     },
+     {
+      "name": "uncle o’grimacey",
+      "kind": "work"
+     },
+     {
+      "name": "grimace",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "fandom"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -609,6 +648,63 @@
    }
   },
   {
+   "quote": "For Gen Z readers, it may seem hard to imagine, but from 1998-2001, people were totally convinced Pokémon would either give you a seizure or turn you into a satanist.",
+   "start_year": 1998,
+   "end_year": 2001,
+   "label": "Pokemon moral panic",
+   "evidence": "from 1998-2001",
+   "url": "https://www.garbageday.email/p/peeled-baby-yoda",
+   "title": "\"Peeled Baby Yoda\"",
+   "published": "2020-11-30",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "pokémon moral panic era",
+    "topics": [
+     "moral panics",
+     "video games",
+     "generational culture"
+    ],
+    "entities": [
+     {
+      "name": "pokémon",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "The terms “Web 1.0” and “Web 2.0” were both coined by author and UX expert Darcy DiNucci in 1999. Web 1.0, according to DiNucci, was the internet of the late 90s, and Web 2.0 would be a web “understood not as screenfuls of text and graphics, but as a transport mechanism.” DiNucci predicted that the internet would live on TV screens, car dashboards, and “hand-held game machines.”",
+   "start_year": 1999,
+   "end_year": 1999,
+   "label": "Darcy DiNucci coins \"Web 2.0\"",
+   "evidence": "coined by author and UX expert Darcy DiNucci in 1999",
+   "url": "https://www.garbageday.email/p/an-internet-of-pokemon-cards",
+   "title": "An internet of Pokémon cards",
+   "published": "2021-09-03",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "web 1.0 and 2.0 coined",
+    "topics": [
+     "web 2.0",
+     "mobile internet"
+    ],
+    "entities": [
+     {
+      "name": "darcy dinucci",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "RSS 0.90 was first released by Netscape in the 90s and the last version of RSS was RSS 2.0, which was launched in 2009. Most people my age remember RSS as the thing that powered Google Reader, which was an app bored millennials used to read gossip blogs during their various unpaid internships.",
    "start_year": 1999,
    "end_year": 2013,
@@ -685,6 +781,121 @@
     "entities": [],
     "platforms": [],
     "audiences": []
+   }
+  },
+  {
+   "quote": "I did not know this, but apparently, back in 2000, an Israeli magician named Uri Geller sued Nintendo and basically blocked the Pokémon Kadabra from appearing in the Pokémon card game.",
+   "start_year": 2000,
+   "end_year": 2000,
+   "label": "Uri Geller sues Nintendo over Kadabra",
+   "evidence": "back in 2000",
+   "url": "https://www.garbageday.email/p/peeled-baby-yoda",
+   "title": "\"Peeled Baby Yoda\"",
+   "published": "2020-11-30",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "uri geller sues over kadabra",
+    "topics": [
+     "intellectual property",
+     "video games",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "uri geller",
+      "kind": "person"
+     },
+     {
+      "name": "nintendo",
+      "kind": "company"
+     },
+     {
+      "name": "pokémon",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In the pre-Facebook era, we had shocking content like Goatse and Mr. Hands. While message boards like 4chan and Something Awful were creating the monomyth of a typical bad internet user.",
+   "start_year": 2000,
+   "end_year": 2006,
+   "label": "Pre-Facebook shock content and message boards",
+   "evidence": "In the pre-Facebook era",
+   "url": "https://www.garbageday.email/p/i-am-not-getting-stoned-with-amy",
+   "title": "\"I am not getting stoned with Amy Klobuchar.\"",
+   "published": "2020-12-21",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "shock content and message boards",
+    "topics": [
+     "forums",
+     "web 2.0",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "goatse",
+      "kind": "work"
+     },
+     {
+      "name": "mr. hands",
+      "kind": "work"
+     },
+     {
+      "name": "something awful",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "something awful"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "For any zoomers reading this — lol can you imagine Gen Z using email — “All Your Base” was a clip from a Mega Drive game called Zero Wing. The game was a common fixture on early-00s message boards because the English translation was real real bad.",
+   "start_year": 2000,
+   "end_year": 2002,
+   "label": "All Your Base meme",
+   "evidence": "early-00s message boards",
+   "url": "https://www.garbageday.email/p/stop-exploring-the-ocean",
+   "title": "STOP exploring the Ocean",
+   "published": "2021-02-17",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "all your base meme origin",
+    "topics": [
+     "memes",
+     "video games",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "all your base are belong to us",
+      "kind": "work"
+     },
+     {
+      "name": "zero wing",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
    }
   },
   {
@@ -1688,6 +1899,32 @@
    }
   },
   {
+   "quote": "As a kid who loved punk and emo and grew up in the suburbs between 2004-2009, it was virtually impossible to find skinny jeans that fit me. And if you could find them, they were like $80. The closest Urban Outfitters for me was like 3 hours away.",
+   "start_year": 2004,
+   "end_year": 2009,
+   "label": "Skinny jeans in suburban emo/punk youth",
+   "evidence": "between 2004-2009",
+   "url": "https://www.garbageday.email/p/i-have-a-personal-vendetta-against",
+   "title": "\"I have a personal vendetta against indoor plumbing\"",
+   "published": "2021-02-03",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "skinny jeans hard to find",
+    "topics": [
+     "fashion",
+     "generational culture"
+    ],
+    "entities": [
+     {
+      "name": "urban outfitters",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "In the mid-2000s, Ishida comes out against the Iraq War, which was common for a lot of similar web comics, actually. Many of these edgy gamer comics reacted to the authoritarian actions the Bush administration and corporate American media were taking against anti-war voices with an almost deification of edginess and offensive humor.",
    "start_year": 2004,
    "end_year": 2007,
@@ -1954,6 +2191,32 @@
      }
     ],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But before the era of influencers and brands-as-channels, YouTube was just a platform for weird videos. Users may have posted three or four videos and never updated again. Other users used it as a diary.",
+   "start_year": 2005,
+   "end_year": 2010,
+   "label": "Early weird-videos YouTube",
+   "evidence": "before the era of influencers and brands-as-channels",
+   "url": "https://www.garbageday.email/p/dreaming-of-elevator-youtube",
+   "title": "Dreaming Of Elevator YouTube",
+   "published": "2020-11-13",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "early youtube was weird and personal",
+    "topics": [
+     "nostalgia",
+     "web 2.0",
+     "influencers"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
     "audiences": []
    }
   },
@@ -2471,6 +2734,113 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "The internet entered a period of deep metamorphosis around 2007-2008. Myspace had reached almost 50 million unique visitors.",
+   "start_year": 2007,
+   "end_year": 2008,
+   "label": "Internet metamorphosis: Myspace peak",
+   "evidence": "around 2007-2008",
+   "url": "https://www.garbageday.email/p/partyin-partyin-yeah-partyin-partyin",
+   "title": "Partyin', partyin' (Yeah) Partyin', partyin' (Yeah)",
+   "published": "2021-02-10",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "web 2.0 era transformation",
+    "topics": [
+     "web 2.0",
+     "platform competition"
+    ],
+    "entities": [
+     {
+      "name": "netflix",
+      "kind": "company"
+     },
+     {
+      "name": "spotify",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     },
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "digg"
+     },
+     {
+      "name": "stumbleupon"
+     },
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "youtube"
+     },
+     {
+      "name": "kazaa"
+     },
+     {
+      "name": "bittorrent"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "young people"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Way way back in 2007, the website Digg posted a roundup of funny 4chan posts and sent a boatload of traffic towards 4chan. The post was called “The Top 100 Funny Pics From 4chan NSFW” and, probably thankfully, it’s no longer online.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "Digg sends traffic to 4chan",
+   "evidence": "Way way back in 2007",
+   "url": "https://www.garbageday.email/p/welcome-to-beyblade-tiktok",
+   "title": "Welcome To Beyblade TikTok",
+   "published": "2021-05-28",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "moot pranks digg visitors",
+    "topics": [
+     "web 2.0",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "digg",
+      "kind": "company"
+     },
+     {
+      "name": "christopher poole",
+      "kind": "person"
+     },
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "digg"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "digg users"
+     }
+    ]
    }
   },
   {
@@ -3132,6 +3502,53 @@
    }
   },
   {
+   "quote": "It’s strange to think that the anonymous message board — though wildly racist and abusive — was considered, in the late-00s, to be a somewhat progressive space. 4chan’s hacktivist arm, what would formally become Anonymous, regularly battled right-wing and authoritarian bogeymen like the Westboro Baptist Church, ISIS, Scientology, and the US security state.",
+   "start_year": 2008,
+   "end_year": 2009,
+   "label": "4chan as a progressive-ish space, Anonymous hacktivism",
+   "evidence": "in the late-00s",
+   "url": "https://www.garbageday.email/p/reality-now-is-just-different-dril",
+   "title": "Reality Now Is Just Different Dril Tweets Combined At Random",
+   "published": "2021-01-27",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "4chan hacktivism, early anonymous",
+    "topics": [
+     "forums",
+     "protests",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "4chan",
+      "kind": "community"
+     },
+     {
+      "name": "anonymous",
+      "kind": "community"
+     },
+     {
+      "name": "westboro baptist church",
+      "kind": "community"
+     },
+     {
+      "name": "isis",
+      "kind": "community"
+     },
+     {
+      "name": "scientology",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Livejournal fell; Tumblr rose, and then that also fell. The Archive Of Our Own came into prominence as an essential fanfic platform for ship-centric media fandoms; the MCU and Star Wars brought “geek culture” (sigh) into the mainstream once and for all.",
    "start_year": 2008,
    "end_year": 2020,
@@ -3358,6 +3775,41 @@
       "name": "millennials"
      }
     ]
+   }
+  },
+  {
+   "quote": "In 2009, the term crabcore was coined as a way to make fun of the band Attack Attack!’s video for their song “Stick Stickly”. I’ve long thought that crabcore wasn’t actually a punchline as much as it was one of the first times the internet’s influence over the sound and aesthetic of music produced something totally unique.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Crabcore coined for Attack Attack!",
+   "evidence": "In 2009, the term crabcore was coined",
+   "url": "https://www.garbageday.email/p/watching-oan-in-the-houston-airport",
+   "title": "Watching OAN In The Houston Airport",
+   "published": "2020-11-04",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "crabcore coined mocking attack attack!",
+    "topics": [
+     "music",
+     "memes",
+     "fashion"
+    ],
+    "entities": [
+     {
+      "name": "attack attack!",
+      "kind": "other"
+     },
+     {
+      "name": "stick stickly",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -3845,6 +4297,114 @@
      },
      {
       "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "4chan went through a big lucid dreaming phase in the early 2010s and between 2014-2015, My Little Pony fans became obsessed with manifesting “tulpas,” or living hallucinations of their favorite ponies.",
+   "start_year": 2010,
+   "end_year": 2015,
+   "label": "4chan lucid dreaming and MLP tulpas",
+   "evidence": "between 2014-2015",
+   "url": "https://www.garbageday.email/p/brb-shifting-to-hogwarts",
+   "title": "brb #shifting to Hogwarts",
+   "published": "2020-12-14",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "tulpa craze among pony fans",
+    "topics": [
+     "fandom",
+     "forums",
+     "nostalgia"
+    ],
+    "entities": [
+     {
+      "name": "my little pony",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "According to Know Your Meme, the Wojak meme actually comes from a German 4chan-esque message board called Krautchan. He was first posted there in 2010.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Wojak origin on Krautchan",
+   "evidence": "He was first posted there in 2010.",
+   "url": "https://www.garbageday.email/p/adam-sandler-rage-comic-shirt",
+   "title": "Adam Sandler Rage Comic shirt",
+   "published": "2020-12-25",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "wojak meme origin",
+    "topics": [
+     "memes",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     },
+     {
+      "name": "wojak",
+      "kind": "other"
+     },
+     {
+      "name": "krautchan",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "krautchan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "John Green used to have a very popular blog on Tumblr called fishingboatproceeds. He cultivated this sorta cringe “Tumblr dad” vibe, but in the early 2010s, he was pretty popular. All that shifted in 2013, when Your Fave Is Problematic made a big callout post for Green.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "John Green on Tumblr",
+   "evidence": "in 2013",
+   "url": "https://www.garbageday.email/p/ultimate-nacho-hack",
+   "title": "ULTIMATE NACHO HACK!!",
+   "published": "2021-02-08",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "john green tumblr callout saga",
+    "topics": [
+     "fandom",
+     "influencers",
+     "online harassment",
+     "literature"
+    ],
+    "entities": [
+     {
+      "name": "john green",
+      "kind": "person"
+     },
+     {
+      "name": "your fave is problematic",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
      }
     ],
     "audiences": []
@@ -5491,6 +6051,174 @@
    }
   },
   {
+   "quote": "If you don’t remember justgirlythings, the blog has been running since 2011. It was part of a wave of “Just [X] Things” blogs that started popping up in the early 2010s. These blogs would usually post soft focus digital photography with relatable captions for young women.",
+   "start_year": 2011,
+   "end_year": 2013,
+   "label": "Just [X] Things Tumblr blogs",
+   "evidence": "early 2010s",
+   "url": "https://www.garbageday.email/p/vast-mountains-and-endless-seas",
+   "title": "Vast mountains and endless seas",
+   "published": "2020-11-16",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "just x things blogs",
+    "topics": [
+     "memes",
+     "gender"
+    ],
+    "entities": [
+     {
+      "name": "justgirlythings",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "young women"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "In October 2011, I was arrested with 700 other people on the Brooklyn Bridge. It was the second real month of Occupy Wall Street and, truth be told, I wasn’t actually there to support the protest.",
+   "start_year": 2011,
+   "end_year": 2011,
+   "label": "Arrested at Occupy Wall Street",
+   "evidence": "In October 2011",
+   "url": "https://www.garbageday.email/p/who-will-we-be-after-gamestop",
+   "title": "Who will we be after GameStop?",
+   "published": "2021-01-28",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "arrested at occupy brooklyn bridge march",
+    "topics": [
+     "protests",
+     "new york city culture",
+     "economy"
+    ],
+    "entities": [
+     {
+      "name": "occupy wall street",
+      "kind": "event"
+     },
+     {
+      "name": "brooklyn bridge",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "It’s hard to remember the exact moment Rebecca Black’s “Friday” went viral because it was uploaded on February 10, 2011, but then became the viral sensation we remember it as the weekend of March 14.",
+   "start_year": 2011,
+   "end_year": 2011,
+   "label": "Rebecca Black's Friday goes viral",
+   "evidence": "uploaded on February 10, 2011",
+   "url": "https://www.garbageday.email/p/partyin-partyin-yeah-partyin-partyin",
+   "title": "Partyin', partyin' (Yeah) Partyin', partyin' (Yeah)",
+   "published": "2021-02-10",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "friday goes viral",
+    "topics": [
+     "music",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "rebecca black",
+      "kind": "person"
+     },
+     {
+      "name": "friday",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "\"Friday\" started going viral on a Thursday. The next day, the Tōhoku Earthquake struck Japan. \"Friday\" got 1.3 million views that day.",
+   "start_year": 2011,
+   "end_year": 2011,
+   "label": "Friday goes viral the day of the Tohoku quake",
+   "evidence": "the Tōhoku Earthquake struck Japan",
+   "url": "https://www.garbageday.email/p/partyin-partyin-yeah-partyin-partyin",
+   "title": "Partyin', partyin' (Yeah) Partyin', partyin' (Yeah)",
+   "published": "2021-02-10",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "friday viral during tohoku quake",
+    "topics": [
+     "music",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "friday",
+      "kind": "work"
+     },
+     {
+      "name": "tohoku earthquake",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But My Nationalist Pony was active as far back as 2011, less than a year after the show premiered. The violent white nationalist contingents of the brony community have been there since the beginning. And the toxicity of the brony community wasn’t just an online phenomenon either, there were reports of rampant racism and sexism happening at My Little Pony conventions as far back as 2012.",
+   "start_year": 2011,
+   "end_year": 2012,
+   "label": "Toxicity in the brony fandom",
+   "evidence": "as far back as 2011",
+   "url": "https://www.garbageday.email/p/claims-to-be-tumblr-girl-deactivates",
+   "title": "Claims To Be Tumblr Girl... Deactivates",
+   "published": "2021-04-19",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "brony community white nationalism",
+    "topics": [
+     "far-right politics",
+     "fandom",
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "my nationalist pony",
+      "kind": "community"
+     },
+     {
+      "name": "my little pony",
+      "kind": "work"
+     },
+     {
+      "name": "kaitlyn tiffany",
+      "kind": "person"
+     },
+     {
+      "name": "the atlantic",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "bronies"
+     }
+    ]
+   }
+  },
+  {
    "quote": "About a decade ago, members of the “otherkin” community started using terms like “system” and “headmate” to describe their different personas and would often run “group” Tumblr blogs where each headmate acted as a moderator.",
    "start_year": 2011,
    "end_year": 2012,
@@ -6186,6 +6914,142 @@
     "platforms": [
      {
       "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Around 2012, Supernatural became one of Tumblr’s big three fandoms. Supernatural, Doctor Who, and Sherlock, which were often grouped together as “superwholock”.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Supernatural among Tumblr's big three fandoms",
+   "evidence": "Around 2012",
+   "url": "https://www.garbageday.email/p/the-supernatural-fandom-saved-democracy",
+   "title": "The \"Supernatural\" Fandom Saved Democracy",
+   "published": "2020-11-09",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "tumblr's big three fandoms",
+    "topics": [
+     "fandom",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "supernatural",
+      "kind": "work"
+     },
+     {
+      "name": "doctor who",
+      "kind": "work"
+     },
+     {
+      "name": "sherlock",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Before 2016, YouTube promoted videos that had high view counts and long watch time. The result was a website full of mega-viral one-offs and earworm music videos. Basically, “Gangnam Style”.",
+   "start_year": 2012,
+   "end_year": 2015,
+   "label": "Pre-2016 YouTube algorithm favoring views",
+   "evidence": "Before 2016, YouTube promoted videos",
+   "url": "https://www.garbageday.email/p/gamer-ramen",
+   "title": "\"Gamer Ramen\"",
+   "published": "2020-12-30",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "youtube ranks by views, watch time",
+    "topics": [
+     "algorithms",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "gangnam style",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Between 2012 and 2014, white suburban Tumblr users ran amok on the platform and posted so much cringe that there is now an entire movement to archive all of it.",
+   "start_year": 2012,
+   "end_year": 2014,
+   "label": "Peak Tumblr cringe",
+   "evidence": "Between 2012 and 2014",
+   "url": "https://www.garbageday.email/p/does-mcdonalds-know-about-my-chemical",
+   "title": "Does McDonald's know about My Chemical Romance fanfic?",
+   "published": "2021-01-25",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "peak tumblr cringe era",
+    "topics": [
+     "nostalgia",
+     "memes"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Interestingly enough, when Bourdain left Travel Channel for CNN in 2012, he wrote a post about it on his Tumblr. The last straw with the network, he wrote, was when they edited footage together to make him look like he was endorsing Cadillac and sold it as an ad, without his permission.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Bourdain leaves Travel Channel",
+   "evidence": "in 2012",
+   "url": "https://www.garbageday.email/p/after-over-20-years-we-get-to-see",
+   "title": "After over 20 years, we get to see Waluigi's bare HAND",
+   "published": "2021-05-12",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "bourdain quits travel channel",
+    "topics": [
+     "media industry",
+     "advertising",
+     "celebrity"
+    ],
+    "entities": [
+     {
+      "name": "anthony bourdain",
+      "kind": "person"
+     },
+     {
+      "name": "travel channel",
+      "kind": "company"
+     },
+     {
+      "name": "cnn",
+      "kind": "media outlet"
+     },
+     {
+      "name": "cadillac",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
      }
     ],
     "audiences": []
@@ -6895,6 +7759,254 @@
    }
   },
   {
+   "quote": "Dean Winchester actor Jensen Ackles has been-long accused of homophobia by big chunks of the Supernatural fandom. The accusations date back to a 2013 convention panel where several fans reported Ackles was visibly uncomfortable with homoerotic questions about his character Dean.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Jensen Ackles convention panel controversy",
+   "evidence": "a 2013 convention panel",
+   "url": "https://www.garbageday.email/p/the-supernatural-fandom-saved-democracy",
+   "title": "The \"Supernatural\" Fandom Saved Democracy",
+   "published": "2020-11-09",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "fans accuse jensen ackles homophobia",
+    "topics": [
+     "fandom",
+     "film and tv",
+     "criticism"
+    ],
+    "entities": [
+     {
+      "name": "jensen ackles",
+      "kind": "person"
+     },
+     {
+      "name": "supernatural",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But before 2013, a 4chan user was a smart, but awkward pervert who liked anime and had an encyclopedic knowledge of all the best gross memes and filesharing sites and hatred authority. This started shifting before Gamergate, but after Gamergate there was really no going back.",
+   "start_year": 2013,
+   "end_year": 2015,
+   "label": "4chan's radicalization and shifting user image",
+   "evidence": "before 2013",
+   "url": "https://www.garbageday.email/p/perfectly-rectangular-february",
+   "title": "Perfectly Rectangular February",
+   "published": "2021-02-01",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "4chan users rebrand as extremists",
+    "topics": [
+     "online radicalization",
+     "far-right politics",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "something awful",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "something awful"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Kaplan created the Tumblr back in 2013. It was a simple conceit — a bullet point list of “problematic shit your favorite celebrities have done.” The blog didn’t invent the idea of a “callout post,” but it perfected them, elevating them from obscure Lady Gaga message boards, scene kids’ LiveJournals, and Encyclopedia Dramatica articles and turning them into a digital weapon.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Your Fave Is Problematic and callout posts",
+   "evidence": "back in 2013",
+   "url": "https://www.garbageday.email/p/the-internet-after-all-never-forgets",
+   "title": "The internet, after all, never forgets",
+   "published": "2021-02-26",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "callout blog your fave is problematic",
+    "topics": [
+     "celebrity",
+     "online harassment",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "your fave is problematic",
+      "kind": "work"
+     },
+     {
+      "name": "liat kaplan",
+      "kind": "person"
+     },
+     {
+      "name": "the new york times",
+      "kind": "media outlet"
+     },
+     {
+      "name": "lady gaga",
+      "kind": "person"
+     },
+     {
+      "name": "encyclopedia dramatica",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "livejournal"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "scene kids"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "4chan users try this sort of thing pretty regularly. The first time I ever encountered it was the #CuttingForBieber hashtag in 2013, where users created fake Twitter accounts and promoted a hashtag to make it seem that teenage girls were harming themselves because Justin Bieber had been photographed smoking weed.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "#CuttingForBieber 4chan hoax",
+   "evidence": "#CuttingForBieber hashtag in 2013",
+   "url": "https://www.garbageday.email/p/did-a-member-of-the-tiktok-commune",
+   "title": "Did a member of the TikTok commune eat a cat?",
+   "published": "2021-03-08",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "4chan fake self-harm hashtag hoax",
+    "topics": [
+     "online harassment",
+     "conspiracy theories",
+     "celebrity"
+    ],
+    "entities": [
+     {
+      "name": "#cuttingforbieber",
+      "kind": "event"
+     },
+     {
+      "name": "justin bieber",
+      "kind": "person"
+     },
+     {
+      "name": "4chan",
+      "kind": "community"
+     },
+     {
+      "name": "operation lolipop",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "If you weren’t on Tumblr back then, the Mishapocalypse was a deeply annoying meme where, on April Fools’ Day 2013, a ton of users all changed their avatars to the same awkward photo of Supernatural actor Misha Collins.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Tumblr Mishapocalypse meme",
+   "evidence": "April Fools’ Day 2013",
+   "url": "https://www.garbageday.email/p/heres-what-mark-cubans-new-audio",
+   "title": "Here’s What Mark Cuban’s New Audio App Is Pitching To Creators",
+   "published": "2021-04-02",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "mishapocalypse avatar meme",
+    "topics": [
+     "memes",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "mishapocalypse",
+      "kind": "event"
+     },
+     {
+      "name": "misha collins",
+      "kind": "person"
+     },
+     {
+      "name": "supernatural",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Not sure how many people remember Maple and her owner, AcousticTrench. They were really big on Vine and then moved things over to YouTube after Vine shut down. Trench’s videos were all simple and gorgeous clips of him playing an acoustic instrument as Maple sat beside him.",
+   "start_year": 2013,
+   "end_year": 2017,
+   "label": "Maple and AcousticTrench on Vine",
+   "evidence": "after Vine shut down",
+   "url": "https://www.garbageday.email/p/all-vine-dogs-go-to-heaven",
+   "title": "All Vine dogs go to heaven",
+   "published": "2021-06-25",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "vine creators move to youtube",
+    "topics": [
+     "influencers",
+     "short-form video"
+    ],
+    "entities": [
+     {
+      "name": "acoustictrench",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "vine"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "The original Yik Yak app launched in 2013 and it was essentially an anonymous message board based on location data. Users would share messages, which would then be seen according to your proximity. It obviously immediately became a rats nest for bullying.",
    "start_year": 2013,
    "end_year": 2013,
@@ -7533,6 +8645,117 @@
       "name": "twitter"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "There are a lot of theories as to why 2014 signaled the end of the Tumblr era of pop culture (Dashcon, the Trump presidency, Yahoo buying Tumblr), but things started to shift. Supernatural stayed pretty popular up until around 2017 or so .",
+   "start_year": 2014,
+   "end_year": 2017,
+   "label": "End of the Tumblr era",
+   "evidence": "2014 signaled the end of the Tumblr era of pop culture",
+   "url": "https://www.garbageday.email/p/the-supernatural-fandom-saved-democracy",
+   "title": "The \"Supernatural\" Fandom Saved Democracy",
+   "published": "2020-11-09",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "end of tumblr pop culture era",
+    "topics": [
+     "fandom",
+     "platform acquisitions",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "dashcon",
+      "kind": "event"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "yahoo",
+      "kind": "company"
+     },
+     {
+      "name": "supernatural",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Know Your Meme puts the first use of the word “tendie” around 2014. That was the year that users of 4chan’s /r9k/ board started writing tendies greentext stories and building out the idea that all members of the board were violent autistic shut-ins who only ate microwaveable chicken tenders.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "4chan /r9k/ tendies greentext stories",
+   "evidence": "around 2014",
+   "url": "https://www.garbageday.email/p/perfectly-rectangular-february",
+   "title": "Perfectly Rectangular February",
+   "published": "2021-02-01",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "tendie meme origin",
+    "topics": [
+     "memes",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     },
+     {
+      "name": "/r9k/",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "The newsletter, started by Rusty Foster, a software developer living in Maine, quickly became the go-to way to sort through the digital chaos. The newsletter was like if Twitter’s trending topics punched up instead of exploiting its users for hate traffic.",
+   "start_year": 2014,
+   "end_year": 2016,
+   "label": "Today In Tabs newsletter",
+   "evidence": "Especially back in 2014",
+   "url": "https://www.garbageday.email/p/today-in-tabs-rusty-foster-on-the",
+   "title": "Today In Tabs' Rusty Foster On The Weirdly Hopeful Hellscape Of Media",
+   "published": "2021-04-08",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "tabs newsletter launches",
+    "topics": [
+     "journalism",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "rusty foster",
+      "kind": "person"
+     },
+     {
+      "name": "today in tabs",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -8649,6 +9872,104 @@
    }
   },
   {
+   "quote": "According to chat logs obtained by VICE, a 4chan admin going by the name “RapeApe” was the guiding force behind the site’s drastic political shift around 2015.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "4chan political shift under RapeApe",
+   "evidence": "around 2015",
+   "url": "https://www.garbageday.email/p/only-men-of-culture-will-understand",
+   "title": "Only men of culture will understand",
+   "published": "2020-11-06",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "4chan admin drives political shift",
+    "topics": [
+     "far-right politics",
+     "forums",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "vice",
+      "kind": "media outlet"
+     },
+     {
+      "name": "4chan",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2015, there was a Facebook page called Tails from “Sonic” Is NOT GAY! It was back during that trend of single-purpose Facebook pages.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "Single-purpose Facebook pages",
+   "evidence": "In 2015",
+   "url": "https://www.garbageday.email/p/vast-mountains-and-endless-seas",
+   "title": "Vast mountains and endless seas",
+   "published": "2020-11-16",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "single-purpose facebook pages",
+    "topics": [
+     "memes",
+     "humor"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Back in 2015, a 4chan users came up with a great idea. Spent every waking moment acting like the silent sociopathic Ryan Gosling character from Drive. People will think you’re cool and women will want to sleep with you.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "4chan Drive Ryan Gosling persona post",
+   "evidence": "Back in 2015",
+   "url": "https://www.garbageday.email/p/obrigado-internet",
+   "title": "Obrigado, internet",
+   "published": "2021-02-05",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "drive ryan gosling persona",
+    "topics": [
+     "memes",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "ryan gosling",
+      "kind": "person"
+     },
+     {
+      "name": "drive",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
+  },
+  {
    "quote": "According to Know Your Meme, “smol” first appeared in 2015 and the term “smol bean” emerged from a tweet from Twenty One Pilots’ frontman Tyler Joseph in June 2015.",
    "start_year": 2015,
    "end_year": 2015,
@@ -9296,6 +10617,166 @@
       "name": "fandom"
      }
     ]
+   }
+  },
+  {
+   "quote": "2016 was a real weird time for memes. The recent success of Gamergate, the political radicalization of 4chan, the ascendency of the online far right, and the Steven Bannonification of internet culture meant a lot of media outlets wholesale decided that all memes were fascist.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "2016 anti-meme media panic",
+   "evidence": "2016 was a real weird time for memes",
+   "url": "https://www.garbageday.email/p/introducing-garbage-day-stories",
+   "title": "Introducing Garbage Day Stories",
+   "published": "2020-11-18",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "media treats memes as fascist",
+    "topics": [
+     "memes",
+     "journalism",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "harambe",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Back in 2016, memes about Harambe, a 17-year-old gorilla at the Cincinnati Zoo that was shot and killed by a zoo worker after a three-year-old boy climbed into Harambe’s enclosure, were EVERYWHERE.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Harambe memes",
+   "evidence": "Back in 2016",
+   "url": "https://www.garbageday.email/p/introducing-garbage-day-stories",
+   "title": "Introducing Garbage Day Stories",
+   "published": "2020-11-18",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "harambe memes everywhere",
+    "topics": [
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "harambe",
+      "kind": "other"
+     },
+     {
+      "name": "cincinnati zoo",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "One weird side effect of the 2016 populism wave was that suddenly political Twitter was no longer regulated to its own corner of the internet. People were interested in politics! Which meant the users whose whole identity is being Very Important On Twitter had to quickly pivot into becoming serious political commentators.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "2016 populism wave on political Twitter",
+   "evidence": "the 2016 populism wave",
+   "url": "https://www.garbageday.email/p/secrets-out-chicken-man",
+   "title": "“Secret’s Out, Chicken Man”",
+   "published": "2020-12-07",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "political twitter goes mainstream",
+    "topics": [
+     "american politics",
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "twitter power users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "The summer in 2016 that Pokémon Go launched has basically become a meme at this point. It was a breakthrough moment in internet history. It was a moment of global understanding that what we see on our phones can inspire us to move in a physical space.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Pokémon Go summer",
+   "evidence": "The summer in 2016 that Pokémon Go launched",
+   "url": "https://www.garbageday.email/p/have-i-reached-another-internet-checkpoint",
+   "title": "have I reached another internet checkpoint?",
+   "published": "2021-04-26",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "pokémon go summer craze",
+    "topics": [
+     "mobile internet",
+     "video games"
+    ],
+    "entities": [
+     {
+      "name": "pokémon go",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Philou had myopathy and was wheelchair-bound since childhood. He grew his Twitter account over the years by just enthusiastically livetweeting sports, as his handle implies. And in 2016, after running into some issues getting himself a new wheelchair, French Twitter come together to crowdfund one.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "French Twitter crowdfunds wheelchair for Philou",
+   "evidence": "in 2016",
+   "url": "https://www.garbageday.email/p/the-haunted-chuck-e-cheese-video",
+   "title": "The haunted Chuck E. Cheese video game guy canceled himself",
+   "published": "2021-06-21",
+   "tags": {
+    "moment": "news event",
+    "moment_detail": "french twitter crowdfunds wheelchair",
+    "topics": [
+     "crowdfunding",
+     "disability",
+     "soccer",
+     "death online"
+    ],
+    "entities": [
+     {
+      "name": "philou",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -10283,6 +11764,151 @@
    }
   },
   {
+   "quote": "From November 2017 on, QAnon was the single most frequent hashtag tweeted by accounts that Twitter has since identified as Russian-backed, a Reuters analysis of the archive shows, with the term used some 17,000 times.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Russian-backed accounts push QAnon hashtag",
+   "evidence": "From November 2017 on",
+   "url": "https://www.garbageday.email/p/face-masks-in-paradise",
+   "title": "Face Masks In Paradise",
+   "published": "2020-11-02",
+   "tags": {
+    "moment": "conspiracy theory",
+    "moment_detail": "qanon pushed by russian-backed accounts",
+    "topics": [
+     "conspiracy theories",
+     "geopolitics"
+    ],
+    "entities": [
+     {
+      "name": "qanon",
+      "kind": "community"
+     },
+     {
+      "name": "reuters",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The TL;DR on this is that in 2017, a Tumblr user named umbronydraws drew a bunch of fan art depicting the founding fathers as Gen Z college students. I, of course, blame Hamilton for this. The Tumblr user decided to depict Thomas Jefferson as a trans man who was obsessed with anime and sold drugs.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Trans Thomas Jefferson fan art",
+   "evidence": "in 2017, a Tumblr user named umbronydraws",
+   "url": "https://www.garbageday.email/p/a-brand-new-year-of-garbage",
+   "title": "A Brand New Year Of Garbage",
+   "published": "2021-01-01",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "founding fathers as gen z fan art",
+    "topics": [
+     "fandom",
+     "memes",
+     "digital art"
+    ],
+    "entities": [
+     {
+      "name": "thomas jefferson",
+      "kind": "person"
+     },
+     {
+      "name": "hamilton",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "gen z"
+     },
+     {
+      "name": "college students"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "In 2017, a funk producer named MC Fioti created a song called “Bum Bum Tam Tam,” which was a huge hit. The song was the first Brazilian video to break a billion views on YouTube.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Bum Bum Tam Tam hits a billion YouTube views",
+   "evidence": "In 2017, a funk producer named MC Fioti",
+   "url": "https://www.garbageday.email/p/the-covid-vaccine-finally-gets-a",
+   "title": "The COVID Vaccine Finally Gets A Brazilian Funk Anthem",
+   "published": "2021-01-18",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "brazilian funk song hits billion",
+    "topics": [
+     "music",
+     "brazil"
+    ],
+    "entities": [
+     {
+      "name": "mc fioti",
+      "kind": "person"
+     },
+     {
+      "name": "bum bum tam tam",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "You may not remember it, but the current Lofi Girl wasn’t the original image for the stream. It was actually a GIF from Studio Ghibli film Whisper of the Heart. It was changed after a copyright strike from Ghibli in 2017.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Lofi Girl stream's original Ghibli GIF",
+   "evidence": "copyright strike from Ghibli in 2017",
+   "url": "https://www.garbageday.email/p/its-all-kicking-off-at-adrians-kickback",
+   "title": "It's All Kicking Off At Adrian's Kickback",
+   "published": "2021-05-24",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "lofi girl image copyright strike",
+    "topics": [
+     "intellectual property",
+     "music",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "lofi girl",
+      "kind": "community"
+     },
+     {
+      "name": "studio ghibli",
+      "kind": "company"
+     },
+     {
+      "name": "whisper of the heart",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "The entire idea of finding an obscure brand cool for tweeting out-of-character content feels very tied to the Trump era in a strange way. There was, perhaps, this sense among young Americans that their country was unraveling and I think there was a real desire for reassurance and guidance from institutions, which, I guess included microwaveable meat brands.",
    "start_year": 2017,
    "end_year": 2020,
@@ -10848,6 +12474,66 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "Back in 2018, users began reporting that YouTube’s sidebar was recommending a random Japanese pop song to them.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "YouTube recommends a random Japanese pop song",
+   "evidence": "Back in 2018",
+   "url": "https://www.garbageday.email/p/grieving-on-my-peloton",
+   "title": "Grieving On My Peloton",
+   "published": "2020-12-18",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "random japanese song recommended",
+    "topics": [
+     "music",
+     "japan",
+     "algorithms"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And drama channels on YouTube exploded in popularity around 2018 and ultimately peaked last year, as young users traded YouTuber gossip for Hype House palace intrigue.",
+   "start_year": 2018,
+   "end_year": 2020,
+   "label": "YouTube drama channels boom",
+   "evidence": "around 2018",
+   "url": "https://www.garbageday.email/p/yes-he-drives-a-jetski",
+   "title": "yes he drives a jetski",
+   "published": "2021-03-03",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "youtube drama channels peak",
+    "topics": [
+     "influencers",
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "hype house",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "young people"
+     }
+    ]
    }
   },
   {
@@ -11607,6 +13293,36 @@
       "name": "tiktok"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Per Know Your Meme, the first instance of the phrase “At first I was like ‘mmm feet’ as a joke, but bro … I don't think it's a joke anymore,” was on a post from a now-deactivated user named @downzyndrome in April 2019. It was photoshopped onto a picture of a character named C.C. from the anime Code Geass.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "Anime foot fetish meme origin",
+   "evidence": "in April 2019",
+   "url": "https://www.garbageday.email/p/an-anime-meme-goes-viral-on-brazilian",
+   "title": "An Anime Meme Goes Viral On Brazilian TikTok",
+   "published": "2021-06-09",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "mmm feet anime meme origin",
+    "topics": [
+     "memes",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     },
+     {
+      "name": "code geass",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
     "audiences": []
    }
   },
