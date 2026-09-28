@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes GIF patents expiring in 2004 while reaction GIFs took off."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes animated GIFs becoming the dominant way to show emotion online by 2010."
+    }
+  ]
+}

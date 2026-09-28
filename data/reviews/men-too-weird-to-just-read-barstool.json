@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2001 MGTOW manifesto and its aims."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes The Game and VH1's The Pickup Artist making PUAs a phenomenon."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes early-2000s incel message boards and their focus."
+    }
+  ]
+}

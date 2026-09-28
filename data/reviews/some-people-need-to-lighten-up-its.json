@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'this includes' refers to a phenomenon defined earlier, so the list of examples does not stand alone."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: the quote is mainly about a present-day meme and the author's list, with 2018 only as background."
+    }
+  ]
+}

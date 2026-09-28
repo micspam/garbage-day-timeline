@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2018 crypto winter and Bitcoin's 90% drop."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the Bitcoin pump from September 2020 to March 2021."
+    }
+  ]
+}

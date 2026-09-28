@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: explains the 2017 Szechuan sauce incident."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 2019 'two tickets to Joker' meme on 4chan."
+    }
+  ]
+}

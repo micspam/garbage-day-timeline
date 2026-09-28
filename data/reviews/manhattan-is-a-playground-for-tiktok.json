@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the hipster subculture of 2009-2010 and how it shaped internet content."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the late-2010s media blind spot about Manhattan, citing The Cut's 2018 article."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Fails check 3: 'the blame of all of this' depends on earlier context, and the quote is mainly assigning blame."
+    }
+  ]
+}

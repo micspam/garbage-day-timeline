@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: a vivid first-hand description of watching the 2017 inauguration speech from a Tokyo bar."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes what NHK uncovered in 2016 about Abe's paid troll firm, and it is clear on its own."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes the LDP and 2channel users coordinating to flood Twitter trends from 2009 on."
+    }
+  ]
+}

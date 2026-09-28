@@ -1,0 +1,24 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2000s shift from AOL/Yahoo portals to blogs and social networks."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: a then-vs-now setup about Instagram no longer being a photo app."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes AOL's pivots after the 2015 Verizon acquisition."
+    },
+    {
+      "n": 4,
+      "keep": true,
+      "reason": "Passes all four: describes the Medium COVID-guy moment and Substack overtaking Medium."
+    }
+  ]
+}

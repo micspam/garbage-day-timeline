@@ -1,0 +1,7 @@
+{"references": [
+{"sentence_ids": [8, 9], "start_year": 2003, "end_year": 2006, "label": "launch wave of MySpace, 4chan, Digg, Reddit, YouTube, Facebook", "evidence": "MySpace and 4chan launched in 2003"},
+{"sentence_ids": [13, 14, 15], "start_year": 2005, "end_year": 2007, "label": "MySpace as center of pop culture", "evidence": "At the end of 2007, according to Alexa rankings, MySpace was the biggest social network in the world."},
+{"sentence_ids": [16], "start_year": 2008, "end_year": 2008, "label": "Facebook overtakes MySpace", "evidence": "June 13, 2008"},
+{"sentence_ids": [23, 24], "start_year": 2007, "end_year": 2008, "label": "late-era MySpace scams and weirdos", "evidence": "By 2007, the site was synonymous with hacks, scams, harassment, and even murder."},
+{"sentence_ids": [32, 33, 34], "start_year": 2010, "end_year": 2010, "label": "2010 MySpace redesign", "evidence": "The 2010 MySpace redesign"}
+]}

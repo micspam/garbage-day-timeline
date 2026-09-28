@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'one' and 'replacement' depend on an unstated earlier referent (monoculture)."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes mass appeal as the route to online relevance around 2012."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: mostly describes the summer 2016 titan-meme moment with concrete examples."
+    }
+  ]
+}

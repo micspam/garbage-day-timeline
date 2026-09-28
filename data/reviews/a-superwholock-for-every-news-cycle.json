@@ -1,0 +1,24 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes how social sites shifted to fandom tools around 2010."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Tumblr tags evolving into cross-site fandoms like Superwholock."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Fails check 2: a list of feature launch dates with no description of what the era was like."
+    },
+    {
+      "n": 4,
+      "keep": true,
+      "reason": "Passes all four: describes Gamergate weaponizing fandom spaces in 2014 and its link to 2016."
+    }
+  ]
+}

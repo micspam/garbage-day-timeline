@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Facebook as a viral content engine in the early 2010s."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 2014 Ice Bucket Challenge as Facebook's viral peak."
+    }
+  ]
+}

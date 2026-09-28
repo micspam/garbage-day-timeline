@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'it's an exciting idea' refers to something unstated from earlier in the article."
+    }
+  ]
+}

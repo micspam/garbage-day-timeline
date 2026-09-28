@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 4: a bare present-tense assessment with no description of what happened."
+    }
+  ]
+}

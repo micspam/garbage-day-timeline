@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Liberty Media's 2017 purchase of F1 and the modernizing push into the US that followed."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes bandom RPF writers moving to hockey fandom around 2010."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Fails check 3: 'Another claim' leans on earlier context, and 'like that' is too vague to make sense alone."
+    }
+  ]
+}

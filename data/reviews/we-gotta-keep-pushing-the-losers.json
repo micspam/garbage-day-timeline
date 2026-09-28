@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'these nerd communities' and 'We also know' depend on earlier context."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes CollegeHumor's place in the early-2010s NYC digital media boom."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: the quote is a timeless theoretical claim about fan fantasy, not a description of 1985, and it is cut off mid-sentence."
+    }
+  ]
+}

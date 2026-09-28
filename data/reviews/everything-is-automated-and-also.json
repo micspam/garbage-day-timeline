@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: says Bitcoin was created in 2009 as a response to the Great Recession."
+    }
+  ]
+}

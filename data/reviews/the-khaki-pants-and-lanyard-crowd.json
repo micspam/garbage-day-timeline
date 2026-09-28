@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes early-2010s memes that cast Obama as an anime villain, with examples."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes 4chan's God Emperor Trump and 'make anime real' memes."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Fails check 1: the quote is framed around this week's Dark Brandon coverage, with the Onion era as brief setup."
+    }
+  ]
+}

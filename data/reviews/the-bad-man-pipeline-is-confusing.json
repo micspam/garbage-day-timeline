@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the early-00s web comic boom and its big titles."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the jocks-vs-nerds and proto-4chan attitude of early-2000s web comics."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes edgy web comics reacting to the Iraq War in the mid-2000s."
+    }
+  ]
+}

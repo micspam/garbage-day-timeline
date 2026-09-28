@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes 4chan's 2002 founding copying 2chan's design."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Breitbart turning 4chan conversations into talking points."
+    }
+  ]
+}
