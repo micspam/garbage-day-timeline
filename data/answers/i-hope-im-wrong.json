@@ -1,0 +1,5 @@
+{"references": [
+{"sentence_ids": [7], "start_year": 2005, "end_year": 2007, "label": "Rise of social news sites like Digg, Reddit and StumbleUpon", "evidence": "Around the mid-2000s"},
+{"sentence_ids": [100, 101], "start_year": 1982, "end_year": 1982, "label": "James Kaposztas makes the first anime music video with two VCRs", "evidence": "in 1982 by literally connecting two different VCRs"},
+{"sentence_ids": [105], "start_year": 2002, "end_year": 2003, "label": "Making AMVs in Windows Movie Maker and uploading to Kazaa", "evidence": "around 2002 or 2003"}
+]}
