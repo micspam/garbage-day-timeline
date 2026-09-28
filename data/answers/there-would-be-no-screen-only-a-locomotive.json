@@ -1,0 +1,4 @@
+{"references": [
+{"sentence_ids": [12, 13], "start_year": 2001, "end_year": 2001, "label": "Something Awful 9/11 threads as birth of modern internet", "evidence": "archived 9/11 threads from Something Awful"},
+{"sentence_ids": [41, 42, 43], "start_year": 2013, "end_year": 2013, "label": "Original Yik Yak launch", "evidence": "launched in 2013"}
+]}
