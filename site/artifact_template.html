@@ -5,7 +5,7 @@
 <style>
   :root {
     --ground: #f1f1f5; --panel: #ffffff; --ink: #16151c; --muted: #5f5c6d; --line: #d8d6e2;
-    --accent: #3434c8; --accent-soft: #e2e2fb; --mark: #fff1a8;
+    --accent: #3434c8; --accent-soft: #e2e2fb; --mark: #fff1a8; --chip: #e9e8f0;
     --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
     --body: "Newsreader", Georgia, "Times New Roman", serif;
     --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
@@ -14,20 +14,22 @@
     :root:not([data-theme="light"]) {
       color-scheme: dark;
       --ground: #111017; --panel: #1b1a23; --ink: #ecebf3; --muted: #9a97aa; --line: #2e2c3a;
-      --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216;
+      --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216; --chip: #25242f;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
     --ground: #111017; --panel: #1b1a23; --ink: #ecebf3; --muted: #9a97aa; --line: #2e2c3a;
-    --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216;
+    --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216; --chip: #25242f;
   }
 
   * { box-sizing: border-box; }
   body { background: var(--ground); color: var(--ink); font: 17px/1.5 var(--body); padding-inline: 16px; }
-  .wrap { max-width: 1200px; margin: 0 auto; padding-block: 36px 48px; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding-block: 36px 48px; }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-  header { display: grid; gap: 14px; max-width: 66ch; }
+  header { display: grid; gap: 14px; max-width: 70ch; }
   .eyebrow { font: 500 12px var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
   h1 { font: 800 clamp(34px, 6vw, 60px)/0.95 var(--display); letter-spacing: -0.035em; margin: 0; text-wrap: balance; }
   h1 em { font-style: normal; color: var(--accent); }
@@ -38,32 +40,63 @@
   .stat b { display: block; font: 800 28px/1.1 var(--display); color: var(--ink); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
   .stat.good b { color: var(--accent); }
 
-  details { font-size: 15px; color: var(--muted); max-width: 66ch; }
+  details.how { font-size: 15px; color: var(--muted); max-width: 70ch; }
   summary { cursor: pointer; font: 500 13px var(--mono); color: var(--accent); padding: 6px 0; }
-  summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
-  details ul { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+  details.how ul { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 6px; }
 
-  .controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 28px 0 12px; flex-wrap: wrap; }
+  /* Explore panel */
+  .explore { margin-top: 28px; display: grid; gap: 14px; }
+  .explore h2 { font: 800 22px/1.1 var(--display); letter-spacing: -0.02em; margin: 0; }
+  .row { display: grid; gap: 8px; }
+  .row-label { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font: 500 12px/1 var(--mono); background: var(--chip); color: var(--ink); border: 1px solid transparent;
+    border-radius: 999px; padding: 7px 11px; cursor: pointer; white-space: nowrap;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--ground); }
+  .chip small { opacity: 0.65; margin-left: 4px; font-size: 11px; }
+  .chip.big { font-size: 13px; padding: 9px 13px; background: var(--panel); border-color: var(--line); }
+  .chip.big:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.big[aria-pressed="true"] { background: var(--accent); color: var(--ground); border-color: var(--accent); }
+  .search { display: flex; gap: 8px; align-items: center; }
+  .search input {
+    font: 16px var(--body); color: var(--ink); background: var(--panel); border: 1px solid var(--line);
+    border-radius: 3px; padding: 9px 12px; width: min(420px, 100%);
+  }
+  details.all summary { font-size: 12px; }
+  .facets { display: grid; gap: 14px; padding: 10px 0 4px; }
+
+  /* Active filter bar */
+  .active {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 22px;
+    padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
+  }
+  .active h3 { margin: 0; font: 800 clamp(20px, 3vw, 28px)/1.1 var(--display); letter-spacing: -0.02em; }
+  .active h3 span { color: var(--accent); }
+  .active .sum { font: 500 12px var(--mono); color: var(--muted); }
+  .active .acts { margin-left: auto; display: flex; gap: 8px; }
+  .btn { font: 500 12px var(--mono); background: var(--ground); border: 1px solid var(--line); border-radius: 3px; padding: 8px 12px; cursor: pointer; }
+  .btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .btn:disabled { opacity: 0.35; cursor: default; }
+
+  /* Timeline */
+  .controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 18px 0 12px; flex-wrap: wrap; }
   .hint { font: 500 12px var(--mono); color: var(--muted); }
   .nav { display: flex; gap: 8px; }
-  .nav button {
-    font: 500 13px var(--mono); color: var(--ink); background: var(--panel);
-    border: 1px solid var(--line); border-radius: 3px; padding: 8px 14px; cursor: pointer;
-  }
-  .nav button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
-  .nav button:disabled { opacity: 0.35; cursor: default; }
-  .nav button:focus-visible, .scroller:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   .scroller { overflow-x: auto; padding-bottom: 14px; cursor: grab; scrollbar-color: var(--accent) var(--line); }
   .scroller.dragging { cursor: grabbing; user-select: none; }
   .scroller::-webkit-scrollbar { height: 10px; }
   .scroller::-webkit-scrollbar-track { background: var(--line); border-radius: 5px; }
   .scroller::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 5px; }
-  .track { display: flex; gap: 20px; width: max-content; position: relative; }
+  .track { display: flex; gap: 20px; width: max-content; }
   .col { width: min(340px, calc(100vw - 56px)); display: grid; align-content: start; gap: 14px; }
-  .era { position: relative; padding: 0 0 12px; border-bottom: 2px solid var(--ink); display: flex; align-items: baseline; justify-content: space-between; }
-  .era h2 { margin: 0; font: 800 34px/1 var(--display); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
-  .era h2 span { color: var(--muted); font-weight: 500; }
-  .era small { font: 500 12px var(--mono); color: var(--muted); }
+  .era { padding: 0 0 10px; border-bottom: 2px solid var(--ink); display: grid; gap: 2px; }
+  .era h2 { margin: 0; font: 800 30px/1 var(--display); letter-spacing: -0.03em; }
+  .era small { font: 500 12px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .more { width: 100%; }
+  .empty { font: 500 13px var(--mono); color: var(--muted); padding: 24px 0; }
 
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 14px 16px 12px; display: grid; gap: 8px; }
   .meta { display: flex; gap: 8px; align-items: baseline; font: 500 12px/1.3 var(--mono); }
@@ -72,39 +105,63 @@
   .label { color: var(--muted); }
   blockquote { margin: 0; font-size: 17px; line-height: 1.45; }
   mark { background: var(--mark); color: inherit; padding: 0 1px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tags .chip { font-size: 11px; padding: 4px 8px; }
   .src { font: 500 12px var(--mono); color: var(--muted); text-decoration: none; border-top: 1px dashed var(--line); padding-top: 8px; }
   .src:hover { color: var(--accent); }
   .src i { font-style: normal; color: var(--ink); }
 
   footer { margin-top: 36px; font: 500 12px/1.6 var(--mono); color: var(--muted); max-width: 80ch; }
   footer a { color: var(--accent); }
+  .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--ground); font: 500 13px var(--mono); padding: 10px 14px; border-radius: 3px; }
 </style>
 
 <div class="wrap">
   <header>
     <div class="eyebrow">Unofficial proof of concept · not affiliated with Garbage Day</div>
     <h1>Garbage Day, sorted by the era it's <em>talking about</em></h1>
-    <p class="lede">Pull quotes from public issues, placed by the era they're about, not the week they went out. The yellow highlight is the exact phrase that dates each quote.</p>
+    <p class="lede">Pull quotes from public issues, placed by the era they're about, not the week they went out. The yellow highlight is the exact phrase that dates each quote; a dashed <span class="yr est" style="font: 500 12px var(--mono)">~year</span> means the text names an era, not a year.</p>
   </header>
 
   <div class="stats" id="stats"></div>
 
-  <details>
+  <details class="how">
     <summary>How the quotes are checked</summary>
     <ul>
       <li>The model never writes quote text. It sees each issue as numbered sentences and returns only sentence numbers, and code copies the quote from the issue.</li>
       <li>Each issue is handled on its own, and code attaches the issue link, so a quote can't end up under the wrong issue.</li>
       <li>Every date has to be backed by an exact phrase from the same paragraph. If the phrase isn't there, or the years don't make sense, the quote is rejected and counted.</li>
-      <li>A separate review then reads each quote on its own, the way you see it here. It cuts any quote that only mentions its era in passing, like a "back in the 2010s… but now" setup or a background date in a story about today. A quote stays only if it tells you something about the era it's filed under.</li>
-      <li>"Nothing in this issue is about the past" is an acceptable answer, so there's no pressure to fill the timeline.</li>
+      <li>A separate review then reads each quote on its own, the way you see it here, and cuts anything that only mentions its era in passing.</li>
+      <li>Tags for platforms, people and audiences also need an exact phrase from the text, or they're dropped. Nothing is tagged "TikTok" unless the text says TikTok.</li>
     </ul>
   </details>
 
+  <section class="explore" aria-label="Explore">
+    <h2>Pick a thread</h2>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search quotes, e.g. vine, gamergate, pivot to video" aria-label="Search quotes">
+    </div>
+    <div class="row">
+      <div class="row-label">Sub-timelines: tags with history across at least three eras</div>
+      <div class="chips" id="featured"></div>
+    </div>
+    <div class="row">
+      <div class="row-label">Kind of moment</div>
+      <div class="chips" id="kinds"></div>
+    </div>
+    <details class="all">
+      <summary>All tags</summary>
+      <div class="facets" id="facets"></div>
+    </details>
+  </section>
+
+  <div class="active" id="active"></div>
+
   <div class="controls">
-    <span class="hint"><span id="range"></span> · use the arrows, scroll, or drag the timeline</span>
+    <span class="hint">Use the arrows, scroll, or drag the timeline</span>
     <div class="nav">
-      <button type="button" id="prev" aria-label="Earlier eras">← Earlier</button>
-      <button type="button" id="next" aria-label="Later eras">Later →</button>
+      <button type="button" class="btn" id="prev" aria-label="Earlier eras">← Earlier</button>
+      <button type="button" class="btn" id="next" aria-label="Later eras">Later →</button>
     </div>
   </div>
   <div class="scroller" id="scroller" tabindex="0" aria-label="Timeline"><div class="track" id="track"></div></div>
@@ -114,12 +171,127 @@
     Code: <a href="https://github.com/micspam/garbage-day-timeline">github.com/micspam/garbage-day-timeline</a>
   </footer>
 </div>
+<div class="toast" id="toast" hidden></div>
 
 <script type="application/json" id="data">__DATA__</script>
 <script>
+  const ARTIFACT_URL = "https://claude.ai/artifact/5WC1RuWDapKRqEJmY6VKXb";
   const { report, cards } = JSON.parse(document.getElementById("data").textContent);
+  const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const norm = s => s.replace(/[’‘]/g, "'").replace(/[“”]/g, '"').toLowerCase();
+  // Display names: tags are stored lowercase, so restore brand casing and acronyms.
+  const NAMES = {
+    youtube: "YouTube", tiktok: "TikTok", "4chan": "4chan", "8chan": "8chan", myspace: "MySpace", linkedin: "LinkedIn",
+    onlyfans: "OnlyFans", substack: "Substack", "fandom wiki": "Fandom wiki", "tv": "TV", "nft": "NFT", "nfts": "NFTs",
+    "ai": "AI", "ufc": "UFC", "mma": "MMA", "cnn": "CNN", "us": "US", "uk": "UK", "vc": "VC", "gen z": "Gen Z",
+    "gen x": "Gen X", "gen alpha": "Gen Alpha", "covid-19": "COVID-19", "ipo": "IPO", "gif": "GIF", "gifs": "GIFs",
+  };
+  const SMALL = new Set(["and", "or", "of", "the", "in", "on", "to", "a", "for", "vs"]);
+  const title = s => NAMES[s] || s.split(" ").map((w, i) =>
+    NAMES[w] || (i && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(" ");
+
+  // Same rule as the pipeline's date_kind(): a year, decade or century in the evidence = stated.
+  const STATED = /\b(1[89]|20)\d\d\b|\b(1[89]|20)\d0s\b|'\d0s\b|\b\d0s\b|\b(twenties|thirties|forties|fifties|sixties|seventies|eighties|nineties|aughts|noughties|two-thousands)\b|\b(18|19|20|21)th[- ]century\b/i;
+  for (const c of cards) {
+    c.dated = c.dated || (STATED.test(norm(c.evidence)) ? "stated" : "estimated");
+    c.tags = c.tags || { moment: "", topics: [], entities: [], platforms: [], audiences: [] };
+    c.search = norm(`${c.quote} ${c.label} ${c.title}`);
+  }
+
+  // Eras: everything before 1990 is one column, the '90s another, then named five-year eras.
+  function eraOf(y) {
+    if (y < 1990) return { key: 0, name: "Before the web", range: "pre-1990" };
+    if (y < 2000) return { key: 1990, name: "The '90s", range: "1990–99" };
+    const b = Math.floor(y / 5) * 5, half = b % 10 === 0 ? "Early" : "Late";
+    return { key: b, name: `${half} ${Math.floor(b / 10) * 10}s`, range: `${b}–${String(b + 4).slice(2)}` };
+  }
+  for (const c of cards) c.era = eraOf(c.start_year);
+
+  // Tag index: facet -> value -> cards.
+  const FACETS = [
+    ["moment", "Kind of moment"], ["topics", "Topics"], ["platforms", "Platforms"],
+    ["entities", "People, companies & things"], ["audiences", "Audiences"],
+  ];
+  const index = {};
+  for (const [f] of FACETS) index[f] = new Map();
+  for (const c of cards) {
+    const add = (f, v) => { if (!v) return; if (!index[f].has(v)) index[f].set(v, []); index[f].get(v).push(c); };
+    add("moment", c.tags.moment);
+    for (const t of c.tags.topics || []) add("topics", t);
+    for (const f of ["platforms", "entities", "audiences"]) for (const x of c.tags[f] || []) add(f, x.name);
+  }
+  const eraCount = list => new Set(list.map(c => c.era.key)).size;
+  const FACET_NOUN = { moment: "", topics: "topic", platforms: "platform", entities: "", audiences: "audience" };
+
+  // State: one tag filter (a sub-timeline) plus free-text search.
+  let filter = null, query = "";
+  const expanded = new Set();
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const hashFor = f => f ? `t-${f.facet}--${slug(f.value)}` : "";
+
+  function chip(facet, value, n, cls = "") {
+    const on = filter && filter.facet === facet && filter.value === value;
+    return `<button type="button" class="chip ${cls}" data-f="${facet}" data-v="${esc(value)}" aria-pressed="${on}">${esc(title(value))}${n != null ? `<small>${n}</small>` : ""}</button>`;
+  }
+
+  function renderStats() {
+    const rejected = Object.values(report.references_rejected || {}).reduce((a, b) => a + b, 0);
+    $("stats").innerHTML = [
+      [report.issues_analyzed, "issues read", ""],
+      [cards.length, "quotes placed", "good"],
+      [report.dropped_in_review ?? 0, "cut as passing mentions", ""],
+      [rejected, "failed source checks", ""],
+      [report.fabricated_quotes_possible, "made-up quotes possible", "good"],
+    ].map(([n, l, c]) => `<div class="stat ${c}"><b>${n}</b>${l}</div>`).join("");
+  }
+
+  function renderExplore() {
+    // Featured: tags (not kinds) with 8+ quotes spread over 3+ eras -- enough history for a timeline.
+    // The same name can be a platform and a company (Facebook); feature only its bigger thread.
+    const best = new Map();
+    for (const f of ["topics", "platforms", "entities", "audiences"])
+      for (const [v, list] of index[f]) {
+        if (list.length < 8 || eraCount(list) < 3) continue;
+        if (!best.has(v) || best.get(v)[2] < list.length) best.set(v, [f, v, list.length]);
+      }
+    const featured = [...best.values()].sort((a, b) => b[2] - a[2]);
+    $("featured").innerHTML = featured.slice(0, 24).map(([f, v, n]) => chip(f, v, n, "big")).join("");
+
+    $("kinds").innerHTML = [...index.moment].filter(([v]) => v !== "other")
+      .sort((a, b) => b[1].length - a[1].length).map(([v, l]) => chip("moment", v, l.length)).join("");
+
+    $("facets").innerHTML = FACETS.filter(([f]) => f !== "moment").map(([f, label]) => {
+      const vals = [...index[f]].filter(([, l]) => l.length >= 2).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+      return `<div class="row"><div class="row-label">${label} (2+ quotes)</div><div class="chips">${vals.map(([v, l]) => chip(f, v, l.length)).join("")}</div></div>`;
+    }).join("");
+  }
+
+  function visible() {
+    let list = filter ? index[filter.facet].get(filter.value) || [] : cards;
+    if (query) list = list.filter(c => c.search.includes(query));
+    return list;
+  }
+
+  function renderActive(list) {
+    const eras = eraCount(list);
+    let head;
+    if (filter && filter.facet === "moment") {
+      head = `Every <span>${esc(filter.value)}</span> moment`;
+    } else if (filter) {
+      const noun = FACET_NOUN[filter.facet];
+      head = `The history of <span>${esc(title(filter.value))}</span>${noun ? ` <small class="sum">(${noun})</small>` : ""}`;
+    } else head = "Everything";
+    const q = query ? ` matching “${esc(query)}”` : "";
+    $("active").innerHTML = `
+      <div><h3>${head}</h3><div class="sum">${list.length} quote${list.length === 1 ? "" : "s"}${q} across ${eras} era${eras === 1 ? "" : "s"}, according to Garbage Day</div></div>
+      <div class="acts">
+        ${filter ? '<button type="button" class="btn" id="copy">Copy link</button>' : ""}
+        ${filter || query ? '<button type="button" class="btn" id="clear">Show everything</button>' : ""}
+      </div>`;
+    $("copy")?.addEventListener("click", copyLink);
+    $("clear")?.addEventListener("click", () => { query = ""; $("q").value = ""; setFilter(null); });
+  }
 
   function highlight(q, ev) {
     const i = norm(q).indexOf(norm(ev));  // same length after normalizing, so indices line up
@@ -128,42 +300,107 @@
   }
   const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
-  const rejected = Object.values(report.references_rejected).reduce((a, b) => a + b, 0);
-  document.getElementById("stats").innerHTML = [
-    [report.issues_analyzed, "issues read", ""],
-    [report.references_kept, "quotes placed", "good"],
-    [report.dropped_in_review ?? 0, "cut as passing mentions", ""],
-    [rejected, "failed source checks", ""],
-    [report.fabricated_quotes_possible, "made-up quotes possible", "good"],
-  ].map(([n, l, c]) => `<div class="stat ${c}"><b>${n}</b>${l}</div>`).join("");
-
-  const buckets = new Map();
-  for (const c of cards) {
-    const b = Math.floor(c.start_year / 5) * 5;
-    if (!buckets.has(b)) buckets.set(b, []);
-    buckets.get(b).push(c);
+  function cardHTML(c) {
+    const years = c.start_year === c.end_year ? c.start_year : `${c.start_year}–${c.end_year}`;
+    const est = c.dated === "estimated";
+    const t = c.tags;
+    const tagChips = [
+      ...(t.platforms || []).map(x => chip("platforms", x.name)),
+      ...(t.topics || []).slice(0, 3).map(x => chip("topics", x)),
+      ...(t.entities || []).slice(0, 3).map(x => chip("entities", x.name)),
+    ].join("");
+    return `<article class="card">
+      <div class="meta"><span class="yr${est ? " est" : ""}"${est ? ' title="Approximate: the text dates this by era, not by year"' : ""}>${est ? "~" : ""}${years}</span><span class="label">${esc(c.label)}</span></div>
+      <blockquote>“${highlight(c.quote, c.evidence)}”</blockquote>
+      ${tagChips ? `<div class="tags">${tagChips}</div>` : ""}
+      <a class="src" href="${esc(c.url)}" target="_blank" rel="noopener"><i>${esc(c.title)}</i> · ${fmtDate(c.published)} ↗</a>
+    </article>`;
   }
-  const keys = [...buckets.keys()].sort((a, b) => a - b);
-  if (keys.length) document.getElementById("range").textContent = `${keys[0]}–${keys[keys.length - 1] + 4}`;
 
-  document.getElementById("track").innerHTML = keys.map(b => {
-    const list = buckets.get(b).sort((x, y) => x.start_year - y.start_year || x.end_year - y.end_year);
-    return `<section class="col">
-      <div class="era"><h2>${b}<span>–${String(b + 4).slice(2)}</span></h2><small>${list.length} quote${list.length === 1 ? "" : "s"}</small></div>
-      ${list.map(c => `<article class="card">
-        <div class="meta"><span class="yr${c.dated === "estimated" ? " est" : ""}" ${c.dated === "estimated" ? 'title="Approximate: the text dates this by era, not by year"' : ""}>${c.dated === "estimated" ? "~" : ""}${c.start_year === c.end_year ? c.start_year : c.start_year + "–" + c.end_year}</span><span class="label">${esc(c.label)}</span></div>
-        <blockquote>“${highlight(c.quote, c.evidence)}”</blockquote>
-        <a class="src" href="${esc(c.url)}" target="_blank" rel="noopener"><i>${esc(c.title)}</i> · ${fmtDate(c.published)} ↗</a>
-      </article>`).join("")}
-    </section>`;
-  }).join("");
+  const PER_COLUMN = 8;
+  function renderTimeline(list) {
+    const cols = new Map();
+    for (const c of list) {
+      if (!cols.has(c.era.key)) cols.set(c.era.key, { era: c.era, cards: [] });
+      cols.get(c.era.key).cards.push(c);
+    }
+    const keys = [...cols.keys()].sort((a, b) => a - b);
+    if (!keys.length) {
+      $("track").innerHTML = `<div class="empty">No quotes match. Try another tag, or clear the search.</div>`;
+      return updateNav();
+    }
+    $("track").innerHTML = keys.map(k => {
+      const { era, cards: cs } = cols.get(k);
+      cs.sort((a, b) => a.start_year - b.start_year || a.end_year - b.end_year || a.published.localeCompare(b.published));
+      const open = expanded.has(k) || cs.length <= PER_COLUMN + 2;
+      const shown = open ? cs : cs.slice(0, PER_COLUMN);
+      return `<section class="col">
+        <div class="era"><h2>${era.name}</h2><small>${era.range} · ${cs.length} quote${cs.length === 1 ? "" : "s"}</small></div>
+        ${shown.map(cardHTML).join("")}
+        ${open ? "" : `<button type="button" class="btn more" data-era="${k}">Show all ${cs.length} from ${era.name}</button>`}
+      </section>`;
+    }).join("");
+    updateNav();
+  }
+
+  function render() {
+    const list = visible();
+    renderActive(list);
+    renderTimeline(list);
+    document.querySelectorAll(".chip[data-f]").forEach(b => {
+      b.setAttribute("aria-pressed", String(!!filter && b.dataset.f === filter.facet && b.dataset.v === filter.value));
+    });
+  }
+
+  function setFilter(f, scroll = true) {
+    filter = f;
+    expanded.clear();
+    try { history.replaceState(null, "", f ? "#" + hashFor(f) : location.pathname + location.search); } catch (e) {}
+    render();
+    $("scroller").scrollLeft = 0;
+    if (scroll && f) $("active").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  document.addEventListener("click", e => {
+    const c = e.target.closest(".chip[data-f]");
+    if (c) {
+      const f = { facet: c.dataset.f, value: c.dataset.v };
+      const same = filter && filter.facet === f.facet && filter.value === f.value;
+      setFilter(same ? null : f);
+      return;
+    }
+    const m = e.target.closest(".more");
+    if (m) { expanded.add(Number(m.dataset.era)); render(); }
+  });
+
+  let typing;
+  $("q").addEventListener("input", e => {
+    clearTimeout(typing);
+    typing = setTimeout(() => { query = norm(e.target.value.trim()); expanded.clear(); render(); $("scroller").scrollLeft = 0; }, 150);
+  });
+
+  function toast(msg, ms = 2200) {
+    const t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toast.timer); toast.timer = setTimeout(() => { t.hidden = true; }, ms);
+  }
+  async function copyLink() {
+    const url = `${ARTIFACT_URL}#${hashFor(filter)}`;
+    try { await navigator.clipboard.writeText(url); toast("Link copied"); }
+    catch (e) { toast(url, 8000); }  // clipboard refused: show the link to copy by hand
+  }
+
+  // Open straight into a sub-timeline from a shared link (#t-platforms--tiktok).
+  function fromHash() {
+    const m = /^#t-([a-z]+)--([a-z0-9-]+)$/.exec(location.hash);
+    if (!m || !index[m[1]]) return null;
+    for (const v of index[m[1]].keys()) if (slug(v) === m[2]) return { facet: m[1], value: v };
+    return null;
+  }
 
   // Sideways navigation that works with a plain mouse, not just a trackpad.
-  const scroller = document.getElementById("scroller");
-  const prev = document.getElementById("prev"), next = document.getElementById("next");
+  const scroller = $("scroller"), prev = $("prev"), next = $("next");
   const maxLeft = () => scroller.scrollWidth - scroller.clientWidth;
   const step = () => (document.querySelector(".col")?.offsetWidth || 340) + 20;
-
   function updateNav() {
     prev.disabled = scroller.scrollLeft <= 1;
     next.disabled = scroller.scrollLeft >= maxLeft() - 1;
@@ -172,9 +409,6 @@
   next.addEventListener("click", () => scroller.scrollBy({ left: step(), behavior: "smooth" }));
   scroller.addEventListener("scroll", updateNav, { passive: true });
   window.addEventListener("resize", updateNav);
-  updateNav();
-
-  // Vertical wheel scrolls the timeline sideways until it reaches an end, then the page scrolls as usual.
   scroller.addEventListener("wheel", e => {
     if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
     const room = e.deltaY > 0 ? scroller.scrollLeft < maxLeft() - 1 : scroller.scrollLeft > 1;
@@ -182,11 +416,9 @@
     e.preventDefault();
     scroller.scrollLeft += e.deltaY * (e.deltaMode === 1 ? 32 : 1);
   }, { passive: false });
-
-  // Click-and-drag to pan with a mouse; a drag doesn't count as clicking a link.
-  let drag = null;
+  let drag = null, justDragged = false;
   scroller.addEventListener("pointerdown", e => {
-    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    if (e.pointerType !== "mouse" || e.button !== 0 || e.target.closest("button, a, input")) return;
     drag = { x: e.clientX, left: scroller.scrollLeft, moved: false };
   });
   window.addEventListener("pointermove", e => {
@@ -197,15 +429,19 @@
     scroller.classList.add("dragging");
     scroller.scrollLeft = drag.left - dx;
   });
-  let justDragged = false;
   window.addEventListener("pointerup", () => {
     if (drag?.moved) { justDragged = true; setTimeout(() => { justDragged = false; }, 0); }
     drag = null;
     scroller.classList.remove("dragging");
   });
-  scroller.addEventListener("click", e => { if (justDragged) e.preventDefault(); }, true);
+  scroller.addEventListener("click", e => { if (justDragged) { e.preventDefault(); e.stopPropagation(); } }, true);
   scroller.addEventListener("keydown", e => {
     if (e.key === "ArrowRight") { e.preventDefault(); next.click(); }
     if (e.key === "ArrowLeft") { e.preventDefault(); prev.click(); }
   });
+
+  renderStats();
+  renderExplore();
+  filter = fromHash();
+  render();
 </script>
