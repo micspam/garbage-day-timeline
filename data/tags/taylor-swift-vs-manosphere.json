@@ -1,0 +1,61 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "online radicalization",
+   "moment_detail": "pepe cosplayers join hooligans",
+   "topics": [
+    "far-right politics",
+    "memes",
+    "soccer"
+   ],
+   "entities": [
+    {
+     "name": "pepe the frog",
+     "kind": "other",
+     "evidence": "Pepe the Frog"
+    },
+    {
+     "name": "gamergate",
+     "kind": "event",
+     "evidence": "Gamergate"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "football hooligans",
+     "evidence": "far-right football clubs"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "women gain pop influence",
+   "topics": [
+    "pop music",
+    "celebrity culture",
+    "gender"
+   ],
+   "entities": [
+    {
+     "name": "barack obama",
+     "kind": "person",
+     "evidence": "Barack Obama’s 2008 presidential campaign"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "young women",
+     "evidence": "young women"
+    },
+    {
+     "name": "people of color",
+     "evidence": "people of color"
+    }
+   ]
+  }
+ ]
+}

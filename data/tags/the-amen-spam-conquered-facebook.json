@@ -1,0 +1,42 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "indie music blog era",
+   "topics": [
+    "music blogs",
+    "indie music",
+    "music scenes"
+   ],
+   "entities": [
+    {
+     "name": "hype machine",
+     "kind": "company",
+     "evidence": "Hype Machine"
+    },
+    {
+     "name": "vice",
+     "kind": "media outlet",
+     "evidence": "VICE"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "myspace",
+     "evidence": "Myspace scene era"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "hipsters",
+     "evidence": "aging hipster"
+    },
+    {
+     "name": "bloggers",
+     "evidence": "insufferable bloggers"
+    }
+   ]
+  }
+ ]
+}

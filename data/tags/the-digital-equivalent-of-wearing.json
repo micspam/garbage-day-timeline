@@ -1,0 +1,37 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform policy change",
+   "moment_detail": "feeds turn visual",
+   "topics": [
+    "visual content",
+    "algorithmic feeds",
+    "branding"
+   ],
+   "entities": [
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "Instagram was purchased by Facebook"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter launched the ability to embed images"
+    },
+    {
+     "name": "instagram",
+     "evidence": "Instagram was purchased by Facebook"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "millennials",
+     "evidence": "Facebook 2.0 for millennials"
+    }
+   ]
+  }
+ ]
+}
