@@ -15,8 +15,8 @@ import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from .extract import call_claude, issue_paths, norm
-from .review import verdicts_for
+from .extract import MODEL, call_claude, issue_paths, norm
+from .review import quote_numbers, verdicts_for
 
 DATA = Path("data")
 FACT_FIELDS = ("entities", "platforms", "audiences")
@@ -87,7 +87,7 @@ Answer format:
 def approved(record: dict) -> list[tuple[int, dict]]:
     """(quote number, quote) for quotes that passed review, numbered as in the review step."""
     verdicts = verdicts_for(record["slug"]) or {}
-    return [(n, q) for n, q in enumerate(record["kept"], 1) if verdicts.get(n, {}).get("keep")]
+    return [(n, q) for n, q in quote_numbers(record) if verdicts.get(n, {}).get("keep")]
 
 
 def load_pair(slug: str) -> tuple[dict, dict] | None:
@@ -127,7 +127,7 @@ def run(limit: int | None):
                 continue
         prompt = build_prompt(*pair)
         if use_api:
-            answer = call_claude(prompt, TOOL)
+            answer = {**call_claude(prompt, TOOL), "model": MODEL}
             (tag_dir / p.name).write_text(json.dumps(answer, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"  {p.stem}: tagged")
         else:

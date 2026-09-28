@@ -409,7 +409,9 @@
   "map": {
    "x": "twitter",
    "twitter/x": "twitter",
-   "x (twitter)": "twitter"
+   "x (twitter)": "twitter",
+   "fandom": "fandom wiki",
+   "fandom.com": "fandom wiki"
   }
  },
  "audiences": {

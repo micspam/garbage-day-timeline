@@ -11,6 +11,19 @@ DATA = Path("data")
 SITE = Path("site")
 
 
+def models_used() -> dict[str, dict[str, int]]:
+    """Which model wrote the answer, review and tag files (files from before this was recorded
+    count as "unknown")."""
+    out = {}
+    for step in ("answers", "reviews", "tags"):
+        counts = Counter(
+            json.loads(p.read_text(encoding="utf-8")).get("model", "unknown")
+            for p in (DATA / step).glob("*.json")
+        )
+        out[step] = dict(counts.most_common())
+    return out
+
+
 def run(limit: int | None = None):
     # With --limit, build from the same N newest issues as the other steps; otherwise everything extracted.
     paths = [DATA / "extracted" / p.name for p in issue_paths(limit)] if limit else sorted((DATA / "extracted").glob("*.json"))
@@ -23,7 +36,8 @@ def run(limit: int | None = None):
         issue_file = DATA / "issues" / f"{r['slug']}.json"
         tags = checked_tags(r, json.loads(issue_file.read_text(encoding="utf-8"))) if issue_file.exists() else {}
         n = 0
-        for i, ref in enumerate(r["kept"], 1):
+        for pos, ref in enumerate(r["kept"], 1):
+            i = ref.get("n", pos)  # stable quote number (older extracted files lack it)
             if len(ref["quote"].split()) > MAX_QUOTE_WORDS:
                 reasons["quote_too_long"] += 1
                 continue
@@ -35,7 +49,7 @@ def run(limit: int | None = None):
                     dropped.append({"quote": ref["quote"], "reason": v.get("reason", ""), "url": r["url"]})
                 continue
             review["kept"] += 1
-            card = {k: v for k, v in ref.items() if k != "paragraph"}
+            card = {k: v for k, v in ref.items() if k not in ("paragraph", "n")}
             card.update(url=r["url"], title=r["title"], published=r["published"])
             if i in tags:
                 card["tags"] = tags[i]
@@ -53,7 +67,9 @@ def run(limit: int | None = None):
         "references_rejected": dict(reasons.most_common()),  # failed the source checks
         "dropped_in_review": review["dropped"],  # passed the checks, but only mention the era in passing
         "not_reviewed": review["not_reviewed"],
+        "dates_estimated": sum(c.get("dated") == "estimated" for c in cards),  # evidence has no year or decade
         "fabricated_quotes_possible": 0,  # quotes are copied from source text by code
+        "models": models_used(),
     }
     SITE.mkdir(exist_ok=True)
     cards.sort(key=lambda c: (c["start_year"], c["published"]))

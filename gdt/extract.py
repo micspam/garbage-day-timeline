@@ -65,9 +65,10 @@ Don't pick passages that only mention the past in passing:
 - Rhetorical questions, or anniversaries mentioned in passing.
 
 Rules:
-- Only use the sentence numbers shown. Pick 1-{max_sents} consecutive sentences.
-- Keep each quote under {max_words} words total. If two sentences run long, use one.
-- The time period must be supported by an exact phrase from the same paragraph as the quote; copy it into `evidence` character for character.
+- Only use the sentence numbers shown. Pick 1-{max_sents} consecutive sentences from one paragraph. A line with ¶ marks the start of a new paragraph.
+- Keep each quote under {max_words} words total. Longer quotes are rejected. If two sentences run long, use one.
+- The time period must be supported by an exact phrase from the same paragraph as the quote; copy it into `evidence` character for character. Prefer a phrase with a year or decade in it when there is one.
+- Give the years the text gives. Only `start_year` must be at least {years_back} years before publication; `end_year` can run up to the publication year. Never shorten a range to fit.
 - Most issues are about the present. If nothing is really about the past, return an empty list. An empty list is a good answer.
 
 Answer format:
@@ -142,7 +143,23 @@ def validate(ref: dict, sents: list[dict], pub_year: int) -> str | None:
     para = sents[ids[0] - 1]["p"]  # the dating phrase must be near the quote, not elsewhere in the issue
     if len(evidence) < 3 or evidence not in norm(" ".join(s["text"] for s in sents if s["p"] == para)):
         return "evidence_not_in_source"
+    if sum(len(sents[i - 1]["text"].split()) for i in ids) > MAX_QUOTE_WORDS:
+        return "quote_too_long"
     return None
+
+
+# A year ("2016"), a decade ("the 2010s", "the '90s", "the aughts") or a century counts as a
+# stated date. Anything else ("back in the day", "the indie blog era") means the model supplied
+# the years, and the site shows them as approximate.
+STATED_DATE = re.compile(
+    r"\b(1[89]|20)\d\d\b|\b(1[89]|20)\d0s\b|'\d0s\b|\b\d0s\b|\b(twenties|thirties|forties|fifties|sixties"
+    r"|seventies|eighties|nineties|aughts|noughties|two-thousands)\b|\b(18|19|20|21)th[- ]century\b",
+    re.IGNORECASE,
+)
+
+
+def date_kind(evidence: str) -> str:
+    return "stated" if STATED_DATE.search(norm(evidence)) else "estimated"
 
 
 def load_issue(path: Path) -> tuple[dict, list[dict]]:
@@ -154,26 +171,40 @@ def build_prompt(issue: dict, sents: list[dict]) -> str:
     return PROMPT.format(
         published=issue["published"], title=issue["title"], years_back=MIN_YEARS_BACK,
         max_sents=MAX_SENTENCES_PER_QUOTE, max_words=MAX_QUOTE_WORDS,
-        sentences="\n".join(f"[{i}] {s['text']}" for i, s in enumerate(sents, 1)),
+        sentences=numbered(sents),
     )
+
+
+def numbered(sents: list[dict]) -> str:
+    """Numbered sentences, with a ¶ line wherever a new paragraph starts."""
+    lines = []
+    for i, s in enumerate(sents, 1):
+        if i > 1 and s["p"] != sents[i - 2]["p"]:
+            lines.append("¶")
+        lines.append(f"[{i}] {s['text']}")
+    return "\n".join(lines)
 
 
 def check(issue: dict, sents: list[dict], answer: dict) -> dict:
     """Validate a model answer against the source and rebuild quotes from the source text."""
     pub_year = int(issue["published"][:4])
     kept, rejected = [], []
-    for ref in answer.get("references", []):
+    # A quote's number is its position in the answer, so rejecting one never renumbers the
+    # others: reviews and tags refer to quotes by these numbers.
+    for n, ref in enumerate(answer.get("references", []), 1):
         try:
             reason = validate(ref, sents, pub_year)
         except (KeyError, TypeError, ValueError):
             reason = "malformed_response"
         if reason:
-            rejected.append({**ref, "reason": reason})
+            rejected.append({**ref, "n": n, "reason": reason})
             continue
         ids = sorted(ref["sentence_ids"])
         kept.append({
+            "n": n,
             # The quote is assembled from the source text by code -- the model never writes it.
             "quote": " ".join(sents[i - 1]["text"] for i in ids),
+            "dated": date_kind(ref["evidence"]),
             "start_year": ref["start_year"],
             "end_year": ref["end_year"],
             "label": ref["label"],
@@ -226,7 +257,7 @@ def run(limit: int | None, workers: int = 4):
             if answer_file.exists():
                 answer = json.loads(answer_file.read_text(encoding="utf-8"))
             elif use_api:
-                answer = call_claude(build_prompt(issue, sents))
+                answer = {**call_claude(build_prompt(issue, sents)), "model": MODEL}
                 answer_dir.mkdir(parents=True, exist_ok=True)
                 answer_file.write_text(json.dumps(answer, ensure_ascii=False, indent=1), encoding="utf-8")
             else:

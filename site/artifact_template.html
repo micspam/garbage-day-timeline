@@ -1,0 +1,211 @@
+<title>Garbage Day Timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --ground: #f1f1f5; --panel: #ffffff; --ink: #16151c; --muted: #5f5c6d; --line: #d8d6e2;
+    --accent: #3434c8; --accent-soft: #e2e2fb; --mark: #fff1a8;
+    --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+    --body: "Newsreader", Georgia, "Times New Roman", serif;
+    --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground: #111017; --panel: #1b1a23; --ink: #ecebf3; --muted: #9a97aa; --line: #2e2c3a;
+      --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground: #111017; --panel: #1b1a23; --ink: #ecebf3; --muted: #9a97aa; --line: #2e2c3a;
+    --accent: #9a9aff; --accent-soft: #25254a; --mark: #4a4216;
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink); font: 17px/1.5 var(--body); padding-inline: 16px; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding-block: 36px 48px; }
+
+  header { display: grid; gap: 14px; max-width: 66ch; }
+  .eyebrow { font: 500 12px var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font: 800 clamp(34px, 6vw, 60px)/0.95 var(--display); letter-spacing: -0.035em; margin: 0; text-wrap: balance; }
+  h1 em { font-style: normal; color: var(--accent); }
+  .lede { margin: 0; color: var(--muted); }
+
+  .stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 26px 0 8px; padding: 14px 0; border-block: 1px solid var(--line); }
+  .stat { font: 500 12px var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat b { display: block; font: 800 28px/1.1 var(--display); color: var(--ink); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .stat.good b { color: var(--accent); }
+
+  details { font-size: 15px; color: var(--muted); max-width: 66ch; }
+  summary { cursor: pointer; font: 500 13px var(--mono); color: var(--accent); padding: 6px 0; }
+  summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  details ul { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+
+  .controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 28px 0 12px; flex-wrap: wrap; }
+  .hint { font: 500 12px var(--mono); color: var(--muted); }
+  .nav { display: flex; gap: 8px; }
+  .nav button {
+    font: 500 13px var(--mono); color: var(--ink); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 3px; padding: 8px 14px; cursor: pointer;
+  }
+  .nav button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .nav button:disabled { opacity: 0.35; cursor: default; }
+  .nav button:focus-visible, .scroller:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .scroller { overflow-x: auto; padding-bottom: 14px; cursor: grab; scrollbar-color: var(--accent) var(--line); }
+  .scroller.dragging { cursor: grabbing; user-select: none; }
+  .scroller::-webkit-scrollbar { height: 10px; }
+  .scroller::-webkit-scrollbar-track { background: var(--line); border-radius: 5px; }
+  .scroller::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 5px; }
+  .track { display: flex; gap: 20px; width: max-content; position: relative; }
+  .col { width: min(340px, calc(100vw - 56px)); display: grid; align-content: start; gap: 14px; }
+  .era { position: relative; padding: 0 0 12px; border-bottom: 2px solid var(--ink); display: flex; align-items: baseline; justify-content: space-between; }
+  .era h2 { margin: 0; font: 800 34px/1 var(--display); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+  .era h2 span { color: var(--muted); font-weight: 500; }
+  .era small { font: 500 12px var(--mono); color: var(--muted); }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 14px 16px 12px; display: grid; gap: 8px; }
+  .meta { display: flex; gap: 8px; align-items: baseline; font: 500 12px/1.3 var(--mono); }
+  .yr { background: var(--accent-soft); color: var(--accent); padding: 2px 6px; border-radius: 2px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .yr.est { background: transparent; border: 1px dashed var(--accent); }
+  .label { color: var(--muted); }
+  blockquote { margin: 0; font-size: 17px; line-height: 1.45; }
+  mark { background: var(--mark); color: inherit; padding: 0 1px; }
+  .src { font: 500 12px var(--mono); color: var(--muted); text-decoration: none; border-top: 1px dashed var(--line); padding-top: 8px; }
+  .src:hover { color: var(--accent); }
+  .src i { font-style: normal; color: var(--ink); }
+
+  footer { margin-top: 36px; font: 500 12px/1.6 var(--mono); color: var(--muted); max-width: 80ch; }
+  footer a { color: var(--accent); }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Unofficial proof of concept · not affiliated with Garbage Day</div>
+    <h1>Garbage Day, sorted by the era it's <em>talking about</em></h1>
+    <p class="lede">Pull quotes from public issues, placed by the era they're about, not the week they went out. The yellow highlight is the exact phrase that dates each quote.</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <details>
+    <summary>How the quotes are checked</summary>
+    <ul>
+      <li>The model never writes quote text. It sees each issue as numbered sentences and returns only sentence numbers, and code copies the quote from the issue.</li>
+      <li>Each issue is handled on its own, and code attaches the issue link, so a quote can't end up under the wrong issue.</li>
+      <li>Every date has to be backed by an exact phrase from the same paragraph. If the phrase isn't there, or the years don't make sense, the quote is rejected and counted.</li>
+      <li>A separate review then reads each quote on its own, the way you see it here. It cuts any quote that only mentions its era in passing, like a "back in the 2010s… but now" setup or a background date in a story about today. A quote stays only if it tells you something about the era it's filed under.</li>
+      <li>"Nothing in this issue is about the past" is an acceptable answer, so there's no pressure to fill the timeline.</li>
+    </ul>
+  </details>
+
+  <div class="controls">
+    <span class="hint"><span id="range"></span> · use the arrows, scroll, or drag the timeline</span>
+    <div class="nav">
+      <button type="button" id="prev" aria-label="Earlier eras">← Earlier</button>
+      <button type="button" id="next" aria-label="Later eras">Later →</button>
+    </div>
+  </div>
+  <div class="scroller" id="scroller" tabindex="0" aria-label="Timeline"><div class="track" id="track"></div></div>
+
+  <footer>
+    Quotes are 70 words or fewer, and each one links to the full issue on garbageday.email. Only free public issues are included.
+    Code: <a href="https://github.com/micspam/garbage-day-timeline">github.com/micspam/garbage-day-timeline</a>
+  </footer>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+  const { report, cards } = JSON.parse(document.getElementById("data").textContent);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const norm = s => s.replace(/[’‘]/g, "'").replace(/[“”]/g, '"').toLowerCase();
+
+  function highlight(q, ev) {
+    const i = norm(q).indexOf(norm(ev));  // same length after normalizing, so indices line up
+    if (i < 0) return esc(q);
+    return esc(q.slice(0, i)) + "<mark>" + esc(q.slice(i, i + ev.length)) + "</mark>" + esc(q.slice(i + ev.length));
+  }
+  const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+
+  const rejected = Object.values(report.references_rejected).reduce((a, b) => a + b, 0);
+  document.getElementById("stats").innerHTML = [
+    [report.issues_analyzed, "issues read", ""],
+    [report.references_kept, "quotes placed", "good"],
+    [report.dropped_in_review ?? 0, "cut as passing mentions", ""],
+    [rejected, "failed source checks", ""],
+    [report.fabricated_quotes_possible, "made-up quotes possible", "good"],
+  ].map(([n, l, c]) => `<div class="stat ${c}"><b>${n}</b>${l}</div>`).join("");
+
+  const buckets = new Map();
+  for (const c of cards) {
+    const b = Math.floor(c.start_year / 5) * 5;
+    if (!buckets.has(b)) buckets.set(b, []);
+    buckets.get(b).push(c);
+  }
+  const keys = [...buckets.keys()].sort((a, b) => a - b);
+  if (keys.length) document.getElementById("range").textContent = `${keys[0]}–${keys[keys.length - 1] + 4}`;
+
+  document.getElementById("track").innerHTML = keys.map(b => {
+    const list = buckets.get(b).sort((x, y) => x.start_year - y.start_year || x.end_year - y.end_year);
+    return `<section class="col">
+      <div class="era"><h2>${b}<span>–${String(b + 4).slice(2)}</span></h2><small>${list.length} quote${list.length === 1 ? "" : "s"}</small></div>
+      ${list.map(c => `<article class="card">
+        <div class="meta"><span class="yr${c.dated === "estimated" ? " est" : ""}" ${c.dated === "estimated" ? 'title="Approximate: the text dates this by era, not by year"' : ""}>${c.dated === "estimated" ? "~" : ""}${c.start_year === c.end_year ? c.start_year : c.start_year + "–" + c.end_year}</span><span class="label">${esc(c.label)}</span></div>
+        <blockquote>“${highlight(c.quote, c.evidence)}”</blockquote>
+        <a class="src" href="${esc(c.url)}" target="_blank" rel="noopener"><i>${esc(c.title)}</i> · ${fmtDate(c.published)} ↗</a>
+      </article>`).join("")}
+    </section>`;
+  }).join("");
+
+  // Sideways navigation that works with a plain mouse, not just a trackpad.
+  const scroller = document.getElementById("scroller");
+  const prev = document.getElementById("prev"), next = document.getElementById("next");
+  const maxLeft = () => scroller.scrollWidth - scroller.clientWidth;
+  const step = () => (document.querySelector(".col")?.offsetWidth || 340) + 20;
+
+  function updateNav() {
+    prev.disabled = scroller.scrollLeft <= 1;
+    next.disabled = scroller.scrollLeft >= maxLeft() - 1;
+  }
+  prev.addEventListener("click", () => scroller.scrollBy({ left: -step(), behavior: "smooth" }));
+  next.addEventListener("click", () => scroller.scrollBy({ left: step(), behavior: "smooth" }));
+  scroller.addEventListener("scroll", updateNav, { passive: true });
+  window.addEventListener("resize", updateNav);
+  updateNav();
+
+  // Vertical wheel scrolls the timeline sideways until it reaches an end, then the page scrolls as usual.
+  scroller.addEventListener("wheel", e => {
+    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+    const room = e.deltaY > 0 ? scroller.scrollLeft < maxLeft() - 1 : scroller.scrollLeft > 1;
+    if (!room) return;
+    e.preventDefault();
+    scroller.scrollLeft += e.deltaY * (e.deltaMode === 1 ? 32 : 1);
+  }, { passive: false });
+
+  // Click-and-drag to pan with a mouse; a drag doesn't count as clicking a link.
+  let drag = null;
+  scroller.addEventListener("pointerdown", e => {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    drag = { x: e.clientX, left: scroller.scrollLeft, moved: false };
+  });
+  window.addEventListener("pointermove", e => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (!drag.moved && Math.abs(dx) < 5) return;
+    drag.moved = true;
+    scroller.classList.add("dragging");
+    scroller.scrollLeft = drag.left - dx;
+  });
+  let justDragged = false;
+  window.addEventListener("pointerup", () => {
+    if (drag?.moved) { justDragged = true; setTimeout(() => { justDragged = false; }, 0); }
+    drag = null;
+    scroller.classList.remove("dragging");
+  });
+  scroller.addEventListener("click", e => { if (justDragged) e.preventDefault(); }, true);
+  scroller.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") { e.preventDefault(); next.click(); }
+    if (e.key === "ArrowLeft") { e.preventDefault(); prev.click(); }
+  });
+</script>

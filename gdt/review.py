@@ -8,7 +8,7 @@ import json
 import os
 from pathlib import Path
 
-from .extract import call_claude, issue_paths
+from .extract import MODEL, call_claude, issue_paths
 
 DATA = Path("data")
 
@@ -41,7 +41,7 @@ Go through this checklist for every quote. Keep it only if the answer to all fou
 
 1. Is the era the subject? Most of the quote describes what happened in that era, or what it was like. It's not mainly about the present, with the past as setup or contrast ("the people who did X in the 2010s now do Y").
 2. Is it more than a date stamp? It doesn't just give a background date for a present-day story ("he entered the US in 2019", "the site launched in 2022", "allegations back in 2023").
-3. Does it stand alone? A reader who hasn't seen the article understands what it's describing. It doesn't depend on "this", "he" or "that" from earlier, and it isn't a rhetorical question.
+3. Does it stand alone? A reader who hasn't seen the article understands what it's describing. It doesn't depend on "this", "he" or "that" from earlier (including openers like "Case in point" or "This third strain"), and it isn't a rhetorical question.
 4. Is it description, not a take? It isn't mainly someone's opinion about current events that happens to name a past year.
 
 Be strict. A quote that mentions an era is not the same as a quote about an era, and a lenient pass fills the timeline with passing mentions. When unsure, drop it. In the reason, name the first check that failed, or say why it passes all four.
@@ -59,13 +59,17 @@ def years(q: dict) -> str:
 def build_prompt(record: dict) -> str:
     quotes = "\n\n".join(
         f"[{n}] Filed under {years(q)} ({q['label']}):\n\"{q['quote']}\""
-        for n, q in enumerate(record["kept"], 1)
+        for n, q in quote_numbers(record)
     )
     return PROMPT.format(quotes=quotes)
 
 
-def run(limit: int | None):
-    """Write review prompts for a Claude Code session, or answer them via the API if a key is set."""
+def run(limit: int | None, redo: tuple[int, int] | None = None):
+    """Write review prompts for a Claude Code session, or answer them via the API if a key is set.
+
+    `redo=(first, last)` re-reviews issues at those positions in newest-first order (1-based,
+    inclusive) even if they already have verdicts, e.g. after the review brief is tightened.
+    """
     prompt_dir, review_dir = DATA / "review_prompts", DATA / "reviews"
     prompt_dir.mkdir(parents=True, exist_ok=True)
     for old in prompt_dir.glob("*.txt"):  # only outstanding prompts stay in the folder
@@ -73,15 +77,21 @@ def run(limit: int | None):
     review_dir.mkdir(parents=True, exist_ok=True)
     use_api = "ANTHROPIC_API_KEY" in os.environ
     todo = 0
-    for p in (DATA / "extracted" / ip.name for ip in issue_paths(limit)):
+    for pos, ip in enumerate(issue_paths(limit), 1):
+        p = DATA / "extracted" / ip.name
         if not p.exists():
             continue
         record = json.loads(p.read_text(encoding="utf-8"))
-        if not record["kept"] or (review_dir / p.name).exists():
+        if not record["kept"]:
+            continue
+        redoing = redo is not None and redo[0] <= pos <= redo[1]
+        existing = verdicts_for(p.stem)
+        # Skip issues whose every quote already has a verdict, unless they're being redone.
+        if existing is not None and not redoing and all(n in existing for n, _ in quote_numbers(record)):
             continue
         prompt = build_prompt(record)
         if use_api:
-            verdicts = call_claude(prompt, TOOL)
+            verdicts = {**call_claude(prompt, TOOL), "model": MODEL}
             (review_dir / p.name).write_text(json.dumps(verdicts, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"  {p.stem}: reviewed {len(record['kept'])} quotes")
         else:
@@ -97,3 +107,9 @@ def verdicts_for(slug: str) -> dict[int, dict] | None:
     if not f.exists():
         return None
     return {v["n"]: v for v in json.loads(f.read_text(encoding="utf-8")).get("verdicts", [])}
+
+
+def quote_numbers(record: dict) -> list[tuple[int, dict]]:
+    """(number, quote) pairs. Numbers are positions in the model's answer, so they stay the
+    same when a quote is rejected; older extracted files fall back to list position."""
+    return [(q.get("n", pos), q) for pos, q in enumerate(record["kept"], 1)]
