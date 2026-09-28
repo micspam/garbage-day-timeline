@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'so they've done this dance before' depends on an unexplained present-day situation."
+    }
+  ]
+}

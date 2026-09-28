@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: half the quote is a present-day stat, the 2014 figure is a setup for comparison."
+    }
+  ]
+}

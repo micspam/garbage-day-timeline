@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Myspace under News Corp and its decline by 2008."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Tumblr under Yahoo, the porn ban and failed ad business."
+    }
+  ]
+}

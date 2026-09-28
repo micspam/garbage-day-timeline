@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes early web developers' VR utopianism."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 1: framed around a recent podcast and a pundit's observation, not a description of the era."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes how digital media traffic worked in the late 2000s."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Facebook's traffic firehose swallowing digital media by 2013."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes the 2015 spread of newsroom social news departments."
+    }
+  ]
+}

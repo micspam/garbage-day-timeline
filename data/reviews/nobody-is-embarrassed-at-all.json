@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Mackay's 1841 book and the street memes of his time."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes 20th-century fan subcultures and their practices."
+    }
+  ]
+}

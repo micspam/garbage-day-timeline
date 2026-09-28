@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the decentralized internet of a decade earlier."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Facebook's algorithm flooding media with traffic from 2012."
+    }
+  ]
+}

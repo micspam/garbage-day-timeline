@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2020 pandemic livestreaming hype around Twitch."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Instagram taking Stories from Snapchat in 2016."
+    }
+  ]
+}

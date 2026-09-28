@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: mainly defines a term for present readers, with 2019 as its origin date."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes platforms shifting to images around 2012 and comics becoming memes."
+    }
+  ]
+}

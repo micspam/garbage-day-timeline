@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'the first thing to challenge this' depends on context the reader doesn't have."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes LessWrong's 2009 launch and what it was."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Fails check 3: opens with 'He points out' and frames GamerGate via a present-day anniversary."
+    }
+  ]
+}
