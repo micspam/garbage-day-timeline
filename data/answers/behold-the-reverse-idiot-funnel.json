@@ -1,0 +1,6 @@
+{"references": [
+{"sentence_ids": [4], "start_year": 2000, "end_year": 2005, "label": "Something Awful and 4chan document the web's weird guys", "evidence": "a few message boards in the early 2000s"},
+{"sentence_ids": [5], "start_year": 2012, "end_year": 2012, "label": "Algorithmic mainstream platforms rise from Myspace's ashes", "evidence": "Around 2012"},
+{"sentence_ids": [12], "start_year": 2013, "end_year": 2013, "label": "Publishers start funneling fringe content onto platforms", "evidence": "around 2013"},
+{"sentence_ids": [74], "start_year": 1900, "end_year": 1914, "label": "Polar explorers crowdfund their expeditions", "evidence": "By the turn of the 20th century"}
+]}
