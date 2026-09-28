@@ -1,0 +1,20 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "twitter treated as public record",
+   "topics": [
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "we all started treating Twitter like some kind of reliable public record"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

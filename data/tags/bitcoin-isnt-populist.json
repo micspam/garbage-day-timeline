@@ -1,0 +1,65 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "hype or bubble",
+   "moment_detail": "2018 crypto winter crash",
+   "topics": [
+    "crypto and nfts",
+    "economy"
+   ],
+   "entities": [
+    {
+     "name": "bitcoin",
+     "kind": "other",
+     "evidence": "Bitcoin’s value dropped almost 90%"
+    },
+    {
+     "name": "coindesk",
+     "kind": "media outlet",
+     "evidence": "Per Coindesk"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "hype or bubble",
+   "moment_detail": "2020-21 bitcoin price pump",
+   "topics": [
+    "crypto and nfts",
+    "economy"
+   ],
+   "entities": [
+    {
+     "name": "bitcoin",
+     "kind": "other",
+     "evidence": "Bitcoin — and by extension, the whole crypto market"
+    },
+    {
+     "name": "gamestop",
+     "kind": "company",
+     "evidence": "shares of GameStop and AMC"
+    },
+    {
+     "name": "r/wallstreetbets",
+     "kind": "community",
+     "evidence": "r/wallstreetbets"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "Reddit’s r/wallstreetbets"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "nft fans",
+     "evidence": "NFT bros"
+    }
+   ]
+  }
+ ]
+}

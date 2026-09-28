@@ -1,0 +1,25 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "hyperlocal news platform hopes",
+   "topics": [
+    "journalism",
+    "media industry"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook and Twitter"
+    },
+    {
+     "name": "twitter",
+     "evidence": "Facebook and Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "rss and google reader",
+   "topics": [
+    "journalism",
+    "web 2.0"
+   ],
+   "entities": [
+    {
+     "name": "netscape",
+     "kind": "company",
+     "evidence": "released by Netscape"
+    },
+    {
+     "name": "google reader",
+     "kind": "other",
+     "evidence": "Google Reader"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "millennials",
+     "evidence": "bored millennials"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "platform decline or shutdown",
+   "moment_detail": "google reader shut down",
+   "topics": [
+    "web 2.0"
+   ],
+   "entities": [
+    {
+     "name": "google reader",
+     "kind": "other",
+     "evidence": "Google Reader was shutdown"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "term coined",
+   "moment_detail": "greentext stories appear",
+   "topics": [
+    "forums",
+    "humor"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "4chan users"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "4chan users",
+     "evidence": "4chan users"
+    }
+   ]
+  }
+ ]
+}

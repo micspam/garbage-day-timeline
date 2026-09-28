@@ -390,7 +390,8 @@
    "fan theories": "fandom",
    "zines": "fandom",
    "suicide": "death online",
-   "effective altruism": "rationalism"
+   "effective altruism": "rationalism",
+   "search engine optimization": "advertising"
   }
  },
  "platforms": {
@@ -417,7 +418,8 @@
    "middle class white children": "kids",
    "trump supporters": "conservatives",
    "young journalists": "journalists",
-   "digital media workers": "journalists"
+   "digital media workers": "journalists",
+   "teens": "gen z"
   }
  },
  "entities": {

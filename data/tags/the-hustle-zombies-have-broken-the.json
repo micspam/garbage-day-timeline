@@ -1,0 +1,22 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "netflix's experimental commissioning era",
+   "topics": [
+    "film and tv",
+    "media industry"
+   ],
+   "entities": [
+    {
+     "name": "netflix",
+     "kind": "company",
+     "evidence": "a Netflix comedy"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

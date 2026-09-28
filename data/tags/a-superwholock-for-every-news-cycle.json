@@ -1,0 +1,108 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform policy change",
+   "moment_detail": "platforms add fandom tools",
+   "topics": [
+    "fandom",
+    "platform competition"
+   ],
+   "entities": [
+    {
+     "name": "myspace",
+     "kind": "company",
+     "evidence": "dying out like Myspace"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "sites like Reddit and Tumblr"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "sites like Reddit and Tumblr"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "tumblr macro fandoms emerge",
+   "topics": [
+    "fandom",
+    "hashtags"
+   ],
+   "entities": [
+    {
+     "name": "superwholock",
+     "kind": "community",
+     "evidence": "#Superwholock"
+    },
+    {
+     "name": "supernatural",
+     "kind": "work",
+     "evidence": "Supernatural"
+    },
+    {
+     "name": "doctor who",
+     "kind": "work",
+     "evidence": "Doctor Who"
+    },
+    {
+     "name": "sherlock",
+     "kind": "work",
+     "evidence": "BBC’s Sherlock"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "on Tumblr, its tags"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 4,
+   "moment": "online radicalization",
+   "moment_detail": "gamergate weaponizes fandom spaces",
+   "topics": [
+    "gamergate",
+    "fandom",
+    "far-right politics",
+    "online harassment"
+   ],
+   "entities": [
+    {
+     "name": "gamergate",
+     "kind": "event",
+     "evidence": "a hate campaign called Gamergate"
+    },
+    {
+     "name": "donald trump",
+     "kind": "person",
+     "evidence": "Trump’s 2016 presidential campaign"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "fandom spaces on Reddit and Twitter"
+    },
+    {
+     "name": "twitter",
+     "evidence": "fandom spaces on Reddit and Twitter"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "gamers",
+     "evidence": "gamers weaponized fandom spaces"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "portals give way to blogs",
+   "topics": [
+    "web 2.0",
+    "platform competition"
+   ],
+   "entities": [
+    {
+     "name": "aol",
+     "kind": "company",
+     "evidence": "AOL and Yahoo!"
+    },
+    {
+     "name": "yahoo",
+     "kind": "company",
+     "evidence": "AOL and Yahoo!"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "media industry shift",
+   "moment_detail": "verizon buys aol, pivots",
+   "topics": [
+    "platform acquisitions",
+    "media industry"
+   ],
+   "entities": [
+    {
+     "name": "aol",
+     "kind": "company",
+     "evidence": "in 2015 it was acquired by Verizon"
+    },
+    {
+     "name": "verizon",
+     "kind": "company",
+     "evidence": "acquired by Verizon"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 4,
+   "moment": "media industry shift",
+   "moment_detail": "medium loses to substack",
+   "topics": [
+    "media industry",
+    "covid-19",
+    "journalism"
+   ],
+   "entities": [
+    {
+     "name": "medium",
+     "kind": "company",
+     "evidence": "Medium laid off the majority of its editorial employees"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "flooded Twitter with misinformation"
+    },
+    {
+     "name": "medium",
+     "evidence": "“Medium piece COVID guy”"
+    },
+    {
+     "name": "substack",
+     "evidence": "Substack swooped in"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

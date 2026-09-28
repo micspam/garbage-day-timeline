@@ -1,0 +1,27 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "pirating anime on kazaa",
+   "topics": [
+    "intellectual property",
+    "anime"
+   ],
+   "entities": [
+    {
+     "name": "neon genesis evangelion",
+     "kind": "work",
+     "evidence": "Neon Genesis Evangelion"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "kazaa",
+     "evidence": "you’d go on Kazaa"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

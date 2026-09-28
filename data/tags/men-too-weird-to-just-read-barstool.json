@@ -1,0 +1,101 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "political campaign or movement",
+   "moment_detail": "mgtow manifesto published",
+   "topics": [
+    "manosphere",
+    "gender",
+    "journalism"
+   ],
+   "entities": [
+    {
+     "name": "no ma'am",
+     "kind": "media outlet",
+     "evidence": "a Libertarian blog named No Ma'am"
+    },
+    {
+     "name": "mgtow",
+     "kind": "community",
+     "evidence": "“Men Going Their Own Way manifesto”"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "pickup artists go mainstream",
+   "topics": [
+    "manosphere",
+    "film and tv",
+    "gender"
+   ],
+   "entities": [
+    {
+     "name": "neil strauss",
+     "kind": "person",
+     "evidence": "Neil Strauss published The Game"
+    },
+    {
+     "name": "the game",
+     "kind": "work",
+     "evidence": "published The Game"
+    },
+    {
+     "name": "vh1",
+     "kind": "media outlet",
+     "evidence": "VH1 released The Pickup Artist"
+    },
+    {
+     "name": "the pickup artist",
+     "kind": "work",
+     "evidence": "The Pickup Artist reality show"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "pickup artists",
+     "evidence": "men who described themselves as pickup artists"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "moment": "online radicalization",
+   "moment_detail": "incel forums emerge",
+   "topics": [
+    "manosphere",
+    "forums",
+    "gender"
+   ],
+   "entities": [
+    {
+     "name": "love-shy",
+     "kind": "community",
+     "evidence": "Love-shy"
+    },
+    {
+     "name": "incelsupport",
+     "kind": "community",
+     "evidence": "IncelSupport"
+    },
+    {
+     "name": "puahate",
+     "kind": "community",
+     "evidence": "PUAHate"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "young men",
+     "evidence": "As young men fell down the pickup artist rabbit hole"
+    }
+   ]
+  }
+ ]
+}

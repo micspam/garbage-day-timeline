@@ -1,0 +1,50 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "animated gifs explode",
+   "topics": [
+    "visual content",
+    "intellectual property",
+    "forums"
+   ],
+   "entities": [
+    {
+     "name": "compuserve",
+     "kind": "company",
+     "evidence": "originally created by Compuserve"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "gifs dominate online expression",
+   "topics": [
+    "visual content",
+    "memes"
+   ],
+   "entities": [
+    {
+     "name": "giphy",
+     "kind": "company",
+     "evidence": "sites like Giphy"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "myspace",
+     "evidence": "early social platforms like Myspace and Tumblr"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "Myspace and Tumblr"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

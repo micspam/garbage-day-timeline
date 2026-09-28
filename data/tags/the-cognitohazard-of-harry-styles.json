@@ -1,0 +1,32 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "furries flood brand accounts",
+   "topics": [
+    "furries",
+    "advertising"
+   ],
+   "entities": [
+    {
+     "name": "tony the tiger",
+     "kind": "other",
+     "evidence": "Tony the Tiger Twitter account"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Tony the Tiger Twitter account"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "furries",
+     "evidence": "furries, in particular"
+    }
+   ]
+  }
+ ]
+}

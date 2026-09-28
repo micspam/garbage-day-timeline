@@ -1,0 +1,93 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "early-00s web comic boom",
+   "topics": [
+    "web comics"
+   ],
+   "entities": [
+    {
+     "name": "tatsuya ishida",
+     "kind": "person",
+     "evidence": "Ishida started the comic"
+    },
+    {
+     "name": "penny arcade",
+     "kind": "work",
+     "evidence": "Penny Arcade"
+    },
+    {
+     "name": "questionable content",
+     "kind": "work",
+     "evidence": "Questionable Content"
+    },
+    {
+     "name": "player vs. player",
+     "kind": "work",
+     "evidence": "Player Vs. Player"
+    },
+    {
+     "name": "sinfest",
+     "kind": "work",
+     "evidence": "When Sinfest started"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "jocks vs. nerds edginess",
+   "topics": [
+    "web comics",
+    "gender"
+   ],
+   "entities": [
+    {
+     "name": "sinfest",
+     "kind": "work",
+     "evidence": "Sinfest started"
+    },
+    {
+     "name": "tatsuya ishida",
+     "kind": "person",
+     "evidence": "self-loathing for Ishida"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "political campaign or movement",
+   "moment_detail": "web comics oppose iraq war",
+   "topics": [
+    "web comics",
+    "american politics",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "tatsuya ishida",
+     "kind": "person",
+     "evidence": "Ishida comes out against the Iraq War"
+    },
+    {
+     "name": "iraq war",
+     "kind": "event",
+     "evidence": "the Iraq War"
+    },
+    {
+     "name": "bush administration",
+     "kind": "other",
+     "evidence": "the Bush administration"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

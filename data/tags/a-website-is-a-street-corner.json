@@ -1,0 +1,53 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "kiwi farms founded",
+   "topics": [
+    "online harassment",
+    "forums"
+   ],
+   "entities": [
+    {
+     "name": "kiwi farms",
+     "kind": "community",
+     "evidence": "Kiwi Farms was started"
+    },
+    {
+     "name": "christine weston chandler",
+     "kind": "person",
+     "evidence": "Christine Weston Chandler"
+    },
+    {
+     "name": "cwcki",
+     "kind": "community",
+     "evidence": "the CWCki"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "8chan",
+     "evidence": "an 8chan admin"
+    },
+    {
+     "name": "4chan",
+     "evidence": "4chan and 8chan users"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "hype or bubble",
+   "moment_detail": "seo consultant boom",
+   "topics": [
+    "search engine optimization",
+    "advertising"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

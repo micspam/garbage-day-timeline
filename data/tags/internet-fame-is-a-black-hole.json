@@ -1,0 +1,55 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "drachenlord becomes niche celebrity",
+   "topics": [
+    "memes",
+    "music",
+    "celebrity"
+   ],
+   "entities": [
+    {
+     "name": "drachenlord",
+     "kind": "person",
+     "evidence": "the Drachenlord story"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "scandal or backlash",
+   "moment_detail": "drachengame trolling campaign begins",
+   "topics": [
+    "online harassment",
+    "forums"
+   ],
+   "entities": [
+    {
+     "name": "drachenlord",
+     "kind": "person",
+     "evidence": "trolling Drachenlord"
+    },
+    {
+     "name": "drachengame",
+     "kind": "event",
+     "evidence": "the “Drachengame,”"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "krautchan",
+     "evidence": "German message boards like Krautchan and Lachschon"
+    },
+    {
+     "name": "lachschon",
+     "evidence": "Krautchan and Lachschon"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

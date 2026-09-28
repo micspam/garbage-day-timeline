@@ -1,0 +1,32 @@
+{
+ "tags": [
+  {
+   "n": 2,
+   "moment": "hype or bubble",
+   "moment_detail": "nyc digital media boom",
+   "topics": [
+    "media industry",
+    "silicon valley",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "collegehumor",
+     "kind": "company",
+     "evidence": "than CollegeHumor"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "the biggest brands on Tumblr"
+    },
+    {
+     "name": "youtube",
+     "evidence": "do well on YouTube"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

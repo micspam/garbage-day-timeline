@@ -1,0 +1,54 @@
+{
+ "tags": [
+  {
+   "n": 2,
+   "moment": "media industry shift",
+   "moment_detail": "mass-appeal viral content era",
+   "topics": [
+    "influencers",
+    "algorithms",
+    "media industry"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "millennials",
+     "evidence": "Millennial content creators"
+    },
+    {
+     "name": "gen x",
+     "evidence": "Gen X bosses"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "moment": "viral trend",
+   "moment_detail": "summer 2016 crossover memes",
+   "topics": [
+    "memes",
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "harambe",
+     "kind": "other",
+     "evidence": "Harambe"
+    },
+    {
+     "name": "dat boi",
+     "kind": "other",
+     "evidence": "Dat Boi"
+    },
+    {
+     "name": "crying jordan",
+     "kind": "other",
+     "evidence": "Crying Jordan"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

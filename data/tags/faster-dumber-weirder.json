@@ -1,0 +1,22 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "term coined",
+   "moment_detail": "digital blackface moral panic",
+   "topics": [
+    "race",
+    "memes"
+   ],
+   "entities": [
+    {
+     "name": "bbc",
+     "kind": "media outlet",
+     "evidence": "after the BBC made a video"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

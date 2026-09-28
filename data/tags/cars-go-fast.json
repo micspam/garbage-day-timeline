@@ -1,0 +1,86 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "media industry shift",
+   "moment_detail": "liberty media buys f1",
+   "topics": [
+    "motorsports",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "formula 1",
+     "kind": "company",
+     "evidence": "F1 has been actively expanding into the US"
+    },
+    {
+     "name": "liberty media",
+     "kind": "company",
+     "evidence": "American consortium Liberty Media"
+    },
+    {
+     "name": "bernie ecclestone",
+     "kind": "person",
+     "evidence": "Bernie Ecclestone"
+    },
+    {
+     "name": "drive to survive",
+     "kind": "work",
+     "evidence": "Netflix’s Drive to Survive series"
+    },
+    {
+     "name": "netflix",
+     "kind": "company",
+     "evidence": "Netflix’s Drive to Survive"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "bandom writers pivot to hockey",
+   "topics": [
+    "fandom",
+    "hockey",
+    "music"
+   ],
+   "entities": [
+    {
+     "name": "fall out boy",
+     "kind": "other",
+     "evidence": "Fall Out Boy was on hiatus"
+    },
+    {
+     "name": "panic! at the disco",
+     "kind": "other",
+     "evidence": "Panic! At The Disco had collapsed"
+    },
+    {
+     "name": "chicago blackhawks",
+     "kind": "other",
+     "evidence": "stanning the Blackhawks"
+    },
+    {
+     "name": "one direction",
+     "kind": "other",
+     "evidence": "One Direction’s hiatus in 2015"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "top sports on Tumblr"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "rpf writers",
+     "evidence": "Chicago-based bandom RPF writers"
+    }
+   ]
+  }
+ ]
+}

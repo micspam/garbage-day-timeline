@@ -1,0 +1,53 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "rise of hipsters",
+   "topics": [
+    "fashion",
+    "new york city culture"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "hipsters",
+     "evidence": "“hipster” subculture"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "influencers posing in manhattan streets",
+   "topics": [
+    "influencers",
+    "new york city culture"
+   ],
+   "entities": [
+    {
+     "name": "the cut",
+     "kind": "media outlet",
+     "evidence": "The Cut wrote an article"
+    },
+    {
+     "name": "cartier",
+     "kind": "company",
+     "evidence": "the Cartier store"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "instagram",
+     "evidence": "Instagram influencers were flying into the city"
+    },
+    {
+     "name": "twitter",
+     "evidence": "hit Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

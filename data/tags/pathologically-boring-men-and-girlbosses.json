@@ -1,0 +1,94 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "early small us twitter",
+   "topics": [
+    "humor",
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Twitter in the US was a fairly small place"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "journalists",
+     "evidence": "You had journalists"
+    },
+    {
+     "name": "bloggers",
+     "evidence": "warring bloggers"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "subculture or scene",
+   "moment_detail": "weird twitter emerges",
+   "topics": [
+    "humor"
+   ],
+   "entities": [
+    {
+     "name": "weird twitter",
+     "kind": "community",
+     "evidence": "“Weird Twitter”"
+    },
+    {
+     "name": "dril",
+     "kind": "person",
+     "evidence": "@dril"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "“Weird Twitter”"
+    },
+    {
+     "name": "something awful",
+     "evidence": "Something Awful goons"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "platform decline or shutdown",
+   "moment_detail": "death of weird twitter",
+   "topics": [
+    "humor",
+    "journalism"
+   ],
+   "entities": [
+    {
+     "name": "weird twitter",
+     "kind": "community",
+     "evidence": "Weird Twitter died"
+    },
+    {
+     "name": "business insider",
+     "kind": "media outlet",
+     "evidence": "Business Insider wrote an explainer"
+    },
+    {
+     "name": "katie notopoulos",
+     "kind": "person",
+     "evidence": "Katie Notopoulos"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "Weird Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "facebook's brazil election war room",
+   "topics": [
+    "brazil",
+    "political campaigns",
+    "conspiracy theories",
+    "platform policy"
+   ],
+   "entities": [
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "Facebook setup for Brazil’s 2018 election"
+    },
+    {
+     "name": "crowdtangle",
+     "kind": "company",
+     "evidence": "live CrowdTangle dashboards"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook’s “war room”"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "four lads in jeans photo",
+   "topics": [
+    "memes",
+    "nightlife"
+   ],
+   "entities": [
+    {
+     "name": "four lads in jeans",
+     "kind": "other",
+     "evidence": "the Four Lads In Jeans meme"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

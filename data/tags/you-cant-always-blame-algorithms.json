@@ -1,0 +1,68 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "4chan copies 2chan design",
+   "topics": [
+    "forums",
+    "japan"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "The most notable of these sites was 4chan"
+    },
+    {
+     "name": "2chan",
+     "evidence": "Futaba Channel, or 2chan"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "message board users",
+     "evidence": "users congregated on message boards"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "media industry shift",
+   "moment_detail": "breitbart launders 4chan content",
+   "topics": [
+    "far-right politics",
+    "media industry",
+    "online radicalization"
+   ],
+   "entities": [
+    {
+     "name": "steve bannon",
+     "kind": "person",
+     "evidence": "Steve Bannon’s great innovation"
+    },
+    {
+     "name": "breitbart",
+     "kind": "media outlet",
+     "evidence": "his time at Breitbart"
+    },
+    {
+     "name": "milo yiannopoulos",
+     "kind": "person",
+     "evidence": "Milo Yiannopoulos"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "conversations that were happening on 4chan"
+    },
+    {
+     "name": "facebook",
+     "evidence": "optimized for Facebook"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

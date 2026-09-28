@@ -1,0 +1,57 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "obama as anime villain memes",
+   "topics": [
+    "memes",
+    "american politics",
+    "anime"
+   ],
+   "entities": [
+    {
+     "name": "barack obama",
+     "kind": "person",
+     "evidence": "portrayed Obama as an anime villain"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "tumblr",
+     "evidence": "one famous Tumblr post"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "trump god emperor memes",
+   "topics": [
+    "memes",
+    "far-right politics",
+    "anime"
+   ],
+   "entities": [
+    {
+     "name": "donald trump",
+     "kind": "person",
+     "evidence": "depicted Trump as the God Emperor"
+    },
+    {
+     "name": "warhammer 40k",
+     "kind": "work",
+     "evidence": "Warhammer 40k"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "4chan artists"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

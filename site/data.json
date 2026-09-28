@@ -1,15 +1,15 @@
 {
  "report": {
-  "issues_analyzed": 471,
-  "issues_with_past_references": 179,
-  "issues_with_none": 292,
-  "references_proposed": 447,
-  "references_kept": 289,
+  "issues_analyzed": 527,
+  "issues_with_past_references": 209,
+  "issues_with_none": 318,
+  "references_proposed": 510,
+  "references_kept": 346,
   "references_rejected": {
    "quote_too_long": 1
   },
-  "dropped_in_review": 86,
-  "not_reviewed": 71,
+  "dropped_in_review": 100,
+  "not_reviewed": 63,
   "fabricated_quotes_possible": 0
  },
  "cards": [
@@ -418,6 +418,40 @@
    }
   },
   {
+   "quote": "RSS 0.90 was first released by Netscape in the 90s and the last version of RSS was RSS 2.0, which was launched in 2009. Most people my age remember RSS as the thing that powered Google Reader, which was an app bored millennials used to read gossip blogs during their various unpaid internships.",
+   "start_year": 1999,
+   "end_year": 2013,
+   "label": "RSS and Google Reader",
+   "evidence": "RSS 0.90 was first released by Netscape in the 90s",
+   "url": "https://www.garbageday.email/p/twitter-invented-a-clippy-for-cyberbullying",
+   "title": "Twitter invented a Clippy for cyberbullying",
+   "published": "2022-06-15",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "rss and google reader",
+    "topics": [
+     "journalism",
+     "web 2.0"
+    ],
+    "entities": [
+     {
+      "name": "netscape",
+      "kind": "company"
+     },
+     {
+      "name": "google reader",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "millennials"
+     }
+    ]
+   }
+  },
+  {
    "quote": "The term was “Web 2.0” was first coined in 1999 by technologist Darcy DiNucci, who wrote, “the first glimmerings of Web 2.0 are beginning to appear, and we are just starting to see how that embryo might develop. The Web will be understood not as screenfuls of text and graphics but as a transport mechanism, the ether through which interactivity happens.”",
    "start_year": 1999,
    "end_year": 1999,
@@ -460,6 +494,146 @@
     "entities": [],
     "platforms": [],
     "audiences": []
+   }
+  },
+  {
+   "quote": "Ishida started the comic amid the early-00s web comic boom, where many cartoonists immersed in early internet culture and nerd communities started self-publishing comic strips full of references tailor-made for that audience. The big comics of this era included Penny Arcade, Questionable Content, Player Vs. Player, and, of course, the comic that gave the world loss.jpg.",
+   "start_year": 2000,
+   "end_year": 2004,
+   "label": "The early-00s web comic boom",
+   "evidence": "early-00s web comic boom",
+   "url": "https://www.garbageday.email/p/the-bad-man-pipeline-is-confusing",
+   "title": "The bad man pipeline is confusing",
+   "published": "2022-04-29",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "early-00s web comic boom",
+    "topics": [
+     "web comics"
+    ],
+    "entities": [
+     {
+      "name": "tatsuya ishida",
+      "kind": "person"
+     },
+     {
+      "name": "penny arcade",
+      "kind": "work"
+     },
+     {
+      "name": "questionable content",
+      "kind": "work"
+     },
+     {
+      "name": "player vs. player",
+      "kind": "work"
+     },
+     {
+      "name": "sinfest",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Sinfest started as a very typical reaction to the jocks vs. nerds dichotomy that was still big in popular culture in the early-2000s. This seems to have blurred into a very proto-4chan attitude that all nerds are also dumb idiots who love porn and hot chicks, but in ways that were different and superior to more mainstream dude bros.",
+   "start_year": 2000,
+   "end_year": 2004,
+   "label": "Jocks vs. nerds and proto-4chan attitudes in early web comics",
+   "evidence": "early-2000s",
+   "url": "https://www.garbageday.email/p/the-bad-man-pipeline-is-confusing",
+   "title": "The bad man pipeline is confusing",
+   "published": "2022-04-29",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "jocks vs. nerds edginess",
+    "topics": [
+     "web comics",
+     "gender"
+    ],
+    "entities": [
+     {
+      "name": "sinfest",
+      "kind": "work"
+     },
+     {
+      "name": "tatsuya ishida",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The internet, both as a whole and also individual corners of it, is constantly cycling through two phases: consolidation and decentralization. You can see this at a macro level by looking at how we, in the 2000s, went from large internet portals run by companies like AOL and Yahoo! to an internet of smaller social networks, blogs, and peer-to-peer applications.",
+   "start_year": 2000,
+   "end_year": 2009,
+   "label": "From AOL and Yahoo portals to blogs and social networks",
+   "evidence": "in the 2000s, went from large internet portals run by companies like AOL and Yahoo!",
+   "url": "https://www.garbageday.email/p/building-a-new-titanic-on-the-deck",
+   "title": "Building a new Titanic on the deck of the old one",
+   "published": "2022-07-13",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "portals give way to blogs",
+    "topics": [
+     "web 2.0",
+     "platform competition"
+    ],
+    "entities": [
+     {
+      "name": "aol",
+      "kind": "company"
+     },
+     {
+      "name": "yahoo",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And message boards in the early 2000s like Love-shy, IncelSupport, and PUAHate began to house this third strain of toxic online misogyny, which was increasingly focused on using nihilism and, eventually, violence to express a perceived sexual power imbalance in modern society.",
+   "start_year": 2000,
+   "end_year": 2005,
+   "label": "Early incel message boards like Love-shy and PUAHate",
+   "evidence": "early 2000s",
+   "url": "https://www.garbageday.email/p/men-too-weird-to-just-read-barstool",
+   "title": "Men too weird to just read Barstool Sports",
+   "published": "2022-08-22",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "incel forums emerge",
+    "topics": [
+     "manosphere",
+     "forums",
+     "gender"
+    ],
+    "entities": [
+     {
+      "name": "love-shy",
+      "kind": "community"
+     },
+     {
+      "name": "incelsupport",
+      "kind": "community"
+     },
+     {
+      "name": "puahate",
+      "kind": "community"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "young men"
+     }
+    ]
    }
   },
   {
@@ -680,6 +854,102 @@
    }
   },
   {
+   "quote": "Shrek was released in 2001. It spawned numerous sequels, and, most importantly, a torrent of merchandise and marketing. In the 2000s, there was Shrek stuff everywhere.",
+   "start_year": 2001,
+   "end_year": 2009,
+   "label": "Shrek merchandising everywhere",
+   "evidence": "In the 2000s, there was Shrek stuff everywhere.",
+   "url": "https://www.garbageday.email/p/the-shrekbee-movie-dichotomy",
+   "title": "The \"Shrek\"/\"Bee Movie\" Dichotomy",
+   "published": "2022-06-06",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "shrek merchandise everywhere",
+    "topics": [
+     "film and tv",
+     "consumer culture",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "shrek",
+      "kind": "work"
+     },
+     {
+      "name": "tim heidecker",
+      "kind": "person"
+     },
+     {
+      "name": "eric wareheim",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2001, a Libertarian blog named No Ma'am published the “MGTOW manifesto”. (I can’t be sure, but I think that blog’s name is a Married… With Children reference.) The “MGTOW manifesto” or “Men Going Their Own Way manifesto” aimed to create a Don’t Tread On Me-esque social movement for men who wanted to restore traditional gender roles.",
+   "start_year": 2001,
+   "end_year": 2001,
+   "label": "The MGTOW manifesto published on No Ma'am blog",
+   "evidence": "In 2001",
+   "url": "https://www.garbageday.email/p/men-too-weird-to-just-read-barstool",
+   "title": "Men too weird to just read Barstool Sports",
+   "published": "2022-08-22",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "mgtow manifesto published",
+    "topics": [
+     "manosphere",
+     "gender",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "no ma'am",
+      "kind": "media outlet"
+     },
+     {
+      "name": "mgtow",
+      "kind": "community"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Back in my day, you’d go on Kazaa, hope to god you were actually downloading the right episode of Neon Genesis Evangelion and if it did turn out to be porn or a virus, you just had to make sure it was successfully scrubbed from the family desktop computer before your parents got home.",
+   "start_year": 2001,
+   "end_year": 2005,
+   "label": "Pirating anime on Kazaa",
+   "evidence": "Back in my day, you’d go on Kazaa",
+   "url": "https://www.garbageday.email/p/garbage-weekend-charge-up-your-chakras",
+   "title": "GARBAGE WEEKEND: Charge up your chakras",
+   "published": "2022-08-27",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "pirating anime on kazaa",
+    "topics": [
+     "intellectual property",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "neon genesis evangelion",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "kazaa"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Jet Li, famously, didn’t appear in The Matrix Reloaded and Revolutions because Warner Bros. wanted to scan his fight choreography and add it to a digital library that they would own the rights to.",
    "start_year": 2001,
    "end_year": 2003,
@@ -838,6 +1108,38 @@
    }
   },
   {
+   "quote": "Around 2002, to get people refreshing the page and engaging more, certain boards tried to create a sense of aliveness that was not yet technically possible. The most notable of these sites was 4chan, which stole its design and two central conceits from a Japanese message board called Futaba Channel, or 2chan.",
+   "start_year": 2002,
+   "end_year": 2003,
+   "label": "4chan copies 2chan's disappearing threads",
+   "evidence": "Around 2002, to get people refreshing the page",
+   "url": "https://www.garbageday.email/p/you-cant-always-blame-algorithms",
+   "title": "You can't always blame algorithms",
+   "published": "2022-05-16",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "4chan copies 2chan design",
+    "topics": [
+     "forums",
+     "japan"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "2chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "message board users"
+     }
+    ]
+   }
+  },
+  {
    "quote": "(For the few zoomers that might be reading this, in high school, I had to ask for permission to use Adobe apps to complete my final project in art class because, at the time, Photoshop and similar programs were not allowed.)",
    "start_year": 2002,
    "end_year": 2002,
@@ -966,6 +1268,68 @@
      "media industry"
     ],
     "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In the mid-2000s, Ishida comes out against the Iraq War, which was common for a lot of similar web comics, actually. Many of these edgy gamer comics reacted to the authoritarian actions the Bush administration and corporate American media were taking against anti-war voices with an almost deification of edginess and offensive humor.",
+   "start_year": 2004,
+   "end_year": 2007,
+   "label": "Edgy web comics react to the Iraq War",
+   "evidence": "In the mid-2000s",
+   "url": "https://www.garbageday.email/p/the-bad-man-pipeline-is-confusing",
+   "title": "The bad man pipeline is confusing",
+   "published": "2022-04-29",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "web comics oppose iraq war",
+    "topics": [
+     "web comics",
+     "american politics",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "tatsuya ishida",
+      "kind": "person"
+     },
+     {
+      "name": "iraq war",
+      "kind": "event"
+     },
+     {
+      "name": "bush administration",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The format was originally created by Compuserve, but all the patents on the way GIFs are compressed expired in 2004. Which just about coincides, interestingly enough, with the explosion of the animated GIF as a reaction image on message boards and blogs.",
+   "start_year": 2004,
+   "end_year": 2004,
+   "label": "GIF patents expire and reaction GIFs explode on message boards",
+   "evidence": "expired in 2004",
+   "url": "https://www.garbageday.email/p/our-brave-new-venture-funded-brand",
+   "title": "Our brave new venture-funded brand culture",
+   "published": "2022-09-16",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "animated gifs explode",
+    "topics": [
+     "visual content",
+     "intellectual property",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "compuserve",
+      "kind": "company"
+     }
+    ],
     "platforms": [],
     "audiences": []
    }
@@ -1176,6 +1540,49 @@
     ],
     "platforms": [],
     "audiences": []
+   }
+  },
+  {
+   "quote": "And in 2005, investigative journalist Neil Strauss published The Game, turning these men who described themselves as pickup artists into a cultural phenomenon. Two years after The Game came out, VH1 released The Pickup Artist reality show, which gave this world a visual aesthetic that I would call “anime cosplayer who listens to hair metal”.",
+   "start_year": 2005,
+   "end_year": 2007,
+   "label": "The Game and VH1's The Pickup Artist make PUAs a phenomenon",
+   "evidence": "in 2005",
+   "url": "https://www.garbageday.email/p/men-too-weird-to-just-read-barstool",
+   "title": "Men too weird to just read Barstool Sports",
+   "published": "2022-08-22",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "pickup artists go mainstream",
+    "topics": [
+     "manosphere",
+     "film and tv",
+     "gender"
+    ],
+    "entities": [
+     {
+      "name": "neil strauss",
+      "kind": "person"
+     },
+     {
+      "name": "the game",
+      "kind": "work"
+     },
+     {
+      "name": "vh1",
+      "kind": "media outlet"
+     },
+     {
+      "name": "the pickup artist",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "pickup artists"
+     }
+    ]
    }
   },
   {
@@ -1430,6 +1837,162 @@
       "name": "reddit"
      }
     ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Towards the end of the 2000s, the online pickup artist community was actually pretty big. Subreddits like r/seduction and r/TheRedPill were surprisingly impactful and horrible guys like Roosh V (before he went trad) were early blogging adopters.",
+   "start_year": 2007,
+   "end_year": 2009,
+   "label": "Online pickup artist community",
+   "evidence": "Towards the end of the 2000s",
+   "url": "https://www.garbageday.email/p/thousands-of-dollars-for-hundreds",
+   "title": "Thousands of dollars for hundreds of shares",
+   "published": "2022-05-20",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "online pickup artist community",
+    "topics": [
+     "gender",
+     "online radicalization"
+    ],
+    "entities": [
+     {
+      "name": "r/seduction",
+      "kind": "community"
+     },
+     {
+      "name": "r/theredpill",
+      "kind": "community"
+     },
+     {
+      "name": "roosh v",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2007, though, the ironic visual language that internet users were creating to make fun of the Shrek movies ended up being fertile ground for a movie that seemed even more soulless and hollow than the subsequent Shrek films — Bee Movie. It’s an honestly deranged film where Jerry Seinfeld plays a bee who falls in love with a human woman.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "Bee Movie and ironic Shrek memes",
+   "evidence": "In 2007, though",
+   "url": "https://www.garbageday.email/p/the-shrekbee-movie-dichotomy",
+   "title": "The \"Shrek\"/\"Bee Movie\" Dichotomy",
+   "published": "2022-06-06",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "internet mocks bee movie",
+    "topics": [
+     "film and tv",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "bee movie",
+      "kind": "work"
+     },
+     {
+      "name": "jerry seinfeld",
+      "kind": "person"
+     },
+     {
+      "name": "shrek",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The assumption 15 years ago was that people would use internet platforms like Facebook and Twitter to find digital publishers who were covering their local communities. And, the logic followed, those readers would then get super civilly engaged.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "The hyperlocal journalism dream",
+   "evidence": "The assumption 15 years ago",
+   "url": "https://www.garbageday.email/p/hyperlocal-journalism-came-true-but",
+   "title": "Hyperlocal journalism came true, but in the bad way",
+   "published": "2022-06-13",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "hyperlocal news platform hopes",
+    "topics": [
+     "journalism",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In the late 2000s and early 2010s, Twitter in the US was a fairly small place. You had journalists, a few bored screenwriters and comedians, a couple of humorless cable news anchors, some robotic brands, anonymous weirdos, and a whole bunch of warring bloggers.",
+   "start_year": 2007,
+   "end_year": 2012,
+   "label": "Early US Twitter was a small place",
+   "evidence": "In the late 2000s and early 2010s",
+   "url": "https://www.garbageday.email/p/pathologically-boring-men-and-girlbosses",
+   "title": "Pathologically boring men (and girlbosses)",
+   "published": "2022-07-20",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "early small us twitter",
+    "topics": [
+     "humor",
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "journalists"
+     },
+     {
+      "name": "bloggers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "There was a five year period across the late 2000s and early 2010s where a bunch of men (always men) got paid a lot of money because they claimed they knew all the tricks to getting a site to the top of major search engines. They knew how to speak to the machine better than anyone else, they said.",
+   "start_year": 2007,
+   "end_year": 2012,
+   "label": "SEO gurus of the late 2000s",
+   "evidence": "across the late 2000s and early 2010s",
+   "url": "https://www.garbageday.email/p/a-website-is-a-street-corner",
+   "title": "A website is a street corner",
+   "published": "2022-09-05",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "seo consultant boom",
+    "topics": [
+     "advertising"
+    ],
+    "entities": [],
+    "platforms": [],
     "audiences": []
    }
   },
@@ -1832,6 +2395,103 @@
    }
   },
   {
+   "quote": "The first blockchain, created in 2009, was Bitcoin, which makes sense, it was a direct response to the Great Recession.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Bitcoin born after the Great Recession",
+   "evidence": "created in 2009",
+   "url": "https://www.garbageday.email/p/everything-is-automated-and-also",
+   "title": "Everything is automated and also terrible",
+   "published": "2022-05-11",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "bitcoin created after recession",
+    "topics": [
+     "crypto and nfts",
+     "economy"
+    ],
+    "entities": [
+     {
+      "name": "bitcoin",
+      "kind": "other"
+     },
+     {
+      "name": "great recession",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The age of mainstream internet content as we currently know it began at some point between 2009-2010 and coincided with the birth of the “hipster” subculture. Hipsters had a few defining characteristics. They were overwhelmingly white, they wore skinny pants, they had some tattoos, maybe some bad bangs, possibly a goofy mustache, drank bad beer, and, most importantly, lived in Brooklyn, Austin, or Portland.",
+   "start_year": 2009,
+   "end_year": 2010,
+   "label": "The hipster era of internet content",
+   "evidence": "began at some point between 2009-2010",
+   "url": "https://www.garbageday.email/p/manhattan-is-a-playground-for-tiktok",
+   "title": "Manhattan is a playground for TikTok",
+   "published": "2022-06-29",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "rise of hipsters",
+    "topics": [
+     "fashion",
+     "new york city culture"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "hipsters"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "A study from The Asia-Pacific Journal found linguistic evidence that the Liberal Democrat Party and the far-right users of 2channel have been working together to overwhelm Japanese trending topics on Twitter since as far back as 2009.",
+   "start_year": 2009,
+   "end_year": 2022,
+   "label": "LDP and 2channel flooding Twitter trends",
+   "evidence": "since as far back as 2009",
+   "url": "https://www.garbageday.email/p/american-carnage-with-a-japanese",
+   "title": "“American carnage” with a Japanese dub",
+   "published": "2022-07-11",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "ldp and 2channel manipulate trends",
+    "topics": [
+     "japan",
+     "far-right politics",
+     "conspiracy theories"
+    ],
+    "entities": [
+     {
+      "name": "liberal democratic party",
+      "kind": "other"
+     },
+     {
+      "name": "the asia-pacific journal",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "2channel"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "2channel users"
+     }
+    ]
+   }
+  },
+  {
    "quote": "Everything needs asterisks: Homestuck was a webcomic* by Andrew Hussie* that ran for over 8,000 pages* from 2009 to 2016*. The first two asterisks are there by design, since the story was designed to be collaborative and cross-media.",
    "start_year": 2009,
    "end_year": 2016,
@@ -2160,6 +2820,306 @@
      },
      {
       "name": "tiktok"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The beginnings of the Drachenlord story are fuzzy. He was somewhat of a niche celebrity years before he became the phenomenon he is today. In the early 2010s, he made a name for himself in the online and local metal scene, carving out his status as a meme-able guy through catchphrases, a wacky demeanor, and occasional angry outbursts.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "Drachenlord's early days",
+   "evidence": "In the early 2010s",
+   "url": "https://www.garbageday.email/p/internet-fame-is-a-black-hole",
+   "title": "Internet fame is a black hole",
+   "published": "2022-04-22",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "drachenlord becomes niche celebrity",
+    "topics": [
+     "memes",
+     "music",
+     "celebrity"
+    ],
+    "entities": [
+     {
+      "name": "drachenlord",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Around 2010, social media sites began to realize that if they wanted to avoid dying out like Myspace, they needed ways to keep people on their platforms longer. And, so, sites like Reddit and Tumblr began emphasizing their fandom-building tools.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Social platforms turn to fandom tools",
+   "evidence": "Around 2010, social media sites began to realize",
+   "url": "https://www.garbageday.email/p/a-superwholock-for-every-news-cycle",
+   "title": "A Superwholock for every news cycle",
+   "published": "2022-05-25",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "platforms add fandom tools",
+    "topics": [
+     "fandom",
+     "platform competition"
+    ],
+    "entities": [
+     {
+      "name": "myspace",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "If you don’t know what a greentext story is, they started appearing on the site around 2010. They’re usually a way for 4chan users to tell a short story or anecdote.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Rise of 4chan greentext stories",
+   "evidence": "they started appearing on the site around 2010",
+   "url": "https://www.garbageday.email/p/twitter-invented-a-clippy-for-cyberbullying",
+   "title": "Twitter invented a Clippy for cyberbullying",
+   "published": "2022-06-15",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "greentext stories appear",
+    "topics": [
+     "forums",
+     "humor"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "4chan users"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "One reigning theory I’ve seen is that this side of hockey fandom started to take off around 2010, when Fall Out Boy was on hiatus, Panic! At The Disco had collapsed, and a bunch of Chicago-based bandom RPF writers (band fandom real people fiction writers) pivoted to stanning the Blackhawks during their Stanley Cup-winning peak.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Bandom writers pivot to hockey fandom",
+   "evidence": "around 2010",
+   "url": "https://www.garbageday.email/p/cars-go-fast",
+   "title": "Cars go fast",
+   "published": "2022-06-24",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "bandom writers pivot to hockey",
+    "topics": [
+     "fandom",
+     "hockey",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "fall out boy",
+      "kind": "other"
+     },
+     {
+      "name": "panic! at the disco",
+      "kind": "other"
+     },
+     {
+      "name": "chicago blackhawks",
+      "kind": "other"
+     },
+     {
+      "name": "one direction",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "rpf writers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Around 2010, the idea of “Weird Twitter” started to latch on as a subcultural pocket of users on the site. Most of these users were Something Awful goons who had found each other on a new website and began developing a very specific kind of American internet comedy.",
+   "start_year": 2010,
+   "end_year": 2012,
+   "label": "Rise of Weird Twitter",
+   "evidence": "Around 2010",
+   "url": "https://www.garbageday.email/p/pathologically-boring-men-and-girlbosses",
+   "title": "Pathologically boring men (and girlbosses)",
+   "published": "2022-07-20",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "weird twitter emerges",
+    "topics": [
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "weird twitter",
+      "kind": "community"
+     },
+     {
+      "name": "dril",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "something awful"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "It might be hard to remember back that far, but Facebook used to be a place where people made content. In the early 2010s, it felt like there was a new viral post or video or story coming out of Facebook that made the news or did the rounds on morning talk shows.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "Facebook as a viral content engine",
+   "evidence": "In the early 2010s",
+   "url": "https://www.garbageday.email/p/tiktok-won",
+   "title": "TikTok won",
+   "published": "2022-07-25",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "facebook as viral content hub",
+    "topics": [
+     "memes",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In fact, there were a whole bunch of memes in the early 2010s that portrayed Obama as an anime villain. In one famous Tumblr post, he left a girl to “perish” at the bottom of a well. In another, he stole Chaos Emeralds from Sonic the Hedgehog.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "Obama as anime villain memes",
+   "evidence": "there were a whole bunch of memes in the early 2010s that portrayed Obama as an anime villain",
+   "url": "https://www.garbageday.email/p/the-khaki-pants-and-lanyard-crowd",
+   "title": "The khaki pants and lanyard crowd see a meme",
+   "published": "2022-08-10",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "obama as anime villain memes",
+    "topics": [
+     "memes",
+     "american politics",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "barack obama",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "So I can’t really think of a company more closely linked to the bizarre venture capital-flush New York City digital media boom of the early 2010s than CollegeHumor. It sounds kind of weird to say but for several e years, they were kind of at the top of the viral heap.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "CollegeHumor and the NYC digital media boom",
+   "evidence": "New York City digital media boom of the early 2010s",
+   "url": "https://www.garbageday.email/p/we-gotta-keep-pushing-the-losers",
+   "title": "We gotta keep pushing the losers back",
+   "published": "2022-09-14",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "nyc digital media boom",
+    "topics": [
+     "media industry",
+     "silicon valley",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "collegehumor",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "By 2010, aided by early social platforms like Myspace and Tumblr, it quickly became the dominant way of expressing emotion online. Soon everyone was having the same stupid argument about how to pronounce it (it’s a hard G, I don’t care, don’t email me) and hundreds of thousands of new GIFs were being created and uploaded.",
+   "start_year": 2010,
+   "end_year": 2010,
+   "label": "Animated GIFs become the dominant way to express emotion online",
+   "evidence": "By 2010",
+   "url": "https://www.garbageday.email/p/our-brave-new-venture-funded-brand",
+   "title": "Our brave new venture-funded brand culture",
+   "published": "2022-09-16",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "gifs dominate online expression",
+    "topics": [
+     "visual content",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "giphy",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     },
+     {
+      "name": "tumblr"
      }
     ],
     "audiences": []
@@ -3423,6 +4383,48 @@
    }
   },
   {
+   "quote": "Meanwhile, on Tumblr, its tags were evolving away from a way for users to organize their own blogs into a way for users to find each other across the site, which has never had particularly good discoverability. This would eventually lead to the creation of amalgamated fandoms, like #Superwholock, which was a macro fandom dedicated to Supernatural, Doctor Who, and BBC’s Sherlock.",
+   "start_year": 2011,
+   "end_year": 2014,
+   "label": "Tumblr tags and Superwholock",
+   "evidence": "#Superwholock",
+   "url": "https://www.garbageday.email/p/a-superwholock-for-every-news-cycle",
+   "title": "A Superwholock for every news cycle",
+   "published": "2022-05-25",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "tumblr macro fandoms emerge",
+    "topics": [
+     "fandom",
+     "hashtags"
+    ],
+    "entities": [
+     {
+      "name": "superwholock",
+      "kind": "community"
+     },
+     {
+      "name": "supernatural",
+      "kind": "work"
+     },
+     {
+      "name": "doctor who",
+      "kind": "work"
+     },
+     {
+      "name": "sherlock",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "By the time I got my first writing jobs in 2011, an entire generation of students had used it to make friends and they were now suddenly young adults out in the world, still using it. So when Facebook launched a new suped-up app in 2012, announcing that “the future was mobile” — boom, the rest is history.",
    "start_year": 2011,
    "end_year": 2012,
@@ -3852,6 +4854,107 @@
      }
     ],
     "audiences": []
+   }
+  },
+  {
+   "quote": "Ten years ago, the main way to gain relevance, and thus, power, online was mass appeal. Millennial content creators, for years, were pushed by passive aggressive granola capitalist Gen X bosses and their various “connection over everything” ad fraud algorithms into the zeitgeist meat grinder.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Mass appeal as the path to online relevance",
+   "evidence": "Ten years ago",
+   "url": "https://www.garbageday.email/p/every-generation-gets-the-dimes-square",
+   "title": "Every generation gets the Dimes Square they deserve",
+   "published": "2022-05-27",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "mass-appeal viral content era",
+    "topics": [
+     "influencers",
+     "algorithms",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "millennials"
+     },
+     {
+      "name": "gen x"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "If I had to pick a moment when Weird Twitter died, I’d say it started to die in December 2012 when Business Insider wrote an explainer about it and then finally died a few months later when my dear friend Katie Notopoulos doxxed piggy poop balls.",
+   "start_year": 2012,
+   "end_year": 2013,
+   "label": "The death of Weird Twitter",
+   "evidence": "December 2012",
+   "url": "https://www.garbageday.email/p/pathologically-boring-men-and-girlbosses",
+   "title": "Pathologically boring men (and girlbosses)",
+   "published": "2022-07-20",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "death of weird twitter",
+    "topics": [
+     "humor",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "weird twitter",
+      "kind": "community"
+     },
+     {
+      "name": "business insider",
+      "kind": "media outlet"
+     },
+     {
+      "name": "katie notopoulos",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Tony the Tiger has not had an easy time on social media over the last decade. If you don’t remember, furries, in particular, spent years inundating the Tony the Tiger Twitter account with outrageously sexual messages.",
+   "start_year": 2012,
+   "end_year": 2022,
+   "label": "Furries spamming the Tony the Tiger Twitter account",
+   "evidence": "Tony the Tiger has not had an easy time on social media over the last decade",
+   "url": "https://www.garbageday.email/p/the-cognitohazard-of-harry-styles",
+   "title": "The cognitohazard of Harry Styles’ painted nails!!!",
+   "published": "2022-08-26",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "furries flood brand accounts",
+    "topics": [
+     "furries",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "tony the tiger",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "furries"
+     }
+    ]
    }
   },
   {
@@ -4301,6 +5404,72 @@
    }
   },
   {
+   "quote": "In 2013, Google Reader was shutdown, taking with it any real chance of consumer RSS use making a big comeback.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Google Reader shutdown",
+   "evidence": "In 2013, Google Reader was shutdown",
+   "url": "https://www.garbageday.email/p/twitter-invented-a-clippy-for-cyberbullying",
+   "title": "Twitter invented a Clippy for cyberbullying",
+   "published": "2022-06-15",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "google reader shut down",
+    "topics": [
+     "web 2.0"
+    ],
+    "entities": [
+     {
+      "name": "google reader",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Kiwi Farms was started when Moon was an 8chan admin in 2013. It was originally created as a board to discuss the CWCki, a wiki created by 4chan and 8chan users to doxx and obsess over Christine Weston Chandler, the web comic artist known as Chris-Chan (that’s what the “CWC” stands for).",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Kiwi Farms founded from the CWCki",
+   "evidence": "Kiwi Farms was started when Moon was an 8chan admin in 2013.",
+   "url": "https://www.garbageday.email/p/a-website-is-a-street-corner",
+   "title": "A website is a street corner",
+   "published": "2022-09-05",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "kiwi farms founded",
+    "topics": [
+     "online harassment",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "kiwi farms",
+      "kind": "community"
+     },
+     {
+      "name": "christine weston chandler",
+      "kind": "person"
+     },
+     {
+      "name": "cwcki",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "8chan"
+     },
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "The year is 2013. Coolio ends up at a local club near University of Central Lancashire in Preston, England. He then goes back to a flat with some students and performs “Gangsta’s Paradise,” including a fourth unreleased verse.",
    "start_year": 2013,
    "end_year": 2013,
@@ -4701,6 +5870,157 @@
      },
      {
       "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In 2014, in an unhinged response to a trolling attack, he dared his haters to fight him in person, and visit him at his home address, which he then publicly named. Since then, a continuously-growing number of people have engaged in the “Drachengame,” the collaborative, decentralized, and incredibly complex effort of trolling Drachenlord both online and offline.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Drachenlord's \"come at me\" video starts the Drachengame",
+   "evidence": "In 2014",
+   "url": "https://www.garbageday.email/p/internet-fame-is-a-black-hole",
+   "title": "Internet fame is a black hole",
+   "published": "2022-04-22",
+   "tags": {
+    "moment": "scandal or backlash",
+    "moment_detail": "drachengame trolling campaign begins",
+    "topics": [
+     "online harassment",
+     "forums"
+    ],
+    "entities": [
+     {
+      "name": "drachenlord",
+      "kind": "person"
+     },
+     {
+      "name": "drachengame",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "krautchan"
+     },
+     {
+      "name": "lachschon"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Steve Bannon’s great innovation during his time at Breitbart was to hire Milo Yiannopoulos as the gaming editor, which really meant that Yiannopoulos was the 4chan editor. Breitbart, under Bannon, perfected a system where Yiannopoulos would amplify conversations that were happening on 4chan, package them in a CMS optimized for Facebook, and, thus, turn them into mainstream talking points.",
+   "start_year": 2014,
+   "end_year": 2016,
+   "label": "Breitbart turns 4chan into talking points",
+   "evidence": "Steve Bannon’s great innovation during his time at Breitbart",
+   "url": "https://www.garbageday.email/p/you-cant-always-blame-algorithms",
+   "title": "You can't always blame algorithms",
+   "published": "2022-05-16",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "breitbart launders 4chan content",
+    "topics": [
+     "far-right politics",
+     "media industry",
+     "online radicalization"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "breitbart",
+      "kind": "media outlet"
+     },
+     {
+      "name": "milo yiannopoulos",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But this internet-wide pressure for fandoms and communities to exist on poorly-moderated corporate platforms was already turning rancid by the end of 2014, when gamers weaponized fandom spaces on Reddit and Twitter to organize a hate campaign called Gamergate that would eventually lay the groundwork for how the online far right galvanized around Trump’s 2016 presidential campaign.",
+   "start_year": 2014,
+   "end_year": 2016,
+   "label": "Gamergate weaponizes fandom spaces",
+   "evidence": "by the end of 2014",
+   "url": "https://www.garbageday.email/p/a-superwholock-for-every-news-cycle",
+   "title": "A Superwholock for every news cycle",
+   "published": "2022-05-25",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "gamergate weaponizes fandom spaces",
+    "topics": [
+     "gamergate",
+     "fandom",
+     "far-right politics",
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "gamers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "There were probably a few viral challenges or trending memes that popped up on the app after the Ice Bucket Challenge in the summer of 2014, but it was definitely the peak for Facebook-born viral moments and, basically, after that, there really wasn’t another massive internet trend to surface organically on the platform.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Ice Bucket Challenge as Facebook's viral peak",
+   "evidence": "after the Ice Bucket Challenge in the summer of 2014",
+   "url": "https://www.garbageday.email/p/tiktok-won",
+   "title": "TikTok won",
+   "published": "2022-07-25",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "ice bucket challenge peak",
+    "topics": [
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "ice bucket challenge",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
      }
     ],
     "audiences": []
@@ -5416,6 +6736,86 @@
    }
   },
   {
+   "quote": "AOL was a wholly different company to Meta, both in scale and impact, but in 2015 it was acquired by Verizon and it tried a bunch of weird pivots. It invested in video, actually won a couple of Emmys, and tried to get a mobile video service off the ground.",
+   "start_year": 2015,
+   "end_year": 2016,
+   "label": "AOL's post-Verizon pivots",
+   "evidence": "in 2015 it was acquired by Verizon",
+   "url": "https://www.garbageday.email/p/building-a-new-titanic-on-the-deck",
+   "title": "Building a new Titanic on the deck of the old one",
+   "published": "2022-07-13",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "verizon buys aol, pivots",
+    "topics": [
+     "platform acquisitions",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "aol",
+      "kind": "company"
+     },
+     {
+      "name": "verizon",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "After I wrote that piece, I was contacted by a former script coordinator for a Netflix comedy that aired on the streamer across 2015-2016. They told me it was a moment when the company was optioning a lot of content and the general vibe from executives was to have fun and experiment and make something you really cared about.",
+   "start_year": 2015,
+   "end_year": 2016,
+   "label": "Netflix's experimental content era",
+   "evidence": "a Netflix comedy that aired on the streamer across 2015-2016",
+   "url": "https://www.garbageday.email/p/the-hustle-zombies-have-broken-the",
+   "title": "The hustle zombies have broken the perimeter",
+   "published": "2022-07-27",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "netflix's experimental commissioning era",
+    "topics": [
+     "film and tv",
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "netflix",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Around, let’s say, 2015, we all started treating Twitter like some kind of reliable public record because it’s one of the last social networks that you can search, it’s used by some of the most powerful and influential people on Earth, and, I’d argue, it didn’t have an edit button, which created the illusion that what we post there is somehow locked in stone.",
+   "start_year": 2015,
+   "end_year": 2022,
+   "label": "Treating Twitter as a public record",
+   "evidence": "Around, let’s say, 2015, we all started treating Twitter like some kind of reliable public record",
+   "url": "https://www.garbageday.email/p/on-the-concept-of-being-part-of-a",
+   "title": "On the concept of being part of a scene",
+   "published": "2022-09-02",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "twitter treated as public record",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "In experiments conducted around the world from 2015 to 2019, Linkedin randomly varied the proportion of weak and strong contacts suggested by its “People You May Know” algorithm — the company’s automated system for recommending new connections to its users.",
    "start_year": 2015,
    "end_year": 2019,
@@ -5904,6 +7304,147 @@
       "name": "fandom"
      }
     ]
+   }
+  },
+  {
+   "quote": "Since summer 2016, the internet’s “grunge goes pop” meme inflection point, it’s been diminishing returns. That window offered crossover, titan memes like Harambe, Dat Boi, Exploding Kid, Ted Cruz the Zodiac Killer, event invites to fake Limp Bizkit concerts at the Sunoco, Crying Jordan, and “J. Cole went platinum with no features.”",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Summer 2016 titan memes like Harambe and Dat Boi",
+   "evidence": "Since summer 2016",
+   "url": "https://www.garbageday.email/p/every-generation-gets-the-dimes-square",
+   "title": "Every generation gets the Dimes Square they deserve",
+   "published": "2022-05-27",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "summer 2016 crossover memes",
+    "topics": [
+     "memes",
+     "humor"
+    ],
+    "entities": [
+     {
+      "name": "harambe",
+      "kind": "other"
+     },
+     {
+      "name": "dat boi",
+      "kind": "other"
+     },
+     {
+      "name": "crying jordan",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "According to Know Your Meme, one of the earliest uses of the term comes from 4chan in 2016. In one of the threads Know Your Meme cites, users deploy the term to make fun of another poster sharing QAnon-style conspiracy theories. The idea being that the original poster was “schizoposting”.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Origins of \"schizoposting\" on 4chan",
+   "evidence": "comes from 4chan in 2016",
+   "url": "https://www.garbageday.email/p/staring-and-pointing",
+   "title": "Staring and pointing",
+   "published": "2022-07-06",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "schizoposting coined",
+    "topics": [
+     "memes",
+     "conspiracy theories"
+    ],
+    "entities": [
+     {
+      "name": "know your meme",
+      "kind": "media outlet"
+     },
+     {
+      "name": "qanon",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "One thing I learned while I was working on that piece was that in 2016 Japan’s national broadcaster NHK discovered that Abe had paid a firm to activate online trolls to go after his political enemies. Any critics of Abe’s party would be targeted by the firm, which seeded out abuse on platforms like Twitter and 2channel.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Abe's paid troll firm exposed by NHK",
+   "evidence": "in 2016 Japan’s national broadcaster NHK discovered that Abe had paid a firm to activate online trolls",
+   "url": "https://www.garbageday.email/p/american-carnage-with-a-japanese",
+   "title": "“American carnage” with a Japanese dub",
+   "published": "2022-07-11",
+   "tags": {
+    "moment": "political campaign or movement",
+    "moment_detail": "abe pays firm for trolls",
+    "topics": [
+     "japan",
+     "online harassment",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "shinzo abe",
+      "kind": "person"
+     },
+     {
+      "name": "nhk",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "2channel"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "4chan artists often depicted Trump as the God Emperor from the tabletop RPG Warhammer 40k and in the first years of his presidency there was a whole meme about how Trump would “make anime real”.",
+   "start_year": 2016,
+   "end_year": 2018,
+   "label": "God Emperor Trump memes on 4chan",
+   "evidence": "in the first years of his presidency there was a whole meme about how Trump would “make anime real”",
+   "url": "https://www.garbageday.email/p/the-khaki-pants-and-lanyard-crowd",
+   "title": "The khaki pants and lanyard crowd see a meme",
+   "published": "2022-08-10",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "trump god emperor memes",
+    "topics": [
+     "memes",
+     "far-right politics",
+     "anime"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "warhammer 40k",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -6537,6 +8078,146 @@
    }
   },
   {
+   "quote": "F1 has been actively expanding into the US ever since they were purchased by the American consortium Liberty Media in 2017, ousting controversial honcho Bernie Ecclestone and introducing a raft of changes to the sport meant to modernize it.",
+   "start_year": 2017,
+   "end_year": 2022,
+   "label": "Liberty Media buys F1 and pushes into the US",
+   "evidence": "Liberty Media in 2017",
+   "url": "https://www.garbageday.email/p/cars-go-fast",
+   "title": "Cars go fast",
+   "published": "2022-06-24",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "liberty media buys f1",
+    "topics": [
+     "motorsports",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "formula 1",
+      "kind": "company"
+     },
+     {
+      "name": "liberty media",
+      "kind": "company"
+     },
+     {
+      "name": "bernie ecclestone",
+      "kind": "person"
+     },
+     {
+      "name": "drive to survive",
+      "kind": "work"
+     },
+     {
+      "name": "netflix",
+      "kind": "company"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "One of the first Gen Z memes to leak over into real life was the 2017 Rick & Morty Szechuan sauce incident. If you don’t remember, McDonald’s re-released a dipping sauce from 1998 after it became a gag in the show Rick & Morty and, subsequently, a meme on sites like Reddit and YouTube.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Rick & Morty Szechuan sauce incident",
+   "evidence": "2017 Rick & Morty Szechuan sauce incident",
+   "url": "https://www.garbageday.email/p/the-2017-rick-and-morty-szechuan",
+   "title": "The 2017 Rick & Morty Szechuan sauce incident",
+   "published": "2022-07-04",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "szechuan sauce meme spills offline",
+    "topics": [
+     "memes",
+     "film and tv",
+     "food"
+    ],
+    "entities": [
+     {
+      "name": "rick and morty",
+      "kind": "work"
+     },
+     {
+      "name": "mcdonald's",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     },
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "gen z"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "I felt bizarre pangs of guilt for not being there as I sat in a leopard print-themed dive bar in the Golden Gai neighborhood of Shinjuku and watched the “American carnage” speech with a Japanese dub, intercut with Japanese reporters explaining why people were burning cars in the capital.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Watching Trump's inauguration from Tokyo",
+   "evidence": "watched the “American carnage” speech with a Japanese dub",
+   "url": "https://www.garbageday.email/p/american-carnage-with-a-japanese",
+   "title": "“American carnage” with a Japanese dub",
+   "published": "2022-07-11",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "watching inauguration from tokyo",
+    "topics": [
+     "american politics",
+     "japan"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "trump inauguration",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "If you’ve never heard the term “digital blackface” before, there was a whole dumb right-wing moral panic about it after the BBC made a video about the concept in 2017.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "Digital blackface moral panic after BBC video",
+   "evidence": "made a video about the concept in 2017",
+   "url": "https://www.garbageday.email/p/faster-dumber-weirder",
+   "title": "Faster, dumber, weirder",
+   "published": "2022-08-24",
+   "tags": {
+    "moment": "term coined",
+    "moment_detail": "digital blackface moral panic",
+    "topics": [
+     "race",
+     "memes"
+    ],
+    "entities": [
+     {
+      "name": "bbc",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "But about five years ago, right around when TikTok was first taking off in the US, we started to view virality with assumption that you could make money on it — if you went viral in a good way.",
    "start_year": 2017,
    "end_year": 2017,
@@ -6894,6 +8575,109 @@
      },
      {
       "name": "openai",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The last “crypto winter” was in 2018. Per Coindesk, Bitcoin’s value dropped almost 90% and really didn’t properly recover until the massive rally that started in 2020.",
+   "start_year": 2018,
+   "end_year": 2020,
+   "label": "The 2018 crypto winter",
+   "evidence": "The last “crypto winter” was in 2018.",
+   "url": "https://www.garbageday.email/p/bitcoin-isnt-populist",
+   "title": "Bitcoin isn't populist",
+   "published": "2022-05-23",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "2018 crypto winter crash",
+    "topics": [
+     "crypto and nfts",
+     "economy"
+    ],
+    "entities": [
+     {
+      "name": "bitcoin",
+      "kind": "other"
+     },
+     {
+      "name": "coindesk",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "By the end of the last decade, the cogs of the New York media machine had such a pathological blindspot for Manhattan, in particular, as a place that could be virally interesting that in 2018, The Cut wrote an article titled “Why Are All These Influencers Standing in the Middle of the Street?”",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Influencers standing in Manhattan streets",
+   "evidence": "in 2018, The Cut wrote an article",
+   "url": "https://www.garbageday.email/p/manhattan-is-a-playground-for-tiktok",
+   "title": "Manhattan is a playground for TikTok",
+   "published": "2022-06-29",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "influencers posing in manhattan streets",
+    "topics": [
+     "influencers",
+     "new york city culture"
+    ],
+    "entities": [
+     {
+      "name": "the cut",
+      "kind": "media outlet"
+     },
+     {
+      "name": "cartier",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "I remember the hilariously dumb “war room” that Facebook setup for Brazil’s 2018 election, complete with little Brazilian flags on computers. I imagine it was similar to what I saw in Italy, which was a bunch of screens with live CrowdTangle dashboards, basically. Only, in 2018, Facebook’s “war room” did not to stop misinformation about Brazil’s election from spreading via the platform’s very own ad library.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "Facebook's election 'war room' for Brazil's 2018 election",
+   "evidence": "Brazil’s 2018 election",
+   "url": "https://www.garbageday.email/p/bracing-for-impact",
+   "title": "Bracing for impact",
+   "published": "2022-08-29",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "facebook's brazil election war room",
+    "topics": [
+     "brazil",
+     "political campaigns",
+     "conspiracy theories",
+     "platform policy"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     },
+     {
+      "name": "crowdtangle",
       "kind": "company"
      }
     ],
@@ -7393,6 +9177,40 @@
    }
   },
   {
+   "quote": "In 2019, people on 4chan started making memes with the phrase “two tickets to Joker, please” slapped on to pictures of like weird stereotypical-looking incels.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "\"Two tickets to Joker, please\" memes on 4chan",
+   "evidence": "In 2019",
+   "url": "https://www.garbageday.email/p/the-2017-rick-and-morty-szechuan",
+   "title": "The 2017 Rick & Morty Szechuan sauce incident",
+   "published": "2022-07-04",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "two tickets to joker meme",
+    "topics": [
+     "memes",
+     "film and tv"
+    ],
+    "entities": [
+     {
+      "name": "joker",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "disaffected young men"
+     }
+    ]
+   }
+  },
+  {
    "quote": "By 2019, Meta’s Mark Zuckerberg was basically begging critics of the company to just hold on a bit longer for Meta to figure out how to use artificial intelligence to moderate their platform which had grown so large and so global that humans couldn’t ever really understand the whole thing anymore.",
    "start_year": 2019,
    "end_year": 2019,
@@ -7711,6 +9529,111 @@
      {
       "name": "all i want for christmas is you",
       "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "But what is now clear from looking at market data was that Bitcoin — and by extension, the whole crypto market — was already in a pump that had started in September 2020. By March 2021, its price had increased by almost 500%.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "Bitcoin pump of 2020-2021",
+   "evidence": "a pump that had started in September 2020",
+   "url": "https://www.garbageday.email/p/bitcoin-isnt-populist",
+   "title": "Bitcoin isn't populist",
+   "published": "2022-05-23",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "2020-21 bitcoin price pump",
+    "topics": [
+     "crypto and nfts",
+     "economy"
+    ],
+    "entities": [
+     {
+      "name": "bitcoin",
+      "kind": "other"
+     },
+     {
+      "name": "gamestop",
+      "kind": "company"
+     },
+     {
+      "name": "r/wallstreetbets",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "nft fans"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Case in point: The “Medium piece COVID guy” of the early pandemic lockdown months flooded Twitter with misinformation and, instead of figuring out how to harness and build off the newfound (bad) attention the platform was getting, Substack swooped in, ate its lunch, and then Medium laid off the majority of its editorial employees a year later.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "The Medium COVID guy and Substack's rise",
+   "evidence": "early pandemic lockdown months",
+   "url": "https://www.garbageday.email/p/building-a-new-titanic-on-the-deck",
+   "title": "Building a new Titanic on the deck of the old one",
+   "published": "2022-07-13",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "medium loses to substack",
+    "topics": [
+     "media industry",
+     "covid-19",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "medium",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "medium"
+     },
+     {
+      "name": "substack"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "If you’ve never heard of this before, well, in 2020, four lads in tight jeans posed for a photo together while on a night out in Birmingham. The picture went super viral in the UK for reasons that I would sort of compare to those old viral photos of guys from New Jersey at raves wearing like neon tank tops.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "Four Lads In Jeans meme goes viral in the UK",
+   "evidence": "in 2020, four lads in tight jeans",
+   "url": "https://www.garbageday.email/p/bracing-for-impact",
+   "title": "Bracing for impact",
+   "published": "2022-08-29",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "four lads in jeans photo",
+    "topics": [
+     "memes",
+     "nightlife"
+    ],
+    "entities": [
+     {
+      "name": "four lads in jeans",
+      "kind": "other"
      }
     ],
     "platforms": [],

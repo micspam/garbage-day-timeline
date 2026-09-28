@@ -1,0 +1,66 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "shrek merchandise everywhere",
+   "topics": [
+    "film and tv",
+    "consumer culture",
+    "advertising"
+   ],
+   "entities": [
+    {
+     "name": "shrek",
+     "kind": "work",
+     "evidence": "Shrek was released in 2001"
+    },
+    {
+     "name": "tim heidecker",
+     "kind": "person",
+     "evidence": "Tim Heidecker"
+    },
+    {
+     "name": "eric wareheim",
+     "kind": "person",
+     "evidence": "Eric Wareheim"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "internet mocks bee movie",
+   "topics": [
+    "film and tv",
+    "memes"
+   ],
+   "entities": [
+    {
+     "name": "bee movie",
+     "kind": "work",
+     "evidence": "Bee Movie"
+    },
+    {
+     "name": "jerry seinfeld",
+     "kind": "person",
+     "evidence": "Jerry Seinfeld plays a bee"
+    },
+    {
+     "name": "shrek",
+     "kind": "work",
+     "evidence": "make fun of the Shrek movies"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "youtube",
+     "evidence": "genre of YouTube content"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

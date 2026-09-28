@@ -1,0 +1,74 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "szechuan sauce meme spills offline",
+   "topics": [
+    "memes",
+    "film and tv",
+    "food"
+   ],
+   "entities": [
+    {
+     "name": "rick and morty",
+     "kind": "work",
+     "evidence": "the show Rick & Morty"
+    },
+    {
+     "name": "mcdonald's",
+     "kind": "company",
+     "evidence": "McDonald’s re-released a dipping sauce"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "sites like Reddit and YouTube"
+    },
+    {
+     "name": "youtube",
+     "evidence": "Reddit and YouTube"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "gen z",
+     "evidence": "Gen Z memes"
+    },
+    {
+     "name": "teens",
+     "evidence": "teenage boys lined up around the block"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "two tickets to joker meme",
+   "topics": [
+    "memes",
+    "film and tv"
+   ],
+   "entities": [
+    {
+     "name": "joker",
+     "kind": "work",
+     "evidence": "“two tickets to Joker, please”"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "people on 4chan started making memes"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "incels",
+     "evidence": "stereotypical-looking incels"
+    }
+   ]
+  }
+ ]
+}

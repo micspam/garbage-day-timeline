@@ -1,0 +1,37 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "subculture or scene",
+   "moment_detail": "online pickup artist community",
+   "topics": [
+    "gender",
+    "online radicalization"
+   ],
+   "entities": [
+    {
+     "name": "r/seduction",
+     "kind": "community",
+     "evidence": "r/seduction"
+    },
+    {
+     "name": "r/theredpill",
+     "kind": "community",
+     "evidence": "r/TheRedPill"
+    },
+    {
+     "name": "roosh v",
+     "kind": "person",
+     "evidence": "Roosh V"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "reddit",
+     "evidence": "Subreddits like r/seduction"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

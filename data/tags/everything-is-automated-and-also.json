@@ -1,0 +1,27 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "bitcoin created after recession",
+   "topics": [
+    "crypto and nfts",
+    "economy"
+   ],
+   "entities": [
+    {
+     "name": "bitcoin",
+     "kind": "other",
+     "evidence": "was Bitcoin"
+    },
+    {
+     "name": "great recession",
+     "kind": "event",
+     "evidence": "the Great Recession"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

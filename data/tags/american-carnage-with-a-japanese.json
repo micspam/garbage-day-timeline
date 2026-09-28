@@ -1,0 +1,98 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "insider anecdote",
+   "moment_detail": "watching inauguration from tokyo",
+   "topics": [
+    "american politics",
+    "japan"
+   ],
+   "entities": [
+    {
+     "name": "donald trump",
+     "kind": "person",
+     "evidence": "the day Trump was sworn in"
+    },
+    {
+     "name": "trump inauguration",
+     "kind": "event",
+     "evidence": "the “American carnage” speech"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "political campaign or movement",
+   "moment_detail": "abe pays firm for trolls",
+   "topics": [
+    "japan",
+    "online harassment",
+    "journalism"
+   ],
+   "entities": [
+    {
+     "name": "shinzo abe",
+     "kind": "person",
+     "evidence": "Abe had paid a firm to activate online trolls"
+    },
+    {
+     "name": "nhk",
+     "kind": "media outlet",
+     "evidence": "Japan’s national broadcaster NHK"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "platforms like Twitter and 2channel"
+    },
+    {
+     "name": "2channel",
+     "evidence": "platforms like Twitter and 2channel"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 3,
+   "moment": "political campaign or movement",
+   "moment_detail": "ldp and 2channel manipulate trends",
+   "topics": [
+    "japan",
+    "far-right politics",
+    "conspiracy theories"
+   ],
+   "entities": [
+    {
+     "name": "liberal democratic party",
+     "kind": "other",
+     "evidence": "the Liberal Democrat Party"
+    },
+    {
+     "name": "the asia-pacific journal",
+     "kind": "media outlet",
+     "evidence": "The Asia-Pacific Journal"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "2channel",
+     "evidence": "the far-right users of 2channel"
+    },
+    {
+     "name": "twitter",
+     "evidence": "Japanese trending topics on Twitter"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "2channel users",
+     "evidence": "the far-right users of 2channel"
+    }
+   ]
+  }
+ ]
+}

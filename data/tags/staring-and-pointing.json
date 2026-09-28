@@ -1,0 +1,32 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "term coined",
+   "moment_detail": "schizoposting coined",
+   "topics": [
+    "memes",
+    "conspiracy theories"
+   ],
+   "entities": [
+    {
+     "name": "know your meme",
+     "kind": "media outlet",
+     "evidence": "According to Know Your Meme"
+    },
+    {
+     "name": "qanon",
+     "kind": "community",
+     "evidence": "QAnon-style conspiracy theories"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "comes from 4chan in 2016"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

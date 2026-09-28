@@ -1,0 +1,49 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "facebook as viral content hub",
+   "topics": [
+    "memes",
+    "journalism"
+   ],
+   "entities": [
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "coming out of Facebook"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "coming out of Facebook"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "viral trend",
+   "moment_detail": "ice bucket challenge peak",
+   "topics": [
+    "memes"
+   ],
+   "entities": [
+    {
+     "name": "ice bucket challenge",
+     "kind": "event",
+     "evidence": "the Ice Bucket Challenge"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook-born viral moments"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}
