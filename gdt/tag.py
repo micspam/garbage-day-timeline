@@ -138,7 +138,8 @@ def run(limit: int | None):
 
 
 def clean_name(s: str) -> str:
-    return " ".join(str(s).lower().split())
+    s = str(s).replace("’", "'").replace("‘", "'").replace("“", "\"").replace("”", "\"")  # curly vs straight quotes
+    return " ".join(s.lower().split())
 
 
 def checked_tags(record: dict, issue: dict, stats: Counter | None = None) -> dict[int, dict]:
@@ -205,9 +206,31 @@ def vocab(limit: int | None):
     for field, values in counts.items():
         rows = [{"value": v, "quotes": c["quotes"], "issues": len(c["issues"]), "eras": len(c["eras"])} for v, c in values.items()]
         out["fields"][field] = sorted(rows, key=lambda r: (-r["quotes"], r["value"]))
+    out["near_duplicates"] = {f: near_duplicates([r["value"] for r in out["fields"].get(f, [])]) for f in ("topics", "platforms", "entities", "audiences")}
+    out["singletons"] = {f: sum(r["quotes"] == 1 for r in rows) for f, rows in out["fields"].items()}
     (DATA / "vocab.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print(f"{tagged} tagged quotes; evidence checks: {dict(stats)}")
     for field, rows in out["fields"].items():
         top = ", ".join(f"{r['value']} ({r['quotes']})" for r in rows[:12])
-        print(f"  {field}: {len(rows)} distinct -- {top}")
+        print(f"  {field}: {len(rows)} distinct, {out['singletons'][field]} used once -- {top}")
+    pairs = [(f, a, b) for f, ps in out["near_duplicates"].items() for a, b in ps]
+    if pairs:
+        print(f"possible near-duplicates to merge in data/aliases.json ({len(pairs)}):")
+        for f, a, b in pairs[:25]:
+            print(f"  {f}: {a!r} ~ {b!r}")
+
+
+def near_duplicates(values: list[str]) -> list[tuple[str, str]]:
+    """Pairs that look like the same thing: one contains the other as whole words
+    ("memes" / "internet memes"), or they're spelled almost the same ("youtuber" / "youtubers")."""
+    import difflib
+    pairs = []
+    for i, a in enumerate(values):
+        for b in values[i + 1:]:
+            wa, wb = a.split(), b.split()
+            contained = (len(wa) != len(wb)) and (" ".join(wa) in " ".join(wb) or " ".join(wb) in " ".join(wa)) and min(len(a), len(b)) >= 4
+            similar = difflib.SequenceMatcher(None, a, b).ratio() >= 0.88
+            if contained or similar:
+                pairs.append((a, b))
+    return pairs

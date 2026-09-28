@@ -1,13 +1,13 @@
-"""Usage: python -m gdt {fetch,prepare,extract,review,tag,vocab,build} [--limit N]
+"""Usage: python -m gdt {fetch,prepare,extract,review,tag,vocab,build,status} [--limit N]
        python -m gdt review --redo-from A --redo-to B   (re-review issues A..B, newest first)"""
 import argparse
 import os
 import sys
 
-from . import build, extract, fetch, review, tag
+from . import build, extract, fetch, review, status, tag
 
 ap = argparse.ArgumentParser(prog="gdt")
-ap.add_argument("step", choices=["fetch", "prepare", "extract", "review", "tag", "vocab", "build"])
+ap.add_argument("step", choices=["fetch", "prepare", "extract", "review", "tag", "vocab", "build", "status"])
 ap.add_argument("--limit", type=int, help="only process the N newest issues")
 ap.add_argument("--redo-from", type=int, help="review: first issue position to re-review (1 = newest)")
 ap.add_argument("--redo-to", type=int, help="review: last issue position to re-review")
@@ -21,6 +21,7 @@ steps = {
     "tag": tag.run,
     "vocab": tag.vocab,
     "build": build.run,
+    "status": status.run,
 }
 try:
     steps[args.step](args.limit)

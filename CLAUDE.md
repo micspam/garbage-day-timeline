@@ -10,6 +10,7 @@ Setup, once per session. The full archive fetch takes **about 50 minutes** at 1 
 
 ```bash
 python -m gdt fetch               # needs network access to www.garbageday.email
+python -m gdt status              # where the run stands: per-stage counts, issues awaiting review or tags, skipped files
 ```
 
 Then loop in **batches of about 50 issues**, committing after each batch so nothing is lost if the session ends. Each step has a committed brief in `docs/briefs/`. **Hand subagents the brief for their step verbatim**, plus their list of slugs.
@@ -61,7 +62,8 @@ python -m gdt tag                                  # tags any quote the re-revie
 - `quote_too_long` is now rejected at `extract`, before review and tagging.
 - `dropped_in_review` should be a minority. If most quotes get dropped, step A is ignoring the "about the era" rule.
 - `dates_estimated` counts quotes whose evidence has no year or decade; the site shows those dates as approximate.
-- `vocab` prints how many fact tags were dropped for missing evidence. A high share means step C is guessing.
+- `vocab` prints how many fact tags were dropped for missing evidence (a high share means step C is guessing) and lists possible near-duplicate tag names to merge in `data/aliases.json`.
+- Run `gdt status` at the end of every batch: it flags prompt files an agent skipped, and quotes still awaiting review or tags.
 - Spot-check `data/review_dropped.json` to make sure the review isn't throwing out good quotes.
 
 **Don't loosen the checks in `validate()`, the review rules or the tag evidence rule to get more data.** They are the point of the project. **Never disable the sandbox.** If a tool fails, stop and report it.

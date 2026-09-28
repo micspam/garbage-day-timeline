@@ -16,20 +16,24 @@ It's a response to the newsletter's vibe-coding post, where the AI step kept hal
 
 Python 3.10+, standard library only. There are two ways to get the model's answers.
 
-**In a Claude Code session (no API key).** Open the repo in Claude Code and ask it to "run the pipeline on 50 issues". [CLAUDE.md](CLAUDE.md) has the steps. Claude answers each prompt file itself, and the same checks apply.
+**In a Claude Code session (no API key).** Open the repo in Claude Code and ask it to "continue the archive run". [CLAUDE.md](CLAUDE.md) has the batch loop and [docs/briefs/](docs/briefs/) the per-step rules for subagents. The model's answers are committed, so a run resumes across sessions.
 
-**With an API key (unattended).** If `ANTHROPIC_API_KEY` is set, `extract` calls Claude Haiku for any issue that doesn't have an answer yet.
+**With an API key (unattended).** If `ANTHROPIC_API_KEY` is set, `extract`, `review` and `tag` call Claude for anything that doesn't have an answer yet.
 
 ```bash
-python -m gdt fetch --limit 50      # public issues via the sitemap, 1 req/sec, cached in data/
-python -m gdt prepare --limit 50    # prompt files for a Claude Code session to answer (skip if using the API)
-python -m gdt extract --limit 50    # checks the answers against the source
-python -m gdt review --limit 50     # sanity pass: is each quote really about its era?
-python -m gdt build                 # writes site/data.json
-python -m http.server -d site 8000  # view at http://localhost:8000
+python -m gdt fetch       # public issues via the sitemap, 1 req/sec, cached in data/ (~50 min for all)
+python -m gdt prepare     # step A prompts: pick quotes by sentence number
+python -m gdt extract     # checks the answers against the source
+python -m gdt review      # step B prompts: is each quote really about its era?
+python -m gdt tag         # step C prompts: kind of moment, topics, evidence-backed platforms/people/audiences
+python -m gdt build       # writes site/data.json and a report
+python -m gdt vocab       # counts every tag value; lists near-duplicates to merge in data/aliases.json
+python -m gdt status      # where the run stands
 ```
 
-Pushing `site/` to `main` deploys to GitHub Pages (set Settings → Pages → Source to **GitHub Actions**).
+Every step takes `--limit N` to work on the N newest issues only.
+
+The site is a single page, [site/artifact_template.html](site/artifact_template.html), with `site/data.json` embedded. It has named eras, search, and sub-timelines for any tag with enough history, each with a shareable link.
 
 Paid issues only show their headline publicly, so they're skipped. With a Beehiiv API key, `fetch.py` could be replaced by an API-based fetcher that covers the full archive.
 
