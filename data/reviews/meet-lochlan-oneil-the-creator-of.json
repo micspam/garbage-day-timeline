@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: depends on 'looking at that' from earlier in the interview."
+    }
+  ]
+}

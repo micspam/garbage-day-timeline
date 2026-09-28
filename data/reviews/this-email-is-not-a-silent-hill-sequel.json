@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: depends on 'the memes shown above', which the reader can't see."
+    }
+  ]
+}

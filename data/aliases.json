@@ -225,7 +225,8 @@
    "onlyfans",
    "google",
    "donald trump",
-   "elon musk"
+   "elon musk",
+   "history"
   ],
   "map": {
    "politics": "american politics",
@@ -391,7 +392,13 @@
    "zines": "fandom",
    "suicide": "death online",
    "effective altruism": "rationalism",
-   "search engine optimization": "advertising"
+   "search engine optimization": "advertising",
+   "message boards": "forums",
+   "creators": "influencers",
+   "russian interference": "geopolitics",
+   "youth culture": "generational culture",
+   "reggae": "music",
+   "moral panic": "moral panics"
   }
  },
  "platforms": {

@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 1: a bare one-line assertion leading into a present story, with nothing about what the era was like."
+    }
+  ]
+}

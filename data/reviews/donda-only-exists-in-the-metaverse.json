@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: the sentence is garbled and doesn't explain what Pogs or the juice caps were."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: 'The meme' is never named in the quote."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 2018 Bowsette phenomenon and its origin."
+    }
+  ]
+}

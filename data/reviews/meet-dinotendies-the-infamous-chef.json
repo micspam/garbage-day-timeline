@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Fails check 3: opens with an unresolved 'It', so the quote never names what was started."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes what the Something Awful 9/11 threads were like."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the original 2013 Yik Yak and its bullying problem."
+    }
+  ]
+}
