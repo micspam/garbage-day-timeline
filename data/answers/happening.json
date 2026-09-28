@@ -1,0 +1,7 @@
+{"references": [
+{"sentence_ids": [9, 10], "start_year": 2008, "end_year": 2009, "label": "Digital media traffic before social platforms", "evidence": "at the end of the 2000s"},
+{"sentence_ids": [13], "start_year": 2008, "end_year": 2009, "label": "Reddit, Digg and StumbleUpon as traffic sources", "evidence": "at the end of the 2000s"},
+{"sentence_ids": [14, 15], "start_year": 2012, "end_year": 2012, "label": "Facebook's 2012 takeover of digital media", "evidence": "Then everything changed in 2012."},
+{"sentence_ids": [19, 20], "start_year": 2012, "end_year": 2013, "label": "Facebook traffic firehose devours digital media", "evidence": "by 2013 platforms like Facebook had fully devoured digital media"},
+{"sentence_ids": [24, 25], "start_year": 2015, "end_year": 2015, "label": "Newsroom social news departments", "evidence": "By 2015, every newsroom"}
+]}
