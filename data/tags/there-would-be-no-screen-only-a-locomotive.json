@@ -1,0 +1,4 @@
+{"tags":[
+{"n":1,"moment":"news event","moment_detail":"forum users crowdsource 9/11","topics":["forums","journalism"],"entities":[{"name":"9/11","kind":"event","evidence":"9/11 threads"}],"platforms":[{"name":"something awful","evidence":"Something Awful"}],"audiences":[]},
+{"n":2,"moment":"platform decline or shutdown","moment_detail":"yik yak launches and shuts down","topics":["online harassment","mobile internet"],"entities":[],"platforms":[{"name":"yik yak","evidence":"The original Yik Yak app launched in 2013"}],"audiences":[]}
+]}
