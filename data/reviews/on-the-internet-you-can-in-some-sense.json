@@ -1,0 +1,9 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Fails check 2: an anniversary date stamp ('this week marks 10 years') that says nothing about what the era was like."
+  }
+ ]
+}

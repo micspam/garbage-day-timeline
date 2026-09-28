@@ -1,0 +1,29 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Describes aggregate review scores rising in the early 2010s; passes all four."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Describes getting leaked Graduation and Curtis copies via 2007 piracy; passes all four."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Describes Gamergaters' fixation on Metacritic scores; passes all four."
+    },
+    {
+      "n": 4,
+      "keep": false,
+      "reason": "Check 3: 'the channel' is never named, and it is mostly a corporate date stamp."
+    },
+    {
+      "n": 5,
+      "keep": true,
+      "reason": "Describes the late-2000s blog-to-book pipeline and Tumblr book deals with a first-hand anecdote; passes all four."
+    }
+  ]
+}

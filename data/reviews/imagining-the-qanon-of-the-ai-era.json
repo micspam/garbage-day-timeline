@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3: 'One issue here I think' depends on earlier context and offers only a thin opinion."
+    }
+  ]
+}

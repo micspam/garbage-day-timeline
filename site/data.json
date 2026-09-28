@@ -1,16 +1,56 @@
 {
  "report": {
-  "issues_analyzed": 250,
-  "issues_with_past_references": 104,
-  "issues_with_none": 146,
-  "references_proposed": 222,
-  "references_kept": 173,
-  "references_rejected": {},
-  "dropped_in_review": 49,
+  "issues_analyzed": 359,
+  "issues_with_past_references": 153,
+  "issues_with_none": 206,
+  "references_proposed": 321,
+  "references_kept": 246,
+  "references_rejected": {
+   "quote_too_long": 1
+  },
+  "dropped_in_review": 74,
   "not_reviewed": 0,
   "fabricated_quotes_possible": 0
  },
  "cards": [
+  {
+   "quote": "Charles Mackay’s 1841 Extraordinary Popular Delusions And Madness Of Crowds describes different societal manias throughout history, from the South Sea Bubble to the Crusades, and even devotes a chapter to the memes of his time: the “cant phrases” and verbal trends heard shouted on the streets of London’s East End.",
+   "start_year": 1841,
+   "end_year": 1841,
+   "label": "Mackay's Extraordinary Popular Delusions and street memes",
+   "evidence": "Charles Mackay’s 1841 Extraordinary Popular Delusions",
+   "url": "https://www.garbageday.email/p/nobody-is-embarrassed-at-all",
+   "title": "Nobody is embarrassed at all",
+   "published": "2023-08-16",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "victorian street catchphrases",
+    "topics": [
+     "memes",
+     "hype cycles"
+    ],
+    "entities": [
+     {
+      "name": "charles mackay",
+      "kind": "person"
+     },
+     {
+      "name": "extraordinary popular delusions and madness of crowds",
+      "kind": "work"
+     },
+     {
+      "name": "south sea bubble",
+      "kind": "event"
+     },
+     {
+      "name": "the crusades",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
   {
    "quote": "There’s an oft-quoted “shoeshine boy” theory of markets, usually attributed to Joe Kennedy in the late 1920s, who said that when the boy shining his shoes had stock tips, he knew the market was about to collapse.",
    "start_year": 1929,
@@ -21,10 +61,10 @@
    "title": "Welcome to the video bloat era",
    "published": "2024-04-03",
    "tags": {
-    "moment": "market warning sign anecdote",
+    "moment": "hype or bubble",
+    "moment_detail": "market warning sign anecdote",
     "topics": [
-     "stock market",
-     "financial history"
+     "economy"
     ],
     "entities": [
      {
@@ -37,6 +77,80 @@
    }
   },
   {
+   "quote": "The 20th century, though, with its explosion in mass entertainment, sped things up and also pushed the more intense expressions of engagement towards the fringes. Beatlemania, Trekkies, admirers and anoraks of all types, these communities built up their own ways and means of engaging with the media which stirred their passions: tape-trading, slash-fiction writing, cosplaying and zine-making.",
+   "start_year": 1950,
+   "end_year": 1999,
+   "label": "20th-century fandom subcultures",
+   "evidence": "The 20th century",
+   "url": "https://www.garbageday.email/p/nobody-is-embarrassed-at-all",
+   "title": "Nobody is embarrassed at all",
+   "published": "2023-08-16",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "20th century fan cultures",
+    "topics": [
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "beatlemania",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "trekkies"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Usenet discussions of popular shows of the ‘80s and early ‘90s had kernels of this, and the 1993-2002 Fox sci-fi series The X-Files, a popular show in the Nielsens that was the center of online TV discussion for the second half of the 1990s, hypercharged everything.",
+   "start_year": 1985,
+   "end_year": 1999,
+   "label": "Usenet and X-Files online fan discussion",
+   "evidence": "the second half of the 1990s",
+   "url": "https://www.garbageday.email/p/internet-sleuthery-cannot-abide-a",
+   "title": "Internet sleuthery cannot abide a loose end",
+   "published": "2023-06-12"
+  },
+  {
+   "quote": "MTV News premiered in 1987, only seven years after CNN. And I would argue MTV News had a much more coveted role at the center of pop culture in the late 90s and early 2000s than CNN has ever had.",
+   "start_year": 1987,
+   "end_year": 2004,
+   "label": "MTV News at the center of pop culture",
+   "evidence": "MTV News premiered in 1987",
+   "url": "https://www.garbageday.email/p/time-for-some-gen-x-boomerposting",
+   "title": "Time for some Gen X boomerposting",
+   "published": "2023-05-10"
+  },
+  {
+   "quote": "One of the first generations of web developers believed that virtual reality would become a sort of cyber LSD that could bring about a new utopian age if we all logged on together.",
+   "start_year": 1990,
+   "end_year": 1996,
+   "label": "Early web developers' VR utopianism",
+   "evidence": "One of the first generations of web developers",
+   "url": "https://www.garbageday.email/p/silicon-valley-vs-teenage-girls",
+   "title": "Silicon Valley vs. teenage girls",
+   "published": "2023-12-04",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "early vr utopianism",
+    "topics": [
+     "virtual reality",
+     "silicon valley"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "web developers"
+     }
+    ]
+   }
+  },
+  {
    "quote": "And back when Wicked opened on Broadway in 2003, when the world was still governed by things like newspaper circulations, box office numbers, and album sales, being a “theater kid” wasn’t easy. Decades before the internet and what we think of as “fandom” emerged, musical fans were already a massive subculture defined by inaccessibility.",
    "start_year": 1990,
    "end_year": 2003,
@@ -46,10 +160,10 @@
    "title": "Everyone's a theater kid now",
    "published": "2024-11-25",
    "tags": {
-    "moment": "pre-internet fandom culture",
+    "moment": "subculture or scene",
+    "moment_detail": "pre-internet fandom culture",
     "topics": [
-     "broadway",
-     "musical theater",
+     "theater",
      "fandom"
     ],
     "entities": [
@@ -76,10 +190,9 @@
    "title": "The bubble is getting a lot bubblier, folks",
    "published": "2026-05-27",
    "tags": {
-    "moment": "economic bubble description",
+    "moment": "hype or bubble",
+    "moment_detail": "economic bubble description",
     "topics": [
-     "dot com bubble",
-     "technology",
      "economy"
     ],
     "entities": [],
@@ -101,11 +214,12 @@
    "title": "Too toxic for the fandom hype cycle",
    "published": "2025-06-11",
    "tags": {
-    "moment": "franchise rapid rise",
+    "moment": "hype or bubble",
+    "moment_detail": "franchise rapid rise",
     "topics": [
      "fandom",
-     "publishing",
-     "film industry"
+     "media industry",
+     "film and tv"
     ],
     "entities": [
      {
@@ -131,15 +245,48 @@
    "title": "The bubble is getting a lot bubblier, folks",
    "published": "2026-05-27",
    "tags": {
-    "moment": "economic bubble collapse",
+    "moment": "hype or bubble",
+    "moment_detail": "economic bubble collapse",
     "topics": [
-     "dot com bubble",
-     "technology",
      "economy"
     ],
     "entities": [],
     "platforms": [],
     "audiences": []
+   }
+  },
+  {
+   "quote": "But from the 2000s onward, thanks to an increasingly powerful digital public square, young women and people of color were able to have more influence in mainstream culture and also accumulate more financial power from it.",
+   "start_year": 2000,
+   "end_year": 2009,
+   "label": "Women and people of color gain pop culture power online",
+   "evidence": "from the 2000s onward",
+   "url": "https://www.garbageday.email/p/taylor-swift-vs-manosphere",
+   "title": "Taylor Swift vs. the manosphere",
+   "published": "2024-01-31",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "women gain pop influence",
+    "topics": [
+     "music",
+     "celebrity",
+     "gender"
+    ],
+    "entities": [
+     {
+      "name": "barack obama",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "young women"
+     },
+     {
+      "name": "people of color"
+     }
+    ]
    }
   },
   {
@@ -152,10 +299,11 @@
    "title": "Coolness is just scarcity",
    "published": "2024-06-17",
    "tags": {
-    "moment": "subculture discovery via internet",
+    "moment": "subculture or scene",
+    "moment_detail": "subculture discovery via internet",
     "topics": [
-     "music scenes",
-     "fashion trends",
+     "music",
+     "fashion",
      "fandom"
     ],
     "entities": [],
@@ -166,7 +314,7 @@
     ],
     "audiences": [
      {
-      "name": "teenagers"
+      "name": "gen z"
      }
     ]
    }
@@ -181,10 +329,11 @@
    "title": "The crystal cube of agony",
    "published": "2024-08-19",
    "tags": {
-    "moment": "cultural taboo before trend",
+    "moment": "cultural shift",
+    "moment_detail": "cultural taboo before trend",
     "topics": [
      "new york city culture",
-     "food trends",
+     "food",
      "nightlife"
     ],
     "entities": [],
@@ -202,11 +351,10 @@
    "title": "Elon Musk Vs. Brazil",
    "published": "2024-09-02",
    "tags": {
-    "moment": "social network market dominance",
+    "moment": "platform launch or growth",
+    "moment_detail": "social network market dominance",
     "topics": [
-     "brazil",
-     "social media history",
-     "online communities"
+     "brazil"
     ],
     "entities": [
      {
@@ -240,10 +388,10 @@
    "title": "An edgelord out of time",
    "published": "2026-02-16",
    "tags": {
-    "moment": "creator style out of step with era",
+    "moment": "cultural shift",
+    "moment_detail": "creator style out of step with era",
     "topics": [
-     "video games",
-     "internet culture"
+     "video games"
     ],
     "entities": [
      {
@@ -264,6 +412,63 @@
    }
   },
   {
+   "quote": "Jet Li, famously, didn’t appear in The Matrix Reloaded and Revolutions because Warner Bros. wanted to scan his fight choreography and add it to a digital library that they would own the rights to.",
+   "start_year": 2001,
+   "end_year": 2003,
+   "label": "Jet Li turns down The Matrix sequels over motion scanning",
+   "evidence": "The Matrix Reloaded and Revolutions",
+   "url": "https://www.garbageday.email/p/unions-are-our-only-defense-against",
+   "title": "Unions are our only defense against the robots",
+   "published": "2023-05-03"
+  },
+  {
+   "quote": "In July 2001, Napster was shut down amid a flurry of lawsuits and congressional hearings. This didn’t kill music piracy, of course, but it pushed it to the fringes of the web and created a schism within the music industry that we still see today.",
+   "start_year": 2001,
+   "end_year": 2001,
+   "label": "Napster shutdown",
+   "evidence": "In July 2001, Napster was shut down",
+   "url": "https://www.garbageday.email/p/end-tiktoks-audio-golden-age",
+   "title": "The end of TikTok's audio golden age",
+   "published": "2024-02-05",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "napster shut down",
+    "topics": [
+     "intellectual property",
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "metallica",
+      "kind": "other"
+     },
+     {
+      "name": "radiohead",
+      "kind": "other"
+     },
+     {
+      "name": "jeff rosenstock",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "napster"
+     },
+     {
+      "name": "kazaa"
+     },
+     {
+      "name": "limewire"
+     },
+     {
+      "name": "bittorrent"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "White bought UFC in 2001 after being, he claims, chased out of Boston by mobster Whitey Bulger.",
    "start_year": 2001,
    "end_year": 2001,
@@ -273,11 +478,10 @@
    "title": "UFC and the beating heart of Trumpism",
    "published": "2025-03-10",
    "tags": {
-    "moment": "company acquisition",
+    "moment": "news event",
+    "moment_detail": "company acquisition",
     "topics": [
-     "mma",
-     "business",
-     "ufc"
+     "combat sports"
     ],
     "entities": [
      {
@@ -307,10 +511,10 @@
    "title": "The tyranny of relatable content",
    "published": "2025-03-26",
    "tags": {
-    "moment": "brand pages introduced",
+    "moment": "platform launch or growth",
+    "moment_detail": "brand pages introduced",
     "topics": [
-     "social media history",
-     "branding"
+     "advertising"
     ],
     "entities": [
      {
@@ -341,6 +545,16 @@
    }
   },
   {
+   "quote": "Myspace launches in 2003 and it quickly makes the idea of a social network mainstream. Facebook goes live exclusively for users with college email addresses a year later.",
+   "start_year": 2003,
+   "end_year": 2004,
+   "label": "Myspace and Facebook launch",
+   "evidence": "Myspace launches in 2003",
+   "url": "https://www.garbageday.email/p/the-algorithmic-anti-culture-of-scale",
+   "title": "The algorithmic anti-culture of scale",
+   "published": "2023-07-07"
+  },
+  {
    "quote": "A great editor I worked for during the second Pivot To Video, roughly 2013-2017, who, herself worked through the first, roughly 2003-2007, described it as a massive waste of resources that wastes more resources as it becomes clearer to everyone not directly involved how much of a waste of resources it is.",
    "start_year": 2003,
    "end_year": 2017,
@@ -350,16 +564,35 @@
    "title": "Welcome to the video bloat era",
    "published": "2024-04-03",
    "tags": {
-    "moment": "media industry cost cycle",
+    "moment": "media industry shift",
+    "moment_detail": "media industry cost cycle",
     "topics": [
-     "digital media",
-     "video content",
      "media industry"
     ],
     "entities": [],
     "platforms": [],
     "audiences": []
    }
+  },
+  {
+   "quote": "The first was that, as MySpace was beginning to go through a major identity crisis as it crossed over into a truly mainstream platform in the mid-2000s, Facebook launched. And, at first, oit nly allowed users with a college email addresses to join.",
+   "start_year": 2004,
+   "end_year": 2006,
+   "label": "Facebook launches as college-only alternative to MySpace",
+   "evidence": "in the mid-2000s",
+   "url": "https://www.garbageday.email/p/a-normal-day-on-twitter-in-2019",
+   "title": "A normal day on Twitter in 2019",
+   "published": "2023-04-28"
+  },
+  {
+   "quote": "The standard series to blame for this tendency is the 2004-10 series Lost, which saw fan theorizing reach such a fever pitch that it essentially gave birth to an entire TV blogger subculture.",
+   "start_year": 2004,
+   "end_year": 2010,
+   "label": "Lost fan theorizing and TV blogger subculture",
+   "evidence": "2004-10 series Lost",
+   "url": "https://www.garbageday.email/p/internet-sleuthery-cannot-abide-a",
+   "title": "Internet sleuthery cannot abide a loose end",
+   "published": "2023-06-12"
   },
   {
    "quote": "In one essay titled, “When Movie Stars Become Brands,” Willems argues that in the mid-2000s, after a string of bombs, Dwayne Johnson and Ryan Reynolds adapted a strategy lifted from George Clooney, where an actor builds brands and side businesses to fund creatively riskier movie projects.",
@@ -371,11 +604,11 @@
    "title": "More slop for the void",
    "published": "2024-07-10",
    "tags": {
-    "moment": "celebrity branding strategy",
+    "moment": "media industry shift",
+    "moment_detail": "celebrity branding strategy",
     "topics": [
-     "hollywood",
-     "celebrity branding",
-     "film industry"
+     "film and tv",
+     "celebrity"
     ],
     "entities": [
      {
@@ -409,10 +642,10 @@
    "title": "An edgelord out of time",
    "published": "2026-02-16",
    "tags": {
-    "moment": "subculture explainer",
+    "moment": "subculture or scene",
+    "moment_detail": "subculture explainer",
     "topics": [
-     "internet culture",
-     "subcultures",
+     "fandom",
      "furries"
     ],
     "entities": [],
@@ -437,10 +670,10 @@
    "title": "Day 17 of America’s Timothée Chalamet crisis",
    "published": "2026-03-13",
    "tags": {
-    "moment": "indie game release",
+    "moment": "news event",
+    "moment_detail": "indie game release",
     "topics": [
-     "video games",
-     "internet culture"
+     "video games"
     ],
     "entities": [
      {
@@ -449,6 +682,74 @@
      }
     ],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "My reference point for this kind of marketing is the Myspace era of music and fashion, when record companies and stores like Hot Topic and Spencer’s Gifts were using early social media to identify niche fandoms and convert them into mainstream hits.",
+   "start_year": 2005,
+   "end_year": 2008,
+   "label": "Myspace-era fandom marketing",
+   "evidence": "the Myspace era of music and fashion",
+   "url": "https://www.garbageday.email/p/the-great-silent-majority-of-american",
+   "title": "The great silent majority of American basicness",
+   "published": "2024-01-08",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "brands mine myspace fandoms",
+    "topics": [
+     "advertising",
+     "fashion",
+     "music",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "hot topic",
+      "kind": "company"
+     },
+     {
+      "name": "spencer’s gifts",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "News Corp. owned Myspace during what many would argue was its biggest years. But its new corporate owner couldn't keep up with Facebook's competition, pivoted the wrong ways, and by 2008, the site was already dying.",
+   "start_year": 2005,
+   "end_year": 2008,
+   "label": "News Corp's Myspace years",
+   "evidence": "by 2008, the site was already dying",
+   "url": "https://www.garbageday.email/p/misinformation-fun",
+   "title": "Misinformation is fun",
+   "published": "2024-03-11",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "myspace dies under news corp",
+    "topics": [
+     "platform acquisitions"
+    ],
+    "entities": [
+     {
+      "name": "news corp",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
     "audiences": []
    }
   },
@@ -462,14 +763,163 @@
    "title": "Now is the time of sea shanties",
    "published": "2024-05-13",
    "tags": {
-    "moment": "regional music scene competition",
+    "moment": "subculture or scene",
+    "moment_detail": "regional music scene competition",
     "topics": [
-     "hip hop",
-     "radio",
-     "regional music scenes"
+     "music",
+     "radio"
     ],
     "entities": [],
     "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The thing that ties together pretty much everything that’s happened on Twitter since it launched in 2006 was the possibility that those who were not in power (or wanted more) could influence those who were.",
+   "start_year": 2006,
+   "end_year": 2021,
+   "label": "Twitter as a channel for outsiders to influence power",
+   "evidence": "since it launched in 2006",
+   "url": "https://www.garbageday.email/p/paying-to-use-a-site-you-cant-use",
+   "title": "Paying to use a site you can’t use anymore",
+   "published": "2023-07-05"
+  },
+  {
+   "quote": "If you’ve never heard of GMod, or Garry’s Mod, it was basically Minecraft before Minecraft. A game with no default objectives or structure, letting you create and build whatever you want. Early YouTube was filled with GMod videos, the exact same way Minecraft videos dominate the platform today.",
+   "start_year": 2006,
+   "end_year": 2009,
+   "label": "Garry's Mod videos on early YouTube",
+   "evidence": "Early YouTube was filled with GMod videos",
+   "url": "https://www.garbageday.email/p/an-onslaught-of-toilets",
+   "title": "An onslaught of toilets",
+   "published": "2023-07-19"
+  },
+  {
+   "quote": "Sites like 4chan and Reddit would steal photos of people with Down Syndrome and cerebral palsy and use them as reaction images, which would get saved in folders, and travel around the internet forever.",
+   "start_year": 2006,
+   "end_year": 2012,
+   "label": "4chan and Reddit turning photos of disabled people into reaction images",
+   "evidence": "the early days of social media",
+   "url": "https://www.garbageday.email/p/4chanification-web",
+   "title": "The 4chan-ification of the web",
+   "published": "2024-03-06",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "disabled people's photos as reaction images",
+    "topics": [
+     "memes",
+     "online harassment",
+     "disability"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "reddit"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Thanks to the magic of music piracy, which I was also very into at the time, I managed to get leaked copies of Kanye West’s Graduation and 50 Cent’s Curtis a couple days before their official release. So my first pitch for the section was a double review of both albums — which were marketed as competing releases at the time.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "Leaked Graduation vs. Curtis double review",
+   "evidence": "Kanye West’s Graduation and 50 Cent’s Curtis",
+   "url": "https://www.garbageday.email/p/criticism-is-wwe",
+   "title": "Criticism is WWE",
+   "published": "2023-06-21"
+  },
+  {
+   "quote": "This all reminds me a lot of the blog-to-book pipeline of the late 2000s, which eventually evolved into the “Tumblr book deal” concept of the early 2010s. A buddy of mine was actually once offered a book deal for his Tumblr of funny cat pictures back then and I got to sit in on the meeting.",
+   "start_year": 2007,
+   "end_year": 2013,
+   "label": "Blog-to-book and Tumblr book deals",
+   "evidence": "the blog-to-book pipeline of the late 2000s",
+   "url": "https://www.garbageday.email/p/criticism-is-wwe",
+   "title": "Criticism is WWE",
+   "published": "2023-06-21"
+  },
+  {
+   "quote": "In the late-2000s and early-2010s there were a lot of people in New York working in digital media. More than a few times I heard someone use the term “Silicon Alley” to refer to what I think was a stretch of offices near the Flatiron?",
+   "start_year": 2007,
+   "end_year": 2012,
+   "label": "New York digital media and \"Silicon Alley\"",
+   "evidence": "In the late-2000s and early-2010s",
+   "url": "https://www.garbageday.email/p/paying-to-use-a-site-you-cant-use",
+   "title": "Paying to use a site you can’t use anymore",
+   "published": "2023-07-05"
+  },
+  {
+   "quote": "And I suddenly remembered how cliquey, annoying, and, most importantly, artificial the indie blog era felt as it was happening. The much more populist (and cringy) Myspace scene era was crashing and burning and, in its place arrived an increasingly elitist network of genuinely insufferable bloggers promoting — or obsessively attacking — bands based entirely around a Big Muff pedal with names like SVRRF DOG and §§§.",
+   "start_year": 2007,
+   "end_year": 2011,
+   "label": "Indie music blog era",
+   "evidence": "the indie blog era",
+   "url": "https://www.garbageday.email/p/the-amen-spam-conquered-facebook",
+   "title": "The \"Amen\" spam conquered Facebook",
+   "published": "2023-12-13",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "indie music blog era",
+    "topics": [
+     "music"
+    ],
+    "entities": [
+     {
+      "name": "hype machine",
+      "kind": "company"
+     },
+     {
+      "name": "vice",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "myspace"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "hipsters"
+     },
+     {
+      "name": "bloggers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "It’s been 16 years since the first iPhone and I think it’s very easy to forget that while there were a few cool things you could only do on an iPhone, part of the reason it caught on was because it interfaced with desktop computers on the web and it was fairly easy to share what you were doing on the iPhone on blogs and early social platforms like Twitter.",
+   "start_year": 2007,
+   "end_year": 2007,
+   "label": "Why the first iPhone caught on",
+   "evidence": "It’s been 16 years since the first iPhone",
+   "url": "https://www.garbageday.email/p/the-politics-of-cringe",
+   "title": "The politics of cringe",
+   "published": "2023-12-20",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "iphone catches on",
+    "topics": [
+     "mobile internet",
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "iphone",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
     "audiences": []
    }
   },
@@ -483,11 +933,11 @@
    "title": "Welcome to the Barstool Web",
    "published": "2024-04-24",
    "tags": {
-    "moment": "regulatory loophole exploited",
+    "moment": "scandal or backlash",
+    "moment_detail": "regulatory loophole exploited",
     "topics": [
      "gambling",
-     "fantasy sports",
-     "regulation"
+     "platform policy"
     ],
     "entities": [
      {
@@ -513,10 +963,11 @@
    "title": "Apple is a country club",
    "published": "2024-06-12",
    "tags": {
-    "moment": "product launch limitations",
+    "moment": "platform launch or growth",
+    "moment_detail": "product launch limitations",
     "topics": [
-     "smartphones",
-     "apple"
+     "mobile internet",
+     "silicon valley"
     ],
     "entities": [
      {
@@ -542,11 +993,12 @@
    "title": "The Joker of mukbang",
    "published": "2024-09-09",
    "tags": {
-    "moment": "genre origin",
+    "moment": "subculture or scene",
+    "moment_detail": "genre origin",
     "topics": [
-     "mukbang",
-     "food content",
-     "live streaming"
+     "short-form video",
+     "food",
+     "livestreaming"
     ],
     "entities": [
      {
@@ -572,11 +1024,11 @@
    "title": "The tyranny of relatable content",
    "published": "2025-03-26",
    "tags": {
-    "moment": "political campaign embraces social media",
+    "moment": "political campaign or movement",
+    "moment_detail": "political campaign embraces social media",
     "topics": [
-     "politics",
-     "social media",
-     "election campaigns"
+     "american politics",
+     "political campaigns"
     ],
     "entities": [
      {
@@ -596,6 +1048,26 @@
    }
   },
   {
+   "quote": "To show my age a bit, when I first started writing for digital media outlets at the end of the 2000s, social traffic, as we now understand it, didn’t really exist yet. Traffic was still a mysterious gift that would come down from the internet heavens and grace your website momentarily.",
+   "start_year": 2008,
+   "end_year": 2009,
+   "label": "Digital media traffic before social platforms",
+   "evidence": "at the end of the 2000s",
+   "url": "https://www.garbageday.email/p/happening",
+   "title": "It is happening again",
+   "published": "2024-02-28",
+   "tags": {
+    "moment": "insider anecdote",
+    "moment_detail": "pre-social web traffic",
+    "topics": [
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Writer Nate Jones in New York Magazine this week called it the return of “Obamacore,” writing, “We are conjuring the ghost of the Obama era — that earnest, optimistic, energized, celeb-obsessed, self-conscious, cringeworthy time.”",
    "start_year": 2008,
    "end_year": 2016,
@@ -605,11 +1077,11 @@
    "title": "This is my fight sooonnnggg",
    "published": "2024-08-21",
    "tags": {
-    "moment": "cultural nostalgia trend naming",
+    "moment": "term coined",
+    "moment_detail": "cultural nostalgia trend naming",
     "topics": [
-     "obama era",
      "nostalgia",
-     "political culture"
+     "american politics"
     ],
     "entities": [
      {
@@ -639,11 +1111,11 @@
    "title": "This is my fight sooonnnggg",
    "published": "2024-08-21",
    "tags": {
-    "moment": "political complacency reflection",
+    "moment": "cultural shift",
+    "moment_detail": "political complacency reflection",
     "topics": [
-     "obama era",
-     "liberal politics",
-     "2016 election"
+     "american politics",
+     "political campaigns"
     ],
     "entities": [
      {
@@ -664,6 +1136,50 @@
    }
   },
   {
+   "quote": "The earliest concept of “Black Twitter,” which The Awl described as “Late Night Black People Twitter,” appears in 2009. “Weird Twitter,” a collection of Something Awful goons and semi-leftist shitposters, is recognized as a subculture in 2012.",
+   "start_year": 2009,
+   "end_year": 2012,
+   "label": "Black Twitter and Weird Twitter emerge",
+   "evidence": "appears in 2009",
+   "url": "https://www.garbageday.email/p/the-algorithmic-anti-culture-of-scale",
+   "title": "The algorithmic anti-culture of scale",
+   "published": "2023-07-07"
+  },
+  {
+   "quote": "In 2009, a blogger, catgirl connoisseur, and Harry Potter fanfic writer named Eliezer Yudkowsky launched a site called LessWrong. It is ostensibly a place to argue about artificial intelligence, but through those arguments, several internet-native philosophies were born.",
+   "start_year": 2009,
+   "end_year": 2009,
+   "label": "Eliezer Yudkowsky launches LessWrong",
+   "evidence": "In 2009, a blogger",
+   "url": "https://www.garbageday.email/p/elon-musks-big-pivot",
+   "title": "Elon Musk's big pivot",
+   "published": "2023-11-29",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "lesswrong launches",
+    "topics": [
+     "rationalism",
+     "ai"
+    ],
+    "entities": [
+     {
+      "name": "eliezer yudkowsky",
+      "kind": "person"
+     },
+     {
+      "name": "lesswrong",
+      "kind": "community"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "lesswrong"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Even though there’s a ton of nostalgia for 2000s internet right now, no one ever talks about how the micro-era between the fall of Myspace and the rise of Facebook referral traffic (2009-2012) was also an extremely difficult time to build an audience online.",
    "start_year": 2009,
    "end_year": 2012,
@@ -673,11 +1189,10 @@
    "title": "Excuse the navel-gazing",
    "published": "2024-05-27",
    "tags": {
-    "moment": "platform transition dead zone",
+    "moment": "platform decline or shutdown",
+    "moment_detail": "platform transition dead zone",
     "topics": [
-     "myspace",
-     "facebook",
-     "audience building"
+     "influencers"
     ],
     "entities": [
      {
@@ -710,10 +1225,10 @@
    "title": "Apple is a country club",
    "published": "2024-06-12",
    "tags": {
-    "moment": "product limitation anecdote",
+    "moment": "insider anecdote",
+    "moment_detail": "product limitation anecdote",
     "topics": [
-     "smartphones",
-     "mobile web"
+     "mobile internet"
     ],
     "entities": [
      {
@@ -739,11 +1254,12 @@
    "title": "Some diatribe about wokeness",
    "published": "2024-07-03",
    "tags": {
-    "moment": "film criticism video launch",
+    "moment": "media industry shift",
+    "moment_detail": "film criticism video launch",
     "topics": [
-     "film criticism",
-     "youtube creators",
-     "star wars fandom"
+     "film and tv",
+     "influencers",
+     "fandom"
     ],
     "entities": [
      {
@@ -777,11 +1293,11 @@
    "title": "Here's how Epstein broke the internet",
    "published": "2026-02-02",
    "tags": {
-    "moment": "online radicalization infrastructure",
+    "moment": "online radicalization",
+    "moment_detail": "online radicalization infrastructure",
     "topics": [
      "far-right politics",
-     "internet culture",
-     "disinformation"
+     "conspiracy theories"
     ],
     "entities": [
      {
@@ -820,11 +1336,10 @@
    "title": "You have to keep posting, even if you're dead",
    "published": "2026-09-04",
    "tags": {
-    "moment": "platform death policy",
+    "moment": "platform policy change",
+    "moment_detail": "platform death policy",
     "topics": [
-     "social media",
-     "death and mourning",
-     "technology"
+     "death online"
     ],
     "entities": [
      {
@@ -833,10 +1348,6 @@
      },
      {
       "name": "instagram",
-      "kind": "company"
-     },
-     {
-      "name": "meta",
       "kind": "company"
      },
      {
@@ -862,6 +1373,104 @@
    }
   },
   {
+   "quote": "The assumption during the 2010s was that because of the newfound immediate access to pop culture — the ability to stream all music and watch all movies and binge every show — we would no longer need arts criticism.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "2010s belief streaming would end arts criticism",
+   "evidence": "The assumption during the 2010s",
+   "url": "https://www.garbageday.email/p/please-dont-trust-twitter-with-your",
+   "title": "Please don't trust Twitter with your credit card info",
+   "published": "2023-02-13"
+  },
+  {
+   "quote": "SoundCloud gave us SoundCloud rap, SoundClown, and a zillion new niche subgenres like vaporwave, drain, and emo trap. And I’d credit Bandcamp as being the beating heart of the 2010s midwest emo revival along with a handful of other important movements in DIY music over the last 15 years.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "SoundCloud rap and Bandcamp's midwest emo revival",
+   "evidence": "the 2010s midwest emo revival",
+   "url": "https://www.garbageday.email/p/an-infinite-amount-of-monkeys-at",
+   "title": "An infinite amount of monkeys at typewriters",
+   "published": "2023-03-10"
+  },
+  {
+   "quote": "In the first half of the 2010s, large social networks began to reimagine themselves as an entire newsstands. Then in the second half of the decade, they began to morph into TV stations.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "Social networks as newsstands then TV stations",
+   "evidence": "In the first half of the 2010s",
+   "url": "https://www.garbageday.email/p/a-normal-day-on-twitter-in-2019",
+   "title": "A normal day on Twitter in 2019",
+   "published": "2023-04-28"
+  },
+  {
+   "quote": "As the internet moved from search to social in the early 2010s, platforms started to bundle up content and suddenly sites like Rotten Tomatoes, Metacritic, and Cinemascore began turning reviews into large aggregate “scores”.",
+   "start_year": 2010,
+   "end_year": 2013,
+   "label": "Rise of aggregate review scores",
+   "evidence": "in the early 2010s",
+   "url": "https://www.garbageday.email/p/criticism-is-wwe",
+   "title": "Criticism is WWE",
+   "published": "2023-06-21"
+  },
+  {
+   "quote": "I’m struck by how clear it is now, in retrospect, how the entire era of “viral media” that defined the 2010s was really just the death gasps of 20th-century mass media. These sites dressed themselves up as something new and bold and hired a lot of talented young people who “got the internet,” but it was just a temporary solution.",
+   "start_year": 2010,
+   "end_year": 2019,
+   "label": "The 2010s viral media era",
+   "evidence": "the entire era of “viral media” that defined the 2010s",
+   "url": "https://www.garbageday.email/p/why-do-facebook-users-keep-commenting",
+   "title": "Why do Facebook users keep commenting \"amen\" on stuff?",
+   "published": "2023-10-04",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "viral media era",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "In the early 2010s, big social platforms transformed the internet from a place of mostly text into a network of visual content. In 2011, Twitter launched the ability to embed images directly into tweets. And a year later, Instagram was purchased by Facebook and began its slow morph from hipster Polaroid app to Facebook 2.0 for millennials.",
+   "start_year": 2010,
+   "end_year": 2012,
+   "label": "Social media turns visual",
+   "evidence": "In 2011, Twitter launched the ability to embed images directly into tweets.",
+   "url": "https://www.garbageday.email/p/the-digital-equivalent-of-wearing",
+   "title": "The digital equivalent of wearing a fake Chanel bag",
+   "published": "2024-01-15",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "feeds turn visual",
+    "topics": [
+     "visual content",
+     "algorithms",
+     "advertising"
+    ],
+    "entities": [
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     },
+     {
+      "name": "instagram"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "millennials"
+     }
+    ]
+   }
+  },
+  {
    "quote": "In the 2010s, the prevailing attitude about the Internet was that people who mattered didn't really have to be on it. They may have owned parts of it — CEOs, business leaders, landlords, etc., might have been on LinkedIn, if anything — but they weren’t doing much publicly online.",
    "start_year": 2010,
    "end_year": 2019,
@@ -871,11 +1480,10 @@
    "title": "All the CEOs want to be podcasters now",
    "published": "2024-03-27",
    "tags": {
-    "moment": "cultural attitude toward internet",
+    "moment": "cultural shift",
+    "moment_detail": "cultural attitude toward internet",
     "topics": [
-     "silicon valley",
-     "business elites",
-     "social media culture"
+     "silicon valley"
     ],
     "entities": [
      {
@@ -905,11 +1513,11 @@
    "title": "The news is a meme",
    "published": "2024-04-08",
    "tags": {
-    "moment": "platform identity shift",
+    "moment": "platform policy change",
+    "moment_detail": "platform identity shift",
     "topics": [
-     "social media platforms",
-     "platform identity",
-     "algorithmic feeds"
+     "platform policy",
+     "algorithms"
     ],
     "entities": [],
     "platforms": [
@@ -948,11 +1556,11 @@
    "title": "More slop for the void",
    "published": "2024-07-10",
    "tags": {
-    "moment": "platform competing with traditional media",
+    "moment": "media industry shift",
+    "moment_detail": "platform competing with traditional media",
     "topics": [
-     "social media platforms",
-     "content algorithms",
-     "media industry disruption"
+     "algorithms",
+     "media industry"
     ],
     "entities": [
      {
@@ -985,11 +1593,11 @@
    "title": "Now we have Babydog",
    "published": "2024-07-17",
    "tags": {
-    "moment": "digital populism mechanism",
+    "moment": "political campaign or movement",
+    "moment_detail": "digital populism mechanism",
     "topics": [
-     "political populism",
-     "social media",
-     "media curation"
+     "far-right politics",
+     "media industry"
     ],
     "entities": [
      {
@@ -1023,10 +1631,10 @@
    "title": "Disney's broken money printer",
    "published": "2024-07-24",
    "tags": {
-    "moment": "corporate ip strategy",
+    "moment": "media industry shift",
+    "moment_detail": "corporate ip strategy",
     "topics": [
-     "disney",
-     "film industry",
+     "film and tv",
      "intellectual property"
     ],
     "entities": [
@@ -1065,11 +1673,11 @@
    "title": "We can finally call them weird",
    "published": "2024-07-29",
    "tags": {
-    "moment": "media strategy pattern",
+    "moment": "media industry shift",
+    "moment_detail": "media strategy pattern",
     "topics": [
      "far-right politics",
-     "conservative media",
-     "meme culture"
+     "memes"
     ],
     "entities": [
      {
@@ -1110,11 +1718,10 @@
    "title": "Peanut butter is not a liquid",
    "published": "2024-08-26",
    "tags": {
-    "moment": "cultural discourse framing",
+    "moment": "cultural shift",
+    "moment_detail": "cultural discourse framing",
     "topics": [
-     "media criticism",
-     "internet discourse",
-     "2010s culture"
+     "journalism"
     ],
     "entities": [
      {
@@ -1147,10 +1754,10 @@
    "title": "Stop listening to the strategists",
    "published": "2024-10-02",
    "tags": {
-    "moment": "viral content production anecdote",
+    "moment": "insider anecdote",
+    "moment_detail": "viral content production anecdote",
     "topics": [
-     "viral content",
-     "listicles",
+     "media industry",
      "animals"
     ],
     "entities": [],
@@ -1168,10 +1775,10 @@
    "title": "What feels real enough to share",
    "published": "2024-10-07",
    "tags": {
-    "moment": "industry destruction by platform",
+    "moment": "media industry shift",
+    "moment_detail": "industry destruction by platform",
     "topics": [
-     "facebook",
-     "local journalism",
+     "journalism",
      "media industry"
     ],
     "entities": [
@@ -1198,11 +1805,11 @@
    "title": "Zuckerberg officially gives up",
    "published": "2025-01-08",
    "tags": {
-    "moment": "media industry talent dynamic",
+    "moment": "media industry shift",
+    "moment_detail": "media industry talent dynamic",
     "topics": [
      "journalism",
-     "media industry",
-     "social media"
+     "media industry"
     ],
     "entities": [
      {
@@ -1231,11 +1838,11 @@
    "title": "Silicon Valley’s delusion machine",
    "published": "2025-02-10",
    "tags": {
-    "moment": "tech company super bowl ad",
+    "moment": "hype or bubble",
+    "moment_detail": "tech company super bowl ad",
     "topics": [
      "advertising",
-     "silicon valley",
-     "google"
+     "silicon valley"
     ],
     "entities": [
      {
@@ -1265,11 +1872,11 @@
    "title": "Some big news...",
    "published": "2025-06-02",
    "tags": {
-    "moment": "content moderation success",
+    "moment": "platform policy change",
+    "moment_detail": "content moderation success",
     "topics": [
-     "content moderation",
-     "social media",
-     "tech industry"
+     "platform policy",
+     "silicon valley"
     ],
     "entities": [
      {
@@ -1302,11 +1909,12 @@
    "title": "The uncanny valley between meme and law",
    "published": "2025-08-13",
    "tags": {
-    "moment": "subculture radicalization",
+    "moment": "online radicalization",
+    "moment_detail": "gamergate radicalizes tech-worker men",
     "topics": [
      "gamergate",
      "far-right politics",
-     "tech industry"
+     "silicon valley"
     ],
     "entities": [
      {
@@ -1340,6 +1948,7 @@
    "published": "2025-09-26",
    "tags": {
     "moment": "online radicalization",
+    "moment_detail": "online radicalization",
     "topics": [
      "far-right politics",
      "online radicalization",
@@ -1361,7 +1970,7 @@
     ],
     "audiences": [
      {
-      "name": "aggrieved men"
+      "name": "disaffected young men"
      }
     ]
    }
@@ -1376,10 +1985,11 @@
    "title": "The Great Dumbening",
    "published": "2025-10-13",
    "tags": {
-    "moment": "fame culture shift",
+    "moment": "cultural shift",
+    "moment_detail": "fame culture shift",
     "topics": [
-     "influencer culture",
-     "celebrity culture",
+     "influencers",
+     "celebrity",
      "podcasting"
     ],
     "entities": [
@@ -1410,11 +2020,10 @@
    "title": "Here's how Epstein broke the internet",
    "published": "2026-02-02",
    "tags": {
-    "moment": "board moderation decision",
+    "moment": "platform policy change",
+    "moment_detail": "board moderation decision",
     "topics": [
-     "4chan",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -1444,10 +2053,10 @@
    "title": "An endless feed of celebrities eating chicken wings",
    "published": "2026-02-23",
    "tags": {
-    "moment": "media format decline",
+    "moment": "media industry shift",
+    "moment_detail": "media format decline",
     "topics": [
-     "late night tv",
-     "television",
+     "film and tv",
      "media industry"
     ],
     "entities": [
@@ -1486,11 +2095,10 @@
    "title": "Everyone's very angry online right now",
    "published": "2026-03-25",
    "tags": {
-    "moment": "viral culture era description",
+    "moment": "cultural shift",
+    "moment_detail": "viral culture era description",
     "topics": [
-     "internet culture",
-     "social media",
-     "viral moments"
+     "memes"
     ],
     "entities": [
      {
@@ -1509,7 +2117,7 @@
     "platforms": [],
     "audiences": [
      {
-      "name": "middle class white children"
+      "name": "kids"
      }
     ]
    }
@@ -1524,9 +2132,10 @@
    "title": "Was Justin Bieber's Coachella set good?",
    "published": "2026-04-13",
    "tags": {
-    "moment": "festival origin story",
+    "moment": "subculture or scene",
+    "moment_detail": "festival origin story",
     "topics": [
-     "music festivals",
+     "music",
      "consumer culture"
     ],
     "entities": [
@@ -1561,11 +2170,10 @@
    "title": "What happens when the short-form video bubble pops?",
    "published": "2026-04-20",
    "tags": {
-    "moment": "internet subculture migration",
+    "moment": "subculture or scene",
+    "moment_detail": "internet subculture migration",
     "topics": [
-     "internet culture",
-     "twitter",
-     "meme culture"
+     "memes"
     ],
     "entities": [
      {
@@ -1595,11 +2203,10 @@
    "title": "What happens when the short-form video bubble pops?",
    "published": "2026-04-20",
    "tags": {
-    "moment": "early internet meme format",
+    "moment": "viral trend",
+    "moment_detail": "early internet meme format",
     "topics": [
-     "internet culture",
-     "memes",
-     "youtube"
+     "memes"
     ],
     "entities": [],
     "platforms": [
@@ -1620,11 +2227,10 @@
    "title": "We spent a month hiding in a Kalshi clipping Discord",
    "published": "2026-06-29",
    "tags": {
-    "moment": "political rebranding effort",
+    "moment": "political campaign or movement",
+    "moment_detail": "political rebranding effort",
     "topics": [
-     "far-right politics",
-     "internet culture",
-     "4chan"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -1642,7 +2248,7 @@
     ],
     "audiences": [
      {
-      "name": "the american right"
+      "name": "conservatives"
      }
     ]
    }
@@ -1657,9 +2263,9 @@
    "title": "You get what you pay for",
    "published": "2026-07-22",
    "tags": {
-    "moment": "cultural economics shift",
+    "moment": "cultural shift",
+    "moment_detail": "cultural economics shift",
     "topics": [
-     "technology",
      "media industry",
      "economy"
     ],
@@ -1682,9 +2288,9 @@
    "title": "What was 'woke'?",
    "published": "2026-08-10",
    "tags": {
-    "moment": "internet vs tv culture shift",
+    "moment": "cultural shift",
+    "moment_detail": "internet vs tv culture shift",
     "topics": [
-     "internet culture",
      "media industry",
      "generational culture"
     ],
@@ -1725,11 +2331,10 @@
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
    "published": "2026-08-24",
    "tags": {
-    "moment": "fandom platform shift",
+    "moment": "subculture or scene",
+    "moment_detail": "fandom platform shift",
     "topics": [
-     "fandom",
-     "tiktok",
-     "internet culture"
+     "fandom"
     ],
     "entities": [
      {
@@ -1762,9 +2367,139 @@
     ],
     "audiences": [
      {
-      "name": "fandoms"
+      "name": "fandom"
      }
     ]
+   }
+  },
+  {
+   "quote": "Ten years ago, on my lunch breaks, I would read film reviews, funny essays, blogs, good hot takes — basically, I’d look at websites. I grew up wanting to be a culture writer and the internet when I was younger was like an all you could eat buffet of pretty-good-to-actually-extremely-good culture writing.",
+   "start_year": 2011,
+   "end_year": 2013,
+   "label": "Arts and culture blogs of the early 2010s",
+   "evidence": "Ten years ago, on my lunch breaks",
+   "url": "https://www.garbageday.email/p/an-infinite-dream-machine",
+   "title": "An infinite dream machine",
+   "published": "2023-02-17"
+  },
+  {
+   "quote": "Like Twitter, 4chan was never a place for mentally healthy people, but it began to lean into its worst impulses as it became increasingly fixated on what supposedly “normal” people were doing on sites like Twitter, Tumblr, and eventually Instagram.",
+   "start_year": 2011,
+   "end_year": 2012,
+   "label": "4chan fixates on 'normal' social media users",
+   "evidence": "around 2011-2012",
+   "url": "https://www.garbageday.email/p/the-most-unwell-teenagers-to-ever",
+   "title": "The most unwell teenagers to ever use the internet",
+   "published": "2023-03-03"
+  },
+  {
+   "quote": "Around 2011, users from Something Awful’s Fuck You And Die forum, or FYAD, began to make accounts on Twitter. They brought with them a very specific kind of surreal and acerbic writing style and vaguely leftist political point of view (which years later would splinter off into the “dirtbag left”).",
+   "start_year": 2011,
+   "end_year": 2012,
+   "label": "Something Awful FYAD users arrive on Twitter (Weird Twitter)",
+   "evidence": "Around 2011",
+   "url": "https://www.garbageday.email/p/a-normal-day-on-twitter-in-2019",
+   "title": "A normal day on Twitter in 2019",
+   "published": "2023-04-28"
+  },
+  {
+   "quote": "Ten years ago, there wasn’t really a coherent centralized idea of what was on the internet. There were news sites, social networks and online communities, blogs, and entertainment content, just like there is now, but there wasn’t really one dominate point of view of what American internet culture was.",
+   "start_year": 2011,
+   "end_year": 2013,
+   "label": "The decentralized internet before Facebook-driven media",
+   "evidence": "Ten years ago",
+   "url": "https://www.garbageday.email/p/the-ellen-oscars-selfie-has-fallen",
+   "title": "The Ellen Oscars selfie has fallen",
+   "published": "2023-08-23",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "decentralized early web",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Game Theory’s heyday was the early-to-mid 2010s, back when all the heavily-layered internet-native storytelling that forms the lifeblood of the show was just starting to solidify.",
+   "start_year": 2011,
+   "end_year": 2015,
+   "label": "Game Theory's heyday",
+   "evidence": "the early-to-mid 2010s",
+   "url": "https://www.garbageday.email/p/its-time-to-leave-substack",
+   "title": "It's time to leave Substack",
+   "published": "2024-01-10",
+   "tags": {
+    "moment": "subculture or scene",
+    "moment_detail": "game theory's heyday",
+    "topics": [
+     "influencers",
+     "video games",
+     "fandom"
+    ],
+    "entities": [
+     {
+      "name": "game theory",
+      "kind": "work"
+     },
+     {
+      "name": "matpat",
+      "kind": "person"
+     },
+     {
+      "name": "tvtropes",
+      "kind": "other"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Way back in the Halcyon Days of digital media (2011-2013, or Nyan Cat to Justine Sacco’s tweet), there was a new company popping up every week, fueled by La Croix seltzer, Six Point IPAs, and Dos Toros catering, that promised to harness virality and become the CNN or MTV or Disney of the future.",
+   "start_year": 2011,
+   "end_year": 2013,
+   "label": "Halcyon days of viral digital media startups",
+   "evidence": "2011-2013, or Nyan Cat to Justine Sacco’s tweet",
+   "url": "https://www.garbageday.email/p/cnn-mtv-disney-future",
+   "title": "The CNN, MTV, and Disney of the future",
+   "published": "2024-02-19",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "viral media startup boom",
+    "topics": [
+     "media industry"
+    ],
+    "entities": [
+     {
+      "name": "nyan cat",
+      "kind": "work"
+     },
+     {
+      "name": "justine sacco",
+      "kind": "person"
+     },
+     {
+      "name": "cnn",
+      "kind": "media outlet"
+     },
+     {
+      "name": "mtv",
+      "kind": "media outlet"
+     },
+     {
+      "name": "disney",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -1777,11 +2512,11 @@
    "title": "Does X matter?",
    "published": "2024-08-05",
    "tags": {
-    "moment": "protest platform blame narrative",
+    "moment": "political campaign or movement",
+    "moment_detail": "protest platform blame narrative",
     "topics": [
-     "twitter",
-     "political unrest",
-     "media coverage"
+     "protests",
+     "journalism"
     ],
     "entities": [
      {
@@ -1811,11 +2546,10 @@
    "title": "President Yoon's massive L",
    "published": "2024-12-04",
    "tags": {
-    "moment": "platform relevance milestone",
+    "moment": "platform launch or growth",
+    "moment_detail": "platform relevance milestone",
     "topics": [
-     "twitter",
-     "political unrest",
-     "news events"
+     "protests"
     ],
     "entities": [
      {
@@ -1853,11 +2587,10 @@
    "title": "Here's how Epstein broke the internet",
    "published": "2026-02-02",
    "tags": {
-    "moment": "platform policy reversal",
+    "moment": "platform policy change",
+    "moment_detail": "platform policy reversal",
     "topics": [
-     "4chan",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -1891,11 +2624,10 @@
    "title": "A singular theory for the Epstein network",
    "published": "2026-02-09",
    "tags": {
-    "moment": "early internet activism connection",
+    "moment": "political campaign or movement",
+    "moment_detail": "early internet activism connection",
     "topics": [
-     "internet culture",
-     "activism",
-     "4chan"
+     "protests"
     ],
     "entities": [
      {
@@ -1920,6 +2652,141 @@
    }
   },
   {
+   "quote": "As we entered the era of peak Facebook around 2012, the stuffier, more well-established outlets in America picked and chose what viral shenanigans they wanted to indulge in, while the newer outlets, flush with venture capital, swarmed any and all algorithmic quirks that came across their feeds.",
+   "start_year": 2012,
+   "end_year": 2016,
+   "label": "Peak Facebook and viral publishers",
+   "evidence": "the era of peak Facebook around 2012",
+   "url": "https://www.garbageday.email/p/time-for-some-gen-x-boomerposting",
+   "title": "Time for some Gen X boomerposting",
+   "published": "2023-05-10"
+  },
+  {
+   "quote": "Then Facebook’s algorithm flickered on in 2012, digital media publishers were flooded with traffic, legacy publishers were forced to fully embrace online publishing to compete, and, for a while, everything just became news content.",
+   "start_year": 2012,
+   "end_year": 2016,
+   "label": "Facebook's algorithm floods digital media with traffic",
+   "evidence": "Facebook’s algorithm flickered on in 2012",
+   "url": "https://www.garbageday.email/p/the-ellen-oscars-selfie-has-fallen",
+   "title": "The Ellen Oscars selfie has fallen",
+   "published": "2023-08-23",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "facebook traffic floods publishers",
+    "topics": [
+     "algorithms",
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "Around 2012, sites like Facebook, Instagram, Tumblr, and Twitter started incentivizing images over text and the idea of a “comic” became forever intertwined with the idea of a “meme”. They’re all just images you post in a box somewhere.",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Platforms favor images; comics become memes",
+   "evidence": "Around 2012, sites like Facebook, Instagram, Tumblr, and Twitter started incentivizing images over text",
+   "url": "https://www.garbageday.email/p/the-new-economics-of-twitter-outrage",
+   "title": "The new economics of Twitter outrage",
+   "published": "2023-08-30",
+   "tags": {
+    "moment": "cultural shift",
+    "moment_detail": "comics merge into memes",
+    "topics": [
+     "web comics",
+     "memes",
+     "visual content"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "tumblr"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The real dividing line for American conservatism online, the shift from angry bloggers racing for Drudge Report referrals to the organized culture war we have now started in 2012, when Steve Bannon took over Breitbart and started to reimagine the blog as a conservative equivalent to Gawker or VICE (duplicate).",
+   "start_year": 2012,
+   "end_year": 2012,
+   "label": "Bannon takes over Breitbart",
+   "evidence": "started in 2012, when Steve Bannon took over Breitbart",
+   "url": "https://www.garbageday.email/p/duplicate-infiltrate-and-undermine",
+   "title": "Duplicate, infiltrate, and undermine",
+   "published": "2023-12-11",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "bannon remakes breitbart",
+    "topics": [
+     "far-right politics"
+    ],
+    "entities": [
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     },
+     {
+      "name": "breitbart",
+      "kind": "media outlet"
+     },
+     {
+      "name": "drudge report",
+      "kind": "media outlet"
+     },
+     {
+      "name": "gawker",
+      "kind": "media outlet"
+     },
+     {
+      "name": "vice",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The traffic firehose was impossible to ignore and by 2013 platforms like Facebook had fully devoured digital media.",
+   "start_year": 2012,
+   "end_year": 2013,
+   "label": "Facebook traffic firehose devours digital media",
+   "evidence": "by 2013 platforms like Facebook had fully devoured digital media",
+   "url": "https://www.garbageday.email/p/happening",
+   "title": "It is happening again",
+   "published": "2024-02-28",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "facebook devours digital media",
+    "topics": [
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "But this extends far beyond digital media. r/WallStreetBets, which was founded in 2012 by a guy who thought normal day trading wasn’t as fun as gambling, helped establish a central hub for the casinofication of the web.",
    "start_year": 2012,
    "end_year": 2012,
@@ -1929,11 +2796,11 @@
    "title": "Welcome to the Barstool Web",
    "published": "2024-04-24",
    "tags": {
-    "moment": "online community founded",
+    "moment": "subculture or scene",
+    "moment_detail": "online community founded",
     "topics": [
      "gambling",
-     "day trading",
-     "reddit"
+     "economy"
     ],
     "entities": [],
     "platforms": [
@@ -1954,11 +2821,10 @@
    "title": "Apple is a country club",
    "published": "2024-06-12",
    "tags": {
-    "moment": "platform shift milestone",
+    "moment": "platform launch or growth",
+    "moment_detail": "platform shift milestone",
     "topics": [
-     "mobile web",
-     "smartphones",
-     "android"
+     "mobile internet"
     ],
     "entities": [
      {
@@ -1988,9 +2854,10 @@
    "title": "A sort of reverse online radicalization",
    "published": "2024-12-11",
    "tags": {
-    "moment": "fan backlash campaign",
+    "moment": "scandal or backlash",
+    "moment_detail": "fan backlash campaign",
     "topics": [
-     "mass shootings",
+     "political violence",
      "online harassment",
      "fandom"
     ],
@@ -2026,11 +2893,10 @@
    "title": "Cancel culture for thee, not me",
    "published": "2025-11-03",
    "tags": {
-    "moment": "career reflection",
+    "moment": "insider anecdote",
+    "moment_detail": "career reflection",
     "topics": [
-     "journalism",
-     "viral content",
-     "social media"
+     "journalism"
     ],
     "entities": [],
     "platforms": [],
@@ -2051,12 +2917,9 @@
    "title": "You get what you pay for",
    "published": "2026-07-22",
    "tags": {
-    "moment": "platform algorithm and acquisition wave",
-    "topics": [
-     "social media",
-     "technology",
-     "internet culture"
-    ],
+    "moment": "platform launch or growth",
+    "moment_detail": "platform algorithm and acquisition wave",
+    "topics": [],
     "entities": [
      {
       "name": "facebook",
@@ -2103,12 +2966,9 @@
    "title": "AI is still boring and also bad and also expensive",
    "published": "2026-09-09",
    "tags": {
-    "moment": "internet culture era description",
-    "topics": [
-     "youtube",
-     "internet culture",
-     "video"
-    ],
+    "moment": "cultural shift",
+    "moment_detail": "internet culture era description",
+    "topics": [],
     "entities": [
      {
       "name": "jimmy fallon",
@@ -2131,6 +2991,162 @@
    }
   },
   {
+   "quote": "From 2013-2019, there was a well-established media formula in the US (and a few other countries) that went like so: A thing would happen, internet users would react, which was then repackaged by digital media outlets as roundups, which would then bubble up into broadcast and cable news segments and, eventually, be laundered to cultural elites via big thinkpieces in glossy magazines.",
+   "start_year": 2013,
+   "end_year": 2019,
+   "label": "The 2010s viral news cycle formula",
+   "evidence": "From 2013-2019, there was a well-established media formula",
+   "url": "https://www.garbageday.email/p/were-all-living-on-rmademesmiles",
+   "title": "We're all living on r/MadeMeSmile's Internet Now",
+   "published": "2023-09-13",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "viral reaction news pipeline",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "cultural elites"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Back in 2013, Facebook, in particular, began its slow crush of digital media, forcing newsrooms and studios to pay for traffic, while boosting accounts making native content on their platform.",
+   "start_year": 2013,
+   "end_year": 2013,
+   "label": "Facebook begins crushing digital media",
+   "evidence": "Back in 2013, Facebook, in particular, began its slow crush of digital media",
+   "url": "https://www.garbageday.email/p/selling-your-filter-bubble-back-to",
+   "title": "Selling your filter bubble back to you",
+   "published": "2023-11-27",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "facebook crushes digital media",
+    "topics": [
+     "influencers",
+     "media industry"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The bigger, more closed-off app Facebook was more stable and pervasive, but less interesting to talk about. It’s where publishers could, once upon a time, deliver news and reach audiences and build businesses. But Twitter, the smaller, more discoverable nightmare world of kaleidoscopic discourse and endless drama, was the one was getting — and driving — all of the attention.",
+   "start_year": 2013,
+   "end_year": 2014,
+   "label": "Facebook vs. Twitter a decade ago",
+   "evidence": "about a decade ago",
+   "url": "https://www.garbageday.email/p/end-tiktoks-audio-golden-age",
+   "title": "The end of TikTok's audio golden age",
+   "published": "2024-02-05",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "twitter drives attention over facebook",
+    "topics": [
+     "platform competition"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "publishers"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Between 2013 and 2014, Pew recorded a 16% increase in users aged 18-29 on Instagram. It’s actually the biggest demographic jump of a social network they’ve ever recorded. So if you’re still looking for the year Instagram stopped being cool, it turns out it was about a year after the photo app was purchased by Facebook.",
+   "start_year": 2013,
+   "end_year": 2014,
+   "label": "The year Instagram stopped being cool",
+   "evidence": "Between 2013 and 2014",
+   "url": "https://www.garbageday.email/p/tiktok-millennials-turns",
+   "title": "TikTok Is For Millennials, It Turns Out",
+   "published": "2024-02-26",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "instagram young-adult surge",
+    "topics": [
+     "generational culture",
+     "platform policy"
+    ],
+    "entities": [
+     {
+      "name": "pew research center",
+      "kind": "other"
+     },
+     {
+      "name": "facebook",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "instagram"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "young adults"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Tumblr has cycled through a series of new owners, starting with Yahoo! In 2013, which famously banned porn, failed to launch a proper ad business, and eventually sold it to Wordpress-owner Automattic — which is now selling user data to Midjourney.",
+   "start_year": 2013,
+   "end_year": 2019,
+   "label": "Tumblr under Yahoo",
+   "evidence": "In 2013, which famously banned porn",
+   "url": "https://www.garbageday.email/p/misinformation-fun",
+   "title": "Misinformation is fun",
+   "published": "2024-03-11",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "tumblr's ownership churn",
+    "topics": [
+     "platform acquisitions",
+     "sex work"
+    ],
+    "entities": [
+     {
+      "name": "yahoo",
+      "kind": "company"
+     },
+     {
+      "name": "automattic",
+      "kind": "company"
+     },
+     {
+      "name": "midjourney",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tumblr"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "A decade ago, when the internet in general and YouTube, in particular, were a lot smaller, the job looked pretty different. “Ethan and Hila Klein, Content Cop, these were commentators on the culture of their platforms, and they were self-contained to people who cared about the culture,” Puck News’ Julia Alexander told Garbage Day.",
    "start_year": 2013,
    "end_year": 2017,
@@ -2140,10 +3156,10 @@
    "title": "Alright, let's talk about the Hasan Piker and Ethan Klein feud",
    "published": "2025-04-21",
    "tags": {
-    "moment": "niche youtube commentary",
+    "moment": "subculture or scene",
+    "moment_detail": "niche youtube commentary",
     "topics": [
-     "youtube",
-     "content creators"
+     "influencers"
     ],
     "entities": [
      {
@@ -2185,11 +3201,10 @@
    "title": "Cancel culture for thee, not me",
    "published": "2025-11-03",
    "tags": {
-    "moment": "holiday costume shift",
+    "moment": "viral trend",
+    "moment_detail": "holiday costume shift",
     "topics": [
-     "halloween",
-     "costumes",
-     "social media"
+     "fashion"
     ],
     "entities": [],
     "platforms": [],
@@ -2206,11 +3221,12 @@
    "title": "The rise of the troll state",
    "published": "2026-01-05",
    "tags": {
-    "moment": "concept coined",
+    "moment": "term coined",
+    "moment_detail": "concept coined",
     "topics": [
-     "network state",
+     "far-right politics",
      "silicon valley",
-     "cryptocurrency"
+     "crypto and nfts"
     ],
     "entities": [
      {
@@ -2232,10 +3248,10 @@
    "title": "A singular theory for the Epstein network",
    "published": "2026-02-09",
    "tags": {
-    "moment": "attempted diplomatic meeting",
+    "moment": "news event",
+    "moment_detail": "attempted diplomatic meeting",
     "topics": [
-     "politics",
-     "russia",
+     "american politics",
      "geopolitics"
     ],
     "entities": [
@@ -2270,11 +3286,10 @@
    "title": "What happens when the short-form video bubble pops?",
    "published": "2026-04-20",
    "tags": {
-    "moment": "platform shutdown",
+    "moment": "platform decline or shutdown",
+    "moment_detail": "platform shutdown",
     "topics": [
-     "vine",
-     "short-form video",
-     "internet culture"
+     "short-form video"
     ],
     "entities": [
      {
@@ -2294,6 +3309,145 @@
    }
   },
   {
+   "quote": "The period of time when Twitter began working directly with newsrooms to verify journalists. This was, at the time, a way to give reporters a few extra tools for sourcing content from Twitter, which, in turn, would raise Twitter’s profile.",
+   "start_year": 2014,
+   "end_year": 2016,
+   "label": "Twitter verifying journalists",
+   "evidence": "back in 2016",
+   "url": "https://www.garbageday.email/p/nostalgia-curdles",
+   "title": "Nostalgia curdles",
+   "published": "2023-04-05"
+  },
+  {
+   "quote": "It’s hard to pinpoint the exact moment scores overtook criticism as the dominant way we process culture, but I actually think the Gamergate movement was the canary in the coal mine for what would happen after they did. Gamergaters were — and still are — obsessed with reviews, but largely because of those reviews’ perceived impact on Metacritic scores, which they believed determine a game’s financial success.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Gamergate and Metacritic scores",
+   "evidence": "the Gamergate movement",
+   "url": "https://www.garbageday.email/p/criticism-is-wwe",
+   "title": "Criticism is WWE",
+   "published": "2023-06-21"
+  },
+  {
+   "quote": "One by one, major corporate platforms began to accept that they had a responsibility and a duty to protect users from spam, scams, misinformation and disinformation, harassment, abuse, illegal and malicious material, and extremism. And they, of course, failed to uphold that responsibility time and time again.",
+   "start_year": 2014,
+   "end_year": 2016,
+   "label": "Platforms adopt content moderation",
+   "evidence": "was really formalized in 2015, with the rise of ISIS",
+   "url": "https://www.garbageday.email/p/this-is-what-an-unmoderated-internet",
+   "title": "This is what an unmoderated internet looks like",
+   "published": "2023-10-11",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "platforms adopt moderation duty",
+    "topics": [
+     "platform policy",
+     "conspiracy theories",
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "the fappening",
+      "kind": "event"
+     },
+     {
+      "name": "isis",
+      "kind": "other"
+     },
+     {
+      "name": "internet research agency",
+      "kind": "company"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "4chan"
+     },
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "By 2014, the site was flush with Facebook traffic and assigned Milo Yiannopoulos as its de facto Gamergate correspondent (infiltrate). Which gave Bannon’s Breitbart a new demographic to target, angry young men, and a replicable playbook for repackaging internet chatter into coherent narratives that conservatives could weaponize (undermine).",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Breitbart, Milo and Gamergate",
+   "evidence": "By 2014, the site was flush with Facebook traffic",
+   "url": "https://www.garbageday.email/p/duplicate-infiltrate-and-undermine",
+   "title": "Duplicate, infiltrate, and undermine",
+   "published": "2023-12-11",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "breitbart courts gamergate",
+    "topics": [
+     "far-right politics",
+     "gamergate"
+    ],
+    "entities": [
+     {
+      "name": "breitbart",
+      "kind": "media outlet"
+     },
+     {
+      "name": "milo yiannopoulos",
+      "kind": "person"
+     },
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "steve bannon",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "young men"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Gamergate did not immediately manifest as a coherent political movement. It started in 2014 as an angry blog post with no basis in reality written by an aggrieved ex-boyfriend, alleging his former partner, indie game dev Zoë Quinn, was part of a media conspiracy to give good reviews to woke games.",
+   "start_year": 2014,
+   "end_year": 2014,
+   "label": "Gamergate begins",
+   "evidence": "It started in 2014 as an angry blog post",
+   "url": "https://www.garbageday.email/p/nobody-owned-childrens-data",
+   "title": "What if nobody owned our children's data?",
+   "published": "2024-03-13",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "gamergate begins",
+    "topics": [
+     "gamergate",
+     "video games",
+     "online harassment"
+    ],
+    "entities": [
+     {
+      "name": "gamergate",
+      "kind": "event"
+     },
+     {
+      "name": "zoë quinn",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "I remember, years ago, I watched an important digital video executive declare to a big crowd that the future of video — all video, including movies and TV shows — was “post-language” and “post-verbal”. This was at the height of Facebook’s auto-playing, silent video boom and he had decided that 35-second videos where no one talks were about to conquer the world.",
    "start_year": 2014,
    "end_year": 2017,
@@ -2303,11 +3457,10 @@
    "title": "The CEO Passive Content Obsession",
    "published": "2024-06-05",
    "tags": {
-    "moment": "tech industry prediction anecdote",
+    "moment": "insider anecdote",
+    "moment_detail": "tech industry prediction anecdote",
     "topics": [
-     "video content",
-     "social media trends",
-     "facebook"
+     "memes"
     ],
     "entities": [],
     "platforms": [
@@ -2328,10 +3481,10 @@
    "title": "Coolness is just scarcity",
    "published": "2024-06-17",
    "tags": {
-    "moment": "cultural gatekeeping decline",
+    "moment": "cultural shift",
+    "moment_detail": "cultural gatekeeping decline",
     "topics": [
-     "music scenes",
-     "concerts",
+     "music",
      "fandom"
     ],
     "entities": [
@@ -2354,11 +3507,11 @@
    "title": "The End Point Of Viral Content",
    "published": "2024-10-23",
    "tags": {
-    "moment": "industry monopoly consolidation",
+    "moment": "media industry shift",
+    "moment_detail": "industry monopoly consolidation",
     "topics": [
-     "pornography industry",
-     "monopoly",
-     "online media"
+     "sex work",
+     "monopoly"
     ],
     "entities": [
      {
@@ -2380,10 +3533,11 @@
    "title": "Live by the post, die by the post",
    "published": "2025-01-24",
    "tags": {
-    "moment": "viral game resale frenzy",
+    "moment": "hype or bubble",
+    "moment_detail": "viral game resale frenzy",
     "topics": [
-     "mobile games",
-     "ebay resale"
+     "video games",
+     "consumer culture"
     ],
     "entities": [
      {
@@ -2409,11 +3563,11 @@
    "title": "The United States of Mar-A-Lago",
    "published": "2025-05-28",
    "tags": {
-    "moment": "populism reality check",
+    "moment": "cultural shift",
+    "moment_detail": "populism reality check",
     "topics": [
-     "politics",
-     "far-right politics",
-     "media"
+     "american politics",
+     "far-right politics"
     ],
     "entities": [
      {
@@ -2443,10 +3597,10 @@
    "title": "The legacy of DashCon",
    "published": "2025-07-09",
    "tags": {
-    "moment": "convention disaster",
+    "moment": "news event",
+    "moment_detail": "convention disaster",
     "topics": [
-     "fan conventions",
-     "tumblr"
+     "fandom"
     ],
     "entities": [
      {
@@ -2472,7 +3626,8 @@
    "title": "MAGA needs a new conspiracy theory",
    "published": "2025-07-14",
    "tags": {
-    "moment": "conspiracy blogpost published",
+    "moment": "conspiracy theory",
+    "moment_detail": "conspiracy blogpost published",
     "topics": [
      "gamergate",
      "conspiracy theories",
@@ -2510,11 +3665,11 @@
    "title": "MAGA needs a new conspiracy theory",
    "published": "2025-07-14",
    "tags": {
-    "moment": "movement co-opted by media",
+    "moment": "political campaign or movement",
+    "moment_detail": "movement co-opted by media",
     "topics": [
      "gamergate",
-     "far-right politics",
-     "social media"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -2546,9 +3701,10 @@
    "title": "Can people make stuff on YouTube still?",
    "published": "2025-08-06",
    "tags": {
-    "moment": "crowdfunding campaign",
+    "moment": "hype or bubble",
+    "moment_detail": "crowdfunding campaign",
     "topics": [
-     "animation",
+     "film and tv",
      "crowdfunding",
      "fandom"
     ],
@@ -2575,11 +3731,7 @@
       "name": "kickstarter"
      }
     ],
-    "audiences": [
-     {
-      "name": "fans"
-     }
-    ]
+    "audiences": []
    }
   },
   {
@@ -2592,11 +3744,11 @@
    "title": "Here's how Epstein broke the internet",
    "published": "2026-02-02",
    "tags": {
-    "moment": "conspiracy theory going mainstream",
+    "moment": "conspiracy theory",
+    "moment_detail": "conspiracy theory going mainstream",
     "topics": [
      "gamergate",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -2641,10 +3793,10 @@
    "title": "An endless feed of celebrities eating chicken wings",
    "published": "2026-02-23",
    "tags": {
-    "moment": "media format pivot to platform",
+    "moment": "media industry shift",
+    "moment_detail": "media format pivot to platform",
     "topics": [
-     "late night tv",
-     "youtube",
+     "film and tv",
      "media industry"
     ],
     "entities": [
@@ -2719,10 +3871,10 @@
    "title": "Everyone's very angry online right now",
    "published": "2026-03-25",
    "tags": {
-    "moment": "online radicalization recruitment",
+    "moment": "online radicalization",
+    "moment_detail": "online radicalization recruitment",
     "topics": [
      "far-right politics",
-     "internet culture",
      "gamergate"
     ],
     "entities": [
@@ -2738,12 +3890,71 @@
     "platforms": [],
     "audiences": [
      {
-      "name": "incels"
-     },
-     {
       "name": "disaffected young men"
      }
     ]
+   }
+  },
+  {
+   "quote": "Online platforms and the world of Big Tech, as a whole, first “pivoted to video” around 2015 and dragged digital media companies with them.",
+   "start_year": 2015,
+   "end_year": 2017,
+   "label": "The pivot to video",
+   "evidence": "around 2015",
+   "url": "https://www.garbageday.email/p/youre-welcome-namaste",
+   "title": "\"You’re welcome namaste 🙏\"",
+   "published": "2023-04-21"
+  },
+  {
+   "quote": "Early in the Trump campaign, as he started saying more aggressive authoritarian rhetoric, far-right users on sites like Reddit and 4chan started babbling about “meme magic” and praying to racist frog pictures, believing that if they amassed enough online energy they could help Trump win the same way Goku in Dragon Ball Z absorbs energy to make a Spirit Bomb.",
+   "start_year": 2015,
+   "end_year": 2016,
+   "label": "Far-right 'meme magic' during Trump's first campaign",
+   "evidence": "Early in the Trump campaign",
+   "url": "https://www.garbageday.email/p/keep-posting-the-ronjak",
+   "title": "\"KEEP POSTING THE RONJAK\"",
+   "published": "2023-05-08"
+  },
+  {
+   "quote": "In retrospect, it seems like Jack Dorsey and his, what I like to call, “Burning Man libertarianism” approach to content moderation, was the real secret sauce to Twitter’s cultural cachet from 2015-2021.",
+   "start_year": 2015,
+   "end_year": 2021,
+   "label": "Jack Dorsey's Burning Man libertarian Twitter",
+   "evidence": "from 2015-2021",
+   "url": "https://www.garbageday.email/p/the-algorithmic-anti-culture-of-scale",
+   "title": "The algorithmic anti-culture of scale",
+   "published": "2023-07-07"
+  },
+  {
+   "quote": "By 2015, every newsroom had some kind of “social news” department, full of young writers mining sites like Facebook and Twitter — usually Twitter because it was easier to search — for content to aggregate or re-report. Heck, even Russia had one.",
+   "start_year": 2015,
+   "end_year": 2015,
+   "label": "Newsroom social news departments",
+   "evidence": "By 2015, every newsroom",
+   "url": "https://www.garbageday.email/p/happening",
+   "title": "It is happening again",
+   "published": "2024-02-28",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "newsroom social news departments",
+    "topics": [
+     "journalism"
+    ],
+    "entities": [
+     {
+      "name": "russia",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "facebook"
+     },
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -2756,11 +3967,10 @@
    "title": "The Online candidate (derogatory)",
    "published": "2024-07-01",
    "tags": {
-    "moment": "social media influence assessment",
+    "moment": "cultural shift",
+    "moment_detail": "social media influence assessment",
     "topics": [
-     "twitter",
-     "donald trump",
-     "political communication"
+     "political campaigns"
     ],
     "entities": [
      {
@@ -2786,10 +3996,10 @@
    "title": "More slop for the void",
    "published": "2024-07-10",
    "tags": {
-    "moment": "industry jargon coined",
+    "moment": "term coined",
+    "moment_detail": "industry jargon coined",
     "topics": [
      "journalism",
-     "viral content",
      "media industry"
     ],
     "entities": [],
@@ -2807,10 +4017,10 @@
    "title": "Some big news...",
    "published": "2025-06-02",
    "tags": {
-    "moment": "content moderation backlash",
+    "moment": "platform policy change",
+    "moment_detail": "content moderation backlash",
     "topics": [
-     "content moderation",
-     "social media",
+     "platform policy",
      "labor"
     ],
     "entities": [],
@@ -2839,11 +4049,11 @@
    "title": "Trump's big, beautiful gulag",
    "published": "2025-07-02",
    "tags": {
-    "moment": "refugee camp conditions",
+    "moment": "news event",
+    "moment_detail": "refugee camp conditions",
     "topics": [
-     "migrant crisis",
-     "refugee camps",
-     "europe"
+     "migration",
+     "geopolitics"
     ],
     "entities": [
      {
@@ -2869,11 +4079,11 @@
    "title": "The pressure cooker of political violence",
    "published": "2025-09-29",
    "tags": {
-    "moment": "viral ad campaign",
+    "moment": "viral trend",
+    "moment_detail": "viral ad campaign",
     "topics": [
-     "youtube",
      "advertising",
-     "internet memes"
+     "memes"
     ],
     "entities": [
      {
@@ -2899,11 +4109,12 @@
    "title": "A singular theory for the Epstein network",
    "published": "2026-02-09",
    "tags": {
-    "moment": "elite social network exposed",
+    "moment": "scandal or backlash",
+    "moment_detail": "elite social network exposed",
     "topics": [
      "silicon valley",
      "epstein network",
-     "politics"
+     "american politics"
     ],
     "entities": [
      {
@@ -2945,12 +4156,9 @@
    "title": "Safe and cozy in your doomsday bunker",
    "published": "2026-05-13",
    "tags": {
-    "moment": "platform ecosystem era description",
-    "topics": [
-     "twitter",
-     "social media",
-     "internet culture"
-    ],
+    "moment": "cultural shift",
+    "moment_detail": "platform ecosystem era description",
+    "topics": [],
     "entities": [],
     "platforms": [
      {
@@ -2976,10 +4184,10 @@
    "title": "YouTube doesn't wanna be AM radio anymore",
    "published": "2026-06-22",
    "tags": {
-    "moment": "media attention pipeline",
+    "moment": "media industry shift",
+    "moment_detail": "media attention pipeline",
     "topics": [
-     "politics",
-     "twitter",
+     "american politics",
      "media industry"
     ],
     "entities": [
@@ -3006,11 +4214,11 @@
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
    "published": "2026-08-24",
    "tags": {
-    "moment": "fandom politicization",
+    "moment": "subculture or scene",
+    "moment_detail": "fandom politicization",
     "topics": [
      "fandom",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -3032,9 +4240,129 @@
     ],
     "audiences": [
      {
-      "name": "fandoms"
+      "name": "fandom"
      }
     ]
+   }
+  },
+  {
+   "quote": "In Japan, the users of the country’s equivalent to 4chan, 2channel, were early Twitter adopters. So, by the time I was there in 2016, the site was so overrun with netto-uyoku, or right-wing ultranationalists trolls, that the site was considered unusable for gauging any sort of real public sentiment.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Japanese Twitter overrun by netto-uyoku",
+   "evidence": "by the time I was there in 2016",
+   "url": "https://www.garbageday.email/p/generative-ai-is-just-productivity",
+   "title": "Generative AI is just productivity software",
+   "published": "2023-03-22"
+  },
+  {
+   "quote": "It was like being teleported back to the magical world of 2017, a time when the combined forces of peak Facebook, a version of Twitter that everyone’s editor was paying attention to, and cable news created some shared sense of reality that we could all pretend Americans were paying attention to.",
+   "start_year": 2016,
+   "end_year": 2017,
+   "label": "Peak Facebook, Twitter and cable news in 2017",
+   "evidence": "the magical world of 2017",
+   "url": "https://www.garbageday.email/p/nostalgia-curdles",
+   "title": "Nostalgia curdles",
+   "published": "2023-04-05"
+  },
+  {
+   "quote": "Carlson’s Fox News show, Tucker Carlson Tonight, basically served one function from 2016-2023, which, aside from providing background noise for Texas airport food courts, was to give legitimacy to deranged right-wing internet ramblings.",
+   "start_year": 2016,
+   "end_year": 2023,
+   "label": "Tucker Carlson Tonight laundering internet ramblings",
+   "evidence": "from 2016-2023",
+   "url": "https://www.garbageday.email/p/various-conservative-grievances-and",
+   "title": "Various conservative grievances and hyperfixations",
+   "published": "2023-07-12"
+  },
+  {
+   "quote": "Snapchat lost its exclusive hold on ephemeral stories to Instagram in 2016 and began its slow march to irrelevance.",
+   "start_year": 2016,
+   "end_year": 2016,
+   "label": "Instagram takes Stories from Snapchat",
+   "evidence": "to Instagram in 2016",
+   "url": "https://www.garbageday.email/p/why-isnt-twitch-a-better-website",
+   "title": "Why isn't Twitch a better website?",
+   "published": "2023-12-06",
+   "tags": {
+    "moment": "platform decline or shutdown",
+    "moment_detail": "snapchat loses stories edge",
+    "topics": [
+     "platform competition"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "snapchat"
+     },
+     {
+      "name": "instagram"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "And in places like the UK, it actually became more and more common in the late-2010s to see Pepe the Frog cosplayers marching alongside far-right football clubs.",
+   "start_year": 2016,
+   "end_year": 2019,
+   "label": "Pepe cosplayers marching with UK far-right football clubs",
+   "evidence": "in the late-2010s",
+   "url": "https://www.garbageday.email/p/taylor-swift-vs-manosphere",
+   "title": "Taylor Swift vs. the manosphere",
+   "published": "2024-01-31",
+   "tags": {
+    "moment": "online radicalization",
+    "moment_detail": "pepe cosplayers join hooligans",
+    "topics": [
+     "far-right politics",
+     "memes",
+     "soccer"
+    ],
+    "entities": [
+     {
+      "name": "pepe the frog",
+      "kind": "other"
+     },
+     {
+      "name": "gamergate",
+      "kind": "event"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "football hooligans"
+     }
+    ]
+   }
+  },
+  {
+   "quote": "Instagram added a Stories feature in 2016 to compete with Snapchat and, in 2020, it, of course, launched Reels to compete with TikTok.",
+   "start_year": 2016,
+   "end_year": 2020,
+   "label": "Instagram adds Stories and Reels to copy rivals",
+   "evidence": "Stories feature in 2016",
+   "url": "https://www.garbageday.email/p/tiktok-millennials-turns",
+   "title": "TikTok Is For Millennials, It Turns Out",
+   "published": "2024-02-26",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "instagram copies rivals' features",
+    "topics": [
+     "platform competition",
+     "short-form video"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "instagram"
+     },
+     {
+      "name": "snapchat"
+     }
+    ],
+    "audiences": []
    }
   },
   {
@@ -3047,11 +4375,12 @@
    "title": "Coconutpilled and contextmaxxing",
    "published": "2024-07-22",
    "tags": {
-    "moment": "political digital campaign tactics",
+    "moment": "political campaign or movement",
+    "moment_detail": "political digital campaign tactics",
     "topics": [
      "far-right politics",
      "political campaigns",
-     "social media organizing"
+     "protests"
     ],
     "entities": [
      {
@@ -3080,11 +4409,12 @@
    "title": "Do Republicans really believe this stuff?",
    "published": "2025-03-03",
    "tags": {
-    "moment": "political slogan co-opted",
+    "moment": "political campaign or movement",
+    "moment_detail": "political slogan co-opted",
     "topics": [
-     "politics",
-     "media criticism",
-     "election campaigns"
+     "american politics",
+     "journalism",
+     "political campaigns"
     ],
     "entities": [
      {
@@ -3110,11 +4440,12 @@
    "title": "UFC and the beating heart of Trumpism",
    "published": "2025-03-10",
    "tags": {
-    "moment": "political endorsement",
+    "moment": "political campaign or movement",
+    "moment_detail": "political endorsement",
     "topics": [
-     "politics",
-     "mma",
-     "election campaigns"
+     "american politics",
+     "combat sports",
+     "political campaigns"
     ],
     "entities": [
      {
@@ -3144,10 +4475,11 @@
    "title": "Maybe the capitalists will get it right next time",
    "published": "2025-04-09",
    "tags": {
-    "moment": "currency demonetization",
+    "moment": "news event",
+    "moment_detail": "currency demonetization",
     "topics": [
-     "economics",
-     "politics",
+     "economy",
+     "american politics",
      "india"
     ],
     "entities": [
@@ -3170,7 +4502,8 @@
    "title": "MAGA needs a new conspiracy theory",
    "published": "2025-07-14",
    "tags": {
-    "moment": "conspiracy theory forms",
+    "moment": "conspiracy theory",
+    "moment_detail": "conspiracy theory forms",
     "topics": [
      "conspiracy theories",
      "far-right politics",
@@ -3204,9 +4537,10 @@
    "title": "Here's how Epstein broke the internet",
    "published": "2026-02-02",
    "tags": {
-    "moment": "private ideological manifesto",
+    "moment": "scandal or backlash",
+    "moment_detail": "private ideological manifesto",
     "topics": [
-     "politics",
+     "american politics",
      "epstein network",
      "far-right politics"
     ],
@@ -3246,9 +4580,9 @@
    "title": "A singular theory for the Epstein network",
    "published": "2026-02-09",
    "tags": {
-    "moment": "tech curiosity revealed",
+    "moment": "insider anecdote",
+    "moment_detail": "tech curiosity revealed",
     "topics": [
-     "technology",
      "epstein network",
      "video games"
     ],
@@ -3296,11 +4630,10 @@
    "title": "What happens when the short-form video bubble pops?",
    "published": "2026-04-20",
    "tags": {
-    "moment": "short-form video format cycling",
+    "moment": "media industry shift",
+    "moment_detail": "short-form video format cycling",
     "topics": [
-     "short-form video",
-     "social media",
-     "internet culture"
+     "short-form video"
     ],
     "entities": [
      {
@@ -3335,11 +4668,11 @@
    "title": "Ben Shapiro's YouTube traffic is in free fall",
    "published": "2026-05-04",
    "tags": {
-    "moment": "platform traffic strategy",
+    "moment": "media industry shift",
+    "moment_detail": "platform traffic strategy",
     "topics": [
      "far-right politics",
-     "media industry",
-     "social media"
+     "media industry"
     ],
     "entities": [
      {
@@ -3369,11 +4702,10 @@
    "title": "People don't care that \"The Odyssey\" is woke or whatever",
    "published": "2026-07-20",
    "tags": {
-    "moment": "political culture shift",
+    "moment": "cultural shift",
+    "moment_detail": "political culture shift",
     "topics": [
-     "far-right politics",
-     "internet culture",
-     "4chan"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -3403,11 +4735,11 @@
    "title": "You have to keep posting, even if you're dead",
    "published": "2026-09-04",
    "tags": {
-    "moment": "celebrity death cultural moment",
+    "moment": "news event",
+    "moment_detail": "celebrity death cultural moment",
     "topics": [
      "music",
-     "celebrity death",
-     "internet culture"
+     "celebrity"
     ],
     "entities": [
      {
@@ -3424,6 +4756,53 @@
    }
   },
   {
+   "quote": "For instance, at a Milo Yiannopoulos and Proud Boys demo in Boston I covered a few years ago, the boomers were dressed up like Paul Revere with tea bags stapled to their tricorne hats (Boston tea party, get it?) and a bunch of bro-y college guys were wearing Pepe the Frog face paint.",
+   "start_year": 2017,
+   "end_year": 2019,
+   "label": "Milo Yiannopoulos and Proud Boys demo in Boston",
+   "evidence": "a Milo Yiannopoulos and Proud Boys demo in Boston I covered a few years ago",
+   "url": "https://www.garbageday.email/p/metaversal-dissonance",
+   "title": "Metaversal dissonance",
+   "published": "2023-05-22"
+  },
+  {
+   "quote": "If you aren’t familiar with his lore, he started as a teenage PewDiePie fan making gameplay videos. In 2017, he had a breakthrough of sorts and released the video “Giving A Random Homeless Man $10,000,” complete with the now-iconic MrBeast font on the thumbnail, and slowly shifted to only making stunts — which usually include some kind of baked-in money amount.",
+   "start_year": 2017,
+   "end_year": 2017,
+   "label": "MrBeast's 2017 breakthrough",
+   "evidence": "In 2017, he had a breakthrough",
+   "url": "https://www.garbageday.email/p/new-mrbeast-charity-tantrum-dropped",
+   "title": "New MrBeast charity tantrum dropped",
+   "published": "2023-11-06",
+   "tags": {
+    "moment": "platform launch or growth",
+    "moment_detail": "mrbeast's stunt video breakthrough",
+    "topics": [
+     "influencers"
+    ],
+    "entities": [
+     {
+      "name": "mrbeast",
+      "kind": "person"
+     },
+     {
+      "name": "pewdiepie",
+      "kind": "person"
+     },
+     {
+      "name": "giving a random homeless man $10,000",
+      "kind": "work"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "youtube"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Sellner was the guy who spent like all of 2017 sailing aimlessly around the Mediterranean trying to block migrants from getting to Europe.",
    "start_year": 2017,
    "end_year": 2017,
@@ -3433,11 +4812,12 @@
    "title": "The traffic firehose isn't coming back",
    "published": "2024-03-18",
    "tags": {
-    "moment": "anti-migrant activism campaign",
+    "moment": "political campaign or movement",
+    "moment_detail": "anti-migrant activism campaign",
     "topics": [
      "far-right politics",
      "migration",
-     "europe"
+     "geopolitics"
     ],
     "entities": [
      {
@@ -3459,11 +4839,11 @@
    "title": "Welcome to the Barstool Web",
    "published": "2024-04-24",
    "tags": {
-    "moment": "consumer backlash over microtransactions",
+    "moment": "scandal or backlash",
+    "moment_detail": "consumer backlash over microtransactions",
     "topics": [
      "video games",
-     "loot boxes",
-     "consumer backlash"
+     "consumer culture"
     ],
     "entities": [
      {
@@ -3489,11 +4869,12 @@
    "title": "Drowning in \"burrito taxi\" discourse",
    "published": "2025-02-26",
    "tags": {
-    "moment": "news outlet rebrand",
+    "moment": "media industry shift",
+    "moment_detail": "news outlet rebrand",
     "topics": [
      "journalism",
-     "politics",
-     "media business"
+     "american politics",
+     "media industry"
     ],
     "entities": [
      {
@@ -3519,10 +4900,10 @@
    "title": "Do Republicans really believe this stuff?",
    "published": "2025-03-03",
    "tags": {
-    "moment": "political disinfo insulation",
+    "moment": "political campaign or movement",
+    "moment_detail": "political disinfo insulation",
     "topics": [
      "far-right politics",
-     "disinformation",
      "conspiracy theories"
     ],
     "entities": [
@@ -3551,7 +4932,30 @@
    "evidence": "Just a few months into his first, the White House took the position that Trump’s tweets were “official statements.”",
    "url": "https://www.garbageday.email/p/the-uncanny-valley-between-meme-and-law-9650f12b480c7005",
    "title": "The uncanny valley between meme and law",
-   "published": "2025-08-13"
+   "published": "2025-08-13",
+   "tags": {
+    "moment": "news event",
+    "moment_detail": "trump tweets as official statements",
+    "topics": [
+     "american politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "the white house",
+      "kind": "other"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": []
+   }
   },
   {
    "quote": "I first began studying Speaker’s Corner in 2017, as part of research for a book on British Muslims and internet culture, where I spent some time with two then obscure influencers named Ali Dawah and Mohammed Hijab, who were gaining popularity among young Muslims who felt disenfranchised by both mainstream media, and the digital media counterparts that were then enjoying their final few years of dominance.",
@@ -3563,7 +4967,8 @@
    "title": "Everything's debateslop now",
    "published": "2025-09-22",
    "tags": {
-    "moment": "influencer rise",
+    "moment": "viral trend",
+    "moment_detail": "influencer rise",
     "topics": [
      "religion",
      "debate culture",
@@ -3601,10 +5006,11 @@
    "title": "Epstein Helped Build MAGA. Has He Blown It?",
    "published": "2025-11-17",
    "tags": {
-    "moment": "public dismissal statement",
+    "moment": "news event",
+    "moment_detail": "public dismissal statement",
     "topics": [
      "far-right politics",
-     "media manipulation"
+     "conspiracy theories"
     ],
     "entities": [
      {
@@ -3630,11 +5036,11 @@
    "title": "OpenAI bought a livestream no one watches",
    "published": "2026-04-06",
    "tags": {
-    "moment": "failed platform video push",
+    "moment": "platform decline or shutdown",
+    "moment_detail": "failed platform video push",
     "topics": [
      "media industry",
-     "facebook",
-     "streaming"
+     "film and tv"
     ],
     "entities": [
      {
@@ -3659,6 +5065,32 @@
    }
   },
   {
+   "quote": "Back in 2018, even with Trump in the White House, we still had a hybrid media environment where still-somewhat-healthy digital publishers, still-somewhat-searchable social networks, and fairly-large national news organizations all competed inside the attention economy.",
+   "start_year": 2018,
+   "end_year": 2018,
+   "label": "The 2018 hybrid media environment",
+   "evidence": "Back in 2018, even with Trump in the White House",
+   "url": "https://www.garbageday.email/p/nothing-important-everything",
+   "title": "When nothing is important everything is",
+   "published": "2024-01-29",
+   "tags": {
+    "moment": "media industry shift",
+    "moment_detail": "hybrid media environment of 2018",
+    "topics": [
+     "media industry",
+     "american politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
    "quote": "Dropout launched in 2018 as the subscription arm of College Humor, which, yes, sounds insane now and sounded even more insane then. College Humor’s owner, IAC, sold the College Humor brand to the company’s then-Chief Creative Officer Sam Reich right before the pandemic, which was the real beginning of the Dropout era.",
    "start_year": 2018,
    "end_year": 2020,
@@ -3668,11 +5100,12 @@
    "title": "Another YouTuber couch apology",
    "published": "2024-04-29",
    "tags": {
-    "moment": "streaming service launch",
+    "moment": "platform launch or growth",
+    "moment_detail": "streaming service launch",
     "topics": [
-     "streaming",
-     "youtube creators",
-     "media company history"
+     "film and tv",
+     "influencers",
+     "media industry"
     ],
     "entities": [
      {
@@ -3716,11 +5149,11 @@
    "title": "Let's talk about Drake",
    "published": "2024-05-06",
    "tags": {
-    "moment": "diss track release",
+    "moment": "news event",
+    "moment_detail": "diss track release",
     "topics": [
-     "hip hop",
-     "celebrity feuds",
-     "music"
+     "music",
+     "celebrity"
     ],
     "entities": [
      {
@@ -3754,11 +5187,10 @@
    "title": "More slop for the void",
    "published": "2024-07-10",
    "tags": {
-    "moment": "app milestone and album release",
+    "moment": "platform launch or growth",
+    "moment_detail": "app milestone and album release",
     "topics": [
-     "tiktok",
-     "music",
-     "hip hop"
+     "music"
     ],
     "entities": [
      {
@@ -3788,10 +5220,10 @@
    "title": "Petty, powerful, and pathologically online",
    "published": "2025-09-19",
    "tags": {
-    "moment": "media investigation exposes bias",
+    "moment": "scandal or backlash",
+    "moment_detail": "media investigation exposes bias",
     "topics": [
-     "local news",
-     "media bias",
+     "journalism",
      "far-right politics"
     ],
     "entities": [
@@ -3818,10 +5250,11 @@
    "title": "Epstein Helped Build MAGA. Has He Blown It?",
    "published": "2025-11-17",
    "tags": {
-    "moment": "political philosophy statement",
+    "moment": "political campaign or movement",
+    "moment_detail": "political philosophy statement",
     "topics": [
      "far-right politics",
-     "media manipulation"
+     "conspiracy theories"
     ],
     "entities": [
      {
@@ -3843,7 +5276,8 @@
    "title": "Epstein Helped Build MAGA. Has He Blown It?",
    "published": "2025-11-17",
    "tags": {
-    "moment": "political networking",
+    "moment": "insider anecdote",
+    "moment_detail": "political networking",
     "topics": [
      "far-right politics",
      "political networking"
@@ -3876,9 +5310,10 @@
    "title": "A singular theory for the Epstein network",
    "published": "2026-02-09",
    "tags": {
-    "moment": "private texts revealed",
+    "moment": "scandal or backlash",
+    "moment_detail": "private texts revealed",
     "topics": [
-     "politics",
+     "american politics",
      "far-right politics",
      "epstein network"
     ],
@@ -3910,10 +5345,11 @@
    "title": "A fake war with a fake ending",
    "published": "2026-04-08",
    "tags": {
-    "moment": "political meme announcement",
+    "moment": "news event",
+    "moment_detail": "political meme announcement",
     "topics": [
-     "politics",
-     "iran",
+     "american politics",
+     "geopolitics",
      "memes"
     ],
     "entities": [
@@ -3952,9 +5388,9 @@
    "title": "Was Justin Bieber's Coachella set good?",
    "published": "2026-04-13",
    "tags": {
-    "moment": "festival headline milestone",
+    "moment": "news event",
+    "moment_detail": "festival headline milestone",
     "topics": [
-     "music festivals",
      "music"
     ],
     "entities": [
@@ -3989,11 +5425,11 @@
    "title": "Ben Shapiro's YouTube traffic is in free fall",
    "published": "2026-05-04",
    "tags": {
-    "moment": "platform traffic peak",
+    "moment": "platform launch or growth",
+    "moment_detail": "platform traffic peak",
     "topics": [
      "far-right politics",
-     "media industry",
-     "youtube"
+     "media industry"
     ],
     "entities": [
      {
@@ -4026,13 +5462,9 @@
    "title": "AI is still boring and also bad and also expensive",
    "published": "2026-09-09",
    "tags": {
-    "moment": "internet culture era description",
-    "topics": [
-     "youtube",
-     "tiktok",
-     "video",
-     "internet culture"
-    ],
+    "moment": "cultural shift",
+    "moment_detail": "internet culture era description",
+    "topics": [],
     "entities": [
      {
       "name": "netflix",
@@ -4055,6 +5487,45 @@
    }
   },
   {
+   "quote": "Stanley, a manly hundred-year-old brand primarily aimed at hikers and blue-collar workers, was rediscovered in 2019 by the bloggers behind a women’s lifestyle and shopping site called The Buy Guide.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "The Buy Guide rediscovers the Stanley Quencher",
+   "evidence": "rediscovered in 2019",
+   "url": "https://www.garbageday.email/p/the-great-silent-majority-of-american",
+   "title": "The great silent majority of American basicness",
+   "published": "2024-01-08",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "stanley cup rediscovered",
+    "topics": [
+     "consumer culture",
+     "journalism",
+     "influencers"
+    ],
+    "entities": [
+     {
+      "name": "stanley",
+      "kind": "company"
+     },
+     {
+      "name": "the buy guide",
+      "kind": "media outlet"
+     },
+     {
+      "name": "cnbc",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [],
+    "audiences": [
+     {
+      "name": "women"
+     }
+    ]
+   }
+  },
+  {
    "quote": "I lost a lot of my fascination with what killers leave behind online, though, following the 2019 Christchurch shootings. It was the first time it felt like a killer had purposefully set up a paper trail for reporters to find.",
    "start_year": 2019,
    "end_year": 2019,
@@ -4064,11 +5535,12 @@
    "title": "A sort of reverse online radicalization",
    "published": "2024-12-11",
    "tags": {
-    "moment": "mass shooter's online paper trail",
+    "moment": "violence or tragedy",
+    "moment_detail": "mass shooter's online paper trail",
     "topics": [
-     "mass shootings",
+     "political violence",
      "online radicalization",
-     "media coverage"
+     "journalism"
     ],
     "entities": [
      {
@@ -4090,11 +5562,11 @@
    "title": "Holding up a mirror to America",
    "published": "2025-01-20",
    "tags": {
-    "moment": "viral dance trend",
+    "moment": "viral trend",
+    "moment_detail": "viral dance trend",
     "topics": [
-     "tiktok",
      "dance",
-     "viral fame"
+     "influencers"
     ],
     "entities": [
      {
@@ -4124,10 +5596,10 @@
    "title": "So based 🦾",
    "published": "2025-02-19",
    "tags": {
-    "moment": "cultural power shift",
+    "moment": "cultural shift",
+    "moment_detail": "cultural power shift",
     "topics": [
-     "online politics",
-     "media",
+     "american politics",
      "far-right politics"
     ],
     "entities": [
@@ -4154,9 +5626,10 @@
    "title": "Do Republicans really believe this stuff?",
    "published": "2025-03-03",
    "tags": {
-    "moment": "government conspiracy investigation",
+    "moment": "conspiracy theory",
+    "moment_detail": "government conspiracy investigation",
     "topics": [
-     "politics",
+     "american politics",
      "conspiracy theories"
     ],
     "entities": [
@@ -4183,10 +5656,11 @@
    "title": "Maybe the capitalists will get it right next time",
    "published": "2025-04-09",
    "tags": {
-    "moment": "economic shortages",
+    "moment": "news event",
+    "moment_detail": "economic shortages",
     "topics": [
-     "economics",
-     "politics",
+     "economy",
+     "american politics",
      "brazil"
     ],
     "entities": [
@@ -4209,7 +5683,8 @@
    "title": "Charlie Kirk was killed by a meme",
    "published": "2025-09-12",
    "tags": {
-    "moment": "livestreamed mass violence",
+    "moment": "violence or tragedy",
+    "moment_detail": "livestreamed mass violence",
     "topics": [
      "political violence",
      "far-right politics",
@@ -4238,6 +5713,109 @@
    }
   },
   {
+   "quote": "Carey’s “All I Want For Christmas Is You” is the complicated one. The song came out in 1994, but didn’t start breaking records until 2019, when, thanks to a massive push from the internet, it turned into the perennial hit that now basically re-breaks the record every Christmas.",
+   "start_year": 2019,
+   "end_year": 2019,
+   "label": "\"All I Want For Christmas Is You\" becomes a perennial internet-driven hit",
+   "evidence": "didn’t start breaking records until 2019",
+   "url": "https://www.garbageday.email/p/why-choosin-texas-doesn-t-feel-like-a-hit",
+   "title": "Why \"Choosin' Texas\" doesn't feel like a hit",
+   "published": "2026-09-28",
+   "tags": {
+    "moment": "viral trend",
+    "moment_detail": "christmas song's internet revival",
+    "topics": [
+     "music",
+     "holidays"
+    ],
+    "entities": [
+     {
+      "name": "mariah carey",
+      "kind": "person"
+     },
+     {
+      "name": "all i want for christmas is you",
+      "kind": "work"
+     }
+    ],
+    "platforms": [],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "India banned the short-form video app in 2020, putting an end to my favorite TikTok subgenre, which was Indian guys pretending to be demons and crying on camera. According to a great Rest Of World article about where everyone went afterwards, over a dozen local startups tried to replace TikTok, but few got anywhere. Ultimately, users just ended up using Instagram Reels and YouTube Shorts.",
+   "start_year": 2020,
+   "end_year": 2021,
+   "label": "India bans TikTok",
+   "evidence": "India banned the short-form video app in 2020",
+   "url": "https://www.garbageday.email/p/the-last-place-left-you-can-go-viral",
+   "title": "The last place left you can go viral",
+   "published": "2023-03-17"
+  },
+  {
+   "quote": "Back in the fall of 2020, I was convinced Twitch was the future. It was missing a few bells and whistles, sure, but after the pandemic forced a majority of the world behind screens and webcams, it seemed undeniable that the newfound attention around livestreaming would be enough to finally help Twitch break through into the mainstream.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "Twitch hype during the pandemic",
+   "evidence": "Back in the fall of 2020",
+   "url": "https://www.garbageday.email/p/why-isnt-twitch-a-better-website",
+   "title": "Why isn't Twitch a better website?",
+   "published": "2023-12-06",
+   "tags": {
+    "moment": "hype or bubble",
+    "moment_detail": "pandemic livestreaming boom",
+    "topics": [
+     "livestreaming",
+     "covid-19"
+    ],
+    "entities": [],
+    "platforms": [
+     {
+      "name": "twitch"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "The largest country to ban TikTok is India, which blocked the app in 2020. As Rest Of World pointed out, it actually didn't affect local creators all that much. They just went to other platforms.",
+   "start_year": 2020,
+   "end_year": 2020,
+   "label": "India bans TikTok",
+   "evidence": "which blocked the app in 2020",
+   "url": "https://www.garbageday.email/p/nobody-owned-childrens-data",
+   "title": "What if nobody owned our children's data?",
+   "published": "2024-03-13",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "india bans tiktok",
+    "topics": [
+     "geopolitics",
+     "india"
+    ],
+    "entities": [
+     {
+      "name": "india",
+      "kind": "other"
+     },
+     {
+      "name": "rest of world",
+      "kind": "media outlet"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "tiktok"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "creators"
+     }
+    ]
+   }
+  },
+  {
    "quote": "Josh Pieters and Archie Manners are the same video creators that went viral in 2020 after they invented a “Campaign to Unify the Nation Trophy” and flew far-right UK columnist Katie Hopkins to Prague to accept it.",
    "start_year": 2020,
    "end_year": 2020,
@@ -4247,11 +5825,12 @@
    "title": "The traffic firehose isn't coming back",
    "published": "2024-03-18",
    "tags": {
-    "moment": "viral prank stunt",
+    "moment": "viral trend",
+    "moment_detail": "viral prank stunt",
     "topics": [
      "far-right politics",
-     "prank videos",
-     "youtube creators"
+     "short-form video",
+     "influencers"
     ],
     "entities": [
      {
@@ -4281,11 +5860,11 @@
    "title": "Clout world",
    "published": "2024-03-20",
    "tags": {
-    "moment": "cultural power shift",
+    "moment": "cultural shift",
+    "moment_detail": "cultural power shift",
     "topics": [
-     "pandemic",
-     "tiktok",
-     "meme stocks"
+     "covid-19",
+     "economy"
     ],
     "entities": [
      {
@@ -4315,11 +5894,12 @@
    "title": "Clout world",
    "published": "2024-03-20",
    "tags": {
-    "moment": "fan art speculation market",
+    "moment": "hype or bubble",
+    "moment_detail": "fan art speculation market",
     "topics": [
-     "fan art",
-     "collectibles market",
-     "furry culture"
+     "fandom",
+     "consumer culture",
+     "furries"
     ],
     "entities": [
      {
@@ -4345,11 +5925,11 @@
    "title": "All the CEOs want to be podcasters now",
    "published": "2024-03-27",
    "tags": {
-    "moment": "viral pandemic explainer",
+    "moment": "viral trend",
+    "moment_detail": "viral pandemic explainer",
     "topics": [
      "covid-19",
-     "viral content",
-     "blogging"
+     "journalism"
     ],
     "entities": [
      {
@@ -4379,11 +5959,11 @@
    "title": "New dinner party simulation app dropped",
    "published": "2024-04-17",
    "tags": {
-    "moment": "app hype during pandemic",
+    "moment": "hype or bubble",
+    "moment_detail": "app hype during pandemic",
     "topics": [
-     "clubhouse",
-     "pandemic",
-     "tech founder culture"
+     "covid-19",
+     "silicon valley"
     ],
     "entities": [
      {
@@ -4409,11 +5989,11 @@
    "title": "Now is the time of sea shanties",
    "published": "2024-05-13",
    "tags": {
-    "moment": "viral music trend",
+    "moment": "viral trend",
+    "moment_detail": "viral music trend",
     "topics": [
-     "tiktok",
      "music",
-     "viral trends"
+     "memes"
     ],
     "entities": [
      {
@@ -4454,11 +6034,11 @@
    "title": "Excuse the navel-gazing",
    "published": "2024-05-27",
    "tags": {
-    "moment": "newsletter industry boom",
+    "moment": "media industry shift",
+    "moment_detail": "newsletter industry boom",
     "topics": [
-     "newsletters",
-     "pandemic",
-     "substack"
+     "journalism",
+     "covid-19"
     ],
     "entities": [
      {
@@ -4487,11 +6067,11 @@
    "title": "Hypebeasts without the hype",
    "published": "2024-06-26",
    "tags": {
-    "moment": "content trend cycle",
+    "moment": "viral trend",
+    "moment_detail": "content trend cycle",
     "topics": [
-     "onlyfans",
      "podcasting",
-     "creator economy"
+     "influencers"
     ],
     "entities": [
      {
@@ -4517,11 +6097,11 @@
    "title": "The American digital backwater",
    "published": "2024-07-08",
    "tags": {
-    "moment": "tech industry hype spiral",
+    "moment": "hype or bubble",
+    "moment_detail": "tech industry hype spiral",
     "topics": [
      "silicon valley",
-     "tech industry",
-     "generative ai"
+     "ai"
     ],
     "entities": [],
     "platforms": [],
@@ -4538,10 +6118,10 @@
    "title": "Coconutpilled and contextmaxxing",
    "published": "2024-07-22",
    "tags": {
-    "moment": "political campaign strategy",
+    "moment": "political campaign or movement",
+    "moment_detail": "political campaign strategy",
     "topics": [
-     "political campaigns",
-     "digital strategy"
+     "political campaigns"
     ],
     "entities": [
      {
@@ -4571,10 +6151,11 @@
    "title": "The End Point Of Viral Content",
    "published": "2024-10-23",
    "tags": {
-    "moment": "mass content removal",
+    "moment": "platform policy change",
+    "moment_detail": "mass content removal",
     "topics": [
-     "pornography industry",
-     "content moderation"
+     "sex work",
+     "platform policy"
     ],
     "entities": [
      {
@@ -4600,11 +6181,12 @@
    "title": "A 176-year-old mystery solved",
    "published": "2024-10-30",
    "tags": {
-    "moment": "insurrection organized online",
+    "moment": "political campaign or movement",
+    "moment_detail": "insurrection organized online",
     "topics": [
      "far-right politics",
      "political violence",
-     "social media organizing"
+     "protests"
     ],
     "entities": [
      {
@@ -4612,7 +6194,7 @@
       "kind": "event"
      },
      {
-      "name": "meta",
+      "name": "facebook",
       "kind": "company"
      }
     ],
@@ -4640,11 +6222,11 @@
    "title": "TikTok doesn't need America",
    "published": "2025-01-13",
    "tags": {
-    "moment": "country-level app ban",
+    "moment": "platform policy change",
+    "moment_detail": "country-level app ban",
     "topics": [
-     "tiktok",
      "india",
-     "platform bans"
+     "platform policy"
     ],
     "entities": [
      {
@@ -4670,11 +6252,11 @@
    "title": "Holding up a mirror to America",
    "published": "2025-01-20",
    "tags": {
-    "moment": "viral trend origin uncovered",
+    "moment": "viral trend",
+    "moment_detail": "viral trend origin uncovered",
     "topics": [
-     "tiktok",
      "dance",
-     "credit and erasure"
+     "intellectual property"
     ],
     "entities": [
      {
@@ -4714,11 +6296,11 @@
    "title": "UFC and the beating heart of Trumpism",
    "published": "2025-03-10",
    "tags": {
-    "moment": "pandemic event trip",
+    "moment": "insider anecdote",
+    "moment_detail": "pandemic event trip",
     "topics": [
-     "mma",
-     "youtube",
-     "pandemic"
+     "combat sports",
+     "covid-19"
     ],
     "entities": [
      {
@@ -4744,11 +6326,12 @@
    "title": "The logical endpoint of 21st-century America",
    "published": "2025-09-11",
    "tags": {
-    "moment": "election conspiracy activism",
+    "moment": "conspiracy theory",
+    "moment_detail": "election conspiracy activism",
     "topics": [
      "far-right politics",
-     "election denial",
-     "january 6"
+     "conspiracy theories",
+     "political violence"
     ],
     "entities": [
      {
@@ -4778,10 +6361,10 @@
    "title": "Your kids are watching nazislop on TikTok",
    "published": "2025-12-01",
    "tags": {
-    "moment": "radicalization campaign",
+    "moment": "online radicalization",
+    "moment_detail": "radicalization campaign",
     "topics": [
      "far-right politics",
-     "nazism",
      "online radicalization"
     ],
     "entities": [],
@@ -4798,7 +6381,7 @@
     ],
     "audiences": [
      {
-      "name": "children"
+      "name": "kids"
      },
      {
       "name": "dimes square hipsters"
@@ -4816,11 +6399,10 @@
    "title": "Sorry babe, I'm monitoring the situation",
    "published": "2026-03-02",
    "tags": {
-    "moment": "covid-era media behavior pattern",
+    "moment": "cultural shift",
+    "moment_detail": "covid-era media behavior pattern",
     "topics": [
-     "twitter",
-     "politics",
-     "internet culture"
+     "american politics"
     ],
     "entities": [
      {
@@ -4835,9 +6417,6 @@
     "platforms": [
      {
       "name": "twitter"
-     },
-     {
-      "name": "x"
      },
      {
       "name": "discord"
@@ -4860,10 +6439,9 @@
    "title": "Oh, look, we're all pivoting to video again",
    "published": "2026-03-30",
    "tags": {
-    "moment": "platform feature launch race",
+    "moment": "platform launch or growth",
+    "moment_detail": "platform feature launch race",
     "topics": [
-     "tiktok",
-     "social media",
      "short-form video"
     ],
     "entities": [
@@ -4907,11 +6485,11 @@
    "title": "A fake war with a fake ending",
    "published": "2026-04-08",
    "tags": {
-    "moment": "targeted killing",
+    "moment": "violence or tragedy",
+    "moment_detail": "targeted killing",
     "topics": [
-     "politics",
-     "foreign policy",
-     "iran"
+     "american politics",
+     "geopolitics"
     ],
     "entities": [
      {
@@ -4945,11 +6523,10 @@
    "title": "The wild Geese chase",
    "published": "2026-04-15",
    "tags": {
-    "moment": "algorithm manipulation campaign",
+    "moment": "political campaign or movement",
+    "moment_detail": "algorithm manipulation campaign",
     "topics": [
-     "tiktok",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -4966,11 +6543,7 @@
       "name": "tiktok"
      }
     ],
-    "audiences": [
-     {
-      "name": "his fans"
-     }
-    ]
+    "audiences": []
    }
   },
   {
@@ -4983,10 +6556,9 @@
    "title": "AI is still boring and also bad and also expensive",
    "published": "2026-09-09",
    "tags": {
-    "moment": "internet culture era description",
+    "moment": "cultural shift",
+    "moment_detail": "internet culture era description",
     "topics": [
-     "internet culture",
-     "video",
      "far-right politics"
     ],
     "entities": [
@@ -5023,6 +6595,103 @@
    }
   },
   {
+   "quote": "January 6th was announced months in advance and organized very clearly and publicly on Parler and, more crucially, Facebook Events. There is no version where January 6th could have happened at the scale it did without Facebook Events as a way to mobilize normie Trump supporters.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "January 6th organized on Parler and Facebook Events",
+   "evidence": "compared to where it was in 2021",
+   "url": "https://www.garbageday.email/p/you-cant-have-a-proper-insurrection",
+   "title": "You can't have a proper insurrection without normies",
+   "published": "2023-03-20"
+  },
+  {
+   "quote": "One of the earliest TikTok trends I started tracking with Garbage Day was the mall emo revival. Back in 2021, I used to refer to it as “TikTokcore,” as a general umbrella term for the Hot Topic-ification of viral TikTok music, whether that was Machine Gun Kelly and Travis Barker’s e-boy factory or the goth lite pop music being made by influencers like Bella Poarch.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "TikTok mall emo revival / TikTokcore",
+   "evidence": "Back in 2021",
+   "url": "https://www.garbageday.email/p/the-ai-demands-more-habanero-salsa",
+   "title": "The AI demands more habanero salsa",
+   "published": "2023-05-17"
+  },
+  {
+   "quote": "And after Kyanka had poured all of his life savings and personal clout into running Something Awful into the ground, he eventually sold it, got banned from it, and then, in 2021, died by suicide amid a legal battle battle over unpaid child support in which his ex-wife accused him of domestic violence.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "Death of Something Awful founder Lowtax",
+   "evidence": "in 2021, died by suicide",
+   "url": "https://www.garbageday.email/p/just-another-middle-aged-message",
+   "title": "Just another middle-aged message board tyrant",
+   "published": "2023-09-20",
+   "tags": {
+    "moment": "violence or tragedy",
+    "moment_detail": "lowtax's decline and death",
+    "topics": [
+     "forums",
+     "death online"
+    ],
+    "entities": [
+     {
+      "name": "richard kyanka",
+      "kind": "person"
+     },
+     {
+      "name": "something awful",
+      "kind": "community"
+     },
+     {
+      "name": "uwe boll",
+      "kind": "person"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "something awful"
+     }
+    ],
+    "audiences": []
+   }
+  },
+  {
+   "quote": "On January 8th, 2021, Twitter joined the rest of the big social platforms in banning Donald Trump for incendiary content about the insurrection. For the right wing, Trump’s ban, following Trump’s loss at the polls the November before, was a Death Star level event. Twitter, especially post-COVID, was the main feed for news, politics, and culture in the US.",
+   "start_year": 2021,
+   "end_year": 2021,
+   "label": "Twitter bans Trump after January 6",
+   "evidence": "On January 8th, 2021, Twitter joined the rest of the big social platforms in banning Donald Trump",
+   "url": "https://www.garbageday.email/p/duplicate-infiltrate-and-undermine",
+   "title": "Duplicate, infiltrate, and undermine",
+   "published": "2023-12-11",
+   "tags": {
+    "moment": "platform policy change",
+    "moment_detail": "twitter bans trump",
+    "topics": [
+     "far-right politics",
+     "platform policy",
+     "american politics"
+    ],
+    "entities": [
+     {
+      "name": "donald trump",
+      "kind": "person"
+     },
+     {
+      "name": "january 6th",
+      "kind": "event"
+     }
+    ],
+    "platforms": [
+     {
+      "name": "twitter"
+     }
+    ],
+    "audiences": [
+     {
+      "name": "conservatives"
+     }
+    ]
+   }
+  },
+  {
    "quote": "The GameStop short squeeze in 2021 legitimized meme stocks as, essentially, a bet that could pay out big.",
    "start_year": 2021,
    "end_year": 2021,
@@ -5032,11 +6701,11 @@
    "title": "Welcome to the Barstool Web",
    "published": "2024-04-24",
    "tags": {
-    "moment": "meme stock event",
+    "moment": "hype or bubble",
+    "moment_detail": "meme stock event",
     "topics": [
-     "meme stocks",
-     "gambling",
-     "stock market"
+     "economy",
+     "gambling"
     ],
     "entities": [
      {
@@ -5058,7 +6727,8 @@
    "title": "The fringes of online gutter culture",
    "published": "2024-09-04",
    "tags": {
-    "moment": "podcaster controversy fallout",
+    "moment": "scandal or backlash",
+    "moment_detail": "podcaster controversy fallout",
     "topics": [
      "podcasting",
      "brazil",
@@ -5092,11 +6762,10 @@
    "title": "The AI guys were lying the whole time",
    "published": "2025-01-27",
    "tags": {
-    "moment": "app hits a billion users",
+    "moment": "platform launch or growth",
+    "moment_detail": "app hits a billion users",
     "topics": [
-     "tiktok",
-     "silicon valley",
-     "tech industry"
+     "silicon valley"
     ],
     "entities": [],
     "platforms": [
@@ -5117,15 +6786,15 @@
    "title": "Democracy dies in billionaire group chats",
    "published": "2025-04-28",
    "tags": {
-    "moment": "app hype backlash",
+    "moment": "hype or bubble",
+    "moment_detail": "app hype backlash",
     "topics": [
      "silicon valley",
-     "venture capital",
-     "social media hype"
+     "hype cycles"
     ],
     "entities": [
      {
-      "name": "andreessen",
+      "name": "marc andreessen",
       "kind": "person"
      }
     ],
@@ -5151,11 +6820,10 @@
    "title": "YouTube doesn't wanna be AM radio anymore",
    "published": "2026-06-22",
    "tags": {
-    "moment": "political discourse platform migration",
+    "moment": "online radicalization",
+    "moment_detail": "political discourse platform migration",
     "topics": [
-     "far-right politics",
-     "twitter",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -5183,9 +6851,6 @@
       "name": "truth social"
      },
      {
-      "name": "x"
-     },
-     {
       "name": "tiktok"
      }
     ],
@@ -5202,10 +6867,10 @@
    "title": "Musk's masterful Brazilian gambit",
    "published": "2024-04-10",
    "tags": {
-    "moment": "government contract controversy",
+    "moment": "scandal or backlash",
+    "moment_detail": "government contract controversy",
     "topics": [
      "brazil",
-     "elon musk",
      "satellite internet"
     ],
     "entities": [
@@ -5236,11 +6901,11 @@
    "title": "Musk's masterful Brazilian gambit",
    "published": "2024-04-10",
    "tags": {
-    "moment": "platform ban and reversal",
+    "moment": "platform policy change",
+    "moment_detail": "platform ban and reversal",
     "topics": [
      "brazil",
-     "content moderation",
-     "platform regulation"
+     "platform policy"
     ],
     "entities": [
      {
@@ -5266,10 +6931,11 @@
    "title": "Another YouTuber couch apology",
    "published": "2024-04-29",
    "tags": {
-    "moment": "streaming service failure",
+    "moment": "platform decline or shutdown",
+    "moment_detail": "streaming service failure",
     "topics": [
-     "streaming",
-     "media company failure"
+     "film and tv",
+     "media industry"
     ],
     "entities": [
      {
@@ -5291,11 +6957,11 @@
    "title": "The American digital backwater",
    "published": "2024-07-08",
    "tags": {
-    "moment": "app download milestone",
+    "moment": "platform launch or growth",
+    "moment_detail": "app download milestone",
     "topics": [
      "chinese apps",
-     "app store rankings",
-     "tiktok"
+     "algorithms"
     ],
     "entities": [
      {
@@ -5325,7 +6991,8 @@
    "title": "The fringes of online gutter culture",
    "published": "2024-09-04",
    "tags": {
-    "moment": "podcaster fired for comments",
+    "moment": "scandal or backlash",
+    "moment_detail": "podcaster fired for comments",
     "topics": [
      "podcasting",
      "brazil",
@@ -5351,7 +7018,8 @@
    "title": "Podcasting... good?",
    "published": "2024-11-27",
    "tags": {
-    "moment": "industry pitch meeting grind",
+    "moment": "insider anecdote",
+    "moment_detail": "industry pitch meeting grind",
     "topics": [
      "podcasting",
      "media industry",
@@ -5377,11 +7045,12 @@
    "title": "Trying to scold the entire internet",
    "published": "2024-12-09",
    "tags": {
-    "moment": "assassination public reaction",
+    "moment": "violence or tragedy",
+    "moment_detail": "assassination public reaction",
     "topics": [
-     "political assassination",
+     "political violence",
      "japan",
-     "religious cults"
+     "religion"
     ],
     "entities": [
      {
@@ -5407,11 +7076,11 @@
    "title": "Charlie Kirk was killed by a meme",
    "published": "2025-09-12",
    "tags": {
-    "moment": "livestreamed mass shooting",
+    "moment": "violence or tragedy",
+    "moment_detail": "livestreamed mass shooting",
     "topics": [
      "political violence",
-     "far-right politics",
-     "white nationalism"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -5440,10 +7109,10 @@
    "title": "Petty, powerful, and pathologically online",
    "published": "2025-09-19",
    "tags": {
-    "moment": "celebrity cheating scandal",
+    "moment": "scandal or backlash",
+    "moment_detail": "celebrity cheating scandal",
     "topics": [
-     "youtube",
-     "celebrity scandal",
+     "celebrity",
      "fandom"
     ],
     "entities": [
@@ -5477,11 +7146,11 @@
    "title": "Your kids are watching nazislop on TikTok",
    "published": "2025-12-01",
    "tags": {
-    "moment": "mass shooting symbolism",
+    "moment": "violence or tragedy",
+    "moment_detail": "mass shooting symbolism",
     "topics": [
-     "nazism",
-     "political violence",
-     "mass shootings"
+     "far-right politics",
+     "political violence"
     ],
     "entities": [
      {
@@ -5503,10 +7172,10 @@
    "title": "Generative AI is an expensive edging machine",
    "published": "2026-01-21",
    "tags": {
-    "moment": "crypto conference anecdote",
+    "moment": "insider anecdote",
+    "moment_detail": "crypto conference anecdote",
     "topics": [
-     "cryptocurrency",
-     "tech conferences",
+     "crypto and nfts",
      "silicon valley"
     ],
     "entities": [
@@ -5529,10 +7198,11 @@
    "title": "The only taboo left is copyright infringement",
    "published": "2026-02-18",
    "tags": {
-    "moment": "copyright dispute over fan film",
+    "moment": "scandal or backlash",
+    "moment_detail": "copyright dispute over fan film",
     "topics": [
-     "copyright",
-     "film",
+     "intellectual property",
+     "film and tv",
      "fandom"
     ],
     "entities": [
@@ -5571,11 +7241,10 @@
    "title": "Right-wingers want every woman to be a mom and also hate moms now",
    "published": "2026-08-24",
    "tags": {
-    "moment": "platform political migration",
+    "moment": "online radicalization",
+    "moment_detail": "platform political migration",
     "topics": [
-     "far-right politics",
-     "twitter",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -5590,7 +7259,7 @@
     ],
     "audiences": [
      {
-      "name": "the right wing"
+      "name": "conservatives"
      }
     ]
    }
@@ -5605,10 +7274,10 @@
    "title": "Just the regular kind of authoritarian purge",
    "published": "2025-05-14",
    "tags": {
-    "moment": "nft hype interview",
+    "moment": "hype or bubble",
+    "moment_detail": "nft hype interview",
     "topics": [
-     "nft",
-     "cryptocurrency"
+     "crypto and nfts"
     ],
     "entities": [
      {
@@ -5646,11 +7315,11 @@
    "title": "Your kids are watching nazislop on TikTok",
    "published": "2025-12-01",
    "tags": {
-    "moment": "viral trend disguising propaganda",
+    "moment": "online radicalization",
+    "moment_detail": "viral trend disguising propaganda",
     "topics": [
-     "nazism",
-     "tiktok",
-     "internet memes"
+     "far-right politics",
+     "memes"
     ],
     "entities": [],
     "platforms": [
@@ -5675,9 +7344,9 @@
    "title": "Meet the WannaBeasts of local TikTok",
    "published": "2026-01-28",
    "tags": {
-    "moment": "platform api paywall backlash",
+    "moment": "platform policy change",
+    "moment_detail": "platform api paywall backlash",
     "topics": [
-     "reddit",
      "platform policy",
      "protests"
     ],
@@ -5713,11 +7382,10 @@
    "title": "Waging war for the lulz",
    "published": "2026-03-09",
    "tags": {
-    "moment": "corporate trolling stunt",
+    "moment": "viral trend",
+    "moment_detail": "corporate trolling stunt",
     "topics": [
-     "twitter",
-     "trolling",
-     "internet culture"
+     "online harassment"
     ],
     "entities": [
      {
@@ -5743,9 +7411,9 @@
    "title": "Everyone's very angry online right now",
    "published": "2026-03-25",
    "tags": {
-    "moment": "internet slang coined",
+    "moment": "term coined",
+    "moment_detail": "internet slang coined",
     "topics": [
-     "internet culture",
      "fandom",
      "online harassment"
     ],
@@ -5753,9 +7421,6 @@
     "platforms": [
      {
       "name": "twitter"
-     },
-     {
-      "name": "x"
      }
     ],
     "audiences": []
@@ -5771,11 +7436,10 @@
    "title": "Oh, look, we're all pivoting to video again",
    "published": "2026-03-30",
    "tags": {
-    "moment": "viral content spreading across platforms",
+    "moment": "viral trend",
+    "moment_detail": "viral content spreading across platforms",
     "topics": [
-     "tiktok",
-     "far-right politics",
-     "internet culture"
+     "far-right politics"
     ],
     "entities": [
      {
@@ -5788,7 +7452,7 @@
       "name": "tiktok"
      },
      {
-      "name": "x"
+      "name": "twitter"
      },
      {
       "name": "instagram"
@@ -5810,11 +7474,11 @@
    "title": "EXCLUSIVE: DHS gave a scoop to a random shitposter",
    "published": "2026-05-06",
    "tags": {
-    "moment": "meme account political turn",
+    "moment": "online radicalization",
+    "moment_detail": "meme account political turn",
     "topics": [
      "far-right politics",
-     "memes",
-     "internet culture"
+     "memes"
     ],
     "entities": [
      {
@@ -5836,7 +7500,7 @@
     ],
     "platforms": [
      {
-      "name": "x"
+      "name": "twitter"
      }
     ],
     "audiences": []
@@ -5852,10 +7516,10 @@
    "title": "There's nothing to watch on YouTube anymore",
    "published": "2026-05-11",
    "tags": {
-    "moment": "viral trend chain reaction",
+    "moment": "viral trend",
+    "moment_detail": "viral trend chain reaction",
     "topics": [
-     "tiktok",
-     "viral trends",
+     "memes",
      "consumer culture"
     ],
     "entities": [
@@ -5890,11 +7554,12 @@
    "title": "YouTube doesn't wanna be AM radio anymore",
    "published": "2026-06-22",
    "tags": {
-    "moment": "coordinated conspiracy campaign",
+    "moment": "conspiracy theory",
+    "moment_detail": "coordinated conspiracy campaign",
     "topics": [
      "far-right politics",
-     "disinformation",
-     "immigration"
+     "conspiracy theories",
+     "migration"
     ],
     "entities": [
      {
@@ -5916,12 +7581,12 @@
     ],
     "platforms": [
      {
-      "name": "x"
+      "name": "twitter"
      }
     ],
     "audiences": [
      {
-      "name": "maga influencers"
+      "name": "conservatives"
      }
     ]
    }

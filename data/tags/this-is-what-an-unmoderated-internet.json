@@ -1,0 +1,42 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform policy change",
+   "moment_detail": "platforms adopt moderation duty",
+   "topics": [
+    "content moderation",
+    "misinformation",
+    "online harassment"
+   ],
+   "entities": [
+    {
+     "name": "the fappening",
+     "kind": "event",
+     "evidence": "The Fappening"
+    },
+    {
+     "name": "isis",
+     "kind": "other",
+     "evidence": "ISIS"
+    },
+    {
+     "name": "internet research agency",
+     "kind": "company",
+     "evidence": "the Internet Research Agency"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "4chan",
+     "evidence": "4chan’s massive leak"
+    },
+    {
+     "name": "facebook",
+     "evidence": "Facebook launched a factchecking division"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": true,
+   "reason": "Passes all four: describes Myspace launching and mainstreaming social networks, then Facebook's college launch."
+  },
+  {
+   "n": 2,
+   "keep": false,
+   "reason": "Fails check 3: 'Facebook overtakes it' depends on an unnamed 'it' from earlier."
+  },
+  {
+   "n": 3,
+   "keep": false,
+   "reason": "Fails check 3: 'It launches in 2006' never names the platform being described."
+  },
+  {
+   "n": 4,
+   "keep": true,
+   "reason": "Passes all four: describes the emergence of Black Twitter and Weird Twitter as subcultures."
+  },
+  {
+   "n": 5,
+   "keep": true,
+   "reason": "Passes all four: describes Dorsey's moderation approach as the source of Twitter's cachet in 2015-2021."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": true,
+   "reason": "Passes all four: describes MTV News' central role in late-90s and early-2000s pop culture."
+  },
+  {
+   "n": 2,
+   "keep": true,
+   "reason": "Passes all four: describes how old and new outlets handled viral content in the peak-Facebook era."
+  },
+  {
+   "n": 3,
+   "keep": false,
+   "reason": "Fails check 3: built around rhetorical questions."
+  }
+ ]
+}

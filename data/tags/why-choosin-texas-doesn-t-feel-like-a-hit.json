@@ -1,0 +1,28 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "christmas song's internet revival",
+   "topics": [
+    "music",
+    "music charts",
+    "holidays"
+   ],
+   "entities": [
+    {
+     "name": "mariah carey",
+     "kind": "person",
+     "evidence": "Carey’s"
+    },
+    {
+     "name": "all i want for christmas is you",
+     "kind": "work",
+     "evidence": "“All I Want For Christmas Is You”"
+    }
+   ],
+   "platforms": [],
+   "audiences": []
+  }
+ ]
+}

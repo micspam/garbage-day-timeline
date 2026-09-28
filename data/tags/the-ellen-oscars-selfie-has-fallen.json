@@ -1,0 +1,35 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "cultural shift",
+   "moment_detail": "decentralized early web",
+   "topics": [
+    "blogging",
+    "online communities",
+    "digital media"
+   ],
+   "entities": [],
+   "platforms": [],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "media industry shift",
+   "moment_detail": "facebook traffic floods publishers",
+   "topics": [
+    "digital media",
+    "algorithmic feeds",
+    "journalism"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook’s algorithm flickered on in 2012"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

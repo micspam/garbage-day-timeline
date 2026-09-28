@@ -1,0 +1,34 @@
+{
+ "tags": [
+  {
+   "n": 2,
+   "moment": "cultural shift",
+   "moment_detail": "comics merge into memes",
+   "topics": [
+    "web comics",
+    "memes",
+    "visual content"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "facebook",
+     "evidence": "Facebook"
+    },
+    {
+     "name": "instagram",
+     "evidence": "Instagram"
+    },
+    {
+     "name": "tumblr",
+     "evidence": "Tumblr"
+    },
+    {
+     "name": "twitter",
+     "evidence": "Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

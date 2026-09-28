@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Describes what reading culture writing online was like a decade ago; passes all four."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Check 4: a speculative quip ('could probably') rather than description of the era."
+    }
+  ]
+}

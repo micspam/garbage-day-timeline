@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3: 'it really started' depends on an unnamed 'it' from earlier."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Check 3: 'the transition' depends on earlier context and is framed as the author's guess."
+    }
+  ]
+}

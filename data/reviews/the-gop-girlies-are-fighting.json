@@ -1,0 +1,9 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Fails check 1: frames an ongoing assumption held 'since 2015', likely as setup for a present-day contrast, rather than describing the era."
+  }
+ ]
+}

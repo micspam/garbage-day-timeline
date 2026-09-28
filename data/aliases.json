@@ -192,7 +192,41 @@
   }
  },
  "topics": {
-  "drop": ["internet culture", "social media", "technology", "media", "viral content", "video", "video content", "social media platforms", "social media culture", "social media history", "online media", "digital media", "internet discourse", "news events", "business", "online communities", "2010s culture", "obama era", "tiktok", "twitter", "youtube", "facebook", "4chan", "reddit", "tumblr", "myspace", "vine", "clubhouse", "substack", "onlyfans", "google", "donald trump", "elon musk"],
+  "drop": [
+   "internet culture",
+   "social media",
+   "technology",
+   "media",
+   "viral content",
+   "video",
+   "video content",
+   "social media platforms",
+   "social media culture",
+   "social media history",
+   "online media",
+   "digital media",
+   "internet discourse",
+   "news events",
+   "business",
+   "online communities",
+   "2010s culture",
+   "obama era",
+   "tiktok",
+   "twitter",
+   "youtube",
+   "facebook",
+   "4chan",
+   "reddit",
+   "tumblr",
+   "myspace",
+   "vine",
+   "clubhouse",
+   "substack",
+   "onlyfans",
+   "google",
+   "donald trump",
+   "elon musk"
+  ],
   "map": {
    "politics": "american politics",
    "american politics": "american politics",
@@ -332,14 +366,45 @@
    "collectibles market": "consumer culture",
    "branding": "advertising",
    "copyright": "intellectual property",
-   "credit and erasure": "intellectual property"
+   "credit and erasure": "intellectual property",
+   "us politics": "american politics",
+   "presidency": "american politics",
+   "platform rivalry": "platform competition",
+   "stories format": "platform competition",
+   "generative ai": "ai",
+   "influencer marketing": "influencers",
+   "pop music": "music",
+   "indie music": "music",
+   "music blogs": "music",
+   "music charts": "music",
+   "music industry": "music",
+   "music piracy": "intellectual property",
+   "pornography": "sex work",
+   "crowd manias": "hype cycles",
+   "tiktok ban": "geopolitics",
+   "deplatforming": "platform policy",
+   "misinformation": "conspiracy theories",
+   "web traffic": "media industry",
+   "platform demographics": "generational culture",
+   "fan fiction": "fandom",
+   "fan theories": "fandom",
+   "zines": "fandom",
+   "suicide": "death online",
+   "effective altruism": "rationalism"
   }
  },
  "platforms": {
-  "map": {"x": "twitter", "twitter/x": "twitter", "x (twitter)": "twitter"}
+  "map": {
+   "x": "twitter",
+   "twitter/x": "twitter",
+   "x (twitter)": "twitter"
+  }
  },
  "audiences": {
-  "drop": ["his fans", "fans"],
+  "drop": [
+   "his fans",
+   "fans"
+  ],
   "map": {
    "the right wing": "conservatives",
    "the american right": "conservatives",
@@ -353,6 +418,11 @@
   }
  },
  "entities": {
-  "map": {"x": "twitter", "meta": "facebook", "moot": "christopher poole", "andreessen": "marc andreessen"}
+  "map": {
+   "x": "twitter",
+   "meta": "facebook",
+   "moot": "christopher poole",
+   "andreessen": "marc andreessen"
+  }
  }
 }

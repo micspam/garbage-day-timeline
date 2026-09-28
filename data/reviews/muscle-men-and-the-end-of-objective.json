@@ -1,0 +1,9 @@
+{
+ "verdicts": [
+  {
+   "n": 1,
+   "keep": false,
+   "reason": "Fails check 3: opens with 'It reminds me of', depending on an unexplained present-day subject."
+  }
+ ]
+}

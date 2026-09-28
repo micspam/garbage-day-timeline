@@ -1,0 +1,68 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "viral trend",
+   "moment_detail": "stanley cup rediscovered",
+   "topics": [
+    "consumer culture",
+    "blogging",
+    "influencer marketing"
+   ],
+   "entities": [
+    {
+     "name": "stanley",
+     "kind": "company",
+     "evidence": "Stanley, a manly hundred-year-old brand"
+    },
+    {
+     "name": "the buy guide",
+     "kind": "media outlet",
+     "evidence": "The Buy Guide"
+    },
+    {
+     "name": "cnbc",
+     "kind": "media outlet",
+     "evidence": "CNBC"
+    }
+   ],
+   "platforms": [],
+   "audiences": [
+    {
+     "name": "women",
+     "evidence": "women’s lifestyle and shopping site"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "media industry shift",
+   "moment_detail": "brands mine myspace fandoms",
+   "topics": [
+    "advertising",
+    "fashion trends",
+    "music",
+    "fandom"
+   ],
+   "entities": [
+    {
+     "name": "hot topic",
+     "kind": "company",
+     "evidence": "Hot Topic"
+    },
+    {
+     "name": "spencer’s gifts",
+     "kind": "company",
+     "evidence": "Spencer’s Gifts"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "myspace",
+     "evidence": "Myspace era of music and fashion"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

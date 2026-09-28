@@ -1,0 +1,27 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "iphone catches on",
+   "topics": [
+    "smartphones",
+    "blogging"
+   ],
+   "entities": [
+    {
+     "name": "iphone",
+     "kind": "other",
+     "evidence": "the first iPhone"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "twitter",
+     "evidence": "early social platforms like Twitter"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

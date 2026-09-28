@@ -1,0 +1,58 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "platform launch or growth",
+   "moment_detail": "instagram young-adult surge",
+   "topics": [
+    "platform demographics",
+    "platform identity"
+   ],
+   "entities": [
+    {
+     "name": "pew research center",
+     "kind": "other",
+     "evidence": "Pew"
+    },
+    {
+     "name": "facebook",
+     "kind": "company",
+     "evidence": "purchased by Facebook"
+    }
+   ],
+   "platforms": [
+    {
+     "name": "instagram",
+     "evidence": "users aged 18-29 on Instagram"
+    }
+   ],
+   "audiences": [
+    {
+     "name": "young adults",
+     "evidence": "users aged 18-29"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "moment": "platform policy change",
+   "moment_detail": "instagram copies rivals' features",
+   "topics": [
+    "platform competition",
+    "short-form video"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "instagram",
+     "evidence": "Instagram added a Stories feature in 2016"
+    },
+    {
+     "name": "snapchat",
+     "evidence": "compete with Snapchat"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}

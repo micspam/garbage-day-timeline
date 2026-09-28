@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 2: only date-stamps an essay without saying what it described."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Check 1: mainly a general thesis about technology, with the 2010s as a one-line example."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "tags": [
+  {
+   "n": 1,
+   "moment": "hype or bubble",
+   "moment_detail": "pandemic livestreaming boom",
+   "topics": [
+    "livestreaming",
+    "pandemic"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "twitch",
+     "evidence": "I was convinced Twitch was the future"
+    }
+   ],
+   "audiences": []
+  },
+  {
+   "n": 2,
+   "moment": "platform decline or shutdown",
+   "moment_detail": "snapchat loses stories edge",
+   "topics": [
+    "platform competition",
+    "stories format"
+   ],
+   "entities": [],
+   "platforms": [
+    {
+     "name": "snapchat",
+     "evidence": "Snapchat lost its exclusive hold"
+    },
+    {
+     "name": "instagram",
+     "evidence": "to Instagram in 2016"
+    }
+   ],
+   "audiences": []
+  }
+ ]
+}
