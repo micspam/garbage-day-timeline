@@ -66,4 +66,4 @@ python -m gdt tag                                  # tags any quote the re-revie
 
 **Don't loosen the checks in `validate()`, the review rules or the tag evidence rule to get more data.** They are the point of the project. **Never disable the sandbox.** If a tool fails, stop and report it.
 
-The site is shown as a claude.ai Artifact (https://claude.ai/artifact/5WC1RuWDapKRqEJmY6VKXb). Its page is `site/artifact_template.html` with `site/data.json` pasted in place of `__DATA__` (escape `</` as `</`); whoever owns the Artifact republishes it.
+The site is shown as a claude.ai Artifact (https://claude.ai/artifact/5WC1RuWDapKRqEJmY6VKXb). Its page is `site/artifact_template.html` with `site/data.json` pasted in place of `__DATA__` (escape every `</` in the data as `<\/`); whoever owns the Artifact republishes it.
