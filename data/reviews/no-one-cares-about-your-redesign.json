@@ -1,0 +1,29 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2003-2006 launch wave of major sites."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes MySpace's peak dominance of pop culture."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: a concrete milestone of Facebook overtaking MySpace in 2008."
+    },
+    {
+      "n": 4,
+      "keep": true,
+      "reason": "Passes all four: describes what late-era MySpace was like."
+    },
+    {
+      "n": 5,
+      "keep": true,
+      "reason": "Passes all four: describes the features of the 2010 MySpace redesign."
+    }
+  ]
+}

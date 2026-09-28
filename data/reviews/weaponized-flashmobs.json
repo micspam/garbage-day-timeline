@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the Vlogbrothers' start and the 2010 founding of VidCon."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes John Green's 2011 Tumblr fandom drama and Tumblr's audience then."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes the 2013 YFIP callout and the souring of the 'internet dad'."
+    }
+  ]
+}

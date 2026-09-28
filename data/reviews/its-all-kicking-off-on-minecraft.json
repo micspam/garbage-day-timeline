@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Something Awful's ADTRW subforum and its 2chan model."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes the 2003 hentai ban and moot's spillover site."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: names 4chan and describes its role in Gamergate, the 2016 campaign and Pizzagate."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Tumblr's toxic fandom era and post-ban migration to Twitter."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: gives user-migration figures after the 2018 Tumblr porn ban."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes who was behind mid-2010s Tumblr dramas."
+    }
+  ]
+}

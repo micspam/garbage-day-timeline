@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 2 fails: a background date introducing a present-day author profile."
+    }
+  ]
+}

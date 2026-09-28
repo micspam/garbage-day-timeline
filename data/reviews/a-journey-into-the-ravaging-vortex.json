@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3: 'the Kickstarter', 'their goal' and 'the project' depend on earlier context the reader lacks."
+    },
+    {
+      "n": 2,
+      "keep": false,
+      "reason": "Check 3: 'these scandals' depends on the article, and it is mainly a then-vs-now take."
+    },
+    {
+      "n": 3,
+      "keep": true,
+      "reason": "Passes all four: describes a research finding about how the 2016 campaign polarized Reddit."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the drinks that defined the 2008-2012 millennial era."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes party-photo internet celebrities of the late MySpace days."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Check 3: 'It was there' depends on a location named earlier in the article."
+    }
+  ]
+}

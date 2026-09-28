@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3 fails: 'breaking this fragile veneer' depends on earlier context."
+    }
+  ]
+}

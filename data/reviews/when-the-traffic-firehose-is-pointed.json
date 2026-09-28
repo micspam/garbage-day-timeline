@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes the 2016 Tumblr 'Amish bitch' text post."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Tumblr's 2012 peak and 2013 curdling into culture-war discourse."
+    }
+  ]
+}

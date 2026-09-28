@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes Matt Furie creating Pepe in 2005 and what he was like."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Pepe becoming a 4chan meme in 2008."
+    }
+  ]
+}

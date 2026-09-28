@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: explains the 2016 4chan Overton window meme campaign on its own."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes 2013 platforms adding creation tools and the resulting aesthetic."
+    }
+  ]
+}

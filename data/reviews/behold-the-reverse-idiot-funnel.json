@@ -1,0 +1,24 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": true,
+      "reason": "Passes all four: describes how early-2000s boards documented the web's weird guys."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes mainstream algorithmic platforms rising after Myspace around 2012."
+    },
+    {
+      "n": 3,
+      "keep": false,
+      "reason": "Check 3 fails: 'the weird stuff from the weird guys' depends on earlier context."
+    },
+    {
+      "n": 4,
+      "keep": true,
+      "reason": "Passes all four: describes privately funded polar exploration at the turn of the century."
+    }
+  ]
+}

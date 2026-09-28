@@ -1,0 +1,14 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 3: 'this Medici of social media idea' and 'his Neistat video' depend on earlier context."
+    },
+    {
+      "n": 2,
+      "keep": true,
+      "reason": "Passes all four: describes Red Table Talk's 2018 premiere and impact on Facebook Watch."
+    }
+  ]
+}

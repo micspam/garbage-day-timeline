@@ -1,0 +1,9 @@
+{
+  "verdicts": [
+    {
+      "n": 1,
+      "keep": false,
+      "reason": "Check 1 fails: mostly a present-tense setup that says little beyond 'Friday' being ubiquitous."
+    }
+  ]
+}
